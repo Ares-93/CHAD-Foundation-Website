@@ -1,52 +1,108 @@
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: white;
+  padding: 26px 0 14px 0;
+  background-color: var(--main-white);
 }
-
-.navbar-logo {
-  width: 191.46px;
-  height: 55.02px;
-}
-
-.nav-links {
-  list-style: none;
+.nav-container {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.nav-links li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: color 0.3s ease;
+/* LOGO */
+.navbar-logo {
+  width: 160px;
+  height: 46px;
+  background-image: url("../../images/nav-logo.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 2000;
 }
 
-.nav-links li a:hover {
-  color: orange;
+/* MENU LINKS */
+.navbar-collapse {
+  display: flex;
+  z-index: 1000;
+}
+.nav-item {
+  border-radius: 6px;
+  padding: 3px 16px;
+  background-color: none;
+  margin: 0 4px;
+  transition: all ease-in-out 300ms;
+}
+.nav-item:hover {
+  background-color: var(--orange);
+  border-radius: 6px;
+  color: var(--main-white);
+}
+.nav-item a {
+  color: var(--main-black);
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.nav-item a:hover {
+  color: var(--main-white);
+}
+.nav-link.dropdown-toggle::after {
+  display: none;
 }
 
+/* BUTTON */
 .support-button {
-  background-color: #17a2b8;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
+  background-color: var(--blue);
+  color: var(--main-white);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
   transition: background-color 0.3s, box-shadow 0.3s;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
 
 .support-button:hover,
 .support-button:focus {
-  background-color: #1391a8;
+  border: 1px solid var(--blue);
+  background-color: transparent;
+  color: var(--blue);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 1110px) {
+  .nav-item {
+    padding: 3px 6px;
+    margin: 0 2px;
+  }
+}
+@media only screen and (max-width: 974px) {
+  .navbar-logo {
+    margin-top: 0px;
+  }
+  .navbar-toggler{
+    position: absolute;
+    right: 12px;
+    top: 28px;
+    margin-bottom: 24px;
+  }
+  .nav-item {
+    padding: 3px 16px;
+    margin: 4px 0;
+    text-align: right;
+  }
+  .navbar-collapse{
+    margin-top: 60px;
+  }
+  .support-button{
+    margin-left: 4px;
+  }
 }
