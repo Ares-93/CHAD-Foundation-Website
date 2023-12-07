@@ -3,9 +3,34 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <div className="Navigation">
-      <h1>Hello from Navigation!</h1>
-    </div>
+    <nav className="Navigation">
+      <img
+        src="D:\WevDev\GIT\CHAD-Foundation-Website\my-app\src\images\nav-logo.png"
+        alt="CHAD Foundation Logo"
+        className="navbar-logo"
+      />
+      <ul className="nav-links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/gift-of-the-heart">Gift of Heart</a>
+        </li>
+        <li>
+          <a href="/gift-of-the-art">Gift of Art</a>
+        </li>
+        <li>
+          <a href="/people-we-love">People We Love</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+      <button className="support-button">Support</button>
+    </nav>
   );
 }
 
