@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
+import HomeScreen from "./components/MainPage/HomeScreen/HomeScreen";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello from Chad!</h1>
+      <Navigation />
+      <HomeScreen />
     </div>
   );
 }
