@@ -3,7 +3,7 @@ import "./HomeScreen.css";
 
 function HomeScreen() {
   return (
-    <div className="homeScreen">
+    <section className="homeScreen">
       <div className="main-container">
         <h2 className="homeScreen-subheader">THE CHAD FOUNDATION</h2>
         <h1 className="homeScreen-header">
@@ -15,7 +15,7 @@ function HomeScreen() {
         </p>
         <button className="homeScreen-button">Let's Explore</button>
       </div>
-    </div>
+    </section>
   );
 }
 
