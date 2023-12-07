@@ -4,11 +4,7 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <nav className="Navigation">
-      <img
-        src="D:\WevDev\GIT\CHAD-Foundation-Website\my-app\src\images\nav-logo.png"
-        alt="CHAD Foundation Logo"
-        className="navbar-logo"
-      />
+      <div className="navbar-logo"></div> 
       <ul className="nav-links">
         <li>
           <a href="/">Home</a>

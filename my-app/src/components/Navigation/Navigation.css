@@ -3,12 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: white;
+  background-color: var(--main-white);
 }
 
 .navbar-logo {
-  width: 191.46px;
-  height: 55.02px;
+  width: 192px;
+  height: 56px;
+  background-image: url('../../images/nav-logo.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .nav-links {
@@ -19,18 +22,18 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: black;
+  color: var(--main-black);
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: orange;
+  color: var(--orange);
 }
 
 .support-button {
-  background-color: #17a2b8;
-  color: white;
+  background-color: var(--blue);
+  color: var(--main-white);
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
@@ -47,6 +50,6 @@
 
 .support-button:hover,
 .support-button:focus {
-  background-color: #1391a8;
+  background-color: var(--blue);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
