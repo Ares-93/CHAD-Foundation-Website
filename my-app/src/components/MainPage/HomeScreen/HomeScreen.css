@@ -11,7 +11,8 @@
     url(../../../images/main-screen-photo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@
   margin-bottom: 40px;
 }
 .homeScreen-paragraph {
-  line-height: 30px;
+  line-height: 125%;
   font-size: 24px;
   font-weight: 300;
   max-width: 458px;
@@ -63,4 +64,115 @@
   background-color: var(--main-white);
   color: var(--orange);
   border: 1px solid var(--orange);
+}
+
+@media only screen and (max-width: 1160px) {
+  .homeScreen {
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.93) 16.15%,
+        rgba(7, 7, 7, 0.95) 41.86%,
+        rgba(3, 3, 3, 0.4) 73.81%
+      ),
+      url(../../../images/main-screen-photo-smaller.png);
+    background-position: right;
+  }
+  .main-container {
+    max-width: 840px;
+  }
+  .homeScreen-header {
+    font-size: 60px;
+  }
+  .homeScreen-button {
+    padding: 14px 120px;
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .main-container {
+    max-width: 640px;
+  }
+  .homeScreen-header {
+    font-size: 52px;
+  }
+  .homeScreen-subheader {
+    font-size: 28px;
+  }
+  .homeScreen-paragraph {
+    font-size: 20px;
+    max-width: 380px;
+  }
+  .homeScreen-button {
+    padding: 14px 100px;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .main-container {
+    max-width: 520px;
+  }
+  .homeScreen-header {
+    font-size: 42px;
+  }
+  .homeScreen-subheader {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .main-container {
+    max-width: 94%;
+  }
+  .homeScreen {
+    background-position: center;
+  }
+  .homeScreen-header {
+    font-size: 48px;
+    text-align: center;
+  }
+  .homeScreen-subheader {
+    font-size: 26px;
+    text-align: center;
+  }
+  .homeScreen-paragraph {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .homeScreen-button {
+    padding: 14px 80px;
+    font-size: 24px;
+    display: block;
+    margin: 40px auto 0px auto;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .homeScreen-button {
+    padding: 14px 0px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .homeScreen-header {
+    font-size: 44px;
+  }
+  .homeScreen-subheader {
+    font-size: 24px;
+  }
+  .homeScreen-paragraph {
+    font-size: 24px;
+    max-width: 296px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .homeScreen-header {
+    font-size: 32px;
+  }
+  .homeScreen-subheader {
+    font-size: 20px;
+  }
+  .homeScreen-paragraph {
+    font-size: 18px;
+    max-width: 272px;
+  }
 }
