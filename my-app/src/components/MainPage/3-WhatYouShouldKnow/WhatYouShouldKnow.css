@@ -1,0 +1,17 @@
+.whatYouShouldKnow {
+  background-color: #f5efea;
+}
+.whatYouShouldKnow .main-container {
+    padding-top: 52px;
+    padding-bottom: 72px;
+}
+.main-container .whatYouShouldKnow-header {
+  margin-bottom: 40px;
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: capitalize;
+  text-align: left;
+}
