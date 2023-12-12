@@ -6,12 +6,9 @@
   padding-bottom: 60px;
   text-align: left;
 }
-.footer-col {
-  margin-right: 12px;
-  margin-left: 12px;
-}
+
 .footer-main-col {
-  margin-right: 72px;
+  margin-right: 40px;
 }
 .footer-h2 {
   color: var(--orange);
@@ -31,8 +28,16 @@
   font-weight: 400;
   line-height: 100%;
 }
+.footer-social-media-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 .footer-social-media-icons a {
-    margin-right: 8px;
+  margin-right: 8px;
+  margin-top: 32px;
+   margin-bottom: 32px;
 }
 .footer-copyright {
   font-size: 18px;

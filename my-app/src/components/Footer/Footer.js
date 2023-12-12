@@ -15,7 +15,10 @@ function Footer() {
         <Row>
           <Col md className="footer-col footer-main-col">
             <h2 className="footer-h2">The Chad Foundation</h2>
-            <p className="footer-p">XXX Adress AvenueCity, State XXXXX</p>
+            <p className="footer-p">
+              XXX Adress AvenueCity, <br />
+              State XXXXX
+            </p>
             <p className="footer-p">P: 551.998.6110</p>
             <p className="footer-p">E: info@chadfoundation.com</p>
             <div className="footer-social-media-icons">
@@ -24,19 +27,35 @@ function Footer() {
                 <img src={InstagramIcon} alt="alt" width={45} />
               </a>
               {/* Facebook */}
-              <a href="google.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063710691467"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={FacebookIcon} alt="alt" width={45} />
               </a>
               {/* Twitter */}
-              <a href="google.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://x.com/ChadFoundation?t=Le-sXZoK3bOqdYAxlnQq8A&s=35"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={TwitterIcon} alt="alt" width={45} />
               </a>
               {/* Youtube */}
-              <a href="google.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.youtube.com/@aristaarista03"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={YoutubeIcon} alt="alt" width={45} />
               </a>
               {/* Linkedin */}
-              <a href="google.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/company/thechadfoundationforathletesandartists/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={LinkedinIcon} alt="alt" width={45} />
               </a>
             </div>
