@@ -17,7 +17,7 @@
 .navbar-logo {
   width: 160px;
   height: 46px;
-  background-image: url("../../images/nav-logo.png");
+  background-image: url("../../images/NavigationImages/nav-logo.png");
   background-size: cover;
   background-position: center;
   z-index: 2000;
@@ -67,6 +67,8 @@
   border-radius: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
+  white-space: normal;
+
 }
 .dropdown-item:hover {
   background-color: var(--orange);
@@ -95,9 +97,7 @@
 .dropdown-item:first-child:hover .dropdown-span {
   color: var(--main-white);
 }
-.navbar .dropdown-item {
-  white-space: normal;
-}
+
 
 /* BUTTON */
 .support-button {
@@ -122,6 +122,7 @@
   color: var(--blue);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 @media only screen and (max-width: 1110px) {
   .nav-item {
