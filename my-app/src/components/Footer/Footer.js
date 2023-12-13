@@ -2,11 +2,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Footer.css";
-import InstagramIcon from "../../images/FooterImages/instagram.png";
-import FacebookIcon from "../../images/FooterImages/facebook.png";
-import TwitterIcon from "../../images/FooterImages/twitter.png";
-import YoutubeIcon from "../../images/FooterImages/youtube.png";
-import LinkedinIcon from "../../images/FooterImages/linkedin.png";
+import InstagramIcon from "../../images/Footer-Images/instagram.png";
+import FacebookIcon from "../../images/Footer-Images/facebook.png";
+import TwitterIcon from "../../images/Footer-Images/twitter.png";
+import YoutubeIcon from "../../images/Footer-Images/youtube.png";
+import LinkedinIcon from "../../images/Footer-Images/linkedin.png";
 
 function Footer() {
   return (
