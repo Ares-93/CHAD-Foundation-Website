@@ -1,3 +1,128 @@
-.HowWeHelp h2 {
+.howWeHelp .main-container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.howWeHelp-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.howWeHelp-header-second {
+  margin-top: 72px;
+}
+
+.howWeHelp-education-line {
+  color: var(--main-black);
+  border: 1px solid var(--main-black);
+  margin-top: -30px;
+  max-width: 400px;
+  width: 100%;
+  float: right;
+}
+.howWeHelp-art-line {
+  color: var(--main-black);
+  border: 1px solid var(--main-black);
+  margin-top: -30px;
+  max-width: 660px;
+  width: 100%;
+  float: right;
+}
+
+.howWeHelp-row {
+  justify-content: center;
+  margin-top: 68px;
+}
+
+.howWeHelp-card {
+  max-width: 370px;
+  text-align: center;
+}
+
+.howWeHelp-card-text {
+  color: var(--main-black);
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 28px;
+}
+
+.howWeHelp-heart-img {
+  width: 198px;
+  height: 158px;
+}
+
+.howWeHelp-wrap-div {
+  display: flex;
+  border-radius: 20px;
+  border: 0.5px solid #818181;
+  background: transparent;
+  padding: 10px;
+}
+
+.howWeHelp-card-right {
+  padding: 10px;
+}
+
+.howWeHelp-wrap-button {
+  background-color: var(--orange);
+  padding: 10px 30px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 125%;
+  font-size: 24px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.howWeHelp-wrap-button:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.howWeHelp-wrap-p {
+  margin-top: 10px;
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+@media only screen and (max-width: 1160px) {
+  .howWeHelp-card,
+  .howWeHelp-wrap-div {
+    max-width: 100%;
+  }
+  .howWeHelp-education-line,
+  .howWeHelp-art-line {
     color: var(--main-black);
+    border: 1px solid var(--main-black);
+    margin-top: 0;
+    max-width: 100%;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .howWeHelp-card,
+  .howWeHelp-wrap-div {
+    max-width: 95%;
+    display: block;
+    margin: 20px auto 0px auto;
+    text-align: center;
+  }
 }
