@@ -1,0 +1,138 @@
+.whatYouShouldKnow {
+  background-color: #f5efea;
+}
+.whatYouShouldKnow .main-container {
+  padding-top: 52px;
+  padding-bottom: 72px;
+}
+.main-container .whatYouShouldKnow-header {
+  margin-bottom: 40px;
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: capitalize;
+  text-align: left;
+}
+.whatYouShouldKnow-p {
+  color: var(--main-black);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+/* CARDS */
+.whatYouShouldKnow-card {
+  background-color: var(--main-white);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
+  margin: 1rem;
+  margin-top: 60px;
+  margin-left: 52px;
+}
+.whatYouShouldKnow-card-title-box {
+  margin: 0 auto;
+  max-width: 186px;
+  background-color: var(--blue);
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.whatYouShouldKnow-card-title {
+  display: block;
+  margin: 0;
+  color: var(--main-white);
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  font-family: var(--accent-font);
+  line-height: 100%;
+}
+.whatYouShouldKnow-card-text {
+  color: var(--main-black);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-top: 16px;
+}
+.card-text-transparent {
+  color: transparent;
+  user-select: none;
+}
+.whatYouShouldKnow-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: -56px;
+  margin-left: -66px;
+}
+
+/* BUTTON */
+.whatYouShouldKnow-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: var(--orange);
+  padding: 14px 146px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  padding: 14px 146px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+.whatYouShouldKnow-button:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media only screen and (min-width: 1160px) {
+  .whatYouShouldKnow-p {
+    text-align: justify;
+  }
+  .whatYouShouldKnow-button {
+    padding: 14px 120px;
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .whatYouShouldKnow .main-container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .whatYouShouldKnow-button {
+    padding: 14px 100px;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .whatYouShouldKnow-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: -36px;
+    margin-left: -36px;
+  }
+  .whatYouShouldKnow-card {
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  .whatYouShouldKnow-button {
+    padding: 14px 80px;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .whatYouShouldKnow-button {
+    padding: 14px 0px;
+    width: 100%;
+  }
+}
