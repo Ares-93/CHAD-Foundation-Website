@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navigation.css";
 import { NavLink } from "react-router-dom";
+import NavLogo from "../../images/Navigation-Images/nav-logo.png";
 
 function Navigation() {
   const [activeNav, setActiveNav] = useState("");
@@ -14,7 +15,7 @@ function Navigation() {
       <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid nav-container">
           {/* Logo */}
-          <div className="navbar-logo"></div>
+          <img src={NavLogo} alt="Chad logo" className="navbar-logo" />
           <div>
             {/* Collapse toggler */}
             <button

@@ -17,9 +17,6 @@
 .navbar-logo {
   width: 160px;
   height: 46px;
-  background-image: url("../../images/NavigationImages/nav-logo.png");
-  background-size: cover;
-  background-position: center;
   z-index: 2000;
 }
 
