@@ -1,8 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
-import HomeScreen from "./components/MainPage/1-HomeScreen/HomeScreen";
-import AboutUs from "./components/MainPage/2-AboutUs/AboutUs";
+import Footer from "./components/Footer/Footer";
+import HomePage from "./components/Pages/1-Home-Page/0-Home-Page-Main/HomePage";
+import AboutUs from "./components/Pages/2-AboutUs-Page/AboutUs";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       <div className="App">
         <Navigation />
         <Routes>
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/" element={<HomeScreen />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about/who-we-are" element={<AboutUs />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
