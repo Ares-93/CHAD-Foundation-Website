@@ -1,7 +1,7 @@
 import React from "react";
 import "./WhatYouShouldKnow.css";
 import { Card, Row, Col } from "react-bootstrap";
-import HeartIcon from "../../../images/MainPageImages/heart.png";
+import HeartIcon from "../../../../images/HomePage-Images/heart.png";
 
 function WhatYouShouldKnow() {
   return (

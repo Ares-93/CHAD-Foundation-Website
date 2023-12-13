@@ -1,9 +1,10 @@
 import React from "react";
+import "./WhoWeAre.css";
 
-const AboutUs = () => {
+const WhoWeAre = () => {
   return (
     <section className="about-story-mission">
-      <div className="Who_Are_We-container">
+      <div className="main-container">
         <h2 className="about-subheader">Who Are We:Our Story & Mission</h2>
         <p className="about-text-p1">
           {" "}
@@ -27,4 +28,4 @@ const AboutUs = () => {
     </section>
   );
 };
-export default AboutUs;
+export default WhoWeAre;

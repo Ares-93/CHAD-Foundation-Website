@@ -8,7 +8,7 @@
       rgba(171, 170, 170, 0) 46.9%,
       rgba(255, 255, 255, 0) 99.01%
     ),
-    url(../../../images/MainPageImages/main-screen-photo.png);
+    url(../../../../images/HomePage-Images/main-screen-photo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -44,6 +44,7 @@
   font-weight: 300;
   max-width: 458px;
   margin: 0;
+  color: var(--main-white);
 }
 .homeScreen-button {
   margin-top: 40px;
@@ -74,7 +75,7 @@
         rgba(7, 7, 7, 0.95) 41.86%,
         rgba(3, 3, 3, 0.4) 73.81%
       ),
-      url(../../../images/MainPageImages/main-screen-photo-smaller.png);
+      url(../../../../images/HomePage-Images/main-screen-photo-smaller.png);
     background-position: right;
   }
   .main-container {
