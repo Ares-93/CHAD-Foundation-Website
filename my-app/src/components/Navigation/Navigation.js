@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -32,7 +33,7 @@ function Navigation() {
                   <a
                     className="nav-link"
                     aria-current="page"
-                    href="https://www.google.com/"
+                    href="/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -41,17 +42,13 @@ function Navigation() {
                 </li>
                 {/* About */}
                 <li className="nav-item dropdown">
-                  <a
+                  <NavLink
+                    to="/about"
                     className="nav-link dropdown-toggle"
-                    href="https://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                    activeClassName="active-link"
                   >
                     About
-                  </a>
+                  </NavLink>
                   <ul className="dropdown-menu">
                     <li>
                       <a
