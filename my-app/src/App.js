@@ -1,8 +1,9 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-import HomeScreen from "./components/MainPage/HomeScreen/HomeScreen";
-import AboutUs from "./components/MainPage/AboutUs/AboutUs"
-import Footer from "./components/Footer/Footer"
+import HomeScreen from "./components/MainPage/1-HomeScreen/HomeScreen";
+import AboutUs from "./components/MainPage/2-AboutUs/AboutUs";
+import WhatYouShouldKnow from "./components/MainPage/3-WhatYouShouldKnow/WhatYouShouldKnow";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navigation />
       <HomeScreen />
       <AboutUs />
+      <WhatYouShouldKnow />
       <Footer />
     </div>
   );
