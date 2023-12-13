@@ -15,7 +15,9 @@ function Navigation() {
       <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid nav-container">
           {/* Logo */}
-          <img src={NavLogo} alt="Chad logo" className="navbar-logo" />
+          <NavLink to="/" className="nav-link" rel="noopener noreferrer">
+            <img src={NavLogo} alt="Chad logo" className="navbar-logo" />
+          </NavLink>
           <div>
             {/* Collapse toggler */}
             <button
