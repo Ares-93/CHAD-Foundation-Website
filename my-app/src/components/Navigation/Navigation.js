@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navigation.css";
 import { NavLink } from "react-router-dom";
 
 function Navigation() {
+  const [activeNav, setActiveNav] = useState("");
+
+  const handleNavClick = (navItem) => {
+    setActiveNav(navItem);
+  };
+
   return (
     <section className="main-container">
       <nav className="navbar navbar-expand-lg sticky-top">
@@ -29,40 +35,49 @@ function Navigation() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 {/* Home */}
-                <li className="nav-item">
-                  <a
+                <li
+                  className={`nav-item ${
+                    activeNav === "home" ? "nav-item-active" : ""
+                  }`}
+                  onClick={() => handleNavClick("home")}
+                >
+                  <NavLink
+                    to="/"
                     className="nav-link"
-                    aria-current="page"
-                    href="/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 {/* About */}
                 <li className="nav-item dropdown">
-                  <NavLink
-                    to="/about"
+                  <a
                     className="nav-link dropdown-toggle"
-                    activeClassName="active-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                   >
                     About
-                  </NavLink>
+                  </a>
                   <ul className="dropdown-menu">
+                    {/* Who We Are */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/about/who-we-are"
+                        className={`dropdown-item ${
+                          activeNav === "who-we-are"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("who-we-are")}
                       >
                         Who We Are
                         <br />
                         <span className="dropdown-span">
                           Our Mission & Story
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
                       <a
