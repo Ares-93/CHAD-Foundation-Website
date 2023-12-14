@@ -1,3 +1,160 @@
-.SurvivorsStories h2 {
-    color: var(--main-black);
+.survivorsStories {
+  background: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0.01) 0%,
+      rgba(217, 217, 217, 0.02) 100%
+    ),
+    url(../../../../images/HomePage-Images/survivor-stories.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.survivorsStories-container {
+  max-width: 1016px;
+}
+
+.survivorsStories-background {
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  filter: blur(30px);
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  z-index: 1;
+}
+.survivorsStories-quotation-div {
+  position: relative;
+  z-index: 2;
+}
+.survivorsStories-content {
+  position: relative;
+  z-index: 2;
+}
+/* LINES */
+.quotationLine-top,
+.quotationLine-bottom {
+  max-width: 1016px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.quotationLine-bottom {
+  transform: rotate(180deg);
+}
+.quotationMark{
+  max-width: 40px;
+}
+
+/* TEXT */
+.survivorsStories-h2 {
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 115%;
+  max-width: 900px;
+  text-align: left;
+  margin: 30px auto;
+}
+.survivorsStories-p {
+  color: var(--main-white);
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+/* BUTTON */
+.survivorsStories-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: var(--orange);
+  padding: 14px 146px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+.survivorsStories-button:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media only screen and (max-width: 1200px) {
+  .survivorsStories-container {
+    max-width: 100%;
+  }
+  .survivorsStories-background {
+    display: none;
+  }
+  .survivorsStories {
+    background: linear-gradient(
+        90deg,
+        rgba(39, 37, 37, 0.62) 0.22%,
+        rgba(30, 29, 29, 0.56) 30.19%,
+        rgba(26, 26, 26, 0.43) 99.74%
+      ),
+      url(../../../../images/HomePage-Images/survivor-stories.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .quotationLine-top,
+  .quotationLine-bottom {
+    display: none;
+  }
+  .survivorsStories-content {
+    max-width: 92%;
+    padding: 1em;
+    margin: 0 auto;
+  }
+  .survivorsStories-p {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .survivorsStories-button {
+    padding: 14px 100px;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .survivorsStories-button {
+    padding: 14px 80px;
+    font-size: 24px;
+  }
+  .survivorsStories-h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .survivorsStories-button {
+    padding: 14px 0px;
+    width: 100%;
+    font-size: 18px;
+  }
+  .survivorsStories-h2 {
+    margin: 18px auto;
+  }
 }
