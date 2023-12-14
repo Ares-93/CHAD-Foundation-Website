@@ -80,7 +80,7 @@ function HowWeHelp() {
           </h1>
           <hr className="howWeHelp-art-line" />
           <Row className="howWeHelp-row">
-            <Col md={4} className="howWeHelp-card">
+            <Col md={4} className="howWeHelp-card  howWeHelp-card-second">
               <p className="howWeHelp-card-text">
                 Nourishing the heart through art and stories
               </p>
