@@ -56,7 +56,7 @@ function Navigation() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="https://www.google.com/"
+                    href="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -82,47 +82,57 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
+                    {/* What We Have Done */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/about/what-weve-done"
+                        className={`dropdown-item ${
+                          activeNav === "what-weve-done"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("what-weve-done")}
                       >
                         What We Have Done
                         <br />
                         <span className="dropdown-span">
                           Hospitals we have worked with.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/* Testimonials */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/about/testimonials"
+                        className={`dropdown-item ${
+                          activeNav === "testimonials"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("testimonials")}
                       >
                         Testimonials
                         <br />
                         <span className="dropdown-span">
                           What Our supporters have to say.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/* Board */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/about/board"
+                        className={`dropdown-item ${
+                          activeNav === "board" ? "dropdown-item-active" : ""
+                        }`}
+                        onClick={() => handleNavClick("board")}
                       >
                         Board
                         <br />
                         <span className="dropdown-span">
                           Everyone who made this foundation happen.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
