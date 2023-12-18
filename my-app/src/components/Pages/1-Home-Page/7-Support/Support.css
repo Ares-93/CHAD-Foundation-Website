@@ -1,3 +1,77 @@
+.Support {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Support h2 {
-    color: var(--main-black);
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 44px;
+}
+
+.Support .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Support .book-display {
+  display: flex;
+  gap: 15px;
+}
+
+.Support .book-display img {
+  width: 549px;
+  height: 377px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Support .text-content {
+  max-width: 600px;
+}
+
+.Support .text-content h3 {
+  font-family: Anton;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 16px;
+  color: var(--main-black);
+}
+
+.Support .text-content p {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: var(--main-black);
+}
+
+.Support .text-content button {
+  margin-top: 20px;
+  background-color: var(--orange);
+  padding: 14px 146px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  padding: 14px 146px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
 }
