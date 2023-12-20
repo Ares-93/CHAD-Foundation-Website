@@ -5,11 +5,12 @@ import Message from "../3-Message/Message";
 import LearnMore from "../4-LearnMore/LearnMore";
 import Gallery from "../5-Gallery/Gallery";
 import Testimonials from "../6-Testimonials/Testimonials";
+import AboutUsNavigation from "../../AboutUsNavigation";
 
 const WhoWeAre = () => {
   return (
     <section className="WhoWeAre">
-      <h3>WhoWeAre Header</h3>
+      <AboutUsNavigation currentPage="who-we-are" />
       <OurStory />
       <OurMission />
       <Message />
