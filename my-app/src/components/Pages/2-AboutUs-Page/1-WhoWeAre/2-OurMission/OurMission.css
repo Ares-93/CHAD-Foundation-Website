@@ -1,0 +1,31 @@
+.OurMission {
+  padding-top: 48px;
+  padding-bottom: 80px;
+  background-color: #f5efea;
+}
+.OurMission .ourMission-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+}
+.OurMission-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.ourMission-col{
+    text-align: center;
+    color: black;
+}
+.ourMissionHearts {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 1160px) {
+  .ourMissionHearts {
+    margin-top: -60px;
+  }
+}
