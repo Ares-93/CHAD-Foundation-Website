@@ -30,7 +30,7 @@ const OurMission = () => {
             lg={3}
             className="g-4 justify-content-center ourMission-row"
           >
-            {/* First Column with Slider */}
+            {/* First Column + Slider */}
             <Col className="ourMission-col">
               <div className="ourMission-subheader">
                 <p className="ourMission-subheader-text">
@@ -64,7 +64,7 @@ const OurMission = () => {
               <button className="ourMission-bth">Learn more</button>
             </Col>
 
-            {/* Second Column with Slider */}
+            {/* Second Column + Slider */}
             <Col className="ourMission-col">
               <div className="ourMission-subheader">
                 <p className="ourMission-subheader-text">2. The Gift of Art</p>
@@ -91,7 +91,7 @@ const OurMission = () => {
               <button className="ourMission-bth">Learn more</button>
             </Col>
 
-            {/* Third Column (remain unchanged) */}
+            {/* Third Column */}
             <Col className="ourMission-col">
               <div>
                 <img
