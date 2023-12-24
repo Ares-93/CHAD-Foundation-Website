@@ -1,17 +1,22 @@
 /* Container for the section */
 
 .story-mission {
-  background-color: white;
-  padding: 20px;
+  background-color: var(--main-white);
+  padding-top: 36px;
+  padding-bottom: 56px;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .text-container {
-  width: 60%;
-  padding: 1px;
+  max-width: 600px;
 }
 
 .story-mission .story-subheader {
@@ -25,23 +30,12 @@
   margin-bottom: 44px;
 }
 
-.story-text1 {
+.story-text {
   color: var(--main-black);
-  font-family: Source Sans Pro;
+  font-family: var(--main-font);
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: 0em;
-  text-align: justify;
-}
-.story-text2 {
-  color: var(--main-black);
-  font-family: Source Sans Pro;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: justify;
 }
 
 .Learn-More-Btn {
@@ -60,6 +54,11 @@
   transition: all ease-in-out 300ms;
 }
 
+.Learn-More-Btn:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
 .image-container {
   width: 40%;
   display: flex;
@@ -70,4 +69,62 @@
   max-width: 100%;
   width: 492px;
   height: auto;
+}
+
+/*For Tablets*/
+@media only screen and (max-width: 768px) {
+  .story-mission {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .text-container {
+    max-width: 100%;
+  }
+
+  .story-mission .story-subheader {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .story-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .Learn-More-Btn {
+    padding: 10px 40px;
+    font-size: 24px;
+  }
+
+  .image-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .story-mission .story-chad {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/*For Smart Phones*/
+@media only screen and (max-width: 480px) {
+  .story-mission .story-subheader {
+    font-size: 28px;
+  }
+
+  .story-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .Learn-More-Btn {
+    font-size: 20px;
+  }
 }
