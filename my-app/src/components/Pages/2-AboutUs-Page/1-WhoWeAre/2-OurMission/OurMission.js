@@ -22,7 +22,7 @@ const OurMission = () => {
   return (
     <section className="OurMission">
       <div className="main-container">
-        <h2 className="ourMission-header">Our Story</h2>
+        <h2 className="ourMission-header">Our Mission</h2>
         <Container className="OurMission-container">
           <Row
             xs={1}
