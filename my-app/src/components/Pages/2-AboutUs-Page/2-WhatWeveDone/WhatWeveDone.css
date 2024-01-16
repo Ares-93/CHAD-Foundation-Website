@@ -1,0 +1,57 @@
+.WhatWeveDone {
+  padding-bottom: 110px;
+}
+.WhatWeveDone .whatWeveDone-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+.WhatWeveDone .whatWeveDone-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  gap: 24px;
+}
+.WhatWeveDone .whatWeveDone-hospitals-logo {
+  max-width: 317px;
+}
+.WhatWeveDone .whatWeveDone-text {
+  color: var(--main-black);
+  max-width: 620px;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+}
+.WhatWeveDone .hospitals-photo {
+  max-width: 495px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .WhatWeveDone .whatWeveDone-content {
+    flex-direction: column; 
+  }
+  
+  .WhatWeveDone .whatWeveDone-text,
+  .WhatWeveDone .hospitals-photo {
+    max-width: 92%;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  .WhatWeveDone .whatWeveDone-text {
+    text-align: center;
+  }
+  .WhatWeveDone .whatWeveDone-hospitals-logo,
+  .WhatWeveDone .hospitals-photo {
+    display: block;
+    margin: 0 auto;
+  }
+}
