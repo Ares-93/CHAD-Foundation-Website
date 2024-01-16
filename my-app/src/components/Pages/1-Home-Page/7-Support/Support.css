@@ -23,11 +23,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 32px;
 }
 
 .Support .book-display img {
   width: 549px;
-  height: 377px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -81,61 +81,39 @@
   border: 1px solid var(--orange);
 }
 
-/*For tablets*/
-@media only screen and (max-width: 768px) {
-  .Support {
-    padding-top: 30px;
-    padding-bottom: 55px;
-    flex-direction: column;
+@media only screen and (max-width: 1160px) {
+  .Support .content {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
-
-  .Support h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-
   .Support .book-display img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
-
   .Support .text-content {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
   }
-
-  .Support .text-content h3 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
   .Support .text-content p {
-    font-size: 18px;
-    line-height: 28px;
+    text-align: left;
+    max-width: 100%;
   }
-
-  .Support .text-content button {
-    padding: 10px 40px;
-    font-size: 24px;
+   .Support .text-content h3 {
+    line-height: 100%;
   }
 }
-
-/* For smart phones*/
-@media only screen and (max-width: 480px) {
-  .Support h2 {
-    font-size: 28px;
+@media only screen and (max-width: 540px) {
+  .Support  {
+    max-width: 92%;
+    display: block;
+    margin: 0 auto;
   }
-
-  .Support .text-content h3 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .Support .text-content p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .Support .text-content button {
-    font-size: 20px;
+  .Support .text-content button{
+    max-width: 100%;
+    padding: 14px 0;
   }
 }
