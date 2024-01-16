@@ -1,0 +1,114 @@
+.Testimonials {
+  padding-bottom: 110px;
+  background-color: var(--main-white);
+}
+
+.Testimonials .testimonials-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+.testimonials-card {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #f5efea;
+  padding: 36px;
+  border-radius: 8px;
+  background-color: #f5efea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  gap: 20px;
+}
+
+.testimonials-image {
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.testimonials-content {
+  flex-grow: 1;
+}
+.testimonials-content-name-and-position {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.testimonials-name,
+.testimonials-position {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.testimonials-position {
+    margin-left: 6px;
+}
+
+.testimonials-place {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: -10px;
+}
+
+.testimonials-text,
+.readMore-span,
+.dot-span {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  display: inline;
+}
+
+.readMore-span {
+  color: #3dadc8;
+  margin-left: 6px;
+}
+
+@media (max-width: 860px) {
+  .testimonials-card {
+    flex-direction: column;
+  }
+
+  .testimonials-image {
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .testimonials-card {
+    padding: 40px 18px;
+    gap: 18px;
+  }
+
+  .testimonials-content-name-and-position {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .testimonials-name,
+  .testimonials-position {
+    display: inline;
+    margin-right: 4px;
+ 
+  }
+}
