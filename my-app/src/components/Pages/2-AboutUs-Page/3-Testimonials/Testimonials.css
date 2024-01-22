@@ -1,5 +1,6 @@
 .Testimonials {
   padding-bottom: 110px;
+  padding-top: 0;
   background-color: var(--main-white);
 }
 
