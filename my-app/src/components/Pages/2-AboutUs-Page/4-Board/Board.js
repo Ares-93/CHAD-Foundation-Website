@@ -10,8 +10,8 @@ import LinkedinIcon from "../../../../images/Footer-Images/linkedin.png";
 const Board = () => {
   return (
     <section className="Board">
+      <AboutUsNavigation currentPage="board" />
       <div className="main-container">
-        <AboutUsNavigation currentPage="board" />
         <Container fluid>
           {/* Board of Directors */}
           <Row>

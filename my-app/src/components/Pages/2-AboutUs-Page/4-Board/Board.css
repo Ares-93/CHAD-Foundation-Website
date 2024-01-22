@@ -1,5 +1,6 @@
 .Board {
   padding-bottom: 160px;
+   padding-top: 0;
   background-color: var(--main-white);
 }
 .Board .board-header {
