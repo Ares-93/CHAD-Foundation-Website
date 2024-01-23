@@ -221,7 +221,7 @@ const Board = () => {
               </div>
 
               <div className="board-paragraph">
-                <p className="board-p">UX/UI Product Designer</p>
+                <p className="board-p">Web Developer</p>
               </div>
               {/* TWO */}
               <div className="board-dev-p">
@@ -235,7 +235,7 @@ const Board = () => {
                 </a>
               </div>
               <div className="board-paragraph">
-                <p className="board-p">UX/UI Product Designer</p>
+                <p className="board-p">Web Developer</p>
               </div>
             </Col>
           </Row>

@@ -66,6 +66,10 @@
     grid-template-columns: repeat(4, 246px);
   }
 }
+@media only screen and (max-width: 1160px) {
+  .Gallery .gallery-aboutUs-header {
+    text-align: center;
+  }}
 @media (min-width: 841px) and (max-width: 1159px) {
   .gallery-grid {
     grid-template-columns: repeat(auto-fit, minmax(246px, 1fr));
@@ -87,9 +91,7 @@
     width: 100%;
     height: auto;
   }
-  .gallery-aboutUs-header {
-    text-align: center;
-  }
+
   .gallery-p {
     text-align: center;
   }
