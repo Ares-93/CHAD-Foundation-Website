@@ -32,23 +32,28 @@
   max-width: 495px;
 }
 
-
 @media screen and (max-width: 960px) {
   .WhatWeveDone .whatWeveDone-content {
-    flex-direction: column; 
+    flex-direction: column;
   }
-  
-  .WhatWeveDone .whatWeveDone-text,
+
   .WhatWeveDone .hospitals-photo {
     max-width: 92%;
   }
-
+  .whatWeveDone-hospitals-logo,
+  .WhatWeveDone .whatWeveDone-text {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 540px) {
-  .WhatWeveDone .whatWeveDone-text {
+  .WhatWeveDone .whatWeveDone-header {
     text-align: center;
   }
+
   .WhatWeveDone .whatWeveDone-hospitals-logo,
   .WhatWeveDone .hospitals-photo {
     display: block;
