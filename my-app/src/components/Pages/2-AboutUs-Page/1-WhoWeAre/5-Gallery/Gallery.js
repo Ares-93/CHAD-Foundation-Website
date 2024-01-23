@@ -11,10 +11,10 @@ const Gallery = () => {
       <div className="main-container">
         <h4 className="gallery-aboutUs-header">Gallery</h4>
         <div className="gallery-grid">
-          <img src={GalleryPhoto1} alt="Image 1" />
-          <img src={GalleryPhoto2} alt="Image 2" />
-          <img src={GalleryPhoto3} alt="Image 3" />
-          <img src={GalleryPhoto4} alt="Image 4" />
+          <img src={GalleryPhoto1} alt="Gallery" />
+          <img src={GalleryPhoto2} alt="Gallery" />
+          <img src={GalleryPhoto3} alt="Gallery" />
+          <img src={GalleryPhoto4} alt="Gallery" />
         </div>
         <p className="gallery-p">Click to view gallery</p>
         <button className="gallery-aboutUs-button">View More Pictures</button>

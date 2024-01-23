@@ -212,9 +212,7 @@ function Navigation() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="https://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -222,75 +220,89 @@ function Navigation() {
                     Gift of Art
                   </a>
                   <ul className="dropdown-menu">
+                    {/* Scholarships */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/gift-of-art/scholarships"
+                        className={`dropdown-item ${
+                          activeNav === "scholarships"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("scholarships")}
                       >
                         Scholarships
                         <br />
                         <span className="dropdown-span">
                           Great opportunity for students.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/* Plays */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/gift-of-art/plays"
+                        className={`dropdown-item ${
+                          activeNav === "plays" ? "dropdown-item-active" : ""
+                        }`}
+                        onClick={() => handleNavClick("plays")}
                       >
                         Plays
                         <br />
                         <span className="dropdown-span">
                           Learning experiences through storytelling and theatre.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/* Films */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/gift-of-art/films"
+                        className={`dropdown-item ${
+                          activeNav === "films" ? "dropdown-item-active" : ""
+                        }`}
+                        onClick={() => handleNavClick("films")}
                       >
                         Films
                         <br />
                         <span className="dropdown-span">
                           Films with eye-opening messages.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/* Books */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/gift-of-art/books"
+                        className={`dropdown-item ${
+                          activeNav === "books" ? "dropdown-item-active" : ""
+                        }`}
+                        onClick={() => handleNavClick("books")}
                       >
                         Books
                         <br />
                         <span className="dropdown-span">
                           Stories that nourish the spirit.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/* Upcoming Events */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/gift-of-art/upcoming-events"
+                        className={`dropdown-item ${
+                          activeNav === "upcoming-events"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("upcoming-events")}
                       >
                         Upcoming Events
                         <br />
                         <span className="dropdown-span">
                           Check out events to keep an eye for!
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
