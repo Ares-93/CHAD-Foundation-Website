@@ -42,7 +42,7 @@ const TestimonialsCard = ({
 
 const Testimonials = () => {
   return (
-    <section className="Testimonials">
+    <section className="Testimonials-Two">
       <AboutUsNavigation currentPage="testimonials" />
       <div className="main-container">
         <h2 className="testimonials-header">What Our Supporters Have to Say</h2>

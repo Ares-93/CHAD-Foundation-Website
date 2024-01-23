@@ -32,6 +32,12 @@
   max-width: 495px;
 }
 
+
+@media screen and (max-width: 1160px) {
+  .WhatWeveDone .whatWeveDone-header {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 960px) {
   .WhatWeveDone .whatWeveDone-content {
     flex-direction: column;
@@ -48,12 +54,7 @@
     margin-right: auto;
   }
 }
-
 @media screen and (max-width: 540px) {
-  .WhatWeveDone .whatWeveDone-header {
-    text-align: center;
-  }
-
   .WhatWeveDone .whatWeveDone-hospitals-logo,
   .WhatWeveDone .hospitals-photo {
     display: block;
