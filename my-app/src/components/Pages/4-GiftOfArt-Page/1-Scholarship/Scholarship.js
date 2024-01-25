@@ -2,7 +2,7 @@ import React from "react";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import "./Scholarship.css";
 import StudentPhoto from "../../../../images/GiftOfArt-Images/scholarship-image.png";
-import HeartIcon from "../../../../images/GiftOfArt-Images/scholarship-heart-icon.png";
+import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
 
 const Scholarship = () => {
   return (
