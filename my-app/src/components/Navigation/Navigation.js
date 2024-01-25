@@ -220,18 +220,18 @@ function Navigation() {
                     Gift of Art
                   </a>
                   <ul className="dropdown-menu">
-                    {/* Scholarships */}
+                    {/* Scholarship */}
                     <li>
                       <NavLink
-                        to="/gift-of-art/scholarships"
+                        to="/gift-of-art/scholarship"
                         className={`dropdown-item ${
-                          activeNav === "scholarships"
+                          activeNav === "scholarship"
                             ? "dropdown-item-active"
                             : ""
                         }`}
-                        onClick={() => handleNavClick("scholarships")}
+                        onClick={() => handleNavClick("scholarship")}
                       >
-                        Scholarships
+                        Scholarship
                         <br />
                         <span className="dropdown-span">
                           Great opportunity for students.
