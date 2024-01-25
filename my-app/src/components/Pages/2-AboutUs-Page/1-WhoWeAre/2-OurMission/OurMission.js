@@ -61,7 +61,7 @@ const OurMission = () => {
                   </p>
                 </div>
               </Slider>
-              <button className="ourMission-bth">Learn more</button>
+              <button className="ourMission-btn">Learn more</button>
             </Col>
 
             {/* Second Column + Slider */}
@@ -88,7 +88,7 @@ const OurMission = () => {
                   </p>
                 </div>
               </Slider>
-              <button className="ourMission-bth">Learn more</button>
+              <button className="ourMission-btn">Learn more</button>
             </Col>
 
             {/* Third Column */}
