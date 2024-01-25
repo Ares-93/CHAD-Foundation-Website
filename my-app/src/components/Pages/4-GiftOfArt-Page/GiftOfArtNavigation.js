@@ -10,7 +10,7 @@ const GiftOfArtNavigation = ({ currentPage }) => {
   }, [currentPage]);
 
   const pageTitleMap = {
-    scholarships: "Scholarships",
+    scholarship: "Scholarship",
     plays: "Plays",
     films: "Films",
     books: "Books",
@@ -36,15 +36,15 @@ const GiftOfArtNavigation = ({ currentPage }) => {
           <ul>
             <li>
               <NavLink
-                to="/gift-of-art/scholarships"
+                to="/gift-of-art/scholarship"
                 className={`giftOfArt-menu-item ${
-                  activeNav === "scholarships"
+                  activeNav === "scholarship"
                     ? "giftOfArt-menu-item-active"
                     : ""
                 }`}
-                onClick={() => setActiveNav("scholarships")}
+                onClick={() => setActiveNav("scholarship")}
               >
-                Scholarships
+                Scholarship
               </NavLink>
             </li>
             <li>
