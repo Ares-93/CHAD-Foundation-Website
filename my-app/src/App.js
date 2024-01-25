@@ -30,7 +30,7 @@ function App() {
           <Route path="/about/testimonials" element={<Testimonials />} />
           <Route path="/about/board" element={<Board />} />
           {/* GIFT OF ART PAGE */}
-          <Route path="/gift-of-art/scholarships" element={<Scholarship />} />
+          <Route path="/gift-of-art/scholarship" element={<Scholarship />} />
           <Route path="/gift-of-art/plays" element={<Plays />} />
           <Route path="/gift-of-art/films" element={<Films />} />
           <Route path="/gift-of-art/books" element={<Books />} />

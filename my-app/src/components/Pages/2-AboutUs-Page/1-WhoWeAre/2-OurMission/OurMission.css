@@ -40,7 +40,7 @@
 }
 
 /* BUTTON */
-.ourMission-bth {
+.ourMission-btn {
   display: block;
   margin: 0 auto;
   margin-top: 32px;
@@ -58,7 +58,7 @@
   cursor: pointer;
   transition: all ease-in-out 300ms;
 }
-.ourMission-bth:hover {
+.ourMission-btn:hover {
   background-color: var(--main-white);
   color: var(--orange);
   border: 1px solid var(--orange);
@@ -188,7 +188,7 @@
   .ourMission-row {
     gap: 40px;
   }
-  .ourMission-bth {
+  .ourMission-btn {
     width: 90%;
   }
 }
