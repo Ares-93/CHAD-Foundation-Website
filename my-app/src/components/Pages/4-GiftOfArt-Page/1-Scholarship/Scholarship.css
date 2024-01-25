@@ -1,0 +1,94 @@
+.Scholarship {
+  margin-bottom: 100px;
+}
+.Scholarship .scholarship-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.Scholarship .scholarship-image {
+  max-width: 470px;
+  border-radius: 10px;
+}
+.Scholarship .scholarship-header-box {
+  display: flex;
+  gap: 10px;
+}
+.Scholarship .scholarship-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+}
+.Scholarship .scholarship-p {
+  max-width: 580px;
+  color: var(--main-black);
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-top: 32px;
+}
+/* BUTTON */
+.scholarship-btn {
+  display: block;
+  margin-top: 40px;
+  width: 440px;
+  background-color: var(--orange);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+.scholarship-btn:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media only screen and (max-width: 991px) {
+  .Scholarship {
+    margin-bottom: 80px;
+  }
+  .Scholarship .scholarship-content {
+    padding: 0 20px; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 20px;
+  }
+  .Scholarship .scholarship-header-box,
+  .Scholarship .scholarship-btn {
+    justify-content: center; 
+  }
+  .Scholarship .scholarship-image {
+    max-width: 100%; 
+    height: auto;
+  }
+  .scholarship-btn {
+    width: 80%; 
+    margin: 40px auto;
+  }
+  .Scholarship .scholarship-p {
+    text-align: center;
+  }
+  .Scholarship .scholarship-header-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .scholarship-btn {
+    width: 90%; 
+  }
+}
