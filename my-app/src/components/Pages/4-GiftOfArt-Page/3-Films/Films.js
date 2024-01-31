@@ -1,11 +1,25 @@
-import React from "react";
-import GiftOfArtNavigation from "../GiftOfArtNavigation";
+import React, { useState, useEffect } from "react";
 import "./Films.css";
+import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
 import FilmsOne from "../../../../images/GiftOfArt-Images/films-image-one.png";
 import FilmsTwo from "../../../../images/GiftOfArt-Images/films-image-two.png";
 
 const Films = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1160);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 1160);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <section className="Films">
       <GiftOfArtNavigation currentPage="films" />
@@ -32,30 +46,60 @@ const Films = () => {
             <img src={FilmsOne} alt="Films" className="films-image" />
           </div>
         </div>
+
         {/* TWO */}
         <div className="films-content">
-          <div className="films-image-box">
-            <img src={FilmsTwo} alt="Films" className="films-image" />
-          </div>
-          <div className="films-content-right">
-            <div className="films-header-box">
-              <img src={HeartIcon} alt="heart" width={60} height={60} />
-              <h2 className="films-header">USA</h2>
-            </div>
-            <div className="films-subtext-box">
-              <h4 className="films-subtext">Date: TBD</h4>
-            </div>
-            <p className="films-p">
-              In NYC alone, 38,000 homeless individuals use the shelter system
-              every night. Until I had the privilege to get to know these
-              individuals, I, too, only saw the vacant stares and stooped
-              shoulders. They taught me what it feels like to have fallen to the
-              deepest part of the barrel, and how excruciating... Read More
-            </p>
-          </div>
+          {isSmallScreen ? (
+            <>
+              <div className="films-content-right">
+                <div className="films-header-box">
+                  <img src={HeartIcon} alt="heart" width={60} height={60} />
+                  <h2 className="films-header">USA</h2>
+                </div>
+                <div className="films-subtext-box">
+                  <h4 className="films-subtext">Date: TBD</h4>
+                </div>
+                <p className="films-p">
+                  In NYC alone, 38,000 homeless individuals use the shelter
+                  system every night. Until I had the privilege to get to know
+                  these individuals, I, too, only saw the vacant stares and
+                  stooped shoulders. They taught me what it feels like to have
+                  fallen to the deepest part of the barrel, and how
+                  excruciating... Read More
+                </p>
+              </div>
+              <div className="films-image-box">
+                <img src={FilmsTwo} alt="Films" className="films-image" />
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="films-image-box">
+                <img src={FilmsTwo} alt="Films" className="films-image" />
+              </div>
+              <div className="films-content-right">
+                <div className="films-header-box">
+                  <img src={HeartIcon} alt="heart" width={60} height={60} />
+                  <h2 className="films-header">USA</h2>
+                </div>
+                <div className="films-subtext-box">
+                  <h4 className="films-subtext">Date: TBD</h4>
+                </div>
+                <p className="films-p">
+                  In NYC alone, 38,000 homeless individuals use the shelter
+                  system every night. Until I had the privilege to get to know
+                  these individuals, I, too, only saw the vacant stares and
+                  stooped shoulders. They taught me what it feels like to have
+                  fallen to the deepest part of the barrel, and how
+                  excruciating... Read More
+                </p>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </section>
   );
 };
+
 export default Films;
