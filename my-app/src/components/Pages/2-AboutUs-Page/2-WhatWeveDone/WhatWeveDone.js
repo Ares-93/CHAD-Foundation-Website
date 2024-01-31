@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./WhatWeveDone.css";
 import AboutUsNavigation from "../AboutUsNavigation";
 import HospitalsOne from "../../../../images/AboutUs-Images/hospitals-photo-1.png";
@@ -8,9 +8,20 @@ import LogoOne from "../../../../images/AboutUs-Images/hospitals-logo-1.png";
 import LogoTwo from "../../../../images/AboutUs-Images/hospitals-logo-2.png";
 import LogoThree from "../../../../images/AboutUs-Images/hospitals-logo-3.png";
 
-
-
 const WhatWeveDone = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1160);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 960);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <section className="WhatWeveDone">
       <AboutUsNavigation currentPage="what-weve-done" />
@@ -43,29 +54,61 @@ const WhatWeveDone = () => {
         </div>
         {/* TWO */}
         <div className="whatWeveDone-content">
-          <div className="whatWeveDone-photo">
-            <img
-              src={HospitalsTwo}
-              alt="Hospitals"
-              className="hospitals-photo"
-            />
-          </div>
-          <div className="whatWeveDone-logo-and-text">
-            <img
-              src={LogoTwo}
-              alt="logo"
-              className="whatWeveDone-hospitals-logo"
-            />
-            <div className="whatWeveDone-text">
-              Chad with Johns Hopkins Heart Hype Program, screened athletes for
-              the Jr. Olympics at Morgan State University, in Baltimore, MD.
-              <br />
-              <br />
-              Testing supplies were donated by The Johns Hopkins Hospital.
-              Ultrasound and EKG equipment was provided by General Electric
-              Healthcare.
-            </div>
-          </div>
+          {isMobile ? (
+            <>
+              <div className="whatWeveDone-logo-and-text">
+                <img
+                  src={LogoTwo}
+                  alt="logo"
+                  className="whatWeveDone-hospitals-logo"
+                />
+                <div className="whatWeveDone-text">
+                  Chad with Johns Hopkins Heart Hype Program, screened athletes
+                  for the Jr. Olympics at Morgan State University, in Baltimore,
+                  MD.
+                  <br />
+                  <br />
+                  Testing supplies were donated by The Johns Hopkins Hospital.
+                  Ultrasound and EKG equipment was provided by General Electric
+                  Healthcare.
+                </div>
+              </div>
+              <div className="whatWeveDone-photo">
+                <img
+                  src={HospitalsTwo}
+                  alt="Hospitals"
+                  className="hospitals-photo"
+                />
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="whatWeveDone-photo">
+                <img
+                  src={HospitalsTwo}
+                  alt="Hospitals"
+                  className="hospitals-photo"
+                />
+              </div>
+              <div className="whatWeveDone-logo-and-text">
+                <img
+                  src={LogoTwo}
+                  alt="logo"
+                  className="whatWeveDone-hospitals-logo"
+                />
+                <div className="whatWeveDone-text">
+                  Chad with Johns Hopkins Heart Hype Program, screened athletes
+                  for the Jr. Olympics at Morgan State University, in Baltimore,
+                  MD.
+                  <br />
+                  <br />
+                  Testing supplies were donated by The Johns Hopkins Hospital.
+                  Ultrasound and EKG equipment was provided by General Electric
+                  Healthcare.
+                </div>
+              </div>
+            </>
+          )}
         </div>
         {/* THREE */}
         <div className="whatWeveDone-content">
@@ -81,7 +124,9 @@ const WhatWeveDone = () => {
               athletes in an effort to help detect lethal abnormalities such as
               hypertrophic cardiomyopathy.
               <br />
-              <br />The screenings, which include echocardiogram, electrocardiogram, or EKG, and blood pressure test, have been  free.
+              <br />
+              The screenings, which include echocardiogram, electrocardiogram,
+              or EKG, and blood pressure test, have been free.
             </div>
           </div>
           <div className="whatWeveDone-photo">
@@ -96,4 +141,5 @@ const WhatWeveDone = () => {
     </section>
   );
 };
+
 export default WhatWeveDone;
