@@ -23,7 +23,7 @@ const UpcomingEvents = () => {
 
   return (
     <section className="UpcomingEvents">
-      <GiftOfArtNavigation currentPage="upcomingEvents" />
+      <GiftOfArtNavigation currentPage="upcoming-events" />
       <div className="main-container">
         {/* ONE */}
         <div className="upcomingEvents-content">
