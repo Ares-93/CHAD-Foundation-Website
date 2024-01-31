@@ -103,7 +103,32 @@ const UpcomingEvents = () => {
                 />
               </div>
               <div className="upcomingEvents-content-right">
-                {/* ... same content as above ... */}
+                <div className="upcomingEvents-header-box">
+                  <img src={HeartIcon} alt="heart" width={60} height={60} />
+                  <h2 className="upcomingEvents-header">
+                    Chad Classic Concert
+                  </h2>
+                </div>
+                <div className="upcomingEvents-subtext-2-box">
+                  <h4 className="upcomingEvents-subtext-2">Date: TBD</h4>
+                </div>
+                <div className="upcomingEvents-subtext-2-box">
+                  <h4 className="upcomingEvents-subtext-2">
+                    Location: The National Opera Center Recital Hall in NYC
+                  </h4>
+                </div>
+                <p className="upcomingEvents-p">
+                  You are cordially invited to attend an evening of Opera &
+                  Classical Music featuring. Arista’ reception with wine and
+                  cheese to follow. <br />
+                  Suggested donation $25 or just come and enjoy the beautiful
+                  music of 3 wonderful Artists who are giving their Gifts to
+                  support Chad's work! Hope to see you!
+                </p>
+                <h4 className="upcomingEvents-subtext">
+                  Caterina Secchi (Mezzo-Soprano), Javor Bracic (Classical
+                  Pianist) and Eric Sabatino (Harpist)
+                </h4>
               </div>
             </>
           )}
