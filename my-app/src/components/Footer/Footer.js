@@ -1,18 +1,20 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import "./Footer.css";
-import InstagramIcon from "../../images/Footer-Images/instagram.png";
-import FacebookIcon from "../../images/Footer-Images/facebook.png";
-import TwitterIcon from "../../images/Footer-Images/twitter.png";
-import YoutubeIcon from "../../images/Footer-Images/youtube.png";
-import LinkedinIcon from "../../images/Footer-Images/linkedin.png";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import './Footer.css';
+import ScrollToTopNavLink from './ScrollToTopNavLink'; // Import the custom component
+
+import InstagramIcon from '../../images/Footer-Images/instagram.png';
+import FacebookIcon from '../../images/Footer-Images/facebook.png';
+import TwitterIcon from '../../images/Footer-Images/twitter.png';
+import YoutubeIcon from '../../images/Footer-Images/youtube.png';
+import LinkedinIcon from '../../images/Footer-Images/linkedin.png';
 
 function Footer() {
   return (
     <div className="footer-grid-container">
       <Container>
         <Row>
+          {/* Main */}
           <Col md className="footer-col footer-main-col">
             <h2 className="footer-h2">The Chad Foundation</h2>
             <p className="footer-p">
@@ -60,13 +62,32 @@ function Footer() {
               </a>
             </div>
           </Col>
+          {/* About Us */}
           <Col md className="footer-col">
             <h3 className="footer-h3">About Us</h3>
-            <p className="footer-p">Who We Are</p>
-            <p className="footer-p">What We’ve Done</p>
-            <p className="footer-p">Testimonials</p>
-            <p className="footer-p">Board</p>
+            <ScrollToTopNavLink
+              to="/about/who-we-are"
+              className="footer-p nav-link"
+            >
+              Who We Are
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/about/what-weve-done"
+              className="footer-p nav-link"
+            >
+              What We’ve Done
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/about/testimonials"
+              className="footer-p nav-link"
+            >
+              Testimonials
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink to="/about/board" className="footer-p nav-link">
+              Board
+            </ScrollToTopNavLink>
           </Col>
+          {/* Education of the Heart */}
           <Col md className="footer-col">
             <h3 className="footer-h3">Education of the Heart</h3>
             <p className="footer-p">Heart Facts</p>
@@ -74,14 +95,41 @@ function Footer() {
             <p className="footer-p">Emergencies</p>
             <p className="footer-p">Expert Health Tips</p>
           </Col>
+          {/* Gift of Art */}
           <Col md className="footer-col">
             <h3 className="footer-h3">Gift of Art</h3>
-            <p className="footer-p">Scholarship</p>
-            <p className="footer-p">Plays</p>
-            <p className="footer-p">Films</p>
-            <p className="footer-p">Books</p>
-            <p className="footer-p">Upcoming Events</p>
+            <ScrollToTopNavLink
+              to="/gift-of-art/scholarship"
+              className="footer-p nav-link"
+            >
+              Scholarship
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/gift-of-art/plays"
+              className="footer-p nav-link"
+            >
+              Plays
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/gift-of-art/films"
+              className="footer-p nav-link"
+            >
+              Films
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/gift-of-art/books"
+              className="footer-p nav-link"
+            >
+              Books
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/gift-of-art/upcoming-events"
+              className="footer-p nav-link"
+            >
+              Upcoming Events
+            </ScrollToTopNavLink>
           </Col>
+          {/* People We Love */}
           <Col md className="footer-col">
             <h3 className="footer-h3">People We Love</h3>
             <p className="footer-p">Tributes</p>
