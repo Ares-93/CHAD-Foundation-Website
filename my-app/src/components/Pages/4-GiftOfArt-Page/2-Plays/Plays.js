@@ -34,18 +34,32 @@ const Plays = () => {
               <h2 className="plays-header">All About Sneakers</h2>
             </div>
             <p className="plays-p">
-              All About Sneakers is an original play and old-fashioned Love
-              story - the discovery that loving oneself first precedes loving
-              another. CHAD promotes multi-cultural art which includes stories
-              about All of Us – the hopes the dreams, the angst, and the
-              challenges of All Americans.
+              A cocktail waitress and a cowboy go beyond promiscuity and
+              materialism to find the steps of love, but she finds she must
+              first learn to love herself before she can love another.
             </p>
+
             <h4 className="plays-subtext">
               Featuring players: Belgrave Fitzgerald Henderson, Steven
               Consentino, Arista, Matt Derek, Michael Durell, and Philip
               Oberlander.
             </h4>
             <h4 className="plays-subtext">Directed by Tony Macy-Perez</h4>
+            <div className="plays-quotes-div">
+              <h3 className="plays-quotes">
+                “I cried the whole play... You had such a long journey ..and you
+                both made it to the end.”
+              </h3>
+            </div>
+            <h4 className="plays-quotes-subtext">- Patron, Wings Theatre</h4>
+            <div className="plays-quotes-div">
+              <h3 className="plays-quotes">
+                “A beautiful love story with many deep levels.”
+              </h3>
+            </div>
+            <h4 className="plays-quotes-subtext">
+              - D. Friedman, Castillo Theatre
+            </h4>
           </div>
           <div className="plays-image-box">
             <img src={PlaysOne} alt="Plays" className="plays-image" />
@@ -62,15 +76,32 @@ const Plays = () => {
                   <h2 className="plays-header">Welcome Home Kelly!</h2>
                 </div>
                 <p className="plays-p">
-                  WELCOME HOME KELLY! is a story about an Asian American
-                  daughter’s quest for father, family and the American dream.
-                  The story deals with attorney Kelly Liu’s return home to New
-                  York City’s Chinatown after a 20 year absence, and the
-                  challenges of re-finding father, family and the American dream
-                  in a home which now seems foreign to her.
+                  After 20 years, a daughter returns home to NYC’s Chinatown a
+                  successful attorney but is faced with the challenges of
+                  re-finding father, family and the American dream in a home
+                  which now seems foreign to her.
                 </p>
                 <h4 className="plays-subtext">Written by Arista</h4>
                 <h4 className="plays-subtext">Directed by Victor Maog</h4>
+                <div className="plays-quotes-div">
+                  <h3 className="plays-quotes">
+                    “As a teacher for 20 years, this was an important play—to
+                    have the courage to leave home and see what else the world
+                    has waiting for you.”
+                  </h3>
+                </div>
+                <h4 className="plays-subtext">
+                  - C. Ling, middle school teacher
+                </h4>
+                <div className="plays-quotes-div">
+                  <h3 className="plays-quotes">
+                    “Honest and sensitive portrayals, not a dry eye in the
+                    house; a well-deserved standing ovation.”
+                  </h3>
+                </div>
+                <h4 className="plays-subtext">
+                  - J. Hall, Producer, Playwright, NYC
+                </h4>
               </div>
               <div className="plays-image-box">
                 <img src={PlaysTwo} alt="Plays" className="plays-image" />
@@ -87,15 +118,32 @@ const Plays = () => {
                   <h2 className="plays-header">Welcome Home Kelly!</h2>
                 </div>
                 <p className="plays-p">
-                  WELCOME HOME KELLY! is a story about an Asian American
-                  daughter’s quest for father, family and the American dream.
-                  The story deals with attorney Kelly Liu’s return home to New
-                  York City’s Chinatown after a 20 year absence, and the
-                  challenges of re-finding father, family and the American dream
-                  in a home which now seems foreign to her.
+                  After 20 years, a daughter returns home to NYC’s Chinatown a
+                  successful attorney but is faced with the challenges of
+                  re-finding father, family and the American dream in a home
+                  which now seems foreign to her.
                 </p>
                 <h4 className="plays-subtext">Written by Arista</h4>
                 <h4 className="plays-subtext">Directed by Victor Maog</h4>
+                <div className="plays-quotes-div">
+                  <h3 className="plays-quotes">
+                    “As a teacher for 20 years, this was an important play—to
+                    have the courage to leave home and see what else the world
+                    has waiting for you.”
+                  </h3>
+                </div>
+                <h4 className="plays-subtext">
+                  - C. Ling, middle school teacher
+                </h4>
+                <div className="plays-quotes-div">
+                  <h3 className="plays-quotes">
+                    “Honest and sensitive portrayals, not a dry eye in the
+                    house; a well-deserved standing ovation.”
+                  </h3>
+                </div>
+                <h4 className="plays-subtext">
+                  - J. Hall, Producer, Playwright, NYC
+                </h4>
               </div>
             </>
           )}
@@ -109,20 +157,34 @@ const Plays = () => {
               <h2 className="plays-header">Days of Wine and Roses</h2>
             </div>
             <p className="plays-p">
-              Days of Wine and Roses. In JP Miller’s award-winning play, “Days
-              of Wine and Roses,” the lead characters, Joe and Kirsten Clay,
-              deal with the challenges of the real world today- denial,
-              alcoholism and the journey to find one’s way in this maelstrom of
-              powerful addictive forces that can challenge love to its core. It
-              helped immensely in heightening awareness of the impact substance
-              abuse has on the family. This memorable performance resonated with
-              both adult and adolescent viewers.
+              A loving husband and wife deal with denial, alcoholism, and the
+              journey to find one’s way in this maelstrom of powerful addictive
+              forces that can challenge love to its core.
             </p>
             <h4 className="plays-subtext">
               Featuring players: Arista Erik, Colin Smith, Jon Furey, Joan
               Farda, Jackson Ming, Patrick Kleeman and Shannyn Kleeman.
             </h4>
             <h4 className="plays-subtext">Directed by Tony Macy-Perez</h4>
+            <div className="plays-quotes-div">
+              <h3 className="plays-quotes">
+                “The Performances were stunning, powerful stuff.”
+              </h3>
+            </div>
+            <h4 className="plays-quotes-subtext">
+              - M.Stone, TV Correspondent, Sino Vision
+            </h4>
+            <div className="plays-quotes-div">
+              <h3 className="plays-quotes">
+                “This production helped immensely in heightening awareness of
+                the impact substance abuse has on the family. This memorable
+                performance resonated with both adult and adolescent viewers.”
+              </h3>
+            </div>
+            <h4 className="plays-quotes-subtext">
+              - B. Sherman, Atlantic City Commission on Missing and Abused
+              Children
+            </h4>
           </div>
           <div className="plays-image-box">
             <img src={PlaysThree} alt="Plays" className="plays-image" />

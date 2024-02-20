@@ -117,7 +117,7 @@ function HowWeHelp() {
                       </div>
                       {/* Films */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">Plays</button>
+                        <button className="howWeHelp-wrap-button">Films</button>
                         <p className="howWeHelp-wrap-p">
                           Films with eye-opening messages.
                         </p>

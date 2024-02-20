@@ -13,7 +13,7 @@ const LearnMore = () => {
             className="LearnMore-video"
             width="736"
             height="386"
-            src="https://www.youtube.com/embed/rqSfMcdCaBE?si=A0-1rAS2-Y18Sip_"
+            src="https://www.youtube.com/embed/zt6H5ZlXRd8?si=DOy5KMSjBeQ2DAYH"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen

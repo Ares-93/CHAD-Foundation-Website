@@ -33,6 +33,37 @@
   line-height: 125%;
   margin-top: 32px;
 }
+.plays-quotes-div{
+  border-radius: 20px;
+  display: inline-flex;
+  gap: 10px;
+  margin-top: 16px;
+  padding: 8px 14px;
+  align-items: center;
+  border-radius: 10px;
+  background: #f5efea;
+}
+.Plays .plays-quotes {
+  max-width: 595px;
+  color: var(--main-black);
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 0;
+}
+.plays-quotes-subtext {
+  max-width: 595px;
+  color: #4d4d4d;
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+    margin-top: 12px;
+}
 .plays-subtext {
   max-width: 595px;
   color: #4d4d4d;
@@ -41,9 +72,11 @@
   font-style: italic;
   font-weight: 400;
   line-height: 18px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 6px;
+  margin-bottom: 12px;
 }
+
+
 @media only screen and (max-width: 1160px) {
   .Plays {
     margin-bottom: 80px;
@@ -67,6 +100,11 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  .Plays .plays-quotes {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   .Plays .plays-header-box {
     flex-direction: column;
