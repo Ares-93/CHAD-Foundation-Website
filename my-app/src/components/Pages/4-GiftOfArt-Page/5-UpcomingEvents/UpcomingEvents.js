@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./UpcomingEvents.css";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
-import EventsOne from "../../../../images/GiftOfArt-Images/events-image-one.png";
+import EventsOne from "../../../../images/GiftOfArt-Images/events-image-one.jpg";
 import EventsTwo from "../../../../images/GiftOfArt-Images/events-image-two.png";
 import EventsThree from "../../../../images/GiftOfArt-Images/events-image-three.png";
 
@@ -39,10 +39,11 @@ const UpcomingEvents = () => {
               <h4 className="upcomingEvents-subtext-2">Location: TBD</h4>
             </div>
             <p className="upcomingEvents-p upcomingEvents-p-2">
-              <strong>
-                “Come Dance with Chad for The Gift of Heart and Art!” <br />
-                “Honoring our Doctors, Volunteers, and Artists”
-              </strong>
+              “The CHAD Dance Benefit for the Gifts of Heart and Art” took place
+              at McGettigan’s Irish Pub in midtown Manhattan, NYC.” Chad loved
+              to dance, and we all celebrated his joyous spirit and honored the
+              Doctors, Staff, and Volunteers who made 10,000 preventive heart
+              screenings possible safeguarding thousands of hearts of all ages.
             </p>
           </div>
           <div className="upcomingEvents-image-box">

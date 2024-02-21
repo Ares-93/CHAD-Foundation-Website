@@ -205,11 +205,11 @@ const Plays = () => {
                 <p className="plays-p">
                   Chad was a great guy who loved all people cared about their
                   dreams. He never drank an alcohol beverage, smoked a cigarette
-                  or did drugs his entire life. He always did the driving when
-                  he and his friends went out to the clubs dancing and you
-                  always had to wear a seatbelt when you drove with Chad in his
-                  car. - “Healthy body/mind/spirit.” Please safeguard your life
-                  and others by joining the{" "}
+                  or did drugs his entire life. He was always the designated
+                  driver when he and his friends went to clubs dancing, and you
+                  always had to wear a seatbelt when you rode in Chad's car. -
+                  “Healthy body/mind/spirit.” Please safeguard your life and
+                  others by joining the{" "}
                   <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
                 </p>
               </div>
