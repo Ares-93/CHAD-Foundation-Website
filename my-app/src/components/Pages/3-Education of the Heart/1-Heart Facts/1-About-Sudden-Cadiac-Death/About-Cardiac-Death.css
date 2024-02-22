@@ -1,0 +1,38 @@
+.heart-facts {
+  margin-bottom: 100px;
+}
+
+.heart-facts .heart-facts-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.heart-facts .heart-fact-header-box {
+  display: flex;
+  gap: 10px;
+}
+
+.heart-facts .heart-fact-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+}
+
+.heart-facts .heart-facts-p {
+  max-width: 580px;
+  color: var(--main-black);
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-top: 32px;
+}
+
+.heart-fact-card {
+  background-color: #f5efea;
+}

@@ -15,6 +15,9 @@ import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
 import UpcomingEvents from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/UpcomingEvents";
+import Support from "./components/Pages/1-Home-Page/7-Support/Support";
+// EDU OF HEART PAGE Imports
+import HeartFactPage from "./components/Pages/3-Education of the Heart/1-Heart Facts/0-HeartFacts-Main/HeartFactPage";
 
 function App() {
   return (
@@ -29,6 +32,12 @@ function App() {
           <Route path="/about/what-weve-done" element={<WhatWeveDone />} />
           <Route path="/about/testimonials" element={<Testimonials />} />
           <Route path="/about/board" element={<Board />} />
+          {/*EDUCATION OF THE HEART*/}
+          <Route
+            path="/education-of-the-heart/heart-fact-page"
+            element={<HeartFactPage />}
+          />
+          {/* <Route path="/education-of-heart/screenings" element={<Screening/>}/> */}
           {/* GIFT OF ART PAGE */}
           <Route path="/gift-of-art/scholarship" element={<Scholarship />} />
           <Route path="/gift-of-art/plays" element={<Plays />} />
@@ -38,6 +47,7 @@ function App() {
             path="/gift-of-art/upcoming-events"
             element={<UpcomingEvents />}
           />
+          <Route path="/support" element={<Support />} />
         </Routes>
         <Footer />
       </div>

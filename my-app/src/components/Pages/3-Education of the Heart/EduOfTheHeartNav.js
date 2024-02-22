@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./EduOfTheHeartNav.css";
 
-const EduOfTheHeartNav = () => {
+const EduOfTheHeartNav = ({ currentPage }) => {
   const [activeNav, setActiveNav] = useState(currentPage);
 
   useEffect(() => {
@@ -10,10 +10,10 @@ const EduOfTheHeartNav = () => {
   }, [currentPage]);
 
   const pageTitleMap = {
-    "Heart-Facts": "Heart Facts",
+    "heart-facts": "Heart Facts",
     Screenings: "Screenings",
     Emergencies: "Emergencies",
-    "Expert-Health-Tips": "Expert Health Tips",
+    "expert-health-tips": "Expert Health Tips",
   };
 
   return (
@@ -22,59 +22,69 @@ const EduOfTheHeartNav = () => {
         <h2 className="EduOfTheHeartNav-banner-h2">
           {pageTitleMap[currentPage]}
         </h2>
-        <h3 className="EduOfTheHeartNav-banner-h3">About Us</h3>
+        <h3 className="EduOfTheHeartNav-banner-h3">Education of the Heart</h3>
       </div>
       <div className="main-container">
+        <p className="EduOfTheHeartNav-banner-p">
+          “Education of the Heart” raises awareness of Sudden Cardiac Death in
+          Young Athletes and Students, promotes 'heart-healthy living' through
+          educational lectures, videos, books, and provides "Cardiovascular
+          Screenings to High Schools, Colleges, Athletic Organizations and the
+          Disenfranchised" to prevent Sudden Cardiac Death, and identify early
+          cardiovascular risk factors.
+        </p>
         <div className="EduOfTheHeartNav-menu">
           <ul>
-            {/* Who We Are */}
             <li>
               <NavLink
-                to="/about/who-we-are"
-                className={`aboutUs-menu-item ${
-                  activeNav === "who-we-are" ? "aboutUs-menu-item-active" : ""
-                }`}
-                onClick={() => setActiveNav("who-we-are")}
-              >
-                Who We Are
-              </NavLink>
-            </li>
-            {/* What We Have Done */}
-            <li>
-              <NavLink
-                to="/about/what-weve-done"
-                className={`aboutUs-menu-item ${
-                  activeNav === "what-weve-done"
-                    ? "aboutUs-menu-item-active"
+                to="/education-of-heart/heart-facts"
+                className={`eduOfHeart-menu-item ${
+                  activeNav === "heart-facts"
+                    ? "eduOfHeart-menu-item-active"
                     : ""
                 }`}
-                onClick={() => setActiveNav("what-weve-done")}
+                onClick={() => setActiveNav("heart-facts")}
               >
-                What We Have Done
+                Heart Facts
               </NavLink>
             </li>
-            {/* Testimonials */}
             <li>
               <NavLink
-                to="/about/testimonials"
-                className={`aboutUs-menu-item ${
-                  activeNav === "testimonials" ? "aboutUs-menu-item-active" : ""
+                to="/education-of-heart/Screenings"
+                className={`eduOfHeart-menu-item ${
+                  activeNav === "Screenings"
+                    ? "eduOfHeart-menu-item-active"
+                    : ""
                 }`}
-                onClick={() => setActiveNav("testimonials")}
+                onClick={() => setActiveNav("heart-facts")}
               >
-                Testimonials
+                Screenings
               </NavLink>
             </li>
-            {/* Board */}
             <li>
               <NavLink
-                to="/about/board"
-                className={`aboutUs-menu-item ${
-                  activeNav === "board" ? "aboutUs-menu-item-active" : ""
+                to="/education-of-heart/Emergencies"
+                className={`eduOfHeart-menu-item ${
+                  activeNav === "Emergencies"
+                    ? "eduOfHeart-menu-item-active"
+                    : ""
                 }`}
-                onClick={() => setActiveNav("board")}
+                onClick={() => setActiveNav("Emergencies")}
               >
-                Board
+                Emergencies
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/education-of-heart/expert-health-tips"
+                className={`eduOfHeart-menu-item ${
+                  activeNav === "expert-health-tips"
+                    ? "eduOfHeart-menu-item-active"
+                    : ""
+                }`}
+                onClick={() => setActiveNav("expert-health-tips")}
+              >
+                Expert Health Tips
               </NavLink>
             </li>
           </ul>

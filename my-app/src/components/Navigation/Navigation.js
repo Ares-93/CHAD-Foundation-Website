@@ -140,9 +140,7 @@ function Navigation() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="https://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -150,20 +148,25 @@ function Navigation() {
                     Gift of Heart
                   </a>
                   <ul className="dropdown-menu">
+                    {/* Heart Facts */}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/education-of-the-heart/heart-fact-page"
+                        className={`dropdown-item ${
+                          activeNav === "heart-fact-page"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("heart-fact-page")}
                       >
                         Heart Facts
                         <br />
                         <span className="dropdown-span">
                           Sudden Cardiac Death statistics and warning signs.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+
                     <li>
                       <a
                         className="dropdown-item"
@@ -364,6 +367,13 @@ function Navigation() {
                 </li>
                 {/* Support Button */}
                 <button className="btn support-button" type="button">
+                  <li className="nav-item">
+                    {/* <a 
+                      className="nav-link"
+                      aria-current="page"
+                      href=""
+                    ></a> */}
+                  </li>
                   Support
                 </button>
               </ul>
