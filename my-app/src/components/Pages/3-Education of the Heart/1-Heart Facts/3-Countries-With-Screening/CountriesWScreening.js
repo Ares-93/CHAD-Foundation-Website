@@ -105,6 +105,15 @@ const CountriesWScreening = () => {
           </Col>
         </Row>
       </Col>
+      <div className="country-text">
+        Want to take control of your health? <br></br>{" "}
+        <span>
+          <a className="country-link" href="/clickhere">
+            Click here{" "}
+          </a>
+        </span>
+        to listen to our professionals!
+      </div>
     </section>
   );
 };

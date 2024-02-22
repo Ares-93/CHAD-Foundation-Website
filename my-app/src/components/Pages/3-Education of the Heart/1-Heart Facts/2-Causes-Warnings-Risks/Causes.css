@@ -29,11 +29,10 @@
 .causes-description {
   margin-bottom: 20px;
 }
-
-.causes-content {
+.causes-section .causes-content {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .causes-column {

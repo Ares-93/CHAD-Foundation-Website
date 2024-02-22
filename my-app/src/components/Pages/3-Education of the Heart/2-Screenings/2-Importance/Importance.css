@@ -1,0 +1,83 @@
+.imp-section {
+  margin-bottom: 100px;
+}
+
+.imp-header-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imp-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-align: left;
+  text-decoration: underline #eac0a1 11px;
+}
+
+.card .CDC,
+.HCM,
+.echo,
+.EKG {
+  background-color: #f5efea;
+}
+
+.CDC,
+.echo,
+.HCM,
+.EKG {
+  background-color: #f5efea; /*color not changing*/
+  width: 30rem;
+  padding: 20px 20px 50px 20px;
+  margin-left: 10px;
+}
+
+.echo {
+  margin-top: 50px;
+}
+
+.HCM {
+  margin-left: -120px;
+}
+
+.EKG {
+  margin-left: -120px;
+  margin-top: 50px;
+}
+
+.coach-img {
+  margin-left: -383px;
+}
+
+.img-box {
+  height: 10px;
+}
+
+.row {
+  --bs-gutter-x: 1rem;
+}
+
+.imp-text {
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.d-flex-align-items {
+  font-weight: bold;
+  float: left;
+}
+
+.CDC-card-text {
+  font-family: Source Sans Pro;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}

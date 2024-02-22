@@ -1,0 +1,68 @@
+.hss-section {
+  margin-bottom: 100px;
+}
+
+.hss-header-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hss-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-align: left;
+  text-decoration: underline #eac0a1 11px;
+}
+
+.EarlyScreen,
+.High-Col,
+.Obesity,
+.Diabetes {
+  background-color: #f5efea; /*color not changing*/
+  width: 30rem;
+  padding: 20px 20px 50px 20px;
+  margin-left: 10px;
+}
+
+.High-Col {
+  margin-top: 50px;
+}
+
+.Obesity {
+  margin-left: -120px;
+}
+
+.Diabetes {
+  margin-left: -120px;
+  margin-top: 50px;
+}
+
+.hs-img {
+  margin-left: -383px;
+}
+
+.img-box {
+  height: 10px;
+}
+
+.row {
+  --bs-gutter-x: 1rem;
+}
+
+.d-flex-align-items {
+  font-weight: bold;
+  float: left;
+}
+
+.EarlyScreen-card-text {
+  font-family: Source Sans Pro;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}

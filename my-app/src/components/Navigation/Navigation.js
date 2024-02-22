@@ -166,35 +166,25 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
-
+                    {/*Screening*/}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/education-of-the-heart/screening-home"
+                        className={`dropdown-item ${
+                          activeNav === "screening-home"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("screeening-home")}
                       >
-                        Screenings
+                        Screening
                         <br />
                         <span className="dropdown-span">
                           Learn the best way to detect heart complications.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Emergencies
-                        <br />
-                        <span className="dropdown-span">
-                          How to take action in the event of an emergency.
-                        </span>
-                      </a>
-                    </li>
+                    <li>{/*Emergencies*/}</li>
                     <li>
                       <a
                         className="dropdown-item"

@@ -18,6 +18,7 @@ import UpcomingEvents from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents
 import Support from "./components/Pages/1-Home-Page/7-Support/Support";
 // EDU OF HEART PAGE Imports
 import HeartFactPage from "./components/Pages/3-Education of the Heart/1-Heart Facts/0-HeartFacts-Main/HeartFactPage";
+import ScreenHome from "./components/Pages/3-Education of the Heart/2-Screenings/0-Screening-Home/ScreenHome";
 
 function App() {
   return (
@@ -37,7 +38,10 @@ function App() {
             path="/education-of-the-heart/heart-fact-page"
             element={<HeartFactPage />}
           />
-          {/* <Route path="/education-of-heart/screenings" element={<Screening/>}/> */}
+          <Route
+            path="/education-of-the-heart/screening-home"
+            element={<ScreenHome />}
+          />
           {/* GIFT OF ART PAGE */}
           <Route path="/gift-of-art/scholarship" element={<Scholarship />} />
           <Route path="/gift-of-art/plays" element={<Plays />} />

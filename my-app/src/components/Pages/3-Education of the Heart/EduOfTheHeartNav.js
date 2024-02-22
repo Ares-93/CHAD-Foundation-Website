@@ -50,13 +50,11 @@ const EduOfTheHeartNav = ({ currentPage }) => {
             </li>
             <li>
               <NavLink
-                to="/education-of-heart/Screenings"
+                to="/education-of-heart/stats"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "Screenings"
-                    ? "eduOfHeart-menu-item-active"
-                    : ""
+                  activeNav === "stats" ? "eduOfHeart-menu-item-active" : ""
                 }`}
-                onClick={() => setActiveNav("heart-facts")}
+                onClick={() => setActiveNav("stats")}
               >
                 Screenings
               </NavLink>
