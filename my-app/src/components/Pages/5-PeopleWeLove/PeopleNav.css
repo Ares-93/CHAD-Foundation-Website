@@ -1,0 +1,120 @@
+/* BANNER */
+.PeopleNav-banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0.01) 0%,
+      rgba(217, 217, 217, 0) 100%
+    ),
+    url(../../../images/PeopleWeLove-Images/PeopleBanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.PeopleNav-banner-h2 {
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.PeopleNav-banner-h3 {
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 8px;
+}
+.PeopleNav-banner-p {
+  color: var(--main-black);
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  max-width: 95%;
+  margin: -20px auto 28px auto;
+}
+
+/* NAVIGATION */
+.PeopleNav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 55px;
+}
+
+.people-menu-item {
+  display: block;
+  text-decoration: none;
+  color: var(--main-black);
+  padding: 10px 20px;
+  border: 1px solid var(--main-black);
+  border-radius: 10px;
+  background-color: var(--main-white);
+  cursor: pointer;
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  box-sizing: border-box;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.people-menu-item-active,
+.people-menu-item:hover {
+  background-color: var(--orange);
+  color: var(--main-white);
+  border: 1px solid var(--orange);
+}
+
+@media (max-width: 1160px) {
+  .people-menu-item {
+    padding: 10px 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .PeopleNav-menu ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: center;
+  }
+  .people-menu-item {
+    width: 100%;
+    padding: 10px 26px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 430px) {
+  .people-menu-item {
+    padding: 10px 20px;
+    font-size: 28px;
+  }
+  .PeopleNav-banner-h2 {
+    font-size: 48px;
+  }
+  .PeopleNav-banner-h3 {
+    font-size: 28px;
+  }
+  .PeopleNav-banner-p {
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 20px;
+    max-width: 100%;
+  }
+}
