@@ -9,6 +9,11 @@ import WhoWeAre from "./components/Pages/2-AboutUs-Page/1-WhoWeAre/0-WhoWeAre-Ma
 import WhatWeveDone from "./components/Pages/2-AboutUs-Page/2-WhatWeveDone/WhatWeveDone";
 import Testimonials from "./components/Pages/2-AboutUs-Page/3-Testimonials/Testimonials";
 import Board from "./components/Pages/2-AboutUs-Page/4-Board/Board";
+// EDU OF HEART PAGE Imports
+import HeartFactPage from "./components/Pages/3-Education of the Heart/1-Heart Facts/0-HeartFacts-Main/HeartFactPage";
+import ScreenHome from "./components/Pages/3-Education of the Heart/2-Screenings/0-Screening-Home/ScreenHome";
+import Emergency from "./components/Pages/3-Education of the Heart/3-Emergencies/0-Emergency-Main/Emergency";
+import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Health Tips/0-Tips-Main/TipsHome";
 // GIFT OF ART PAGE Imports
 import Scholarship from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Scholarship";
 import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
@@ -16,11 +21,9 @@ import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
 import UpcomingEvents from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/UpcomingEvents";
 import Support from "./components/Pages/1-Home-Page/7-Support/Support";
-// EDU OF HEART PAGE Imports
-import HeartFactPage from "./components/Pages/3-Education of the Heart/1-Heart Facts/0-HeartFacts-Main/HeartFactPage";
-import ScreenHome from "./components/Pages/3-Education of the Heart/2-Screenings/0-Screening-Home/ScreenHome";
-import Emergency from "./components/Pages/3-Education of the Heart/3-Emergencies/0-Emergency-Main/Emergency";
-import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Health Tips/0-Tips-Main/TipsHome";
+//PEOPLE WE LOVE Imports
+import Tributes from "./components/Pages/5-PeopleWeLove/1-Tributes/Tributes";
+import Survivors from "./components/Pages/5-PeopleWeLove/2-Survivors/Survivor";
 
 function App() {
   return (
@@ -63,6 +66,10 @@ function App() {
             element={<UpcomingEvents />}
           />
           <Route path="/support" element={<Support />} />
+
+          {/*People We Love */}
+          <Route path="/people-we-love/tributes" element={<Tributes />} />
+          <Route path="/people-we-love/survivors" element={<Survivors />} />
         </Routes>
         <Footer />
       </div>
