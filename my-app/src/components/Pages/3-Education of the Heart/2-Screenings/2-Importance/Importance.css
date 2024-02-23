@@ -18,42 +18,19 @@
   text-decoration: underline #eac0a1 11px;
 }
 
-.card .CDC,
-.HCM,
-.echo,
-.EKG {
-  background-color: #f5efea;
-}
-
 .CDC,
 .echo,
 .HCM,
 .EKG {
-  background-color: #f5efea; /*color not changing*/
-  width: 30rem;
-  padding: 20px 20px 50px 20px;
-  margin-left: 10px;
+  background-color: #f5efea;
 }
 
 .echo {
-  margin-top: 50px;
-}
-
-.HCM {
-  margin-left: -120px;
+  margin-top: 30px;
 }
 
 .EKG {
-  margin-left: -120px;
-  margin-top: 50px;
-}
-
-.coach-img {
-  margin-left: -383px;
-}
-
-.img-box {
-  height: 10px;
+  margin-top: 30px;
 }
 
 .row {
@@ -75,9 +52,4 @@
 
 .CDC-card-text {
   font-family: Source Sans Pro;
-}
-
-.padding-0 {
-  padding-right: 0;
-  padding-left: 0;
 }

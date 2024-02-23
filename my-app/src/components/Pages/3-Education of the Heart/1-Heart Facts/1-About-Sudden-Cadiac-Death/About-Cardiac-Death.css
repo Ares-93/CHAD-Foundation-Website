@@ -11,6 +11,7 @@
 .heart-facts .heart-fact-header-box {
   display: flex;
   gap: 10px;
+  margin-bottom: 60px;
 }
 
 .heart-facts .heart-fact-header {

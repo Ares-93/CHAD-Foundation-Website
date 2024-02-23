@@ -22,35 +22,16 @@
 .High-Col,
 .Obesity,
 .Diabetes {
-  background-color: #f5efea; /*color not changing*/
-  width: 30rem;
-  padding: 20px 20px 50px 20px;
-  margin-left: 10px;
+  background-color: #f5efea;
 }
 
 .High-Col {
-  margin-top: 50px;
-}
-
-.Obesity {
-  margin-left: -120px;
+  margin-top: 10px;
 }
 
 .Diabetes {
-  margin-left: -120px;
-  margin-top: 50px;
-}
-
-.hs-img {
-  margin-left: -383px;
-}
-
-.img-box {
-  height: 10px;
-}
-
-.row {
-  --bs-gutter-x: 1rem;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .d-flex-align-items {

@@ -109,3 +109,8 @@ li {
     max-width: 100%;
   }
 }
+
+.risks,
+.warnings {
+  color: var(--main-black);
+}

@@ -1,0 +1,78 @@
+.lsa-section {
+  background-color: #f5efea;
+  margin-bottom: 100px;
+}
+
+.lsa-section .lsa-header-box {
+  display: flex;
+  gap: 10px;
+}
+
+.lsa-section .lsa-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 11px;
+}
+
+.lsa-text {
+  color: var(--main-black);
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+
+h3 {
+  color: var(--main-black);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Anton;
+}
+
+p {
+  color: var(--main-black);
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+
+.CPR-IMG-box {
+  margin-top: -200px;
+  margin-left: 25px;
+}
+
+.btn-1,
+.btn-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--orange);
+  padding: 10px 126px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.btn-1 {
+  padding: 10px 86px;
+}
+
+.btn-2 {
+  margin-top: 20px;
+}

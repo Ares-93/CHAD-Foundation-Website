@@ -11,8 +11,8 @@ const EduOfTheHeartNav = ({ currentPage }) => {
 
   const pageTitleMap = {
     "heart-facts": "Heart Facts",
-    Screenings: "Screenings",
-    Emergencies: "Emergencies",
+    screeings: "Screenings",
+    emergencies: "Emergencies",
     "expert-health-tips": "Expert Health Tips",
   };
 
@@ -50,24 +50,24 @@ const EduOfTheHeartNav = ({ currentPage }) => {
             </li>
             <li>
               <NavLink
-                to="/education-of-heart/stats"
+                to="/education-of-heart/screenings"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "stats" ? "eduOfHeart-menu-item-active" : ""
+                  activeNav === "screeings" ? "eduOfHeart-menu-item-active" : ""
                 }`}
-                onClick={() => setActiveNav("stats")}
+                onClick={() => setActiveNav("screeings")}
               >
                 Screenings
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/education-of-heart/Emergencies"
+                to="/education-of-heart/emergencies"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "Emergencies"
+                  activeNav === "emergencies"
                     ? "eduOfHeart-menu-item-active"
                     : ""
                 }`}
-                onClick={() => setActiveNav("Emergencies")}
+                onClick={() => setActiveNav("emergencies")}
               >
                 Emergencies
               </NavLink>

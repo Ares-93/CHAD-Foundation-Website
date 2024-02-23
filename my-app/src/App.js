@@ -19,6 +19,8 @@ import Support from "./components/Pages/1-Home-Page/7-Support/Support";
 // EDU OF HEART PAGE Imports
 import HeartFactPage from "./components/Pages/3-Education of the Heart/1-Heart Facts/0-HeartFacts-Main/HeartFactPage";
 import ScreenHome from "./components/Pages/3-Education of the Heart/2-Screenings/0-Screening-Home/ScreenHome";
+import Emergency from "./components/Pages/3-Education of the Heart/3-Emergencies/0-Emergency-Main/Emergency";
+import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Health Tips/0-Tips-Main/TipsHome";
 
 function App() {
   return (
@@ -41,6 +43,15 @@ function App() {
           <Route
             path="/education-of-the-heart/screening-home"
             element={<ScreenHome />}
+          />
+          <Route
+            path="/education-of-the-heart/emergency-main"
+            element={<Emergency />}
+          />
+
+          <Route
+            path="/education-of-the-heart/tips-main"
+            element={<TipsHome />}
           />
           {/* GIFT OF ART PAGE */}
           <Route path="/gift-of-art/scholarship" element={<Scholarship />} />

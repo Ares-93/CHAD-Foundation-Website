@@ -19,6 +19,7 @@
   line-height: 125%;
 }
 .footer-h3 {
+  color: var(--main-white);
   font-family: var(--accent-font);
   font-size: 32px;
   font-weight: 400;
@@ -40,11 +41,12 @@
 .footer-social-media-icons a {
   margin-right: 8px;
   margin-top: 32px;
-   margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 .footer-copyright {
+  color: var(--main-white);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 100%;
   margin-top: 44px;
   text-align: center;

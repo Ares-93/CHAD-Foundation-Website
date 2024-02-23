@@ -184,20 +184,41 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
-                    <li>{/*Emergencies*/}</li>
+                    {/*Emergency*/}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/education-of-the-heart/emergency-main"
+                        className={`dropdown-item ${
+                          activeNav === "emergency-main"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("emergency-main")}
+                      >
+                        Emergencies
+                        <br />
+                        <span className="dropdown-span">
+                          How to take action in the event of an emergency.{" "}
+                        </span>
+                      </NavLink>
+                    </li>
+                    {/*Expert Health Tips*/}
+                    <li>
+                      <NavLink
+                        to="/education-of-the-heart/tips-main"
+                        className={`dropdown-item ${
+                          activeNav === "tips-main"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("tips-main")}
                       >
                         Expert Health Tips
                         <br />
                         <span className="dropdown-span">
-                          Advice from professionals to live a healthy life.
+                          Advice from professionals to live a healthy life.{" "}
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>

@@ -8,7 +8,7 @@ import "./Stats.css";
 const Stats = () => {
   return (
     <section className="stats">
-      <EduOfTheHeartNav currentPage="stats" />
+      <EduOfTheHeartNav currentPage="screeings" />
       <div className="main-container">
         <div className="stats-header-box">
           {<img src={HeartIcon} alt="doc-heart" width={60} height={60} />}
