@@ -22,8 +22,8 @@ import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
 import UpcomingEvents from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/UpcomingEvents";
 import Support from "./components/Pages/1-Home-Page/7-Support/Support";
 //PEOPLE WE LOVE Imports
-import Tributes from "./components/Pages/5-PeopleWeLove/1-Tributes/Tributes";
-import Survivors from "./components/Pages/5-PeopleWeLove/2-Survivors/Survivor";
+import Tributes from "./components/Pages/5-PeopleWeLove/1-Tributes/0-Tribute-Main/Tributes";
+import Survivors from "./components/Pages/5-PeopleWeLove/2-Survivors/0-Survivors-Main/Survivor";
 
 function App() {
   return (
