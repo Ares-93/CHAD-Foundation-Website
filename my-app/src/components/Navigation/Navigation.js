@@ -311,7 +311,7 @@ function Navigation() {
                         }`}
                         onClick={() => handleNavClick("upcoming-events")}
                       >
-                        Upcoming Events
+                        Events
                         <br />
                         <span className="dropdown-span">
                           Check out events to keep an eye for!
