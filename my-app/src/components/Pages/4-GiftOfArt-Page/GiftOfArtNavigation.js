@@ -14,7 +14,7 @@ const GiftOfArtNavigation = ({ currentPage }) => {
     plays: "Plays",
     films: "Films",
     books: "Books",
-    "upcoming-events": "Upcoming Events",
+    "upcoming-events": "Events",
   };
 
   return (
@@ -90,7 +90,7 @@ const GiftOfArtNavigation = ({ currentPage }) => {
                 }`}
                 onClick={() => setActiveNav("upcoming-events")}
               >
-                Upcoming Events
+                Events
               </NavLink>
             </li>
           </ul>
