@@ -74,12 +74,10 @@ const UpcomingEvents = () => {
                   </h4>
                 </div>
                 <p className="upcomingEvents-p">
-                  You are cordially invited to attend an evening of Opera &
-                  Classical Music featuring. Arista’ reception with wine and
-                  cheese to follow. <br />
-                  Suggested donation $25 or just come and enjoy the beautiful
-                  music of 3 wonderful Artists who are giving their Gifts to
-                  support Chad's work! Hope to see you!
+                  Mezzo-soprano, Caterina Secchi, classical pianist, Javor
+                  Bracic and solo harpist, Eric Sabatino collaborated in an
+                  exciting program of Opera and Classical favorites, generously
+                  gifting their talents to support Chad’s work!
                 </p>
                 <h4 className="upcomingEvents-subtext">
                   Caterina Secchi (Mezzo-Soprano), Javor Bracic (Classical
@@ -119,12 +117,10 @@ const UpcomingEvents = () => {
                   </h4>
                 </div>
                 <p className="upcomingEvents-p">
-                  You are cordially invited to attend an evening of Opera &
-                  Classical Music featuring. Arista’ reception with wine and
-                  cheese to follow. <br />
-                  Suggested donation $25 or just come and enjoy the beautiful
-                  music of 3 wonderful Artists who are giving their Gifts to
-                  support Chad's work! Hope to see you!
+                  Mezzo-soprano, Caterina Secchi, classical pianist, Javor
+                  Bracic and solo harpist, Eric Sabatino collaborated in an
+                  exciting program of Opera and Classical favorites, generously
+                  gifting their talents to support Chad’s work!
                 </p>
                 <h4 className="upcomingEvents-subtext">
                   Caterina Secchi (Mezzo-Soprano), Javor Bracic (Classical

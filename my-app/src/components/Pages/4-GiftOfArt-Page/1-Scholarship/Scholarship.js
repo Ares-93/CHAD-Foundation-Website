@@ -25,7 +25,7 @@ const Scholarship = () => {
               hear their inner heart speaking, effecting a better way for
               change, growth, understanding, and solutions. Chad’s Annual
               Scholarship Program will award an athlete who his peers honor as
-              the best “Scholar, Athlete & Gentleman,” and an artist for the
+              the best “Scholar, Athlete & Leader,” and an artist for the
               “Best Story of the Heart.” - Healthy Body, Mind & Spirit, the way
               in which Chad lived his life
             </p>

@@ -6,7 +6,7 @@ const LearnMore = () => {
     <section className="LearnMore">
       <div className="main-container">
         <h2 className="LearnMore-header">
-          Learn More About Chad, His Family, & Friends
+          Learn More About Chad’s Gift of Heart and Art
         </h2>
         <div className="LearnMore-container">
           <iframe

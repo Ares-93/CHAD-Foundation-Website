@@ -126,7 +126,7 @@ function Footer() {
               to="/gift-of-art/upcoming-events"
               className="footer-p nav-link"
             >
-              Upcoming Events
+              Events
             </ScrollToTopNavLink>
           </Col>
           {/* People We Love */}

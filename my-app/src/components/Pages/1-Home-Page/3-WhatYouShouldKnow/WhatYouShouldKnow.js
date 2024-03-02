@@ -15,8 +15,8 @@ function WhatYouShouldKnow() {
           cardiac arrest (SCA). It is often caused by a problem with the heart's
           electrical impulses and can occur in people with or without
           pre-existing heart conditions. Prompt treatment, including the use of
-          an automated external defibrillator (AED), is critical in the event of
-          SCD.
+          CPR and an automated external defibrillator (AED), is critical in the
+          event of SCD.
         </p>
         {/* CARDS */}
         <Row xs={1} md={1} lg={3} className="g-4 justify-content-center">

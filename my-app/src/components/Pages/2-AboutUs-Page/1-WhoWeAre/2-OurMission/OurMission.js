@@ -50,13 +50,13 @@ const OurMission = () => {
                     Helping people to find{" "}
                     <br />
                     <strong>
-                      heart screening’s benefit <br />and screening center
+                      heart screening’s benefits <br />and screening resources
                     </strong>
                   </p>
                 </div>
                 <div className="ourMission-main">
                   <p className="ourMission-main-text">
-                    Giving people the access to{" "}
+                    Giving people access to{" "}
                     <strong>good health tips <br />from experts</strong>
                   </p>
                 </div>

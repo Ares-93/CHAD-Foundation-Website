@@ -36,12 +36,13 @@ const WhatWeveDone = () => {
               className="whatWeveDone-hospitals-logo"
             />
             <div className="whatWeveDone-text">
-              CHAD Foundation’s first steps were Gifts to the renowned
-              Children’s Hospital Los Angeles Heart Institute.
-              <br />
-              <br />A volleyball tournament and heart screening had offered to
-              benefit the nonprofit Children’s Hospital Los Angeles Heart
-              Institute and the Chad Foundation Heart Screening Program.
+              For 25 years, the “Annual CHAD Volleyball Tournament and Heart
+              Screening,” was held in Hermosa Beach, CA benefiting the renowned
+              Children’s Hospital Los Angeles Heart Institute and the Chad
+              Foundation Heart Screening Program. CHLA cardiologists and Staff
+              generously donated their services to perform 1.000 heart
+              screenings. Philips provided state-of-the-art Echocardiogram and
+              EKG equipment.
             </div>
           </div>
           <div className="whatWeveDone-photo">
@@ -63,14 +64,13 @@ const WhatWeveDone = () => {
                   className="whatWeveDone-hospitals-logo"
                 />
                 <div className="whatWeveDone-text">
-                  Chad with Johns Hopkins Heart Hype Program, screened athletes
-                  for the Jr. Olympics at Morgan State University, in Baltimore,
-                  MD.
+                  CHAD with Johns Hopkins Heart Hype Program, screened 400
+                  athletes for the Jr. Olympics at Morgan State University, in
+                  Baltimore, MD. <br />
                   <br />
-                  <br />
-                  Testing supplies were donated by The Johns Hopkins Hospital.
-                  Ultrasound and EKG equipment was provided by General Electric
-                  Healthcare.
+                  Cardiologists and Staff from Johns Hopkins Hospital performed
+                  the lifesaving screenings. Ultrasound and EKG equipment were
+                  provided by General Electric Healthcare.
                 </div>
               </div>
               <div className="whatWeveDone-photo">
@@ -97,14 +97,13 @@ const WhatWeveDone = () => {
                   className="whatWeveDone-hospitals-logo"
                 />
                 <div className="whatWeveDone-text">
-                  Chad with Johns Hopkins Heart Hype Program, screened athletes
-                  for the Jr. Olympics at Morgan State University, in Baltimore,
-                  MD.
+                  CHAD with Johns Hopkins Heart Hype Program, screened 400
+                  athletes for the Jr. Olympics at Morgan State University, in
+                  Baltimore, MD. <br />
                   <br />
-                  <br />
-                  Testing supplies were donated by The Johns Hopkins Hospital.
-                  Ultrasound and EKG equipment was provided by General Electric
-                  Healthcare.
+                  Cardiologists and Staff from Johns Hopkins Hospital performed
+                  the lifesaving screenings. Ultrasound and EKG equipment were
+                  provided by General Electric Healthcare.
                 </div>
               </div>
             </>
@@ -119,14 +118,16 @@ const WhatWeveDone = () => {
               className="whatWeveDone-hospitals-logo"
             />
             <div className="whatWeveDone-text">
-              Holyoke Medical Center have teamed up with the Chad Foundation to
-              provide preventative cardiac screenings for 200 high-school
-              athletes in an effort to help detect lethal abnormalities such as
-              hypertrophic cardiomyopathy.
+              Holyoke Medical Center has teamed up with the Chad Foundation to
+              provide several preventative cardiac screenings for 500
+              high-school athletes in an effort to help detect lethal
+              abnormalities such as hypertrophic cardiomyopathy, WPW and Long QT
+              Syndrome. <br />
               <br />
-              <br />
-              The screenings, which include echocardiogram, electrocardiogram,
-              or EKG, and blood pressure test, have been free.
+              The screenings, which include an echocardiogram,
+              electrocardiogram, or EKG, blood pressure, cholesterol and glucose
+              testing have detected several premature cardiovascular risk
+              factors in high school students and athletes.
             </div>
           </div>
           <div className="whatWeveDone-photo">
