@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import "./Books.css";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
+import CopyRightIcon from "../../../../images/GiftOfArt-Images/copyright-vector.png";
 import BooksImageOne from "../../../../images/GiftOfArt-Images/books-image-one.png";
 import BooksImageTwo from "../../../../images/GiftOfArt-Images/books-image-two.png";
 import BooksVector from "../../../../images/GiftOfArt-Images/books-vector.png";
@@ -31,6 +32,7 @@ const Books = () => {
             <div className="books-header-box">
               <img src={HeartIcon} alt="heart" width={60} height={60} />
               <h2 className="books-header">The Gemini Kiid</h2>
+              <img src={CopyRightIcon} alt="copyright" width={20} height={20}/>
             </div>
             <div className="books-subtext-box">
               <img src={BooksVector} alt="heart" width={14} height={20} />
