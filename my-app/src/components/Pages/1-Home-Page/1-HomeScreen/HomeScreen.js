@@ -5,7 +5,9 @@ function HomeScreen() {
   return (
     <section className="homeScreen">
       <div className="main-container">
-        <h2 className="homeScreen-subheader">THE CHAD FOUNDATION</h2>
+        <h2 className="homeScreen-subheader">
+          THE CHAD FOUNDATION FOR ATHLETES AND ARTISTS
+        </h2>
         <h1 className="homeScreen-header">
           RAISING AWARENESS OF HEART-RELATED ABNORMALITIES
         </h1>

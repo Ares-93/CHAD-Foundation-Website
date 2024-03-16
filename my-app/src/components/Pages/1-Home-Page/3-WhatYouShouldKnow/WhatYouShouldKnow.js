@@ -57,7 +57,9 @@ function WhatYouShouldKnow() {
                 </div>
                 <Card.Text className="whatYouShouldKnow-card-text">
                   has the Hypertrophic Cardiomyopathy HCM gene <br />
-                  <span className="card-text-transparent">lorem ipsum</span>
+                  <span className="card-text-transparent">
+                    lorem ipsum lorem ipsum 
+                  </span>
                 </Card.Text>
               </Card.Body>
             </Card>
