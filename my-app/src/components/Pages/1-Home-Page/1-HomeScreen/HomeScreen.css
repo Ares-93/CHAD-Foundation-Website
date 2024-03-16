@@ -1,5 +1,6 @@
 .homeScreen {
-  background-image: linear-gradient(
+  /* FROM FIGMA FILE */
+  /* background-image: linear-gradient(
       90deg,
       #000 17.22%,
       #000 32.79%,
@@ -8,7 +9,14 @@
       rgba(171, 170, 170, 0) 46.9%,
       rgba(255, 255, 255, 0) 99.01%
     ),
-    url(../../../../images/HomePage-Images/main-screen-photo.png);
+    url(../../../../images/HomePage-Images/main-screen-photo.png); */
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.93) 16.15%,
+      rgba(7, 7, 7, 0.784) 41.86%,
+      rgba(3, 3, 3, 0.077) 73.81%
+    ),
+    url(../../../../images/HomePage-Images/main-screen-photo-smaller.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -25,7 +33,7 @@
 .homeScreen-subheader {
   font-family: var(--accent-font);
   line-height: 100%;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   margin: 0;
 }
