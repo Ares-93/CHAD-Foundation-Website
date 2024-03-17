@@ -33,9 +33,9 @@
   color: var(--main-black);
   text-align: justify;
   font-family: var(--main-font);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 125%;
+  line-height: 135%;
   margin-top: 12px;
 }
 .books-subtext-box {
@@ -72,6 +72,31 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+/* BUTTON */
+.buy-book-btn {
+  display: block;
+  margin-top: 40px;
+  width: 440px;
+  background-color: var(--orange);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+.buy-book-btn:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+
 @media only screen and (max-width: 1160px) {
 .Books {
     margin-bottom: 80px;
@@ -108,6 +133,10 @@
   .audio-box {
     margin-top: 16px;
     margin-bottom: 16px;
+  }
+  .buy-book-btn {
+    width: 80%; 
+    margin: 40px auto;
   }
 }
 
