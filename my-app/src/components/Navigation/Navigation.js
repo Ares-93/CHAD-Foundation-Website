@@ -365,16 +365,63 @@ function Navigation() {
                   </ul>
                 </li>
                 {/* Contact */}
-                <li className="nav-item">
+                <li className="nav-item dropdown">
                   <a
-                    className="nav-link"
-                    aria-current="page"
-                    href="https://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    className="nav-link dropdown-toggle"
+                    href="/"
+                    id="resourcesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                   >
-                    Contact
+                    Resources
                   </a>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="resourcesDropdown"
+                  >
+                    {/* SCA & Training Resources */}
+                    <li>
+                      <NavLink
+                        to="/resources/sca-and-training-resources"
+                        className={`dropdown-item ${
+                          activeNav === "sca-and-training-resources"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() =>
+                          handleNavClick("sca-and-training-resources")
+                        }
+                      >
+                        SCA, Screenings, AED & CPR
+                        <br />
+                        <span className="dropdown-span">
+                          Resources for SCA, Preventive Screenings, AED and CPR
+                          Training
+                        </span>
+                      </NavLink>
+                    </li>
+                    {/* Hospital Screening Resources */}
+                    <li>
+                      <NavLink
+                        to="/resources/hospital-screening-resources"
+                        className={`dropdown-item ${
+                          activeNav === "hospital-screening-resources"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() =>
+                          handleNavClick("hospital-screening-resources")
+                        }
+                      >
+                        Hospital Screening
+                        <br />
+                        <span className="dropdown-span">
+                          Hospital Screening Resources
+                        </span>
+                      </NavLink>
+                    </li>
+                  </ul>
                 </li>
                 {/* Support Button */}
                 <button className="btn support-button" type="button">

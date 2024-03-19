@@ -20,10 +20,16 @@ import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
 import UpcomingEvents from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/UpcomingEvents";
+
 import Support from "./components/Pages/1-Home-Page/7-Support/Support";
 //PEOPLE WE LOVE Imports
 import Tributes from "./components/Pages/5-PeopleWeLove/1-Tributes/0-Tribute-Main/Tributes";
 import Survivors from "./components/Pages/5-PeopleWeLove/2-Survivors/0-Survivors-Main/Survivor";
+
+// RESOURCES PAGE Imports
+import ScaAndTrainingResources from "./components/Pages/6-Resources-Page/1-SCAAndTrainingResources/1-SCAAndTrainingResources";
+import HospitalScreeningResources from "./components/Pages/6-Resources-Page/2-HospitalScreeningResources/2-HospitalScreeningResources";
+
 
 function App() {
   return (
@@ -70,6 +76,16 @@ function App() {
           {/*People We Love */}
           <Route path="/people-we-love/tributes" element={<Tributes />} />
           <Route path="/people-we-love/survivors" element={<Survivors />} />
+
+          {/* RESOURCES PAGE */}
+          <Route
+            path="/resources/sca-and-training-resources"
+            element={<ScaAndTrainingResources />}
+          />
+          <Route
+            path="/resources/hospital-screening-resources"
+            element={<HospitalScreeningResources />}
+          />
         </Routes>
         <Footer />
       </div>
