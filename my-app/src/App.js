@@ -27,8 +27,8 @@ import Tributes from "./components/Pages/5-PeopleWeLove/1-Tributes/0-Tribute-Mai
 import Survivors from "./components/Pages/5-PeopleWeLove/2-Survivors/0-Survivors-Main/Survivor";
 
 // RESOURCES PAGE Imports
-import ScaAndTrainingResources from "./components/Pages/6-Resources-Page/1-SCAAndTrainingResources/1-SCAAndTrainingResources";
-import HospitalScreeningResources from "./components/Pages/6-Resources-Page/2-HospitalScreeningResources/2-HospitalScreeningResources";
+import ScaAndTrainingResources from "./components/Pages/6-Resources-Page/1-SCAAndTrainingResources/SCAAndTrainingResources";
+import HospitalScreeningResources from "./components/Pages/6-Resources-Page/2-HospitalScreeningResources/HospitalScreeningResources";
 
 
 function App() {

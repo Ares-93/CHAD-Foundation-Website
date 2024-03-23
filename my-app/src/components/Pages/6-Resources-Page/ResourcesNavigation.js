@@ -43,7 +43,7 @@ const ResourcesNavigation = ({ currentPage }) => {
                   }`}
                   onClick={() => setActiveNav("sca-and-training-resources")}
                 >
-                  SCA, Screenings, AED & CPR Training
+                  Resources for SCA, Preventive Screenings, AED and CPR Training
                 </NavLink>
               </li>
               <li>
@@ -56,7 +56,7 @@ const ResourcesNavigation = ({ currentPage }) => {
                   }`}
                   onClick={() => setActiveNav("hospital-screening-resources")}
                 >
-                  Hospital Screening
+                  Hospital Screening Resources
                 </NavLink>
               </li>
             </ul>
