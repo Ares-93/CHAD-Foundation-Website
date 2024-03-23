@@ -100,6 +100,17 @@ const Books = () => {
                   greatest gifts – Love and Life,” and must be safeguarded as
                   our most valued possession.
                 </p>
+                <button
+                  className="buy-book-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://www.amazon.com/Celebration-Life-Beyond-Mothers-Memories/dp/198225078X",
+                      "_blank"
+                    )
+                  }
+                >
+                  Donate with Purchase
+                </button>
               </div>
               <div className="books-image-box">
                 <img
@@ -136,6 +147,17 @@ const Books = () => {
                   greatest gifts – Love and Life,” and must be safeguarded as
                   our most valued possession.
                 </p>
+                <button
+                  className="buy-book-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://www.amazon.com/Celebration-Life-Beyond-Mothers-Memories/dp/198225078X",
+                      "_blank"
+                    )
+                  }
+                >
+                  Donate with Purchase
+                </button>
               </div>
             </>
           )}

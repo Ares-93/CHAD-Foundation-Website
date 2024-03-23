@@ -1,0 +1,125 @@
+.ResourcesNavigation-banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0.01) 0%,
+      rgba(217, 217, 217, 0) 100%
+    ),
+    url(../../../images/Resources-Images/resources-header-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.ResourcesNavigation-banner-h2,
+.ResourcesNavigation-banner-h3,
+.ResourcesNavigation-banner-p {
+  color: var(--main-white);
+  font-family: var(--accent-font);
+}
+
+.ResourcesNavigation-banner-h2 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.ResourcesNavigation-banner-h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 8px;
+}
+
+.ResourcesNavigation-banner-p {
+  color: var(--main-black);
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+  max-width: 95%;
+  margin: -20px auto 28px auto;
+}
+
+
+.ResourcesNavigation-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 55px;
+}
+
+.resources-menu-item,
+.resources-menu-item-active,
+.resources-menu-item:hover {
+  display: block;
+  text-decoration: none;
+  color: var(--main-black);
+  padding: 10px 20px;
+  border: 1px solid var(--main-black);
+  border-radius: 10px;
+  background-color: var(--main-white);
+  cursor: pointer;
+  font-family: var(--accent-font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 125%;
+  box-sizing: border-box;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.resources-menu-item-active,
+.resources-menu-item:hover {
+  background-color: var(--orange);
+  color: var(--main-white);
+  border: 1px solid var(--orange);
+}
+
+
+@media (max-width: 1160px) {
+  .resources-menu-item {
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ResourcesNavigation-menu ul {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .resources-menu-item {
+    width: 100%;
+    padding: 10px 26px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 430px) {
+  .ResourcesNavigation-banner-h2 {
+    font-size: 48px;
+  }
+
+  .ResourcesNavigation-banner-h3,
+  .ResourcesNavigation-banner-p,
+  .resources-menu-item {
+    font-size: 28px;
+  }
+
+  .ResourcesNavigation-banner-p {
+    text-align: center;
+    max-width: 100%;
+  }
+}

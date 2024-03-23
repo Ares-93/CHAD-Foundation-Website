@@ -1,0 +1,108 @@
+.SCAAndTraining .main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.SCAAndTraining {
+  margin-bottom: 55px;
+}
+
+.SCAAndTraining .resource-card {
+  display: flex;
+  gap: 20px;
+  width: calc(50% - 32px);
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f5efea;
+  padding: 20px;
+}
+
+.SCAAndTraining .resource-card img {
+  width: 120px;
+  height: auto;
+}
+
+.SCAAndTraining .resource-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.SCAAndTraining .resource-name,
+.SCAAndTraining .resource-text {
+  font-family: var(--main-font);
+  color: var(--main-black);
+  line-height: 125%;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.SCAAndTraining .resource-text {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.SCAAndTraining .resource-check-button,
+.SCAAndTraining .resource-link-button {
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: var(--accent-font);
+  font-size: 22px;
+  padding: 12px 30px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+.SCAAndTraining .resource-links-container .resource-link-button:nth-child(2) {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  transition: background-color 0.3s ease;
+}
+
+.SCAAndTraining .resource-links-container {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.SCAAndTraining .resource-check-button:hover,
+.SCAAndTraining .resource-link-button:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+.SCAAndTraining .resource-links-container .resource-link-button:nth-child(2):hover {
+  background-color: var(--orange);
+  color: var(--main-white);
+  border: 1px solid transparent;
+}
+@media (max-width: 1140px) {
+  .SCAAndTraining .resource-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SCAAndTraining .resource-content,
+  .SCAAndTraining .resource-name,
+  .SCAAndTraining .resource-text {
+    text-align: center;
+  }
+
+  .SCAAndTraining .resource-check-button,
+  .SCAAndTraining .resource-link-button {
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .SCAAndTraining .resource-links-container {
+    justify-content: center;
+  }
+}
