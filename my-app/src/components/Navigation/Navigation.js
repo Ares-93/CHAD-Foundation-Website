@@ -364,7 +364,8 @@ function Navigation() {
                     </li>
                   </ul>
                 </li>
-                {/* Contact */}
+
+                {/* Resources */}
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -377,6 +378,7 @@ function Navigation() {
                     Resources
                   </a>
                   <ul
+                    id="resourcesDropdownMenu"
                     className="dropdown-menu"
                     aria-labelledby="resourcesDropdown"
                   >
@@ -423,15 +425,16 @@ function Navigation() {
                     </li>
                   </ul>
                 </li>
+
                 {/* Support Button */}
                 <button className="btn support-button" type="button">
-                  <li className="nav-item">
-                    {/* <a 
+                  {/* <li className="support-link">
+                    <a 
                       className="nav-link"
                       aria-current="page"
                       href=""
-                    ></a> */}
-                  </li>
+                    ></a>
+                  </li> */}
                   Support
                 </button>
               </ul>
