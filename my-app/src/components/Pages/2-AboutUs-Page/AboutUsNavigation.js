@@ -1,3 +1,4 @@
+// AboutUsNavigation.js
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./AboutUsNavigation.css";
@@ -6,7 +7,11 @@ const AboutUsNavigation = ({ currentPage }) => {
   const [activeNav, setActiveNav] = useState(currentPage);
 
   useEffect(() => {
-    setActiveNav(currentPage); 
+    if (currentPage === "full-gallery") {
+      setActiveNav("who-we-are");
+    } else {
+      setActiveNav(currentPage);
+    }
   }, [currentPage]);
 
   const pageTitleMap = {
@@ -14,20 +19,20 @@ const AboutUsNavigation = ({ currentPage }) => {
     "what-weve-done": "What We Have Done",
     testimonials: "Testimonials",
     board: "Board",
+    "full-gallery": "Gallery", 
   };
 
   return (
     <section className="AboutUsNavigation">
       <div className="AboutUsNavigation-banner">
         <h2 className="AboutUsNavigation-banner-h2">
-          {pageTitleMap[currentPage]}
+          {pageTitleMap[activeNav]}
         </h2>
         <h3 className="AboutUsNavigation-banner-h3">About Us</h3>
       </div>
       <div className="main-container">
         <div className="AboutUsNavigation-menu">
           <ul>
-            {/* Who We Are */}
             <li>
               <NavLink
                 to="/about/who-we-are"
