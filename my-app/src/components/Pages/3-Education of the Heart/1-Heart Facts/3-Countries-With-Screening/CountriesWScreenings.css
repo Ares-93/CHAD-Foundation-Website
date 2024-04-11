@@ -102,7 +102,7 @@
   text-align: center;
 }
 
-a {
+.Countries a {
   text-decoration: none;
   color: var(--orange);
 }

@@ -15,7 +15,7 @@
   line-height: 125%;
   text-decoration: underline #eac0a1 11px;
 }
-.card-text {
+.tips .card-text {
   margin-top: 40px;
   margin-bottom: 40px;
   color: var(--main-black);
@@ -27,14 +27,14 @@
   text-align: justified;
 }
 
-.title {
+.tips .title {
   margin-top: 40px;
   font-size: 30px;
   font-weight: bold;
   font-family: Source Sans Pro;
 }
 
-.g-4 {
+.tips .g-4 {
   justify-content: center;
 }
 
