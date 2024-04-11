@@ -48,7 +48,7 @@
   color: var(--orange);
 }
 
-.link {
+.stats .link {
   display: flex;
   text-align: center;
   justify-content: center;

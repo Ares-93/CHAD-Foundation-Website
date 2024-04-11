@@ -52,13 +52,14 @@
 
 /* DROPDOWN */
 .dropdown-menu {
-  width: 340px;
+ width: 340px;
   background-color: var(--main-white);
   border: none;
   border-radius: 10px;
   padding: 4px 16px;
   margin: 16px auto;
 }
+
 .dropdown-item {
   background-color: #fff5ee;
   border-radius: 10px;
@@ -112,6 +113,7 @@
   color: var(--main-white);
   border: 1px solid transparent;
   border-radius: 6px;
+  margin-left: 8px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 18px;
@@ -129,6 +131,19 @@
   color: var(--blue);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+@media only screen and (max-width: 1400px) {
+  #resourcesDropdownMenu {
+    right: 20px; 
+    left: auto; 
+    top: 100%; 
+    width: 340px;
+    background-color: var(--main-white);
+    border: none;
+    border-radius: 10px;
+    padding: 4px 16px;
+  }
+}
+
 
 @media only screen and (max-width: 1110px) {
   .nav-item {

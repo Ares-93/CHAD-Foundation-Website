@@ -27,14 +27,14 @@
   text-align: justified;
 }
 
-h3 {
+.lsa-section h3 {
   color: var(--main-black);
   font-size: 30px;
   font-weight: bolder;
   font-family: Anton;
 }
 
-p {
+.lsa-section p {
   color: var(--main-black);
   font-family: Source Sans Pro;
   font-size: 24px;
@@ -49,8 +49,8 @@ p {
   margin-left: 25px;
 }
 
-.btn-1,
-.btn-2 {
+.lsa-section .btn-1,
+.lsa-section .btn-2 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -69,10 +69,10 @@ p {
   transition: all ease-in-out 300ms;
 }
 
-.btn-1 {
+.lsa-section .btn-1 {
   padding: 10px 86px;
 }
 
-.btn-2 {
+.lsa-section .btn-2 {
   margin-top: 20px;
 }
