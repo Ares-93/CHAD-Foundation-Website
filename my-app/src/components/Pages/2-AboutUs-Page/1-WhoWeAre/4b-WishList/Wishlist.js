@@ -16,7 +16,7 @@ const WishList = () => {
               wishes would come true.
             </p>
             <p className="WishList-p">
-              Marissa’s mom never made it to Yugoslavia due to civil war but she
+              Maria’s mom never made it to Yugoslavia due to a civil war but she
               recently found and mailed Chad’s unopened “wish list,” to me.
               After reading it, it became apparent, Chad didn’t need the statue
               after all... all his wishes had come true...
