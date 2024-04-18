@@ -91,7 +91,7 @@ const Stats = () => {
           </a>
         </div>
         <button className="find-screen-btn">
-          Find Heart Screenings Near Me
+          Find Heart Screenings Near You
         </button>
         <div className="expert-text">
           Experts now say that this number can be decreased significantly by
