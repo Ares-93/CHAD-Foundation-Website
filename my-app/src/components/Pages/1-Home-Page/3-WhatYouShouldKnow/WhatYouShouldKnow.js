@@ -1,9 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; 
 import "./WhatYouShouldKnow.css";
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../images/HomePage-Images/heart.png";
 
 function WhatYouShouldKnow() {
+  const navigate = useNavigate();
+
+
+  const handleViewHeartFactsClick = () => {
+    navigate("/education-of-the-heart/heart-fact-page"); 
+  };
+
   return (
     <section className="whatYouShouldKnow">
       <div className="main-container">
@@ -58,7 +66,7 @@ function WhatYouShouldKnow() {
                 <Card.Text className="whatYouShouldKnow-card-text">
                   has the Hypertrophic Cardiomyopathy HCM gene <br />
                   <span className="card-text-transparent">
-                    lorem ipsum lorem ipsum 
+                    lorem ipsum lorem ipsum
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -86,7 +94,12 @@ function WhatYouShouldKnow() {
             </Card>
           </Col>
         </Row>
-        <button className="whatYouShouldKnow-button">View Heart Facts</button>
+        <button
+          className="whatYouShouldKnow-button"
+          onClick={handleViewHeartFactsClick}
+        >
+          View Heart Facts
+        </button>
       </div>
     </section>
   );
