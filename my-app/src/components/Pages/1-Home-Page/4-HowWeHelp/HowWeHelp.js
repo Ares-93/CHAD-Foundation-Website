@@ -3,8 +3,16 @@ import "./HowWeHelp.css";
 import { Row, Col, Container } from "react-bootstrap";
 import HeartImg1 from "../../../../images/HomePage-Images/heart-img-1.png";
 import HeartImg2 from "../../../../images/HomePage-Images/heart-img-2.png";
+import { useNavigate } from "react-router-dom"; 
 
 function HowWeHelp() {
+  const navigate = useNavigate(); 
+
+  
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
   return (
     <section className="howWeHelp">
       <div className="main-container">
@@ -33,7 +41,14 @@ function HowWeHelp() {
                     <Col md={6}>
                       {/* Heart Facts */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() =>
+                            handleNavigation(
+                              "/education-of-the-heart/heart-fact-page"
+                            )
+                          }
+                        >
                           Heart Facts
                         </button>
                         <p className="howWeHelp-wrap-p">
@@ -42,7 +57,14 @@ function HowWeHelp() {
                       </div>
                       {/* Screenings */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() =>
+                            handleNavigation(
+                              "/education-of-the-heart/screening-home"
+                            )
+                          }
+                        >
                           Screenings
                         </button>
                         <p className="howWeHelp-wrap-p">
@@ -53,7 +75,14 @@ function HowWeHelp() {
                     <Col md={6}>
                       {/* Emergencies */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() =>
+                            handleNavigation(
+                              "/education-of-the-heart/emergency-main"
+                            )
+                          }
+                        >
                           Emergencies
                         </button>
                         <p className="howWeHelp-wrap-p">
@@ -62,7 +91,14 @@ function HowWeHelp() {
                       </div>
                       {/* Expert Health Tips */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() =>
+                            handleNavigation(
+                              "/education-of-the-heart/tips-main"
+                            )
+                          }
+                        >
                           Expert Health Tips
                         </button>
                         <p className="howWeHelp-wrap-p">
@@ -101,7 +137,12 @@ function HowWeHelp() {
                     <Col md={6}>
                       {/* Scholarships */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() =>
+                            handleNavigation("/gift-of-art/scholarship")
+                          }
+                        >
                           Scholarships
                         </button>
                         <p className="howWeHelp-wrap-p">
@@ -110,14 +151,24 @@ function HowWeHelp() {
                       </div>
                       {/* Plays */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">Plays</button>
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() => handleNavigation("/gift-of-art/plays")}
+                        >
+                          Plays
+                        </button>
                         <p className="howWeHelp-wrap-p">
                           Learning experiences through storytelling and theatre.
                         </p>
                       </div>
                       {/* Films */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">Films</button>
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() => handleNavigation("/gift-of-art/films")}
+                        >
+                          Films
+                        </button>
                         <p className="howWeHelp-wrap-p">
                           Films with eye-opening messages.
                         </p>
@@ -126,15 +177,25 @@ function HowWeHelp() {
                     <Col md={6}>
                       {/* Books */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">Books</button>
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() => handleNavigation("/gift-of-art/books")}
+                        >
+                          Books
+                        </button>
                         <p className="howWeHelp-wrap-p">
                           Stories that nourish the spirit.
                         </p>
                       </div>
-                      {/* Upcoming Events */}
+                      {/* Events */}
                       <div className="howWeHelp-card-right">
-                        <button className="howWeHelp-wrap-button">
-                          Upcoming Events
+                        <button
+                          className="howWeHelp-wrap-button"
+                          onClick={() =>
+                            handleNavigation("/gift-of-art/upcoming-events")
+                          }
+                        >
+                          Events
                         </button>
                         <p className="howWeHelp-wrap-p">
                           Check out our new coming events!
