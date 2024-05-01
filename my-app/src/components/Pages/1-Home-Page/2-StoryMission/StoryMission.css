@@ -1,0 +1,91 @@
+.StoryMission .main-container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.StoryMission .storyMission-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.StoryMission .storyMission-image {
+  max-width: 470px;
+  border-radius: 10px;
+}
+
+.StoryMission .storyMission-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 32px;
+}
+.StoryMission .storyMission-p {
+  max-width: 580px;
+  color: var(--main-black);
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+}
+/* BUTTON */
+.storyMission-btn {
+  display: block;
+  margin-top: 40px;
+  width: 440px;
+  background-color: var(--orange);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 32px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+.storyMission-btn:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media only screen and (max-width: 991px) {
+  
+  .StoryMission .storyMission-content {
+    padding: 0 20px; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 20px;
+  }
+.StoryMission .storyMission-header {
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+  .StoryMission .storyMission-btn {
+    justify-content: center; 
+  }
+  .StoryMission .storyMission-image {
+    max-width: 100%; 
+    height: auto;
+  }
+  .storyMission-btn {
+    width: 80%; 
+    margin: 40px auto;
+  }
+  .StoryMission .storyMission-p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .storyMission-btn {
+    width: 90%; 
+  }
+}

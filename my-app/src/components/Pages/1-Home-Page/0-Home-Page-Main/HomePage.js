@@ -1,6 +1,6 @@
 import React from "react";
 import HomeScreen from "../1-HomeScreen/HomeScreen";
-import WhoWeAre from "../2-WhoWeAre/WhoWeAre";
+import StoryMission from "../2-StoryMission/StoryMission";
 import WhatYouShouldKnow from "../3-WhatYouShouldKnow/WhatYouShouldKnow";
 import HowWeHelp from "../4-HowWeHelp/HowWeHelp";
 import SurvivorsStories from "../5-SurvivorsStories/SurvivorsStories";
@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <div>
       <HomeScreen />
-      <WhoWeAre />
+      <StoryMission />
       <WhatYouShouldKnow />
       <HowWeHelp />
       <SurvivorsStories />

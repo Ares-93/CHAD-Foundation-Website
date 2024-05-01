@@ -1,40 +1,46 @@
 import React from "react";
-import "./WhoWeAre.css";
-import CHAD from "../../../../images/HomePage-Images/CHAD.png";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
+import "./StoryMission.css";
+import CHAD from "../../../../images/HomePage-Images/CHAD.jpg";
 
-const WhoWeAre = () => {
+const StoryMission = () => {
+  const navigate = useNavigate(); // Create navigate function instance
+
+  // Function to handle button click
+  const handleLearnMoreClick = () => {
+    navigate("/about/who-we-are"); // Navigate to the path
+  };
+
   return (
-    <section className="story-mission">
+    <section className="StoryMission">
       <div className="main-container">
-        <div className="header-container">
-          <h2 className="story-subheader">Who Are We: Our Story & Mission</h2>
-        </div>
-        <div className="content-container">
-          <div className="text-container">
-            <p className="story-text">
+        <h2 className="storyMission-header">Who Are We: Our Story & Mission</h2>
+        <div className="storyMission-content">
+          <div className="storyMission-content-left">
+            <p className="storyMission-p">
               CHAD’s mission is dual: The Gift of Heart raises awareness of
               Sudden Cardiac Death and Heart Anomalies in Young Athletes and
               Students, promotes preventive heart screenings, CPR, and AEDS, and
               advocates a “Heart-Healthy” Lifestyle through monthly diet tips
               and Health Professional interviews.
-            </p>
-
-            <p className="story-text">
+              <br /> <br />
               The Gift Art, creates, produces, and sponsors art - film, theatre,
               and books that celebrate stories of all heritages, addresses
               societal issues like anti-substance abuse and bullying, and
               provides “CHAD Annual Scholarships for the “Best
               Scholar-Leader-Athlete,” and “Best Story of the Heart.”
-            </p>
-            <p className="story-text">
+              <br />
+              <br />
               <strong>
                 “Healthy Body, Mind and Spirit” – How Chad Lived his Life
               </strong>
             </p>
-            <button className="Learn-More-Btn">Learn More</button>
+            <button className="storyMission-btn" onClick={handleLearnMoreClick}>
+              Learn More
+            </button>
           </div>
-          <div className="image-container">
-            <img className="story-chad" src={CHAD} alt="Chad's Story" />
+          <div className="storyMission-image-box">
+            <img src={CHAD} alt="Chad" className="storyMission-image" />
           </div>
         </div>
       </div>
@@ -42,4 +48,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default StoryMission;
