@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; 
 import "./HomeScreen.css";
 
 function HomeScreen() {
+  const navigate = useNavigate(); 
+
+  const handleExploreClick = () => {
+    navigate("/education-of-the-heart/heart-fact-page"); 
+  };
+
   return (
     <section className="homeScreen">
       <div className="main-container">
@@ -15,7 +22,9 @@ function HomeScreen() {
           Ready to take control of your heart health and prevent sudden cardiac
           death?
         </p>
-        <button className="homeScreen-button">Let's Explore</button>
+        <button className="homeScreen-button" onClick={handleExploreClick}>
+          Let's Explore
+        </button>
       </div>
     </section>
   );
