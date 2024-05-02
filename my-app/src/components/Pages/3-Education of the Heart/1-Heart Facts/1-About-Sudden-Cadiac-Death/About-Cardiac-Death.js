@@ -54,7 +54,8 @@ const HeartFacts = () => {
                     </Card.Title>
                   </div>
                   <Card.Text className="whatYouShouldKnow-card-text">
-                    has the Hypertrophic Cardiomyopathy HCM gene <br />
+                    people have the Hypertrophic Cardiomyopathy (HCM) abnormal
+                    gene <br />
                     <span className="card-text-transparent">lorem ipsum</span>
                   </Card.Text>
                 </Card.Body>
@@ -75,8 +76,8 @@ const HeartFacts = () => {
                     </Card.Title>
                   </div>
                   <Card.Text className="whatYouShouldKnow-card-text">
-                    people between 15 and 34 years of age die annually from
-                    Sudden Cardiac Death
+                    young people between 15 and 34 years of age die annually
+                    from Sudden Cardiac Death
                   </Card.Text>
                 </Card.Body>
               </Card>
