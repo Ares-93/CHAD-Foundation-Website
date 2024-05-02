@@ -94,10 +94,10 @@ const Stats = () => {
           Find Heart Screenings Near You
         </button>
         <div className="expert-text">
-          Experts now say that this number can be decreased significantly by
-          community awareness and implementation of screening
+          Experts now say that community awareness, implementation of
+          cardiovascular screening programs, knowledge of CPR and AED placement
+          can safeguard young hearts, and help to prevent Sudden Cardiac Death.
           <br></br>
-          programs for those felt to be at risk.
         </div>
       </div>
     </section>
