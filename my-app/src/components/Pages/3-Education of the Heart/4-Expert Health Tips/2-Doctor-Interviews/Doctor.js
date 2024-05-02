@@ -12,7 +12,7 @@ const Doctor = () => {
       <div className="main-container">
         <div className="doctor-header-box">
           {<img src={HeartIcon} alt="heart" width={60} height={60} />}
-          <h2 className="doctor-header">Doctor Interviews</h2>
+          <h2 className="doctor-header">Heart Healthy Professionals</h2>
         </div>
         <p className="card-text">
           Healthy living starts with a healthy diet. Here are our favorite
