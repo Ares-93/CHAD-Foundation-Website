@@ -54,8 +54,8 @@ const CountriesWScreening = () => {
                 </Card.Header>
                 <Card.Body>
                   <Card.Text className="card-text">
-                    Mandated heart disease screening for schoolchildren in Japan
-                    shows progress in reducing sudden deaths.
+                    Mandated heart screenings for schoolchildren in Japan show
+                    progress in reducing sudden deaths.
                   </Card.Text>
                 </Card.Body>
               </Card>
