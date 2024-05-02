@@ -28,10 +28,10 @@ const EduOfTheHeartNav = ({ currentPage }) => {
         <p className="EduOfTheHeartNav-banner-p">
           “Education of the Heart” raises awareness of Sudden Cardiac Death in
           Young Athletes and Students, promotes 'heart-healthy living' through
-          educational lectures, videos, books, and provides "Cardiovascular
-          Screenings to High Schools, Colleges, Athletic Organizations and the
-          Disenfranchised" to prevent Sudden Cardiac Death, and identify early
-          cardiovascular risk factors.
+          monthly healthy recipes and interviews from health professions, and
+          provides life-saving information on Heart Screenings to High Schools
+          and Colleges, knowledge of CPR and AED placement to prevent SCD, and
+          identify early cardiovascular risk factors.
         </p>
         <div className="EduOfTheHeartNav-menu">
           <ul>
