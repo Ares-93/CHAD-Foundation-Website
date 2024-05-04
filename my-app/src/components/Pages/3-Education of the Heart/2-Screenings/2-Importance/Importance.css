@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  width: 200%;
 }
 
 .imp-header {
@@ -15,7 +16,7 @@
   font-weight: 400;
   line-height: 125%;
   text-align: left;
-  text-decoration: underline #eac0a1 11px;
+  text-decoration: underline #eac0a1 12px;
 }
 
 .CDC,
@@ -38,6 +39,7 @@
 }
 
 .imp-text {
+  color: black;
   font-family: Source Sans Pro;
   font-size: 24px;
   font-weight: 400;
