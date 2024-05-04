@@ -45,8 +45,16 @@ const CausesSection = () => {
                 <li>Chest Palpitations</li>
                 <li>Dizziness</li>
                 <li>Fainting</li>
-                <li>Family</li>
+                <li>Family History of HCM</li>
               </ul>
+              <a
+                href="https://www.mayoclinic.org/diseases-conditions/hypertrophic-cardiomyopathy/symptoms-causes/syc-20350198"
+                className="warning-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn more about Warning Signs
+              </a>
             </div>
           </div>
           <div className="causes-column">
@@ -68,10 +76,55 @@ const CausesSection = () => {
                 {<img src={HeartIcon} alt="heart" width={60} height={60} />}{" "}
                 <h2 className="sub-section-header">Risk Factors</h2>
               </div>
+              <p className="risk-note">
+                Learn more about Risk Factors in children by clicking each of
+                the risks below
+              </p>
               <ul className="risks">
-                <li>High Colesterol</li>
-                <li>Hypertension</li>
-                <li>Obesity</li>
+                <div className="Risk">
+                  <div className="r-header-box">
+                    <img src={HeartIcon} alt="heart" width={60} height={60} />
+                    <h2 className="sub-section-header">Risk Factors</h2>
+                  </div>
+                  <ul className="risks">
+                    <li>
+                      <a
+                        href="https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/symptoms-causes/syc-20350800"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        High Cholesterol
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.cdc.gov/bloodpressure/youth.htm"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Hypertension
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.cdc.gov/obesity/childhood/index.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Obesity
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.cdc.gov/diabetes/basics/childhooddiabetes.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Diabetes
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </ul>
             </div>
           </div>

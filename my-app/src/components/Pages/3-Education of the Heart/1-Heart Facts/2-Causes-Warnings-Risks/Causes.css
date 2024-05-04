@@ -117,4 +117,25 @@
 .risks,
 .warnings {
   color: var(--main-black);
+  list-style-type: disc;
+}
+
+.warning-link {
+  color: #3dadc8;
+  text-decoration: none;
+}
+
+.risk-note {
+  color: #3dadc8;
+  font-size: 18px;
+}
+
+.risks a {
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Sets the initial text color */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.risks a:hover {
+  color: #ef761f; /* Changes text color on hover */
 }
