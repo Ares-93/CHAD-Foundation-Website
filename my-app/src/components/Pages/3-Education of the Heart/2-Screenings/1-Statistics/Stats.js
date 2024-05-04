@@ -87,7 +87,7 @@ const Stats = () => {
         </div>
         <div className="link">
           <a href="/more-stats" className="stats-link">
-            If you want to see picture of our work, please click here.
+            To see pictures of CHAD Heart Screenings at work, click here.
           </a>
         </div>
         <button className="find-screen-btn">

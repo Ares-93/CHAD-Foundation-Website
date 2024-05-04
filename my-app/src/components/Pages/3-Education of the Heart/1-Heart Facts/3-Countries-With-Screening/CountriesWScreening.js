@@ -35,10 +35,7 @@ const CountriesWScreening = () => {
                   Italy
                 </Card.Header>
                 <Card.Body>
-                  <Card.Text className="card-text">
-                    Italy mandates annual PPE screening for competitive athletes
-                    to identify cardiovascular risk.
-                  </Card.Text>
+                  <Card.Text className="card-text"></Card.Text>
                 </Card.Body>
               </Card>
             </Col>
