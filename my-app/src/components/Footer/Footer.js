@@ -49,7 +49,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <img src={TwitterIcon} alt="alt" width={45} />
-              </a> */}
+              </a> /*/}
               {/* Youtube */}
               <a
                 href="https://www.youtube.com/watch?v=zt6H5ZlXRd8"
