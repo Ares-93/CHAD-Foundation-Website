@@ -19,6 +19,7 @@
 }
 .Message .arista-photo {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .Message .message-text-box {
@@ -45,7 +46,6 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 130%;
-
   text-align: start;
 }
 .Message .read-more-btn {
@@ -85,7 +85,7 @@
     text-align: center;
   }
 }
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 960px) {
   .Message .message-content {
     max-width: 92%;
   }
