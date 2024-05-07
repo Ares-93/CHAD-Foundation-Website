@@ -4,11 +4,12 @@
 .Books .books-content {
   display: flex;
   justify-content: space-between;
-  gap: 60px;
+  gap: 80px;
   margin-bottom: 110px;
 }
 .Books .books-image {
-  max-width: 498px;
+  width: 480px;
+  height: auto;
   border-radius: 10px;
 }
 .Books .books-header-box {
@@ -29,6 +30,8 @@
   margin-bottom: 20px;
 }
 .Books .books-p {
+  display: block;
+  margin: 12px auto 12px auto;
   max-width: 595px;
   color: var(--main-black);
   text-align: justify;
@@ -36,7 +39,10 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 135%;
-  margin-top: 12px;
+}
+.Books .books-p-second {
+  margin-right: 0px;
+  max-width: 640px;
 }
 .books-subtext-box {
   display: inline-flex;
@@ -61,6 +67,7 @@
   font-family: var(--accent-font);
   font-size: 16px;
   margin-bottom: 2px;
+  color: var(--main-black);
 }
 .books-audio-player {
   max-width: 240px;
@@ -76,6 +83,7 @@
 .buy-book-btn {
   display: block;
   margin-top: 40px;
+  margin-left: 200px;
   width: 440px;
   background-color: var(--orange);
   padding-top: 14px;
@@ -96,9 +104,8 @@
   border: 1px solid var(--orange);
 }
 
-
 @media only screen and (max-width: 1160px) {
-.Books {
+  .Books {
     margin-bottom: 80px;
   }
   .Books .books-content {
@@ -111,22 +118,24 @@
   }
   .Books .books-header-box {
     justify-content: center;
+    max-width: 595px;
   }
-  .Books .books-image {
-    max-width: 100%;
-    height: auto;
-  }
+
   .Books .books-p {
     text-align: center;
+  }
+  .Books .books-p-second {
+    max-width: 595px;
   }
   .Books .books-header-box {
     flex-direction: column;
     align-items: center;
   }
   .gemini-details-box {
-    flex-direction: column; 
+    flex-direction: column;
   }
-  .audio-box, .books-subtext-box {
+  .audio-box,
+  .books-subtext-box {
     margin-left: auto;
     margin-right: auto;
   }
@@ -135,9 +144,12 @@
     margin-bottom: 16px;
   }
   .buy-book-btn {
-    width: 80%; 
+    width: 80%;
     margin: 40px auto;
   }
 }
-
-
+@media only screen and (max-width: 530px) {
+  .Books .books-image {
+    max-width: 92%;
+  }
+}
