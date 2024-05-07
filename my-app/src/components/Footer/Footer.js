@@ -1,13 +1,13 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './Footer.css';
-import ScrollToTopNavLink from './ScrollToTopNavLink'; // Import the custom component
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "./Footer.css";
+import ScrollToTopNavLink from "./ScrollToTopNavLink"; // Import the custom component
 
-import InstagramIcon from '../../images/Footer-Images/instagram.png';
-import FacebookIcon from '../../images/Footer-Images/facebook.png';
-import TwitterIcon from '../../images/Footer-Images/twitter.png';
-import YoutubeIcon from '../../images/Footer-Images/youtube.png';
-import LinkedinIcon from '../../images/Footer-Images/linkedin.png';
+import InstagramIcon from "../../images/Footer-Images/instagram.png";
+import FacebookIcon from "../../images/Footer-Images/facebook.png";
+import TwitterIcon from "../../images/Footer-Images/twitter.png";
+import YoutubeIcon from "../../images/Footer-Images/youtube.png";
+import LinkedinIcon from "../../images/Footer-Images/linkedin.png";
 
 function Footer() {
   return (
@@ -16,18 +16,22 @@ function Footer() {
         <Row>
           {/* Main */}
           <Col md className="footer-col footer-main-col">
-            <h2 className="footer-h2">The Chad Foundation</h2>
+            <h2 className="footer-h2">
+              The Chad Foundation <br />
+              <span className="footer-h2-span">for Athletes and Artists</span>
+            </h2>
             <p className="footer-p">
-              XXX Adress AvenueCity, <br />
-              State XXXXX
+              PO Box 145, Radio City Station <br />
+              New York, New York 10101
             </p>
-            <p className="footer-p">P: 551.998.6110</p>
-            <p className="footer-p">E: info@chadfoundation.com</p>
+            <p className="footer-p">P: 917-334-1194</p>
+            <p className="footer-p">E: info@chad-foundation.org</p>
+            <p className="footer-p">W: www.chad-foundation.org</p>
             <div className="footer-social-media-icons">
               {/* Instagram */}
-              <a href="google.com" target="_blank" rel="noopener noreferrer">
+              {/* <a href="google.com" target="_blank" rel="noopener noreferrer">
                 <img src={InstagramIcon} alt="alt" width={45} />
-              </a>
+              </a> */}
               {/* Facebook */}
               <a
                 href="https://www.facebook.com/profile.php?id=100063710691467"
@@ -37,16 +41,16 @@ function Footer() {
                 <img src={FacebookIcon} alt="alt" width={45} />
               </a>
               {/* Twitter */}
-              <a
+              {/* <a
                 href="https://x.com/ChadFoundation?t=Le-sXZoK3bOqdYAxlnQq8A&s=35"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={TwitterIcon} alt="alt" width={45} />
-              </a>
+              </a> */}
               {/* Youtube */}
               <a
-                href="https://www.youtube.com/@aristaarista03"
+                href="https://www.youtube.com/watch?v=ldwHd9MyKQc"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -138,7 +142,7 @@ function Footer() {
           </Col>
         </Row>
         <h3 className="footer-copyright">
-          2023 Copyright. All Rights Reserved Privacy Policy Terms of Use
+          2024 Copyright. All Rights Reserved Privacy Policy Terms of Use
         </h3>
       </Container>
     </div>
