@@ -16,7 +16,14 @@
   font-family: var(--accent-font);
   font-size: 48px;
   font-weight: 400;
-  line-height: 125%;
+  line-height: 115%;
+  margin-bottom: 20px;
+}
+.footer-h2-span {
+  display: block;
+  font-size: 24px;
+  line-height: 105%;
+  margin-top: 4px;
 }
 .footer-h3 {
   color: var(--main-white);
@@ -28,7 +35,7 @@
 .footer-p {
   font-size: 18px;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 115%;
   color: var(--main-white);
   margin-bottom: 12px;
 }
@@ -40,7 +47,7 @@
 }
 .footer-social-media-icons a {
   margin-right: 8px;
-  margin-top: 32px;
+  margin-top: 16px;
   margin-bottom: 32px;
 }
 .footer-copyright {
