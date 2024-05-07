@@ -6,7 +6,7 @@ const Message = () => {
   // State to toggle expanded text
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Function to handle click on "Read More" / "Close"
+  // Function to handle click on "Read More" / "Read less"
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
@@ -31,24 +31,25 @@ const Message = () => {
               Then it was said “12 young athletes die annually from S C D.” The
               Centers of Disease Control now say 6,000 young people under 35 die
               annually from Sudden Cardiac Arrest.
+              <br />
+              <br />
+              Thanks to Cardiologists, Sonographers, Hospitals, Mfg. partners,
+              Volunteers and Friends of Chad, that first screening flourished to
+              10,000 young people screened in
               {isExpanded && (
                 <>
-                  <br />
-                  <br />
-                  Thanks to Cardiologists, Sonographers, Hospitals, Mfg.
-                  partners, Volunteers and Friends of Chad, that first screening
-                  flourished to 10,000 young people screened in 5 states and
-                  Austria and Sweden. Chad found an average 15-20% anomaly rate
-                  for every 100 screened, resulting in surgeries and patients
-                  and families being followed sometimes for life. Today, Chad is
-                  only the masthead; there is a flotilla of hundreds of
-                  organizations screening thousands of young hearts and saving
-                  lives. Awareness is being raised, and though screenings for
-                  athletes are not mandatory in the US, in Italy prescreening of
-                  athletes is mandated by law; 25-year stats show early
-                  detection has a 90% save rate there. Japan has laws that
-                  provide heart screenings for their school children. The NBA is
-                  the 1st professional sports organization to mandate
+                  {" "}
+                  5 states and Austria and Sweden. Chad found an average 15-20%
+                  anomaly rate for every 100 screened, resulting in surgeries
+                  and patients and families being followed sometimes for life.
+                  Today, Chad is only the masthead; there is a flotilla of
+                  hundreds of organizations screening thousands of young hearts
+                  and saving lives. Awareness is being raised, and though
+                  screenings for athletes are not mandatory in the US, in Italy
+                  prescreening of athletes is mandated by law; 25-year stats
+                  show early detection has a 90% save rate there. Japan has laws
+                  that provide heart screenings for their school children. The
+                  NBA is the 1st professional sports organization to mandate
                   Echocardiograms for their athletes.
                   <br />
                   <br />
