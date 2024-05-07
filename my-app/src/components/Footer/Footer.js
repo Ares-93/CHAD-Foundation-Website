@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import ScrollToTopNavLink from "./ScrollToTopNavLink"; // Import the custom component
+import ScrollToTopNavLink from "./ScrollToTopNavLink"; 
 
-import InstagramIcon from "../../images/Footer-Images/instagram.png";
+
 import FacebookIcon from "../../images/Footer-Images/facebook.png";
-import TwitterIcon from "../../images/Footer-Images/twitter.png";
 import YoutubeIcon from "../../images/Footer-Images/youtube.png";
 import LinkedinIcon from "../../images/Footer-Images/linkedin.png";
+
+// import InstagramIcon from "../../images/Footer-Images/instagram.png";
+// import TwitterIcon from "../../images/Footer-Images/twitter.png";
 
 function Footer() {
   return (
@@ -50,7 +52,7 @@ function Footer() {
               </a> */}
               {/* Youtube */}
               <a
-                href="https://www.youtube.com/watch?v=ldwHd9MyKQc"
+                href="https://www.youtube.com/watch?v=zt6H5ZlXRd8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
