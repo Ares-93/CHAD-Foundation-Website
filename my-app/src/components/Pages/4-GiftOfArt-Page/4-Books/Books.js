@@ -82,23 +82,20 @@ const Books = () => {
         <div className="books-content">
           {isSmallScreen ? (
             <>
-              <div className="books-content-left">
+              <div className="books-content-right">
                 <div className="books-header-box">
                   <img src={HeartIcon} alt="heart" width={60} height={60} />
-                  <h2 className="books-header">Chad Book</h2>
+                  <h2 className="books-header">
+                    CHAD, A Celebration of Life - Beyond a Mother’s Memories
+                  </h2>
                 </div>
-                <p className="books-p">
-                  This uplifting memoir details the 25-year history of The Chad
-                  Foundation to safeguard hearts by providing 10,000 screenings
-                  and celebrates the lives of young athletes lost to Sudden
-                  Cardiac Death, and the journey of survivors whose lives were
-                  saved due to early intervention and detection. It is endorsed
-                  by Adam Silver, Commissioner of the National Basketball
-                  Association and informs how to safeguard your own heart
-                  through CPR and AED access. CHAD celebrates life’s spectrum
-                  from heartbreak to heroism—“The Heart is the Home of our two
-                  greatest gifts – Love and Life,” and must be safeguarded as
-                  our most valued possession.
+                <p className="books-p books-p-second">
+                  Celebrating the lives of young athletes lost to Sudden Cardiac
+                  Death, and the journey of its survivors, this uplifting memoir
+                  details the 26-year history of The Chad Foundation from SCD
+                  victims to survivors— from heartbreak to heroism— learn about
+                  how The Chad Foundation has saved lives and shaped a better
+                  tomorrow.
                 </p>
                 <button
                   className="buy-book-btn"
@@ -129,23 +126,20 @@ const Books = () => {
                   className="books-image"
                 />
               </div>
-              <div className="books-content-left">
+              <div className="books-content-right">
                 <div className="books-header-box">
                   <img src={HeartIcon} alt="heart" width={60} height={60} />
-                  <h2 className="books-header">Chad Book</h2>
+                  <h2 className="books-header">
+                    CHAD, A Celebration of Life - Beyond a Mother’s Memories
+                  </h2>
                 </div>
-                <p className="books-p">
-                  This uplifting memoir details the 25-year history of The Chad
-                  Foundation to safeguard hearts by providing 10,000 screenings
-                  and celebrates the lives of young athletes lost to Sudden
-                  Cardiac Death, and the journey of survivors whose lives were
-                  saved due to early intervention and detection. It is endorsed
-                  by Adam Silver, Commissioner of the National Basketball
-                  Association and informs how to safeguard your own heart
-                  through CPR and AED access. CHAD celebrates life’s spectrum
-                  from heartbreak to heroism—“The Heart is the Home of our two
-                  greatest gifts – Love and Life,” and must be safeguarded as
-                  our most valued possession.
+                <p className="books-p books-p-second">
+                  Celebrating the lives of young athletes lost to Sudden Cardiac
+                  Death, and the journey of its survivors, this uplifting memoir
+                  details the 26-year history of The Chad Foundation from SCD
+                  victims to survivors— from heartbreak to heroism— learn about
+                  how The Chad Foundation has saved lives and shaped a better
+                  tomorrow.
                 </p>
                 <button
                   className="buy-book-btn"
