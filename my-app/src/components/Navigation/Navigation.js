@@ -348,19 +348,23 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
+                    {/*Surivors*/}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/people-we-love/survivors"
+                        className={`dropdown-item ${
+                          activeNav === "survivors"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("survivors")}
                       >
                         Survivors
                         <br />
                         <span className="dropdown-span">
                           Read stories from our Survivors.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>

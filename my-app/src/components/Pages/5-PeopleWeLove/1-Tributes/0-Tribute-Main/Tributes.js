@@ -1,16 +1,13 @@
 import React from "react";
 import PeopleNav from "../../PeopleNav";
 import "./Tributes.css";
+import HonoringLives from "../1-HonoringLives/HL";
 
 const Tributes = () => {
   return (
     <section className="Tributes">
       <PeopleNav currentPage="tributes" />
-      <div className="main-container">
-        <div className="tribute-content">
-          <div className="tribute-content-right"></div>
-        </div>
-      </div>
+      <HonoringLives />
     </section>
   );
 };
