@@ -159,7 +159,8 @@ const stories = [
     cures for cardiomyopathy in children.  I would also like to put my energy into organizing a Free echo-screening.
     We joined the Children's Cardiomyopathy Foundation (childrenscardiomyopathy.org) and we are dedicated helping uncover causes for children in my area. I live in Houston, TX and I am in close contact with the Texas Children's Hospital Cardiologists which I hope will join me in my efforts. Vanessa's parents have established Vanessa’s Big Heart Foundation to help fund research for pediatric cardiomyopathy.
     Please visit their web site at http://www.bigheartfoundation.org
-    by Vanessa's mother, Janie`,
+    
+    by Vanessa's mother, Janie.`,
     deathDate: "April 7, 2005",
     age: 0,
   },
