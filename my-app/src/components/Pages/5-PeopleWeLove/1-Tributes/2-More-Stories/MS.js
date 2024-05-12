@@ -16,21 +16,23 @@ const StoriesGrid = () => {
 
   return (
     <section className="StoriesGrid">
-      <h2 className="stories-header">Read More Stories</h2>
-      <div className="stories-grid-container">
-        {stories.map((story) => (
-          <div
-            key={story.id}
-            className="story-card"
-            onClick={() => handleStoryClick(story)}
-          >
-            <img src={story.image} alt={story.name} className="story-image" />
-          </div>
-        ))}
+      <div className="main container">
+        <h2 className="stories-header">Read More Stories</h2>
+        <div className="stories-grid-container">
+          {stories.map((story) => (
+            <div
+              key={story.id}
+              className="story-card"
+              onClick={() => handleStoryClick(story)}
+            >
+              <img src={story.image} alt={story.name} className="story-image" />
+            </div>
+          ))}
+        </div>
+        {selectedStory && (
+          <StoryModal story={selectedStory} onClose={handleCloseModal} />
+        )}
       </div>
-      {selectedStory && (
-        <StoryModal story={selectedStory} onClose={handleCloseModal} />
-      )}
     </section>
   );
 };

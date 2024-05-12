@@ -1,11 +1,11 @@
 .StoriesGrid {
   margin-top: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .stories-header {
-  margin-left: 230px;
+  margin-right: 800px;
   color: var(--main-black);
   font-family: var(--accent-font);
   font-size: 48px;
@@ -15,11 +15,10 @@
 }
 
 .stories-grid-container {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four images per row */
   gap: 40px;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .story-card {

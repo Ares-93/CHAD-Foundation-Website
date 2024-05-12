@@ -3,6 +3,7 @@ import PeopleNav from "../../PeopleNav";
 import "./Tributes.css";
 import HonoringLives from "../1-HonoringLives/HL";
 import StoriesGrid from "../2-More-Stories/MS";
+import NeverForget from "../3-NeverForget/NeverForget";
 
 const Tributes = () => {
   return (
@@ -10,6 +11,7 @@ const Tributes = () => {
       <PeopleNav currentPage="tributes" />
       <HonoringLives />
       <StoriesGrid />
+      <NeverForget />
     </section>
   );
 };
