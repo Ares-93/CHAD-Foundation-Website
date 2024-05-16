@@ -1,4 +1,4 @@
-.Survivor_StoriesGrid {
+.survivor_stories_grid {
   margin-top: 40px;
   display: flex;
   justify-content: flex-start;
@@ -17,17 +17,24 @@
 .survivor-stories-grid-container {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Four images per row */
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
 .story-card {
   width: 250px;
-  cursor: pointer;
-  justify-content: space-between;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .story-image {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 8px;
 }

@@ -22,12 +22,17 @@
 }
 
 .modal-image {
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
+  height: 300px;
   border-radius: 8px;
 }
 
 .modal-title {
+  color: red;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.modal-curr-life {
   color: red;
   font-size: 24px;
   margin-top: 20px;
