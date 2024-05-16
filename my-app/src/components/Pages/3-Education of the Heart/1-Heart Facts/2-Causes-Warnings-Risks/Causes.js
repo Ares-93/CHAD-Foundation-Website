@@ -72,20 +72,16 @@ const CausesSection = () => {
               See more causes of sudden cardiac death
             </a>
             <div className="Risk">
-              <div className="r-heaer-box">
-                {<img src={HeartIcon} alt="heart" width={60} height={60} />}{" "}
-                <h2 className="sub-section-header">Risk Factors</h2>
-              </div>
-              <p className="risk-note">
-                Learn more about Risk Factors in children by clicking each of
-                the risks below
-              </p>
               <ul className="risks">
                 <div className="Risk">
                   <div className="r-header-box">
                     <img src={HeartIcon} alt="heart" width={60} height={60} />
                     <h2 className="sub-section-header">Risk Factors</h2>
                   </div>
+                  <p className="risk-note">
+                    Learn more about Risk Factors in children by clicking each
+                    of the risks below
+                  </p>
                   <ul className="risks">
                     <li>
                       <a

@@ -93,3 +93,9 @@
   letter-spacing: 0em;
   text-align: center;
 }
+
+.test-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}

@@ -4,6 +4,7 @@ import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import DocHeart from "../../../../../images/EduOfHeart-Images/DocHeart.png";
 import "./Stats.css";
+import { Link } from "react-router-dom";
 
 const Stats = () => {
   return (
@@ -90,9 +91,14 @@ const Stats = () => {
             To see pictures of CHAD Heart Screenings at work, click here.
           </a>
         </div>
-        <button className="find-screen-btn">
-          Find Heart Screenings Near You
-        </button>
+
+        <Link
+          to="/resources/hospital-screeing-resources"
+          className="find-screen-btn"
+        >
+          <button>Find Heart Screenings Near You</button>
+        </Link>
+
         <div className="expert-text">
           Experts now say that community awareness, implementation of
           cardiovascular screening programs, knowledge of CPR and AED placement
