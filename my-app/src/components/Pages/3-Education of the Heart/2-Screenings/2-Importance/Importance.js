@@ -14,8 +14,8 @@ const Importance = () => {
         </div>
         <div className="imp-text-box">
           <p className="imp-text">
-            Screenings can detect lethal heart abnormalities… Screen student for
-            HCM with Echocardiogram, at Rice H. S.
+            Screenings can detect lethal heart abnormalities and identify early
+            cardiovascular Risk Factors in young people.
           </p>
         </div>
         <Row xs={1} md={1} lg={3} className="g-4 justify-content-left">

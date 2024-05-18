@@ -1,0 +1,45 @@
+.SurvivorsPeople {
+  margin: 20px 0;
+}
+
+.survivors-people-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 11px;
+}
+
+.survivorsPeople-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 75px;
+}
+
+.survivorsPeople-text {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 125%;
+  text-align: justify;
+  max-width: 640px;
+}
+
+.para1 {
+  margin-bottom: 100px;
+}
+
+.sign {
+  margin-top: 50px;
+}
+.survivorsPeople-photo {
+  flex: 0 1 auto;
+}
+
+.Lindsay-photo {
+  max-width: 100%;
+  border-radius: 10px;
+}

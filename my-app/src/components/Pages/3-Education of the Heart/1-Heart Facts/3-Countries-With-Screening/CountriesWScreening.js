@@ -20,7 +20,7 @@ const CountriesWScreening = () => {
           </div>
           <div className="country-subheader">
             <p className="country-subheader-text">
-              Countries that require heart screening
+              Countries that require heart screenings
             </p>
           </div>
           <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">
@@ -54,8 +54,8 @@ const CountriesWScreening = () => {
                 </Card.Header>
                 <Card.Body>
                   <Card.Text className="card-text">
-                    Mandated heart disease screening for schoolchildren in Japan
-                    shows progress in reducing sudden deaths.
+                    Mandated heart screenings for schoolchildren in Japan show
+                    progress in reducing sudden deaths.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -78,8 +78,9 @@ const CountriesWScreening = () => {
                 </Card.Header>
                 <Card.Body>
                   <Card.Text className="card-text">
-                    Italy mandates annual PPE screening for competitive athletes
-                    to identify cardiovascular risk.
+                    Currently, heart screenings (ECGs) are not mandated for
+                    highschool or college atheletes and students, but are
+                    required for many professional atheletes.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -89,7 +90,7 @@ const CountriesWScreening = () => {
                 <Card.Body>
                   <Card.Text className="dyk-card-text">
                     Japan and Italy have reported that mandated heart screenings
-                    can reduce sudden cardiac death by up to 60% and 89%
+                    can reduce sudden cardiac death by up to 60% and 89%.
                     respectively.
                   </Card.Text>
                 </Card.Body>

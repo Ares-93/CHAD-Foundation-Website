@@ -23,7 +23,8 @@ const Importance = () => {
               <Card.Body>
                 <Card.Text className="EarlyScreen-card-text">
                   can identify unknown heart<br></br> anomalies and help prevent
-                  death.
+                  death and identify early cardiovascular Risk Factors in young
+                  people.
                 </Card.Text>
               </Card.Body>
             </Card>

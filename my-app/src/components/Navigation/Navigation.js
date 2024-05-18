@@ -324,9 +324,7 @@ function Navigation() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="https://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -334,33 +332,39 @@ function Navigation() {
                     People We Love
                   </a>
                   <ul className="dropdown-menu">
+                    {/*Tributes*/}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/people-we-love/tributes"
+                        className={`dropdown-item ${
+                          activeNav === "tributes" ? "dropdown-item-active" : ""
+                        }`}
+                        onClick={() => handleNavClick("tributes")}
                       >
                         Tributes
                         <br />
                         <span className="dropdown-span">
-                          Honoring young lives.
+                          Honouring Young Lives.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
+                    {/*Surivors*/}
                     <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://www.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <NavLink
+                        to="/people-we-love/survivors"
+                        className={`dropdown-item ${
+                          activeNav === "survivors"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("survivors")}
                       >
                         Survivors
                         <br />
                         <span className="dropdown-span">
                           Read stories from our Survivors.
                         </span>
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
