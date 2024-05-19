@@ -10,7 +10,6 @@ const survivorStories = [
     
     Toronto FC supporters will find it extremely troubling that Mo or anyone else at the club didn't know about such a serious condition before the pick was made, only to discover Zac’s problem through the team tests after he was drafted and his Generation Adidas contract was signed. Even still, it's better that they found out when they did instead of having something horrible happen on the pitch.
     `,
-    age: 17,
     job: `Toronto FC rookie`,
   },
   {
@@ -21,7 +20,6 @@ const survivorStories = [
     When this youngster was 6 months old, his parents who were playing in the CHAD Volleyball Benefit, took advantage of the heart screenings performed by cardiologists from Children’s Hospital Los Angeles Heart Institute.  The doctors found a hole in the heart of their baby which was confirmed with further testing.  They had to wait 6 months for the baby’s heart to grow, and then surgery was performed to correct the defect.
     The father related the story to me at the following year’s tourney.  He said he had no idea and thought his baby had a cold and just wasn’t feeling well.  Today, this youngster is 9 years old and comes with his siblings to the tourney to be screened, and his Mom and Dad invite other friends who bring their children to have the testing.  When the CHAD screenings first took place in Hermosa Beach, spectators and players were more hesitant to sign up for the life-saving testing.  It was a younger, seemingly healthy, athletic crowd, but their awareness was raised that Sudden Cardiac Arrest can happen at any age, at any time, and with a 15% anomaly finding rate everyone of every age was soon in line waiting for their screenings, sometimes before or between games.  It was a good thing that spread like wildfire, year after year, the importance of heart health at any age and taking advantage of preventive screenings to safeguard it.    
     `,
-    age: 9,
     job: `Child Survivor`,
   },
   {

@@ -12,7 +12,6 @@ const SurvivorStoryModal = ({ story, onClose }) => {
         <h2 className="modal-title">{story.name}</h2>
         <p className="modal-dates">
           {story.birthDate} <br />
-          {story.age} years old
         </p>
         <h2 className="modal-curr-life">{story.job}</h2>
         <p className="modal-text">{story.story}</p>

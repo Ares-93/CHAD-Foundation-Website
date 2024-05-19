@@ -5,7 +5,7 @@ import { Row, Col, Card } from "react-bootstrap";
 import ItalyFlag from "../../../../../images/EduOfHeart-Images/Italy.png";
 import JapanFlag from "../../../../../images/EduOfHeart-Images/Japan.png";
 import USAFlag from "../../../../../images/EduOfHeart-Images/USA.png";
-import Point from "../../../../../images/EduOfHeart-Images/Point.png";
+import Instructor from "../../../../../images/EduOfHeart-Images/instructor.png";
 
 const CountriesWScreening = () => {
   return (
@@ -97,8 +97,8 @@ const CountriesWScreening = () => {
               </Card>
               {
                 <img
-                  className="Point"
-                  src={Point}
+                  className="Instructor"
+                  src={Instructor}
                   alt="heart"
                   width={60}
                   height={60}
