@@ -5,7 +5,7 @@ import { Row, Col, Card } from "react-bootstrap";
 import ItalyFlag from "../../../../../images/EduOfHeart-Images/Italy.png";
 import JapanFlag from "../../../../../images/EduOfHeart-Images/Japan.png";
 import USAFlag from "../../../../../images/EduOfHeart-Images/USA.png";
-import Instructor from "../../../../../images/EduOfHeart-Images/instructor.jpg";
+import Instructor from "../../../../../images/EduOfHeart-Images/instructor.png";
 
 const CountriesWScreening = () => {
   return (
