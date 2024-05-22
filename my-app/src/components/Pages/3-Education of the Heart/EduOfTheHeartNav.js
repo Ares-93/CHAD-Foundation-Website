@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./EduOfTheHeartNav.css";
 
@@ -11,7 +11,7 @@ const EduOfTheHeartNav = ({ currentPage }) => {
 
   const pageTitleMap = {
     "heart-facts": "Heart Facts",
-    screeings: "Screenings",
+    screenings: "Screenings",
     emergencies: "Emergencies",
     "expert-health-tips": "Expert Health Tips",
   };
@@ -52,9 +52,11 @@ const EduOfTheHeartNav = ({ currentPage }) => {
               <NavLink
                 to="/education-of-heart/screenings"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "screeings" ? "eduOfHeart-menu-item-active" : ""
+                  activeNav === "screenings"
+                    ? "eduOfHeart-menu-item-active"
+                    : ""
                 }`}
-                onClick={() => setActiveNav("screeings")}
+                onClick={() => setActiveNav("screenings")}
               >
                 Screenings
               </NavLink>

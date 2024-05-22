@@ -171,11 +171,11 @@ function Navigation() {
                       <NavLink
                         to="/education-of-the-heart/screening-home"
                         className={`dropdown-item ${
-                          activeNav === "screening-home"
+                          activeNav === "screenings"
                             ? "dropdown-item-active"
                             : ""
                         }`}
-                        onClick={() => handleNavClick("screeening-home")}
+                        onClick={() => handleNavClick("screeings")}
                       >
                         Screening
                         <br />

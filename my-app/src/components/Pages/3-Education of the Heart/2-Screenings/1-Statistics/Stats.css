@@ -56,14 +56,13 @@
 }
 
 .find-screen-btn {
-  display: flex;
   justify-content: center;
-  text-align: center;
-  display: block;
+  color: var(--main-white);
+  display: flex;
   margin: 0 auto;
+  margin-top: 40px;
   background-color: var(--orange);
   padding: 14px 146px;
-  color: var(--main-white);
   font-family: var(--accent-font);
   line-height: 100%;
   font-size: 32px;
@@ -92,10 +91,4 @@
   line-height: 18px;
   letter-spacing: 0em;
   text-align: center;
-}
-
-.test-link {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
 }

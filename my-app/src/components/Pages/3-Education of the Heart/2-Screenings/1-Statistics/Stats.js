@@ -4,12 +4,19 @@ import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import DocHeart from "../../../../../images/EduOfHeart-Images/DocHeart.png";
 import "./Stats.css";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Stats = () => {
+  const navigate = useNavigate();
+
+  const handleExploreClick = () => {
+    navigate("/resources/sca-and-training-resources");
+  };
+
   return (
     <section className="stats">
-      <EduOfTheHeartNav currentPage="screeings" />
+      <EduOfTheHeartNav currentPage="screenings" />
       <div className="main-container">
         <div className="stats-header-box">
           {<img src={HeartIcon} alt="doc-heart" width={60} height={60} />}
@@ -92,12 +99,9 @@ const Stats = () => {
           </a>
         </div>
 
-        <Link
-          to="/resources/hospital-screeing-resources"
-          className="find-screen-btn"
-        >
-          <button>Find Heart Screenings Near You</button>
-        </Link>
+        <button className="find-screen-btn" onClick={handleExploreClick}>
+          Find Heart Screenings Near You
+        </button>
 
         <div className="expert-text">
           Experts now say that community awareness, implementation of
