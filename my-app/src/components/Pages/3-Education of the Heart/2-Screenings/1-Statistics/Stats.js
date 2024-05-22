@@ -5,7 +5,6 @@ import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon
 import DocHeart from "../../../../../images/EduOfHeart-Images/DocHeart.png";
 import "./Stats.css";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 const Stats = () => {
   const navigate = useNavigate();
