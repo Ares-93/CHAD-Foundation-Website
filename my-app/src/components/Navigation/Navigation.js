@@ -171,11 +171,11 @@ function Navigation() {
                       <NavLink
                         to="/education-of-the-heart/screening-home"
                         className={`dropdown-item ${
-                          activeNav === "screenings"
+                          activeNav === "screening-home"
                             ? "dropdown-item-active"
                             : ""
                         }`}
-                        onClick={() => handleNavClick("screeings")}
+                        onClick={() => handleNavClick("screening-home")}
                       >
                         Screening
                         <br />
@@ -348,7 +348,7 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
-                    {/*Surivors*/}
+                    {/*Survivors*/}
                     <li>
                       <NavLink
                         to="/people-we-love/survivors"
