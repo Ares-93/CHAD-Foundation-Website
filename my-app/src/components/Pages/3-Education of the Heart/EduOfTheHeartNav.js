@@ -9,11 +9,12 @@ const EduOfTheHeartNav = ({ currentPage }) => {
     setActiveNav(currentPage);
   }, [currentPage]);
 
+
   const pageTitleMap = {
-    "heart-facts": "Heart Facts",
-    screenings: "Screenings",
-    emergencies: "Emergencies",
-    "expert-health-tips": "Expert Health Tips",
+    "heart-fact-page": "Heart Facts",
+    "screening-home": "Screenings",
+    "emergency-main": "Emergencies",
+    "tips-main": "Expert Health Tips",
   };
 
   return (
@@ -37,52 +38,50 @@ const EduOfTheHeartNav = ({ currentPage }) => {
           <ul>
             <li>
               <NavLink
-                to="/education-of-heart/heart-facts"
+                to="/education-of-the-heart/heart-fact-page"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "heart-facts"
+                  activeNav === "heart-fact-page"
                     ? "eduOfHeart-menu-item-active"
                     : ""
                 }`}
-                onClick={() => setActiveNav("heart-facts")}
+                onClick={() => setActiveNav("heart-fact-page")}
               >
                 Heart Facts
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/education-of-heart/screenings"
+                to="/education-of-the-heart/screening-home"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "screenings"
+                  activeNav === "screening-home"
                     ? "eduOfHeart-menu-item-active"
                     : ""
                 }`}
-                onClick={() => setActiveNav("screenings")}
+                onClick={() => setActiveNav("screening-home")}
               >
                 Screenings
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/education-of-heart/emergencies"
+                to="/education-of-the-heart/emergency-main"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "emergencies"
+                  activeNav === "emergency-main"
                     ? "eduOfHeart-menu-item-active"
                     : ""
                 }`}
-                onClick={() => setActiveNav("emergencies")}
+                onClick={() => setActiveNav("emergency-main")}
               >
                 Emergencies
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/education-of-heart/expert-health-tips"
+                to="/education-of-the-heart/tips-main"
                 className={`eduOfHeart-menu-item ${
-                  activeNav === "expert-health-tips"
-                    ? "eduOfHeart-menu-item-active"
-                    : ""
+                  activeNav === "tips-main" ? "eduOfHeart-menu-item-active" : ""
                 }`}
-                onClick={() => setActiveNav("expert-health-tips")}
+                onClick={() => setActiveNav("tips-main")}
               >
                 Expert Health Tips
               </NavLink>
