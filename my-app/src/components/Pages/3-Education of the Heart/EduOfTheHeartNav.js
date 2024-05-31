@@ -9,6 +9,7 @@ const EduOfTheHeartNav = ({ currentPage }) => {
     setActiveNav(currentPage);
   }, [currentPage]);
 
+
   const pageTitleMap = {
     "heart-fact-page": "Heart Facts",
     "screening-home": "Screenings",
@@ -16,14 +17,13 @@ const EduOfTheHeartNav = ({ currentPage }) => {
     "tips-main": "Expert Health Tips",
   };
 
-
   return (
     <section className="EduOfTheHeartNav">
       <div className="EduOfTheHeartNav-banner">
         <h2 className="EduOfTheHeartNav-banner-h2">
           {pageTitleMap[currentPage]}
         </h2>
-        <h3 className="EduOfTheHeartNav-banner-h3">Gift of Heart</h3>
+        <h3 className="EduOfTheHeartNav-banner-h3">Education of the Heart</h3>
       </div>
       <div className="main-container">
         <p className="EduOfTheHeartNav-banner-p">
