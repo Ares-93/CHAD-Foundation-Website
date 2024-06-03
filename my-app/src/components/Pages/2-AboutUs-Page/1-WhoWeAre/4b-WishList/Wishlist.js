@@ -34,8 +34,9 @@ const WishList = () => {
               bring happiness to others. <br />I hope I leave a mark on this
               mark and will be remembered as a solid contributing citizen with
               honor and loving dignity. <br /> I hope I leave a rich Legacy to
-              my family. <br /><br />
-              <span className="WishList-signature">- Chad Alan Butrum</span>
+              my family. <br />
+              <br />
+              <span className="WishList-signature">- Chad Alan Burtrum</span>
             </p>
           </div>
         </div>
