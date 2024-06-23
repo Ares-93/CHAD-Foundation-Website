@@ -1,6 +1,7 @@
 .WhatWeveDone {
   padding-bottom: 110px;
 }
+
 .WhatWeveDone .whatWeveDone-header {
   color: var(--main-black);
   font-family: var(--accent-font);
@@ -11,15 +12,18 @@
   margin-top: 42px;
   margin-bottom: 42px;
 }
+
 .WhatWeveDone .whatWeveDone-content {
   display: flex;
   justify-content: space-between;
   margin-top: 36px;
   gap: 24px;
 }
+
 .WhatWeveDone .whatWeveDone-hospitals-logo {
   max-width: 317px;
 }
+
 .WhatWeveDone .whatWeveDone-text {
   color: var(--main-black);
   max-width: 620px;
@@ -28,29 +32,86 @@
   font-weight: 400;
   line-height: 125%;
 }
+
 .WhatWeveDone .hospitals-photo {
   max-width: 495px;
 }
 
+/* BUTTONS */
+.whatWeveDone-gallery-btns {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.whatWeveDone-gallery-btn {
+  width: 370px;
+  background-color: var(--orange);
+  padding: 16px 24px;
+  color: var(--main-white);
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 24px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.whatWeveDone-gallery-btn:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.whatWeveDone-gallery-btn-volleyball {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid orange;
+}
+
+.whatWeveDone-gallery-btn-volleyball:hover {
+  background-color: var(--orange);
+  color: var(--main-white);
+  border: 1px solid transparent;
+}
 
 @media screen and (max-width: 1160px) {
   .WhatWeveDone .whatWeveDone-content {
     flex-direction: column;
+    align-items: center;
   }
-  .WhatWeveDone .whatWeveDone-header {
-    text-align: center;
-  }
-  .WhatWeveDone .hospitals-photo {
+
+  .WhatWeveDone .hospitals-photo,
+  .WhatWeveDone .whatWeveDone-text {
     max-width: 92%;
     display: block;
     margin: 0 auto;
   }
-  .whatWeveDone-hospitals-logo,
+
   .WhatWeveDone .whatWeveDone-text {
     text-align: center;
+  }
+  .whatWeveDone-header{
+    text-align: center;
+  }
+  .whatWeveDone-hospitals-logo{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
+@media screen and (max-width: 840px) {
+  .whatWeveDone-gallery-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .whatWeveDone-gallery-btn {
+    width: 92%;
+  }
+}

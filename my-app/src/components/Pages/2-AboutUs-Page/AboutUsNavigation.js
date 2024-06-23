@@ -9,6 +9,10 @@ const AboutUsNavigation = ({ currentPage }) => {
   useEffect(() => {
     if (currentPage === "full-gallery") {
       setActiveNav("who-we-are");
+    } else if (currentPage === "screenings-gallery") {
+      setActiveNav("what-weve-done");
+    } else if (currentPage === "volleyball-gallery") {
+      setActiveNav("what-weve-done");
     } else {
       setActiveNav(currentPage);
     }
@@ -19,7 +23,9 @@ const AboutUsNavigation = ({ currentPage }) => {
     "what-weve-done": "What We Have Done",
     testimonials: "Testimonials",
     board: "Board",
-    "full-gallery": "Gallery", 
+    "full-gallery": "Gallery",
+    "screenings-gallery": "Screenings Gallery",
+    "volleyball-gallery": "Volleyball Gallery",
   };
 
   return (

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./WhatWeveDone.css";
 import AboutUsNavigation from "../AboutUsNavigation";
 import HospitalsOne from "../../../../images/AboutUs-Images/hospitals-photo-1.png";
@@ -21,6 +22,7 @@ const WhatWeveDone = () => {
     // Cleanup
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+  const navigate = useNavigate();
 
   return (
     <section className="WhatWeveDone">
@@ -137,6 +139,20 @@ const WhatWeveDone = () => {
               className="hospitals-photo"
             />
           </div>
+        </div>
+        <div className="whatWeveDone-gallery-btns">
+          <button
+            className="whatWeveDone-gallery-btn-screnings whatWeveDone-gallery-btn"
+            onClick={() => navigate("/screenings-gallery")}
+          >
+            Gallery - CHAD Heart Screenings
+          </button>
+          <button
+            className="whatWeveDone-gallery-btn-volleyball whatWeveDone-gallery-btn"
+            onClick={() => navigate("/volleyball-gallery")}
+          >
+            CHAD Volleyball Benefit pictures
+          </button>
         </div>
       </div>
     </section>
