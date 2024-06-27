@@ -41,10 +41,8 @@
   border: 1px solid var(--orange);
 }
 
-
 @media only screen and (max-width: 1160px) {
   .ScreeningsGallery .screenings-gallery-header {
     max-width: 98%;
   }
 }
-

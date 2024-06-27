@@ -37,8 +37,6 @@ import ScreeningsGalleryPhoto30 from "../../../../images/AboutUs-Images/Screenin
 import ScreeningsGalleryPhoto31 from "../../../../images/AboutUs-Images/ScreeningsGalleryPhotos/31-photo.jpg";
 import ScreeningsGalleryPhoto32 from "../../../../images/AboutUs-Images/ScreeningsGalleryPhotos/32-photo.jpg";
 
-
-
 // For screens 768px and less:
 const imageDataSmall = [
   { src: ScreeningsGalleryPhoto1 }, // photo 1
@@ -75,51 +73,46 @@ const imageDataSmall = [
   { src: ScreeningsGalleryPhoto32 }, // photo 32
 ];
 
-
 // For larger screens
 const imageData = [
   // Column 1
   { src: ScreeningsGalleryPhoto1 }, // photo 1
-  { src: ScreeningsGalleryPhoto5 }, // photo 5
-  { src: ScreeningsGalleryPhoto9 }, // photo 9
+  { src: ScreeningsGalleryPhoto4 }, // photo 4
+  { src: ScreeningsGalleryPhoto7 }, // photo 7
+  { src: ScreeningsGalleryPhoto10 }, // photo 10
   { src: ScreeningsGalleryPhoto13 }, // photo 13
   { src: ScreeningsGalleryPhoto17 }, // photo 17
-  { src: ScreeningsGalleryPhoto21 }, // photo 21
+  { src: ScreeningsGalleryPhoto19 }, // photo 19
+  { src: ScreeningsGalleryPhoto22 }, // photo 22
   { src: ScreeningsGalleryPhoto25 }, // photo 25
-  { src: ScreeningsGalleryPhoto29 }, // photo 29
+  { src: ScreeningsGalleryPhoto28 }, // photo 28
+  { src: ScreeningsGalleryPhoto31 }, // photo 31
 
   // Column 2
   { src: ScreeningsGalleryPhoto2 }, // photo 2
-  { src: ScreeningsGalleryPhoto6 }, // photo 6
-  { src: ScreeningsGalleryPhoto10 }, // photo 10
-  { src: ScreeningsGalleryPhoto15 }, // photo 15
-  { src: ScreeningsGalleryPhoto18 }, // photo 18
-  { src: ScreeningsGalleryPhoto22 }, // photo 22
+  { src: ScreeningsGalleryPhoto5 }, // photo 5
+  { src: ScreeningsGalleryPhoto8 }, // photo 8
+  { src: ScreeningsGalleryPhoto11 }, // photo 11
+  { src: ScreeningsGalleryPhoto14 }, // photo 14
+  { src: ScreeningsGalleryPhoto16 }, // photo 16
+  { src: ScreeningsGalleryPhoto20 }, // photo 20
+  { src: ScreeningsGalleryPhoto23 }, // photo 23
   { src: ScreeningsGalleryPhoto26 }, // photo 26
-  { src: ScreeningsGalleryPhoto30 }, // photo 30
+  { src: ScreeningsGalleryPhoto29 }, // photo 29
+  { src: ScreeningsGalleryPhoto32 }, // photo 32
 
   // Column 3
   { src: ScreeningsGalleryPhoto3 }, // photo 3
-  { src: ScreeningsGalleryPhoto7 }, // photo 7
-  { src: ScreeningsGalleryPhoto11 }, // photo 11
-  { src: ScreeningsGalleryPhoto14 }, // photo 14
-  { src: ScreeningsGalleryPhoto19 }, // photo 19
-  { src: ScreeningsGalleryPhoto23 }, // photo 23
-  { src: ScreeningsGalleryPhoto27 }, // photo 27
-  { src: ScreeningsGalleryPhoto32 }, // photo 32
-
-  // Column 4
-  { src: ScreeningsGalleryPhoto4 }, // photo 4
-  { src: ScreeningsGalleryPhoto8 }, // photo 8
+  { src: ScreeningsGalleryPhoto6 }, // photo 6
+  { src: ScreeningsGalleryPhoto9 }, // photo 9
   { src: ScreeningsGalleryPhoto12 }, // photo 12
-  { src: ScreeningsGalleryPhoto16 }, // photo 16
-  { src: ScreeningsGalleryPhoto20 }, // photo 20
+  { src: ScreeningsGalleryPhoto15 }, // photo 15
+  { src: ScreeningsGalleryPhoto18 }, // photo 18
+  { src: ScreeningsGalleryPhoto21 }, // photo 21
   { src: ScreeningsGalleryPhoto24 }, // photo 24
-  { src: ScreeningsGalleryPhoto28 }, // photo 28
-  { src: ScreeningsGalleryPhoto31 }, // photo 31
+  { src: ScreeningsGalleryPhoto27 }, // photo 27
+  { src: ScreeningsGalleryPhoto30 }, // photo 30
 ];
-
-
 
 const ScreeningsGallery = () => {
   const navigate = useNavigate();
@@ -165,7 +158,7 @@ const ScreeningsGallery = () => {
 };
 
 const Wrapper = styled.div`
-  column-count: 4;
+  column-count: 3;
   column-gap: 32px;
   padding: 20px;
   max-width: 1200px;
