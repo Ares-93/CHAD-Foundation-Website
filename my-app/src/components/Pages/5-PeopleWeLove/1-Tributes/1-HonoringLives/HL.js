@@ -18,6 +18,17 @@ const HonoringLives = () => {
             <img src={AndrewPhoto} alt="Andrew" className="andrew-photo" />
           </div>
           <div className="honoringLives-text">
+            <p className="tribute-title">
+              R. Andrew Helgeson
+              <br />
+              by Jennifer Helgeson, Sister
+            </p>
+            <p>
+              “Thank you for being such a wonderful sister to Andrew, even
+              though he is not with us. It is something I admire and appreciate.
+              I think very highly of you.” That is one of the nicest things
+              anyone has said to me…
+            </p>
             <p>
               May 25, 2015, marks the tenth anniversary of me walking into my
               brother’s room to wake him and instead finding him kneeled down
@@ -48,7 +59,7 @@ const HonoringLives = () => {
                   Richard Andrew Helgeson Memorial Foundation, a 501(c)(3)
                   Public Charity, to raise awareness of Sudden Cardiac Arrest in
                   children and young adults. P O Box 4024, Silver Spring, MD
-                  20914. Contact: 301-236-0448;
+                  20914. Contact: 301- 236-0448;
                   <a
                     href="http://www.andrewhelgeson.org"
                     target="_blank"
