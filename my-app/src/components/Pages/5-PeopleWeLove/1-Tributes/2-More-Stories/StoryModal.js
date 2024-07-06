@@ -1,7 +1,15 @@
-import React from "react";
-import "./StoryModal.css";
+import React, { useState } from "react";
+import "./MS.css";
 
 const StoryModal = ({ story, onClose }) => {
+  const [showFullText, setShowFullText] = useState(false);
+
+  const handleReadMoreToggle = () => {
+    setShowFullText(!showFullText);
+  };
+
+  const shortStory = story.story.split(" ").slice(0, 50).join(" ") + "...";
+
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -10,11 +18,13 @@ const StoryModal = ({ story, onClose }) => {
         </button>
         <img src={story.image} alt={story.name} className="modal-image" />
         <h2 className="modal-title">{story.name}</h2>
-        <p className="modal-dates">
-          {story.birthDate} - {story.deathDate} <br />
-          {story.age} years old
+        <p className="modal-author">{story.author}</p>
+        <p className="modal-text">
+          {showFullText ? story.story : shortStory}
+          <button className="readMore-btn" onClick={handleReadMoreToggle}>
+            {showFullText ? "Show Less" : "Read More"}
+          </button>
         </p>
-        <p className="modal-text">{story.story}</p>
       </div>
     </div>
   );
