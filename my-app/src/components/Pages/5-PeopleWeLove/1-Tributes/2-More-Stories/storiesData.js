@@ -4,22 +4,21 @@ const stories = [
     name: "Emillie Puricelli",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/Emillie.png"),
     story: `
-    It was the summer after Emilie’s younger sister, Anne, graduated from high school that Emilie returned home.
-    It was the 30th of August, and the two girls were looking forward to a sisterly trip to see their brother in college in Flagstaff.
-    The alarm clock kept going off continually, which brought their Mom into the room to find out why. That is when Mom, Christine,
-    discovered her daughter, Emilie, was not breathing. She died at just 22 years old of an undiagnosed heart anomaly.
-
-    Anne remembers after her sister’s passing, there were genetic tests and she wore a Holter monitor to monitor her heart rhythm.
-    Anne said about her big sister: "She was 6’2 ½”, very pretty, with long brunette hair. She was shy, awkward with boys, played
-    basketball, always athletic, and always wanted a boyfriend. She wanted to be accepted and fit in; she never said anything
-    mean about anyone, didn’t have problems, and never argued with parents or friends. She was a NICE person, and everyone
-    liked her.
-
-    I'm envious of anyone who has a sister. When I see people angry at their sisters and yelling at each other, I think, to have
-    a sister around would be such a neat relationship.”
-
-    (Read more about Anne’s story about her sister, Emilie, in ‘Sisters/Brothers,’ in the book, “CHAD, A Celebration of Life – 
-    Beyond A Mother’s Memories.)
+    It was the summer after Emilie’s younger sister, Anne, graduated from high school that Emilie
+    returned home. It was the 30th of August, and the two girls were looking forward to a sisterly
+    trip to see their brother in college in Flagstaff. The alarm clock kept going off continually, which
+    brought their Mom into the room to find out why. That is when Mom, Christine, discovered her
+    daughter, Emilie, was not breathing. She died at just 22 years old of an undiagnosed heart
+    anomaly. Anne remembers after her sister’s passing, there were genetic tests and she wore a
+    Holter monitor to monitor her heart rhythm. Anne said about her big sister: "She was 6’2 ½”,
+    very pretty, with long brunette hair. She was shy, awkward with boys, played basketball, always
+    athletic, and always wanted a boyfriend. She wanted to be accepted and fit in; she never said
+    anything mean about anyone, didn’t have problems, and never argued with parents or friends.
+    She was a NICE person, and everyone liked her. I'm envious of anyone who has a sister. When I
+    see people angry at their sisters and yelling at each other, I think, to have a sister around would
+    be such a neat relationship.” (Read more about Anne’s story about her sister, Emilie, in
+    ‘Sisters/Brothers,’ in the book, “CHAD, A Celebration of Life – Beyond A Mother’s
+    Memories.)”
   `,
     birthDate: "Feb 26, 1975",
     deathDate: "Aug 30, 1997",
