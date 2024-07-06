@@ -4,14 +4,26 @@ const survivorStories = [
     name: "Zachary Harold",
     image: require("../../../../../images/PeopleWeLove-Images/Survivors/Zach.jpg"),
     story: `
-    The club announced Monday that due to a serious heart condition, their 2010 MLS SuperDraft second-round pick will be forced to retire before playing his first professional match. Says TFC's official website: Herold suffers from the condition Hypertrophic cardiomyopathy (HCM) – which causes abnormal thickening of a part of the heart muscle. With this condition, under strenuous exercise, there is a risk of developing a potentially fatal irregular heart rhythm, or arrhythmia. Unfortunately, the only way to reduce this risk is to put significant life-long restrictions on exercise.
-    
-    “Announcing my retirement from soccer at this age is something I never, ever thought would happen to me,” said Zac Herold. “I am grateful to Dr. Smith, and all the specialists I’ve seen over the last few months – this news was very hard to take but I know it’s the best decision for me and my health. My parents have been with me every step of the way, and it means so much to me that I’m able to retire as a Toronto FC player. The whole team has been wonderful to me and my family and although it’ll be a tough day, I’m looking forward to seeing everyone on the 22nd."
-    
-    Toronto FC supporters will find it extremely troubling that Mo or anyone else at the club didn't know about such a serious condition before the pick was made, only to discover Zac’s problem through the team tests after he was drafted and his Generation Adidas contract was signed. Even still, it's better that they found out when they did instead of having something horrible happen on the pitch.
+      The club announced Monday that due to a serious heart condition, their 2010 MLS SuperDraft
+      second-round pick will be forced to retire before playing his first professional match. Says TFC's
+      official website: Herold suffers from the condition Hypertrophic cardiomyopathy (HCM) –
+      which causes abnormal thickening of a part of the heart muscle. With this condition, under
+      strenuous exercise, there is a risk of developing a potentially fatal irregular heart rhythm, or
+      arrhythmia. Unfortunately, the only way to reduce this risk is to put significant life-long
+      restrictions on exercise. “Announcing my retirement from soccer at this age is something I never,
+      ever thought would happen to me,” said Zac Herold. “I am grateful to Dr. Smith, and all the specialists I’ve seen over the last few months – this news was very hard to take but I know it’s
+      the best decision for me and my health. My parents have been with me every step of the way, and
+      it means so much to me that I’m able to retire as a Toronto FC player. The whole team has been
+      wonderful to me and my family and although it’ll be a tough day, I’m looking forward to seeing
+      everyone on the 22nd." Toronto FC supporters will find it extremely troubling that Mo or anyone
+      else at the club didn't know about such a serious condition before the pick was made, only to
+      discover Zac’s problem through the team tests after he was drafted and his Generation Adidas
+      contract was signed. Even still, it's better that they found out when they did instead of having
+      something horrible happen on the pitch.
     `,
     job: `Toronto FC rookie`,
   },
+
   {
     id: 2,
     name: "Child at Hermosa",
