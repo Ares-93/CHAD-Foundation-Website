@@ -145,11 +145,29 @@ const stories = [
     id: 6,
     name: "David Deuel",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/David.png"),
-    story: `For where your treasure is there will your heart be also."  His buddies came early, knocking at his window. They rode bikes, played Nintendo 64, and I saw David smiling with his friends as he shot hoops. We always looked forward to Saturday afternoons as we all piled in the car to watch David play basketball. But within two minutes into the game, our perfect lives turned to blackness as we helplessly watched as David suffered a cardiac arrest on the gym floor. If a defibrillator had been on the scene, David could have survived and with treatment, he could have lived a long life.
-    David's Grandma's letter of encouragement to David before his departure: I think you are a "winner" and so does Grandpa. Always remember the song you love "We are the Champions" because it is what you will always be. Coach Rick Hughes: "I could write pages upon pages of what a tremendous young man David was, but I think all I will say is that I have never been associated with anyone with higher integrity, morals, or a more courageous heart."  Mom: The David Deuel Bill has passed here, in Nevada, enabling automated external defibrillators at public facilities without fear of liability to the trained user. Sudden cardiac death is called the "silent epidemic" and much more needs to be done to save lives. We are heartbroken and we miss our David every moment. His enthusiasm for sports and life was contagious. Through Jesus Christ, we know we will be with him again.  "We love you David." "Thank You for a glimpse of Heaven." – Mom (Kathy Deuel) (..more about David and other Sudden Cardiac Victims can be found in the foundation book, “CHAD, A Celebration of Life – Beyond  A Mother’s Memories.”)
-    `,
+    story: `
+    “For where your treasure is there will your heart be also." His buddies came early, knocking at
+    his window. They rode bikes, played Nintendo 64, and I saw David smiling with his friends as he
+    shot hoops. We always looked forward to Saturday afternoons as we all piled in the car to watch
+    David play basketball. But within two minutes into the game, our perfect lives turned to
+    blackness as we helplessly watched as David suffered a cardiac arrest on the gym floor. If a
+    defibrillator had been on the scene, David could have survived and with treatment, he could have
+    lived a long life. David's Grandma's letter of encouragement to David before his departure: I
+    think you are a "winner" and so does Grandpa. Always remember the song you love "We are the
+    Champions" because it is what you will always be. Coach Rick Hughes: "I could write pages
+    upon pages of what a tremendous young man David was, but I think all I will say is that I have
+    never been associated with anyone with higher integrity, morals, or a more courageous heart." –
+    Mom: The David Deuel Bill has passed here, in Nevada, enabling automated external
+    defibrillators at public facilities without fear of liability to the trained user. Sudden cardiac death
+    is called the "silent epidemic" and much more needs to be done to save lives. We are heartbroken
+    and we miss our David every moment. His enthusiasm for sports and life was contagious.
+    Through Jesus Christ, we know we will be with him again. "We love you David." "Thank You
+    for a glimpse of Heaven." – Mom (Kathy Deuel) (..More about David and other Sudden Cardiac
+    Victims can be found in the Chad Foundation book, “CHAD, A Celebration of Life – Beyond A
+    Mother’s Memories.”)
+  `,
     birthDate: "July 13, 1985",
-    deathDate: "February 6, ",
+    deathDate: "February 6, 1999",
     age: 14,
   },
 
