@@ -175,16 +175,20 @@ const stories = [
     id: 7,
     name: "Kevin Major",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/Kevin.png"),
-    story: `Kevin was born on April 8, 1992. His big brown eyes and infectious grin would become his trademark. Kevin started playing hockey at the age of
-    three and played competitively until the time of his passing. As many of Kevin’s teammates would tell you, his motto was “No
-    Excuses, Play Like A Champion”. Off the ice or field, Kevin would live by another motto: “Live Every Day, Laugh
-    Every Moment, Love Beyond Words.” Unfortunately, on July 11, 2011, this physical “big heart” took our son,
-    brother, grandson, and friend from this earth. What we would later discover, Kevin actually had a condition that is
-    called “Hypertrophic Cardiomyopathy (HCM).´ The Kevin J. Major Youth Sports Foundation will sponsor cardiac
-    screenings for youth athletes in our community. Each screening will include an EKG, ECHO cardiogram, cholesterol,
-    and glucose screening along with blood pressure checks, education on CPR, and AEDʼs. The value of these
-    screenings is $3,000 each. Our goal is to help raise awareness of “Sudden Cardiac Arrest” through education,
-    cardiovascular screenings for young athletes and providing AEDs.`,
+    story: `
+    Kevin was born on April 8, 1992. His big brown eyes and infectious grin would become his
+    trademark. Kevin started playing hockey at the age of three and played competitively until the
+    time of his passing. As many of Kevin’s teammates would tell you, his motto was “No Excuses.
+    Play Like A Champion.” Off the ice or field, Kevin would live by another motto: “Live Every
+    Day, Laugh Every Moment, Love Beyond Words.” Unfortunately, on July 11, 2011, this physical
+    “big heart” took our son, brother, grandson, and friend from this earth. What we would later
+    discover, is Kevin actually had a condition that is called “Hypertrophic Cardiomyopathy
+    (HCM).” The Kevin J. Major Youth Sports Foundation will sponsor cardiac screenings for youth
+    athletes in our community. Each screening will include an EKG, Echocardiogram, cholesterol,
+    and glucose screening along with blood pressure checks, education on CPR, and AEDs. The
+    value of these screenings is $3,000 each. Our goal is to help raise awareness of “Sudden Cardiac
+    Arrest” through education, cardiovascular screenings for young athletes and providing AEDs.
+  `,
     birthDate: "April 8, 1992",
     deathDate: "July 11, 2011",
     age: 19,
