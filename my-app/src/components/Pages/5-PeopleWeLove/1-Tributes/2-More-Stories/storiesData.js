@@ -116,7 +116,8 @@ const stories = [
     id: 5,
     name: "Desiree,Holly,Eric,Kyle,Mitchell",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/TheMorrellFamily.jpg"),
-    story: `The Morrell Family was headed by the handsome rogue, Chuck Morrell, former footballer
+    story: `
+    The Morrell Family was headed by the handsome rogue, Chuck Morrell, former footballer
     (Washington Redskins) and actor (Banacek). Ironically, just like Chad, who was coming out of a huddle
     when he collapsed face down, Chuck was running for a touchdown as a WSU Cougar, when he, too,
     collapsed face-down with no apparent reason – there was no one anywhere near him. But unlike Chad,
@@ -124,29 +125,21 @@ const stories = [
     moment, a grand record never to be broken only tied and many years later. We lost Chad but Chuck
     Morrell would lose 5 members of his family to this silent killer, HCM. Today, we know, the HCM gene
     is found in 1 in 500 births, back then the awareness of the disease was still under the cover of night.
-    First, Chuck lost his baby sister, Michelle, but 3yrs. old to this disease; perhaps thankfully she
+    First, Chuck lost his baby sister, Michelle, at 3 yrs. old to this disease; perhaps thankfully she
     died in her sleep. Five years later, they would lose their Mom at age 54 to the same heart ailment.
-    Chuck had a twin named , Gary, whose son Kyle, would collapse walking home and subsequently die at
+    Chuck had a twin named Gary, whose son Kyle, would collapse walking home and subsequently die at
     age 12. Finally, all were tested and it was found that the twin brothers, Chuck and Gary, also possessed
     the lethal gene, as well as Gary’s other children, Desiree and Mitchell. Mitchell only two years older
     than his brother Kyle, would also succumb to the disease just a short while later. Thankfully, the
-    daughter would survive and I would have the pleasure of meeting her son Tyler at the event; he had just
+    daughter would survive and I would have the pleasure of meeting her son Tyler at a heart event; he had just
     received an internal defibrillator, a device that shocks the heart should it go into an erratic arrhythmia so
     it can start beating at a normal rhythm again. I would also meet Chuck’s lovely daughter, Holly, who
-    would also be diagnosed with HCM and now also has that lifesaving ICD implanted within. In
+    would also be diagnosed with HCM and now also has the lifesaving ICD implanted within. In
     honouring her family, she founded her organization, “Heartfelt Cardiac Programs,” which has been
-    doing community preventive screenings for 15 years. We have held hands at our screening programs and
-    shared the echocardiographic machines thanks to Philips! Holly, too, is part of my ‘Heart Family.’
-    Chuck had a heart transplant in 1995 and always said as he had been given a younger heart, that
-    that’s what kept him young. He had to say goodbye to his twin, Gary, too, who chose not to have a
-    transplant and succumbed to the disease.In 2005, Chuck himself lost the battle but it was hard-fought
-    one just like his daughter Holly would fight when she underwent open-heart surgery recently and
-    survived. It’s important to pay tribute to the pioneers and pillars of our cause. They are who and what
-    give us heart to continue the fight when we get tired-- the stamina to get up and keep doing. Honouring
-    The Morrell Family, the 5 members taken by HCM and those Survivors who devoting their lives to
-    saving hearts.`,
-    deathDate: "October 12, 2000",
-    age: 14,
+    doing community preventive screenings for 17 years. 
+
+    Holly’s Dad, Chuck, had a heart transplant In 1995 and always said as he had been given a younger heart, that that’s what kept him young. He had to say goodbye to his twin, Gary, who chose not to have a transplant and succumbed to the disease. In 2005, Chuck himself lost the battle but it was hard-fought one just like his daughter Holly’s when she underwent open-heart surgery recently and survived. It’s important to pay tribute to the pioneers and pillars of our cause. They are who and what give us heart to continue the fight when we get tired-- the stamina to get up and keep doing. Honouring The Morrell Family— the 5 members taken by HCM and those Survivors who devoting their lives to saving hearts.
+  `,
   },
   {
     id: 6,
