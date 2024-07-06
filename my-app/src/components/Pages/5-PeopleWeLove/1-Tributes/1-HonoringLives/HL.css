@@ -38,17 +38,24 @@
 }
 
 .readMore-btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 12px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: transparent;
   border: none;
-  border-radius: 5px;
+  color: var(--main-font);
   cursor: pointer;
   text-decoration: none;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 10px;
+  padding: 0;
+  outline: none;
 }
 
 .readMore-btn:hover {
-  background-color: #0056b3;
+  color: #ef761f;
+  background-color: white;
+}
+
+.readMore-btn:focus {
+  outline: none;
+  box-shadow: none;
 }
