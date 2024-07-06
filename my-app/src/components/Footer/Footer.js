@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import ScrollToTopNavLink from "./ScrollToTopNavLink"; 
-
+import ScrollToTopNavLink from "./ScrollToTopNavLink";
 
 import FacebookIcon from "../../images/Footer-Images/facebook.png";
 import YoutubeIcon from "../../images/Footer-Images/youtube.png";
@@ -96,10 +95,30 @@ function Footer() {
           {/* Education of the Heart */}
           <Col md className="footer-col">
             <h3 className="footer-h3">Education of the Heart</h3>
-            <p className="footer-p">Heart Facts</p>
-            <p className="footer-p">Screenings</p>
-            <p className="footer-p">Emergencies</p>
-            <p className="footer-p">Expert Health Tips</p>
+            <ScrollToTopNavLink
+              to="/education-of-the-heart/heart-fact-page"
+              className="footer-p nav-link"
+            >
+              Heart Facts
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/education-of-the-heart/screening-home"
+              className="footer-p nav-link"
+            >
+              Screenings
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/education-of-the-heart/emergency-main"
+              className="footer-p nav-link"
+            >
+              Emergencies
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/education-of-the-heart/tips-main"
+              className="footer-p nav-link"
+            >
+              Expert Health Tips
+            </ScrollToTopNavLink>
           </Col>
           {/* Gift of Art */}
           <Col md className="footer-col">
@@ -138,8 +157,18 @@ function Footer() {
           {/* People We Love */}
           <Col md className="footer-col">
             <h3 className="footer-h3">People We Love</h3>
-            <p className="footer-p">Tributes</p>
-            <p className="footer-p">Survivors</p>
+            <ScrollToTopNavLink
+              to="/people-we-love/tributes"
+              className="footer-p nav-link"
+            >
+              Tributes
+            </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/people-we-love/survivors"
+              className="footer-p nav-link"
+            >
+              Survivors
+            </ScrollToTopNavLink>
             <h3 className="footer-h3">Donate</h3>
           </Col>
         </Row>
