@@ -198,13 +198,21 @@ const stories = [
     id: 8,
     name: "Vanesa Dale",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/Vanessa.png"),
-    story: `My baby girl Vanessa was diagnosed at 2 months old with DCM (Dilated Cardiomyopathy) and her struggle for life ended on April 7, 2005. She was only 4 months old but it seems as if she had shared a lifetime with us.
-    While we miss our little angel Vanessa more than we could possibly express in a letter, my husband and I realize that we must choose to either envelop ourselves in self-pity and shy from the world, or latch on to the deeper meaning and a better understanding of the frailty of life on Earth and to embrace even more the remaining moments we have. Due to the support of friends and family, we have clearly chosen the latter and are looking for ways to add meaning and purpose not only to Vanessa's life, but to ours as well. That being said, we joined.
-    cures for cardiomyopathy in children.  I would also like to put my energy into organizing a Free echo-screening.
-    We joined the Children's Cardiomyopathy Foundation (childrenscardiomyopathy.org) and we are dedicated helping uncover causes for children in my area. I live in Houston, TX and I am in close contact with the Texas Children's Hospital Cardiologists which I hope will join me in my efforts. Vanessa's parents have established Vanessa’s Big Heart Foundation to help fund research for pediatric cardiomyopathy.
-    Please visit their web site at http://www.bigheartfoundation.org
-    
-    by Vanessa's mother, Janie.`,
+    story: `
+    My baby girl Vanessa was diagnosed at 2 months old with DCM (Dilated Cardiomyopathy) and
+    her struggle for life ended on April 7, 2005. She was only 4 months old but it seems as if she had
+    shared a lifetime with us. While we miss our little angel Vanessa more than we could possibly
+    express in a letter, my husband and I realize that we must choose to either envelop ourselves in
+    self-pity and shy from the world or latch on to the deeper meaning and a better understanding of
+    the frailty of life on Earth and to embrace even more the remaining moments we have. Due to the
+    support of friends and family, we have clearly chosen the latter and are looking for ways to add
+    meaning and purpose not only to Vanessa's life, but to ours as well. That being said, we joined
+    cures for cardiomyopathy in children. I would also like to put my energy into organizing a Free
+    echo-screening. We joined the Children's Cardiomyopathy Foundation
+    (childrenscardiomyopathy.org) and we are dedicated to helping uncover causes for children in my
+    area. I live in Houston, TX and I am in close contact with the Texas Children's Hospital
+    Cardiologists which I hope will join me in my efforts.
+  `,
     deathDate: "April 7, 2005",
     age: 0,
   },
