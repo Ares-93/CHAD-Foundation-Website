@@ -1,3 +1,10 @@
+.modal-dates,
+.modal-age {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
 .readMore-btn {
   background-color: transparent;
   border: none;

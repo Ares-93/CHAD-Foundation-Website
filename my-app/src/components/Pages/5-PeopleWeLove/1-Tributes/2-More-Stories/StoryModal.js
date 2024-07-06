@@ -18,7 +18,15 @@ const StoryModal = ({ story, onClose }) => {
         </button>
         <img src={story.image} alt={story.name} className="modal-image" />
         <h2 className="modal-title">{story.name}</h2>
-        <p className="modal-author">{story.author}</p>
+        {story.birthDate && (
+          <p className="modal-dates">Born: {story.birthDate}</p>
+        )}
+        {story.deathDate && (
+          <p className="modal-dates">Died: {story.deathDate}</p>
+        )}
+        {story.age !== undefined && (
+          <p className="modal-age">Age: {story.age}</p>
+        )}
         <p className="modal-text">
           {showFullText ? story.story : shortStory}
           <button className="readMore-btn" onClick={handleReadMoreToggle}>

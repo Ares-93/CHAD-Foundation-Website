@@ -86,23 +86,28 @@ const stories = [
     id: 4,
     name: "Louis T. Savino, III",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/Louis.png"),
-    story: `Louis collapsed on the field while practicing soccer. This was all due to Louis being misdiagnosed with having physical induced asthma, I
-    would later learn from the coroner that the autopsy report evidenced Louis had a heart defect known as HCM (hypertrophic
-    cardiomyopathy). Within weeks, I soon realized my son&#39;s case was not isolated, and within two months, we had formed the Louis T.
-    Savino, III Foundation. I would have never dreamed that my son was living with a silent killer. He was the picture of good health. He was
-    careful with his diet and had a good exercise routine—he was practicing good health habits. He valued his life and well-being.
-    Unfortunately, it took a practice soccer session to turn tragedy for me to learn three important lessons. 1. What AEDs are and why they are
-    needed and, 2. Why it is important to pursue heart testing as a result of certain symptoms, and 3. Why family history is so important to a
-    child&#39;s physician. – Toni Pellegrini, Mother of Louis T. Savino, III
-    I had seen him [my nephew] only days before. We chatted about his sophomore year. He even sat down at his piano and played several
-    tunes for me, and I enjoyed every minute of it. By the time a kind neighbor drove me to the hospital, this young, vibrant, intelligent,
-    compassionate, beautiful young person had gone away. Within days of the tragedy, I began conducting Internet research to determine the
-    frequency and cause of sudden cardiac death in young people. I&#39;ve since learned that those cold and inhumane &quot;statistics&quot; cannot possibly capture the pain and
-    overwhelming grief of losing a vibrant, young person. What he could have done and what he chose to do in his 15 years is what made him such a wonderful example for
-    each of us. We are hopeful that the Louis T. Savino, III Foundation will not only keep Louis’ spirit and legacy alive but also hopefully save precious, young lives. –
-    Lorraine Sikora (Aunt to Louis T. Savino, III.) (Full stories by Louis’ mother, and aunt, can be found in the book, “CHAD, A Celebration of Life – Beyond A Mother’s
-    Memories.”)`,
-    birthDate: "",
+    story: `
+    Louis collapsed on the field while practicing soccer. This was all due to Louis being
+    misdiagnosed with having physical induced asthma. I would later learn from the coroner that
+    the autopsy report evidenced Louis had a heart defect known as HCM (hypertrophic
+    cardiomyopathy). Within weeks, I soon realized my son’s case was not isolated, and
+    within two months, we had formed the Louis T. Savino, III Foundation. I would have never
+    dreamed that my son was living with a silent killer. He was the picture of good health. He was
+    careful with his diet and had a good exercise routine—he was practicing good health habits.
+    He valued his life and well-being. Unfortunately, it took a practice soccer session to turn
+    tragedy for me to learn three important lessons. 1. What AEDs are and why they are needed
+    and, 2. Why it is important to pursue heart testing as a result of certain symptoms, and 3. Why
+    family history is so important to a child’s physician. – Toni Pellegrini, Mother of Louis T.
+    Savino, III
+    (Lorraine Sikora, Aunt to Louis Savino) I had seen him [my nephew] only days before. We
+    chatted about his sophomore year. He even sat down at his piano and played several tunes
+    for me, and I enjoyed every minute of it. By the time a kind neighbor drove me to the hospital,
+    this young, vibrant, intelligent, compassionate, beautiful young person had gone away.
+    Within days of the tragedy, I began conducting Internet research to determine the frequency
+    and cause of sudden cardiac death. (More about Louis’s story can be found in the Chad
+    Foundation book, “CHAD, A Celebration of Life-Beyond A Mother’s Memories.”)
+  `,
+    birthDate: "May 22, 1985",
     deathDate: "October 12, 2000",
     age: 15,
   },
