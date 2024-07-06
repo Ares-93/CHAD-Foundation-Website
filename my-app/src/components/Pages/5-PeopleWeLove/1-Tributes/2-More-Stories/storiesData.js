@@ -58,21 +58,27 @@ const stories = [
     id: 3,
     name: "Jenna April Becker",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/Jenna.png"),
-    story: `I am Janna’s mom. Janna was my gift for everything I’d ever done right in my life. From the moment she was born, I knew she
-    was special. I loved watching Janna grow. Even at her young age she was intuitive and sensitive, determined and capable,
-    responsible and caring. I marveled at her thoughtful opinions; I always took them into great consideration. She loved to just
-    laugh and be silly. She matured with confidence and the resolve to create her own path in life. As for myself, when problems
-    arose, I learned to fix them. I grew up feeling that I could fix just about anything if I put my mind to it. I became a Registered
-    Nurse; nurses take care of everyone and everything. But the one thing I couldn’t prevent, couldn’t fix, would never get a second
-    chance at, and never even saw it coming, was a parent’s worst nightmare... On December 31, 2002, I got the phone call that
-    drained the life from me. Janna was found unconscious in her bed. The ambulance came. I was told later in the emergency
-    room that, “They were never able to get a heartbeat.” Soon after Janna passed, I found out that what she had was an electrical
-    problem with her heart, called Long QT Syndrome. It could have been detected with a simple, inexpensive electrocardiogram
-    (ECG) read by a cardiologist. For what other segment of the population do we completely ignore such life-threatening, yet
-    detectable and treatable medical issues? I realize that I cannot fix the past, but I can do my best to ensure that Janna’s having
-    lived on this earth will help light the way for others. I love you with all my heart, Janna. Until we meet again… (More on Janna’s
-    story can be found in the foundation book, “CHAD, A Celebration of Life-Beyond A Mother’s Memories.”)`,
-    birthDate: "April 5, 1987",
+    story: `
+    I am Janna’s mom. Janna was my gift for everything I’d ever done right in my life. From the
+    moment she was born, I knew she was special. I loved watching Janna grow. Even at her young
+    age she was intuitive and sensitive, determined and capable, responsible and caring. I marveled
+    at her thoughtful opinions; I always took them into great consideration. She loved to just laugh
+    and be silly. She matured with confidence and the resolve to create her own path in life. As for
+    myself, when problems arose, I learned to fix them. I grew up feeling that I could fix just about
+    anything if I put my mind to it. I became a Registered Nurse; nurses take care of everyone and
+    everything. But the one thing I couldn’t prevent, couldn’t fix, would never get a second chance
+    at, and never even saw it coming, was a parent’s worst nightmare... On December 31, 2002, I got
+    the phone call that drained the life from me. Janna was found unconscious in her bed. The
+    ambulance came. I was told later in the emergency room that, “They were never able to get a
+    heartbeat.” Soon after Janna passed, I found out that what she had was an electrical problem with
+    her heart, called Long QT Syndrome. It could have been detected with a simple, inexpensive
+    electrocardiogram (ECG) read by a cardiologist. For what other segment of the population do we
+    completely ignore such life-threatening, yet detectable and treatable medical issues? I realize that
+    I cannot fix the past, but I can do my best to ensure that Janna’s having lived on this earth will
+    help light the way for others. I love you with all my heart, Janna. Until we meet again… (More
+    on Janna’s story can be found in the Chad foundation book, “CHAD, A Celebration of Life-
+    Beyond A Mother’s Memories.”)
+  `,
     deathDate: "December 31, 2002",
     age: 15,
   },
@@ -96,7 +102,7 @@ const stories = [
     each of us. We are hopeful that the Louis T. Savino, III Foundation will not only keep Louis’ spirit and legacy alive but also hopefully save precious, young lives. –
     Lorraine Sikora (Aunt to Louis T. Savino, III.) (Full stories by Louis’ mother, and aunt, can be found in the book, “CHAD, A Celebration of Life – Beyond A Mother’s
     Memories.”)`,
-    birthDate: "?",
+    birthDate: "",
     deathDate: "October 12, 2000",
     age: 15,
   },
