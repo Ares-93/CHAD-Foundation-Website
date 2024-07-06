@@ -28,9 +28,28 @@ const stories = [
     id: 2,
     name: "Miles Kirkland",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/Miles.png"),
-    story: `Miles Kirkland was passionate about his game and was embroiled in football drills when he collapsed suddenly.  He succumbed to undiagnosed hypertrophic cardiomyopathy. His mother, Tanza, began to see the full impact the gentle giant (as he was known) had on so many friends and teens, and the community at large. Councilwoman Deb Rose nicknamed Miles ‘The Shovel’ for his work ethic in re-beautifying the plant beds near the precinct with such passion and care for the H.E.A.L.T.H for YOUTHS gardening project. Tanza had so many teenagers tell her what support and encouragement Miles had showed each of them. “Miles didn’t brag about what he was doing he just did it!” A young lady who Miles worked with in the summer said she was struggling in nursing and Miles told her she could do it, and he would help and they would do it together.
-    There was a young man on Curtis JV who told Tanza that even though others were discouraging and telling him he couldn’t play, Miles took him through the weight room and taught and showed him what to do. Another young woman shared her story and said Miles and she had a special relationship because Miles said to her he didn’t believe that since they are different in color- she could care about him because he was black and she was white, but that young woman let Miles know that she loved him just like a brother. Tanza says, my entire family is grateful and humbled by the CURTIS WARRIORS and the coaches because whether they know it or not they were her strength during this season and it was rough for everyone; but for that short period of time that we watched them play with their hearts and dedication; it felt as though Miles was still here! The Chad Foundation for Athletes and Artists was proud to provide heart screenings (EKGs and ECHOs), and cholesterol and diabetes testing for 3 years to his teammates, the Curtis Warriors, in honour of their favorite son, Miles T. Kirkland
-    `,
+    story: `
+    Miles Kirkland was passionate about his game and was embroiled in football drills when he
+    collapsed suddenly. He succumbed to undiagnosed hypertrophic cardiomyopathy. His mother,Tanza, began to see the full impact the gentle giant (as he was known) had on so many friends
+    and teens, and the community at large. Councilwoman Deb Rose nicknamed Miles ‘The Shovel’
+    for his work ethic in re-beautifying the plant beds near the precinct with such passion and care
+    for the H.E.A.L.T.H for YOUTHS gardening project. Tanza had so many teenagers tell her what
+    support and encouragement Miles had shown each of them. “Miles didn’t brag about what he
+    was doing he just did it!” A young lady who Miles worked with in the summer said she was
+    struggling in nursing and Miles told her she could do it, and he would help and they would do it
+    together. There was a young man on Curtis JV who told Tanza that even though others were
+    discouraging and telling him he couldn’t play Miles took him through the weight room and
+    taught and showed him what to do. Another young woman shared her story and said Miles and
+    she had a special relationship because Miles said to her he didn’t believe that since they are
+    different in color- she could care about him because he was black and she was white, but that
+    young woman let Miles know that she loved him just like a brother. Tanza says, my entire family
+    is grateful and humbled by the CURTIS WARRIORS and the coaches because whether they
+    know it or not they were her strength during this season and it was rough for everyone; but for
+    that short period of time that we watched them play with their hearts and dedication; it felt as
+    though Miles was still here! The Chad Foundation for Athletes and Artists was proud to provide
+    heart screenings (EKGs and ECHOs), and cholesterol and diabetes testing for 3 years to his
+    teammates, the Curtis Warriors, in honour of their favorite son, Miles T. Kirkland.
+  `,
     birthDate: "May 1, 1998",
     deathDate: "September 1, 2014",
     age: 16,
