@@ -42,12 +42,12 @@
   border: none;
   color: #ef761f;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 20px;
   margin-left: 5px;
   outline: none;
 }
 
 .readMore-btn:hover {
-  background-color: #a84d0d;
+  color: #a84d0d;
 }
