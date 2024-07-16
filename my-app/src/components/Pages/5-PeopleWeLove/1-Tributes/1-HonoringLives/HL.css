@@ -40,14 +40,14 @@
 .readMore-btn {
   background-color: transparent;
   border: none;
-  color: #826717;
+  color: #ef761f;
   cursor: pointer;
   text-decoration: underline;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 5px;
   outline: none;
 }
 
 .readMore-btn:hover {
-  background-color: #0056b3;
+  background-color: #a84d0d;
 }
