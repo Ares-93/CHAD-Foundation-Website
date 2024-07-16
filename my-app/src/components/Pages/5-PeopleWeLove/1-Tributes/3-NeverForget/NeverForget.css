@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.text {
+.nf-text {
   color: var(--main-black);
   font-family: var(--accent-font);
   font-size: 48px;

@@ -6,10 +6,10 @@ import "./NeverForget.css";
 const NeverForget = () => {
   return (
     <section className="NeverForget">
-      <div className="main container">
+      <div className="nf-main container">
         <div className="arrow-down">
           <img src={Arrow} alt="Arrow" className="Arrow" />
-          <h3 className="text">Never Forget</h3>
+          <h3 className="nf-text">Never Forget</h3>
         </div>
         <div className="memorial">
           <img src={Memorial} alt="memorial" className="memorial" />

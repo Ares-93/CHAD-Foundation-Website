@@ -16,7 +16,7 @@ const SurvivorStoriesGrid = () => {
 
   return (
     <section className="Survivor_stories_grid">
-      <div className="main container">
+      <div className="survivor-stories-main container">
         <h2 className="survivor-stories-header">Read More Stories</h2>
         <div className="survivor-stories-grid-container">
           {survivorStories.map((story) => (
