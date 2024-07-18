@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import ScrollToTopNavLink from "./ScrollToTopNavLink"; 
-
+import ScrollToTopNavLink from "./ScrollToTopNavLink";
 
 import FacebookIcon from "../../images/Footer-Images/facebook.png";
 import YoutubeIcon from "../../images/Footer-Images/youtube.png";
