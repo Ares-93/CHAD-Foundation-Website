@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/Functions/ScrollToTop";
 import "./App.css";
+import "./index.css";
 
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
