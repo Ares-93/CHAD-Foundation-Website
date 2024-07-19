@@ -5,7 +5,7 @@ import LindsayPhoto from "../../../../../images/PeopleWeLove-Images/Lindsay.png"
 const SurvivorsPeople = () => {
   return (
     <section className="SurvivorsPeople">
-      <div className="survivors-main-container">
+      <div className="main-container">
         <h2 className="survivors-people-header">Survivors</h2>
         <div className="survivorsPeople-content">
           <div className="survivorsPeople-photo">
