@@ -12,6 +12,9 @@
   line-height: 125%;
 }
 
+.arrow-down{
+  text-align: center;
+}
 .memorial img {
   max-width: 80%;
   height: auto;
