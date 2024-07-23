@@ -3,6 +3,8 @@ import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import "./Scholarship.css";
 import StudentPhoto from "../../../../images/GiftOfArt-Images/scholarship-image.jpg";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
+import FriendsLetters from "./FriendsLetters";
+import WishListTwo from "./WishlistTwo";
 
 const Scholarship = () => {
   return (
@@ -12,8 +14,10 @@ const Scholarship = () => {
         <div className="scholarship-content">
           <div className="scholarship-content-left">
             <div className="scholarship-header-box">
-              <img src={HeartIcon} alt="heart" width={60} height={60} />
-              <h2 className="scholarship-header">Gift of Art Scholarship</h2>
+              <img src={HeartIcon} alt="heart" width={40} height={40} />
+              <h2 className="scholarship-header">
+                The Annual CHAD Scholarship Program
+              </h2>
             </div>
             <p className="scholarship-p">
               When Chad saw you, he only saw you. He never saw color, heritage,
@@ -50,6 +54,12 @@ const Scholarship = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="main-container">
+        <FriendsLetters />
+      </div>
+      <div className="main-container">
+        <WishListTwo />
       </div>
     </section>
   );
