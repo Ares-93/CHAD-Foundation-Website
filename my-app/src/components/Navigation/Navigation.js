@@ -318,6 +318,24 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
+                    {/* Stories of the Heart */}
+                    <li>
+                      <NavLink
+                        to="/gift-of-art/heart-stories"
+                        className={`dropdown-item ${
+                          activeNav === "heart-stories"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("heart-stories")}
+                      >
+                        Stories of the Heart
+                        <br />
+                        <span className="dropdown-span">
+                          lorem ipsum
+                        </span>
+                      </NavLink>
+                    </li>
                   </ul>
                 </li>
                 {/* People We Love */}

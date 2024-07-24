@@ -15,6 +15,7 @@ const GiftOfArtNavigation = ({ currentPage }) => {
     films: "Films",
     books: "Books",
     "upcoming-events": "Events",
+    "heart-stories": "Stories of the Heart",
   };
 
   return (
@@ -91,6 +92,19 @@ const GiftOfArtNavigation = ({ currentPage }) => {
                 onClick={() => setActiveNav("upcoming-events")}
               >
                 Events
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/gift-of-art/heart-stories"
+                className={`giftOfArt-menu-item ${
+                  activeNav === "heart-stories"
+                    ? "giftOfArt-menu-item-active"
+                    : ""
+                }`}
+                onClick={() => setActiveNav("heart-stories")}
+              >
+                Stories of the Heart
               </NavLink>
             </li>
           </ul>

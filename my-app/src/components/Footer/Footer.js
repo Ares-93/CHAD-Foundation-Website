@@ -133,6 +133,12 @@ function Footer() {
             >
               Events
             </ScrollToTopNavLink>
+            <ScrollToTopNavLink
+              to="/gift-of-art/heart-stories"
+              className="footer-p nav-link"
+            >
+              Stories of the Heart
+            </ScrollToTopNavLink>
           </Col>
           {/* People We Love */}
           <Col md className="footer-col">
