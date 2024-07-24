@@ -1,0 +1,45 @@
+.FriendsLetters {
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.FriendsLetters .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friends-letter {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: var(--main-font);
+  color: var(--main-black);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.friends-letter-text {
+    font-size: 22px;
+  margin-bottom: 32px;
+   margin-top: 32px;
+}
+
+.letter-image {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .friends-letter {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .letter-image {
+    width: 100%;
+    max-width: 200px;
+  }
+}

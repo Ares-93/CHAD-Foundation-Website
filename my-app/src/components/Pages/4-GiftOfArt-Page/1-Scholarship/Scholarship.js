@@ -1,8 +1,10 @@
 import React from "react";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import "./Scholarship.css";
-import StudentPhoto from "../../../../images/GiftOfArt-Images/scholarship-image.png";
+import StudentPhoto from "../../../../images/GiftOfArt-Images/scholarship-image.jpg";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
+import FriendsLetters from "./FriendsLetters";
+import WishListTwo from "./WishlistTwo";
 
 const Scholarship = () => {
   return (
@@ -12,24 +14,37 @@ const Scholarship = () => {
         <div className="scholarship-content">
           <div className="scholarship-content-left">
             <div className="scholarship-header-box">
-              <img src={HeartIcon} alt="heart" width={60} height={60} />
-              <h2 className="scholarship-header">Gift of Art Scholarship</h2>
+              <img src={HeartIcon} alt="heart" width={40} height={40} />
+              <h2 className="scholarship-header">
+                The Annual CHAD Scholarship Program
+              </h2>
             </div>
             <p className="scholarship-p">
-              Today our youth’s “inner hearts” are endangered as well. The three
-              leading causes of death in children are 1) Firearms, 2) Motor
-              Vehicles, 3) Suicides and other Accidents. The “Gift of Heart”
-              provides a platform for high school students to express their
-              fears, challenges, hopes and dreams through stories, plays, and
-              athletics. Here they can share, express, and inform, and we can
-              hear their inner heart speaking, effecting a better way for
-              change, growth, understanding, and solutions. Chad’s Annual
-              Scholarship Program will award an athlete who his peers honor as
-              the best “Scholar, Athlete & Leader,” and an artist for the “Best
-              Story of the Heart.” - Healthy Body, Mind & Spirit, the way in
-              which Chad lived his life
+              When Chad saw you, he only saw you. He never saw color, heritage,
+              or sexual orientation. He looked deep within and saw your unique
+              potential and encouraged it. He cared about your fondest dreams,
+              your talents, and unique potential. The Chad Foundation
+              Scholarship exists for Each of You – It’s Chad’s Gift to You!
             </p>
-            <button className="scholarship-btn">Learn More</button>
+            <p className="scholarship-p">
+              <strong>How the Chad Scholarship Program works </strong>
+            </p>
+            <p className="scholarship-p">
+              Every year, The Chad Foundation for Athletes and Artists will
+              offer two $1,000 scholarships for High School graduating Seniors,
+              nominated by our peers.
+            </p>
+            <p className="scholarship-p">
+              One for “The Best Athlete, Scholar and Community Volunteer,” and
+              One for “The Best Story of the Heart”
+            </p>
+            <p className="scholarship-p">
+              Stay tuned for details and deadlines!
+            </p>
+            <div className="scholarship-btns">
+              <button className="scholarship-btn">Information</button>
+              <button className="scholarship-btn-submit">Submit</button>
+            </div>
           </div>
           <div className="scholarship-image-box">
             <img
@@ -40,7 +55,14 @@ const Scholarship = () => {
           </div>
         </div>
       </div>
+      <div className="main-container">
+        <FriendsLetters />
+      </div>
+      <div className="main-container">
+        <WishListTwo />
+      </div>
     </section>
   );
 };
+
 export default Scholarship;
