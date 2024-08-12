@@ -107,8 +107,9 @@ const CountriesWScreening = () => {
             </Col>
           </Row>
         </Col>
-        <p className="country-text">
-          Want to take control of your health?
+        <p className="country-bottom-text">
+          Want to take care of your heart and <br />
+          have a heart healthy lifestyle?
           <div className="country-link">
             <a href="/clickme">Click here </a>
             to listen to our professionals!

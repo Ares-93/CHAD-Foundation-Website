@@ -22,11 +22,10 @@ import VolleyballGalleryPhoto15 from "../../../../images/AboutUs-Images/Volleyba
 import VolleyballGalleryPhoto16 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/16-photo.jpg";
 import VolleyballGalleryPhoto17 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/17-photo.jpg";
 import VolleyballGalleryPhoto18 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/18-photo.jpg";
-import VolleyballGalleryPhoto19 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/19-photo.jpg";
+// import VolleyballGalleryPhoto19 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/19-photo.jpg";
 import VolleyballGalleryPhoto20 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/20-photo.jpg";
 import VolleyballGalleryPhoto21 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/21-photo.jpg";
 import VolleyballGalleryPhoto22 from "../../../../images/AboutUs-Images/VolleyballGalleryPhotos/22-photo.jpg";
-
 
 // For screens 768px and less:
 const imageDataSmall = [
@@ -48,7 +47,7 @@ const imageDataSmall = [
   { src: VolleyballGalleryPhoto16 }, // photo 16
   { src: VolleyballGalleryPhoto17 }, // photo 17
   { src: VolleyballGalleryPhoto18 }, // photo 18
-  { src: VolleyballGalleryPhoto19 }, // photo 19
+  // { src: VolleyballGalleryPhoto19 }, // photo 19
   { src: VolleyballGalleryPhoto20 }, // photo 20
   { src: VolleyballGalleryPhoto21 }, // photo 21
   { src: VolleyballGalleryPhoto22 }, // photo 22
@@ -58,35 +57,32 @@ const imageDataSmall = [
 const imageData = [
   // Column 1
   { src: VolleyballGalleryPhoto1 }, // photo 1
-  { src: VolleyballGalleryPhoto5 }, // photo 5
-  { src: VolleyballGalleryPhoto9 }, // photo 9
+  { src: VolleyballGalleryPhoto4 }, // photo 4
+  { src: VolleyballGalleryPhoto7 }, // photo 7
+  { src: VolleyballGalleryPhoto10 }, // photo 10
   { src: VolleyballGalleryPhoto13 }, // photo 13
-  { src: VolleyballGalleryPhoto17 }, // photo 17
-  { src: VolleyballGalleryPhoto21 }, // photo 21
+  { src: VolleyballGalleryPhoto16 }, // photo 16
+  // { src: VolleyballGalleryPhoto19 }, // photo 19
+  { src: VolleyballGalleryPhoto22 }, // photo 22
 
   // Column 2
   { src: VolleyballGalleryPhoto2 }, // photo 2
-  { src: VolleyballGalleryPhoto6 }, // photo 6
-  { src: VolleyballGalleryPhoto10 }, // photo 10
+  { src: VolleyballGalleryPhoto5 }, // photo 5
+  { src: VolleyballGalleryPhoto8 }, // photo 8
+  { src: VolleyballGalleryPhoto11 }, // photo 11
   { src: VolleyballGalleryPhoto14 }, // photo 14
-  { src: VolleyballGalleryPhoto18 }, // photo 18
-  { src: VolleyballGalleryPhoto22 }, // photo 22
+  { src: VolleyballGalleryPhoto17 }, // photo 17
+  { src: VolleyballGalleryPhoto20 }, // photo 20
 
   // Column 3
   { src: VolleyballGalleryPhoto3 }, // photo 3
-  { src: VolleyballGalleryPhoto7 }, // photo 7
-  { src: VolleyballGalleryPhoto11 }, // photo 11
-  { src: VolleyballGalleryPhoto15 }, // photo 15
-  { src: VolleyballGalleryPhoto19 }, // photo 19
-
-  // Column 4
-  { src: VolleyballGalleryPhoto4 }, // photo 4
-  { src: VolleyballGalleryPhoto8 }, // photo 8
+  { src: VolleyballGalleryPhoto6 }, // photo 6
+  { src: VolleyballGalleryPhoto9 }, // photo 9
   { src: VolleyballGalleryPhoto12 }, // photo 12
-  { src: VolleyballGalleryPhoto16 }, // photo 16
-  { src: VolleyballGalleryPhoto20 }, // photo 20
+  { src: VolleyballGalleryPhoto15 }, // photo 15
+  { src: VolleyballGalleryPhoto18 }, // photo 18
+  { src: VolleyballGalleryPhoto21 }, // photo 21
 ];
-
 
 const VolleyballGallery = () => {
   const navigate = useNavigate();
@@ -132,7 +128,7 @@ const VolleyballGallery = () => {
 };
 
 const Wrapper = styled.div`
-  column-count: 4;
+  column-count: 3;
   column-gap: 32px;
   padding: 20px;
   max-width: 1200px;
