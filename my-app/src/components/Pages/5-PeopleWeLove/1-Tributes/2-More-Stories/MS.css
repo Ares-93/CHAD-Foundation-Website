@@ -23,8 +23,10 @@
 
 .story-card {
   width: 250px;
+  height: 400px; /* Set a fixed height for the card */
   cursor: pointer;
   justify-content: space-between;
+  overflow-y: scroll; /* Enable vertical scrolling */
 }
 
 .story-image {

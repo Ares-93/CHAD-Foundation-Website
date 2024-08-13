@@ -19,6 +19,7 @@
   width: 100%;
   text-align: start;
   position: relative;
+  overflow-y: scroll;
 }
 
 .modal-image {
