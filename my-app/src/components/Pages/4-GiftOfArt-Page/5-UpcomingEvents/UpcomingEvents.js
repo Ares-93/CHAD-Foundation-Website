@@ -5,6 +5,7 @@ import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-ico
 import EventsOne from "../../../../images/GiftOfArt-Images/events-image-one.jpg";
 import EventsTwo from "../../../../images/GiftOfArt-Images/events-image-two.png";
 import EventsThree from "../../../../images/GiftOfArt-Images/events-image-three.png";
+import DriverCampaign from "../../../../images/GiftOfArt-Images/safe-driver-campaign.png";
 
 const UpcomingEvents = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1160);
@@ -26,6 +27,67 @@ const UpcomingEvents = () => {
       <GiftOfArtNavigation currentPage="upcoming-events" />
       <div className="main-container">
         {/* ONE */}
+        <div className="upcomingEvents-content">
+          {isSmallScreen ? (
+            <>
+              <div className="upcomingEvents-content-right">
+                <div className="upcomingEvents-header-box">
+                  <img src={HeartIcon} alt="heart" width={60} height={60} />
+                  <h2 className="upcomingEvents-header">
+                    “Life is a Gift”: Chad Safe Driver Campaign
+                  </h2>
+                </div>
+                <p className="upcomingEvents-p">
+                  Chad was a great guy who loved all people cared about their
+                  dreams. He never drank an alcohol beverage, smoked a cigarette
+                  or did drugs his entire life. He always did the driving when
+                  he and his friends went out to the clubs dancing and you
+                  always had to wear a seatbelt when you drove with Chad in his
+                  car. - “Healthy body/mind/spirit.” Please safeguard your life
+                  and others by joining the{" "}
+                  <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
+                </p>
+              </div>
+              <div className="upcomingEvents-image-box">
+                <img
+                  src={DriverCampaign}
+                  alt="Events"
+                  className="upcomingEvents-image"
+                />
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="upcomingEvents-image-box">
+                <img
+                  src={DriverCampaign}
+                  alt="Events"
+                  className="upcomingEvents-image"
+                />
+              </div>
+              <div className="upcomingEvents-content-right">
+                <div className="upcomingEvents-header-box">
+                  <img src={HeartIcon} alt="heart" width={60} height={60} />
+                  <h2 className="upcomingEvents-header">
+                    “Life is a Gift”: Chad Safe Driver Campaign
+                  </h2>
+                </div>
+                <p className="upcomingEvents-p">
+                  Chad was a great guy who loved all people cared about their
+                  dreams. He never drank an alcohol beverage, smoked a cigarette
+                  or did drugs his entire life. He always did the driving when
+                  he and his friends went out to the clubs dancing and you
+                  always had to wear a seatbelt when you drove with Chad in his
+                  car. - “Healthy body/mind/spirit.” Please safeguard your life
+                  and others by joining the{" "}
+                  <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
+                </p>
+              </div>
+            </>
+          )}
+        </div>
+
+        {/* TWO */}
         <div className="upcomingEvents-content">
           <div className="upcomingEvents-content-left">
             <div className="upcomingEvents-header-box">
@@ -54,7 +116,7 @@ const UpcomingEvents = () => {
             />
           </div>
         </div>
-        {/* TWO */}
+        {/* THREE */}
         <div className="upcomingEvents-content">
           {isSmallScreen ? (
             <>
@@ -130,7 +192,7 @@ const UpcomingEvents = () => {
             </>
           )}
         </div>
-        {/* THREE */}
+        {/* FOUR */}
         <div className="upcomingEvents-content">
           <div className="upcomingEvents-content-left">
             <div className="upcomingEvents-header-box">
@@ -162,4 +224,5 @@ const UpcomingEvents = () => {
     </section>
   );
 };
+
 export default UpcomingEvents;
