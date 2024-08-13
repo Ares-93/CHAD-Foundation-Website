@@ -44,6 +44,14 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
+  color: var(--main-black); /* Ensure this contrasts with the background */
+  overflow-y: auto;
+}
+
+.modal-text.expanded {
+  color: var(--main-black);
+  max-height: 500px; /* Expand to a larger size when "Read More" is clicked */
+  overflow-y: auto; /* Allow scrolling */
 }
 
 .close-btn {
@@ -54,4 +62,29 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
+}
+
+.read-more-link {
+  color: #ef761f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+.read-more-btn {
+  background-color: transparent;
+  border: none;
+  color: #ef761f;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  outline: none;
+}
+
+.read-more-btn:hover {
+  color: #a84d0d;
 }
