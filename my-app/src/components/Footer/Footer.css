@@ -58,3 +58,12 @@
   margin-top: 44px;
   text-align: center;
 }
+
+.footer-p.nav-link {
+  color: inherit; /* Ensure the default color is inherited */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-p.nav-link:hover {
+  color: var(--orange); /* Change color to orange on hover */
+}
