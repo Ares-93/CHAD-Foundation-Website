@@ -5,7 +5,6 @@ import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-ico
 import PlaysOne from "../../../../images/GiftOfArt-Images/plays-image-one.png";
 import PlaysTwo from "../../../../images/GiftOfArt-Images/plays-image-two.png";
 import PlaysThree from "../../../../images/GiftOfArt-Images/plays-image-three.png";
-import PlaysFour from "../../../../images/GiftOfArt-Images/plays-image-four.png";
 
 const Plays = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1160);
@@ -189,59 +188,6 @@ const Plays = () => {
           <div className="plays-image-box">
             <img src={PlaysThree} alt="Plays" className="plays-image" />
           </div>
-        </div>
-
-        {/* FOUR */}
-        <div className="plays-content">
-          {isSmallScreen ? (
-            <>
-              <div className="plays-content-right">
-                <div className="plays-header-box">
-                  <img src={HeartIcon} alt="heart" width={60} height={60} />
-                  <h2 className="plays-header">
-                    “Life is a Gift”: Chad Safe Driver Campaign
-                  </h2>
-                </div>
-                <p className="plays-p">
-                  Chad was a great guy who loved all people cared about their
-                  dreams. He never drank an alcohol beverage, smoked a cigarette
-                  or did drugs his entire life. He was always the designated
-                  driver when he and his friends went to clubs dancing, and you
-                  always had to wear a seatbelt when you rode in Chad's car. -
-                  “Healthy body/mind/spirit.” Please safeguard your life and
-                  others by joining the{" "}
-                  <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
-                </p>
-              </div>
-              <div className="plays-image-box">
-                <img src={PlaysFour} alt="Plays" className="plays-image" />
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="plays-image-box">
-                <img src={PlaysFour} alt="Plays" className="plays-image" />
-              </div>
-              <div className="plays-content-right">
-                <div className="plays-header-box">
-                  <img src={HeartIcon} alt="heart" width={60} height={60} />
-                  <h2 className="plays-header">
-                    “Life is a Gift”: Chad Safe Driver Campaign
-                  </h2>
-                </div>
-                <p className="plays-p">
-                  Chad was a great guy who loved all people cared about their
-                  dreams. He never drank an alcohol beverage, smoked a cigarette
-                  or did drugs his entire life. He always did the driving when
-                  he and his friends went out to the clubs dancing and you
-                  always had to wear a seatbelt when you drove with Chad in his
-                  car. - “Healthy body/mind/spirit.” Please safeguard your life
-                  and others by joining the{" "}
-                  <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
-                </p>
-              </div>
-            </>
-          )}
         </div>
       </div>
     </section>
