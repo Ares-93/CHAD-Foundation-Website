@@ -23,9 +23,10 @@ const PeopleNav = ({ currentPage }) => {
       <div className="main-container">
         <p className="PeopleNav-banner-p">
           We honor the memory of those lost to heart disease, celebrating their
-          strength and courage, and continuously share their stories.
-          Additionally, we share the stories of survivors who have overcome
-          heart disease, spreading their unwavering determination and hope.
+          meaningful, precious Lives, and continuously share stories of their
+          courage and inspiration. Additionally, we share stories of survivors
+          who have overcome heart disease, spreading their unwavering
+          determination and hope.
         </p>
         <div className="PeopleNav-menu">
           <ul>

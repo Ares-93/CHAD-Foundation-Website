@@ -19,11 +19,12 @@
   width: 100%;
   text-align: start;
   position: relative;
+  color: black;
 }
 
 .modal-image {
   width: 300px;
-  height: 300px;
+  height: auto;
   border-radius: 8px;
 }
 
