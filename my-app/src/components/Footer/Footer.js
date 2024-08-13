@@ -96,25 +96,25 @@ function Footer() {
           <Col md className="footer-col">
             <h3 className="footer-h3">Education of the Heart</h3>
             <ScrollToTopNavLink
-              to="/education-of-the-heart/heart-facts"
+              to="/education-of-the-heart/heart-fact-page"
               className="footer-p nav-link"
             >
               Heart Facts
             </ScrollToTopNavLink>
             <ScrollToTopNavLink
-              to="/education-of-the-heart/screenings"
+              to="/education-of-the-heart/screening-home"
               className="footer-p nav-link"
             >
               Screenings
             </ScrollToTopNavLink>
             <ScrollToTopNavLink
-              to="/education-of-the-heart/emergencies"
+              to="/education-of-the-heart/emergency-main"
               className="footer-p nav-link"
             >
               Emergencies
             </ScrollToTopNavLink>
             <ScrollToTopNavLink
-              to="/education-of-the-heart/expert-health-tips"
+              to="/education-of-the-heart/tips-main"
               className="footer-p nav-link"
             >
               Expert Health Tips
