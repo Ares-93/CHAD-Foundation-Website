@@ -58,8 +58,3 @@
   margin-top: 44px;
   text-align: center;
 }
-
-.footer-p.nav-link:hover {
-  color: #ef761f;
-  transition: color 0.3s ease;
-}
