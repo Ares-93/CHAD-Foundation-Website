@@ -3,6 +3,14 @@
   padding: 40px;
   border-radius: 20px;
   color: var(--main-black);
+  background-color: #f5efea;
+}
+
+.WishListTwo .WishListTwo-intro {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .WishListTwo .WishListTwo-container {
@@ -11,10 +19,7 @@
 
 .WishListTwo .WishListTwo-p {
   font-family: var(--main-font);
-  font-size: 24px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 32px;
+  font-size: 20px;
 }
 
 .WishListTwo-signature {
@@ -24,6 +29,16 @@
   font-family: "Allura", cursive;
   font-size: 32px;
   font-weight: 500;
+}
+
+.WishListTwo .WishListTwo-rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.WishListTwo .WishListTwo-rows .WishListTwo-p {
+  width: 48%;
 }
 
 .WishListTwo .WishListTwo-row-photo-text {
@@ -67,6 +82,7 @@
     padding-left: 0;
     margin-top: 20px;
   }
+
   .WishListTwo-signature {
     text-align: left;
   }
