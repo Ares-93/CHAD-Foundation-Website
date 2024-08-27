@@ -1,0 +1,95 @@
+.WishListTwo .main-container {
+  background-color: var(--main-white);
+  padding: 40px;
+  border-radius: 20px;
+  color: var(--main-black);
+  background-color: #f5efea;
+}
+
+.WishListTwo .WishListTwo-intro {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.WishListTwo .WishListTwo-container {
+  margin-top: 40px;
+}
+
+.WishListTwo .WishListTwo-p {
+  font-family: var(--main-font);
+  font-size: 20px;
+}
+
+.WishListTwo-signature {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Allura", cursive;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.WishListTwo .WishListTwo-rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.WishListTwo .WishListTwo-rows .WishListTwo-p {
+  width: 48%;
+}
+
+.WishListTwo .WishListTwo-row-photo-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.WishListTwo .WishListTwo-row-photo-text .WishListTwo-photo {
+  flex: 0 0 60%;
+}
+
+.WishListTwo .WishListTwo-row-photo-text .WishListTwo-text {
+  flex: 0 0 40%;
+  padding-left: 20px;
+  font-family: var(--main-font);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.WishListTwo .WishListTwo-row-photo-text .WishListTwo-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 1160px) {
+  .WishListTwo .WishListTwo-row-photo-text,
+  .WishListTwo .WishListTwo-row-photo-text .WishListTwo-photo,
+  .WishListTwo .WishListTwo-row-photo-text .WishListTwo-text {
+    width: 100%;
+    flex-basis: auto;
+  }
+
+  .WishListTwo .WishListTwo-row-photo-text {
+    flex-direction: column;
+  }
+
+  .WishListTwo .WishListTwo-row-photo-text .WishListTwo-text {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .WishListTwo-signature {
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .WishListTwo .WishListTwo-rows .WishListTwo-p {
+    width: 100%;
+  }
+}
