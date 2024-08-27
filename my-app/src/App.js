@@ -26,7 +26,7 @@ import Emergency from "./components/Pages/3-Education of the Heart/3-Emergencies
 import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Health Tips/0-Tips-Main/TipsHome";
 
 // GIFT OF ART PAGE Imports
-import Scholarship from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Scholarship";
+import Scholarship from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Scholarship/Scholarship";
 import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
