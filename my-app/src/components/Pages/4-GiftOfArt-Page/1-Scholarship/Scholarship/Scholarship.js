@@ -1,10 +1,10 @@
 import React from "react";
-import GiftOfArtNavigation from "../GiftOfArtNavigation";
+import GiftOfArtNavigation from "../../GiftOfArtNavigation";
 import "./Scholarship.css";
-import StudentPhoto from "../../../../images/GiftOfArt-Images/scholarship-image.jpg";
-import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
-import FriendsLetters from "./FriendsLetters";
-import WishListTwo from "./WishlistTwo";
+import StudentPhoto from "../../../../../images/GiftOfArt-Images/scholarship-image.jpg";
+import HeartIcon from "../../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
+import FriendsLetters from "../FriendsLetters/FriendsLetters";
+import WishListTwo from "../WishListTwo/WishlistTwo";
 
 const Scholarship = () => {
   return (
@@ -42,8 +42,8 @@ const Scholarship = () => {
               Stay tuned for details and deadlines!
             </p>
             <div className="scholarship-btns">
-              <button className="scholarship-btn">Information</button>
-              <button className="scholarship-btn-submit">Submit</button>
+              <button className="scholarship-btn">Submit Application</button>
+              <button className="scholarship-btn-submit">Winners</button>
             </div>
           </div>
           <div className="scholarship-image-box">

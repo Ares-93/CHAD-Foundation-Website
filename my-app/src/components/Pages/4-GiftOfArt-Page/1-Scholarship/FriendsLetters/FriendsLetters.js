@@ -1,6 +1,6 @@
 import React from "react";
 import "./FriendsLetters.css";
-import LettersImage from "../../../../images/GiftOfArt-Images/letter-image.png";
+import LettersImage from "../../../../../images/GiftOfArt-Images/letter-image.png";
 
 const FriendsLetters = () => {
   return (
