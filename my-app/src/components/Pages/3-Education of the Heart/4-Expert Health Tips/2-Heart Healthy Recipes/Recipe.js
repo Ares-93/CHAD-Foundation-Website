@@ -1,5 +1,4 @@
 import React from "react";
-import EduOfTheHeartNav from "../../EduOfTheHeartNav";
 import "./Recipe.css";
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
@@ -10,7 +9,6 @@ import Allergen from "../../../../../images/EduOfHeart-Images/Allergen.png";
 const Recipe = () => {
   return (
     <section className="tips">
-      <EduOfTheHeartNav currentPage="expert-health-tips" />
       <div className="main-container">
         <div className="tips-header-box">
           {<img src={HeartIcon} alt="heart" width={60} height={60} />}
