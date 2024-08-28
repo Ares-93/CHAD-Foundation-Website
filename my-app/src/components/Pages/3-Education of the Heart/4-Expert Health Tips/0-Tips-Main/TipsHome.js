@@ -1,6 +1,6 @@
 import React from "react";
-import Recipe from "../1-Recipe-Of-The-Month/Recipe";
-import Doctor from "../2-Doctor-Interviews/Doctor";
+import Recipe from "../2-Heart Healthy Recipes/Recipe";
+import Doctor from "../3-Doctor-Interviews/Doctor";
 
 const Tips = () => {
   return (
