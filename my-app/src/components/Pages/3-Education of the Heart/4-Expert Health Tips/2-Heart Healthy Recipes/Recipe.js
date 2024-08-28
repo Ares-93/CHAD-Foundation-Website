@@ -23,7 +23,7 @@ const Recipe = () => {
             <Card className="salad">
               <Card.Img src={VegImg} alt="Veg Options" />
               <Card.Body>
-                <Card.Title className="title">Vegetarian Option</Card.Title>
+                <Card.Title className="title">Vegetarian</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -31,7 +31,7 @@ const Recipe = () => {
             <Card className="burger">
               <Card.Img src={Burger} alt="non-veg" />
               <Card.Body>
-                <Card.Title className="title">Non-Restrictive Diet</Card.Title>
+                <Card.Title className="title">Healthy</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -39,7 +39,7 @@ const Recipe = () => {
             <Card className="allergen">
               <Card.Img src={Allergen} alt="allergen" />
               <Card.Body>
-                <Card.Title className="title">Allergen-Free Option</Card.Title>
+                <Card.Title className="title">Healthy Snacks</Card.Title>
               </Card.Body>
             </Card>
           </Col>

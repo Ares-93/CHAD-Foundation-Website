@@ -1,5 +1,6 @@
 import React from "react";
 import EduOfTheHeartNav from "../../EduOfTheHeartNav";
+import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import "./Rotm.css";
 import { Card, Row, Col } from "react-bootstrap";
 import FeaturedRecipeImg from "../../../../../images/EduOfHeart-Images/Featured.jpg";
@@ -10,6 +11,7 @@ const RecipeOfTheMonth = () => {
       <EduOfTheHeartNav currentPage="expert-health-tips" />
       <div className="main-container">
         <div className="tips-header-box">
+          {<img src={HeartIcon} alt="heart" width={60} height={60} />}
           <h2 className="tips-header">Recipe of the Month</h2>
         </div>
         <p className="card-text">
