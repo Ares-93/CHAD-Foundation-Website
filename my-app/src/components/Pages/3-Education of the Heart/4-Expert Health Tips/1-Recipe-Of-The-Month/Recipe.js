@@ -14,7 +14,7 @@ const Recipe = () => {
       <div className="main-container">
         <div className="tips-header-box">
           {<img src={HeartIcon} alt="heart" width={60} height={60} />}
-          <h2 className="tips-header">Hearth Healthy Recipe of The Month</h2>
+          <h2 className="tips-header">Hearth Healthy Recipes</h2>
         </div>
         <p className="card-text">
           Healthy living starts with a healthy diet. Here are our favorite
