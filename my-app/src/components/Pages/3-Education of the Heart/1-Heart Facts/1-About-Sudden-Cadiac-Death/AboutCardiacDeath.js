@@ -1,5 +1,4 @@
 import React from "react";
-import EduOfTheHeartNav from "../../EduOfTheHeartNav";
 import "./AboutCardiacDeath.css";
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
@@ -8,7 +7,6 @@ import Heart2 from "../../../../../images/EduOfHeart-Images/HeartModel.png";
 const AboutCardiacDeath = () => {
   return (
     <section className="HeartFacts">
-      <EduOfTheHeartNav currentPage="heart-facts" />
       <div className="main-container">
         <div className="heart-fact-content">
           <div className="heart-fact-header-box">

@@ -6,9 +6,16 @@ const EduOfTheHeartNav = ({ currentPage }) => {
   const [activeNav, setActiveNav] = useState(currentPage);
 
   useEffect(() => {
-    setActiveNav(currentPage);
+    if (currentPage === "screening-home") {
+      setActiveNav("screening-home");
+    } else if (currentPage === "emergency-main") {
+      setActiveNav("emergency-main");
+    } else if (currentPage === "tips-main") {
+      setActiveNav("tips-main");
+    } else {
+      setActiveNav(currentPage);
+    }
   }, [currentPage]);
-
 
   const pageTitleMap = {
     "heart-fact-page": "Heart Facts",
@@ -21,7 +28,7 @@ const EduOfTheHeartNav = ({ currentPage }) => {
     <section className="EduOfTheHeartNav">
       <div className="EduOfTheHeartNav-banner">
         <h2 className="EduOfTheHeartNav-banner-h2">
-          {pageTitleMap[currentPage]}
+          {pageTitleMap[activeNav]}
         </h2>
         <h3 className="EduOfTheHeartNav-banner-h3">Education of the Heart</h3>
       </div>

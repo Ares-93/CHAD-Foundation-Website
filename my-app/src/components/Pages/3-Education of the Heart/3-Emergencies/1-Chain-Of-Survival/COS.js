@@ -16,7 +16,6 @@ import four from "../../../../../images/EduOfHeart-Images/4.png";
 const COS = () => {
   return (
     <section className="cos-section">
-      <EduOfTheHeartNav currentPage="emergencies" />
       <div className="main-container">
         <div className="cos-content">
           <div className="cos-header-box">
