@@ -1,5 +1,4 @@
 import React from "react";
-import EduOfTheHeartNav from "../../EduOfTheHeartNav";
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import DocHeart from "../../../../../images/EduOfHeart-Images/DocHeart.png";
@@ -19,7 +18,7 @@ const Stats = () => {
 
   return (
     <section className="StatsSection">
-      <EduOfTheHeartNav currentPage="screenings" />
+    
       <div className="main-container">
         <div className="stats-header-box">
           <img src={HeartIcon} alt="doc-heart" width={60} height={60} />

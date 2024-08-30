@@ -7,6 +7,7 @@ import CoachEcho from "../../../../../images/EduOfHeart-Images/CoachScreen.png";
 const Importance = () => {
   return (
     <section className="imp-section">
+     
       <div className="main-container">
         <div className="imp-header-box">
           {<img src={HeartIcon} alt="heart" width={60} height={60} />}{" "}
