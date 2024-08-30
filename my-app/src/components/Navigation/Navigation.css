@@ -108,7 +108,7 @@
 }
 
 /* BUTTON */
-.support-button {
+.donate-button {
   background-color: var(--blue);
   color: var(--main-white);
   border: 1px solid transparent;
@@ -124,8 +124,8 @@
   transition: background-color 0.3s, box-shadow 0.3s;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.support-button:hover,
-.support-button:focus {
+.donate-button:hover,
+.donate-button:focus {
   border: 1px solid var(--blue);
   background-color: transparent;
   color: var(--blue);
@@ -169,7 +169,7 @@
   .navbar-collapse {
     margin-top: 60px;
   }
-  .support-button {
+  .donate-button {
     margin-left: 4px;
   }
 }

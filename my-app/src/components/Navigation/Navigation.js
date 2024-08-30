@@ -10,6 +10,12 @@ function Navigation() {
     setActiveNav(navItem);
   };
 
+
+  const handleDonateClick = () => {
+    window.location.href = "/donate-main";
+  };
+
+
   return (
     <section className="main-container">
       <nav className="navbar navbar-expand-lg sticky-top">
@@ -331,9 +337,7 @@ function Navigation() {
                       >
                         Stories of the Heart
                         <br />
-                        <span className="dropdown-span">
-                          lorem ipsum
-                        </span>
+                        <span className="dropdown-span">lorem ipsum</span>
                       </NavLink>
                     </li>
                   </ul>
@@ -448,16 +452,10 @@ function Navigation() {
                   </ul>
                 </li>
 
-                {/* Support Button */}
-                <button className="btn support-button" type="button">
-                  {/* <li className="support-link">
-                    <a 
-                      className="nav-link"
-                      aria-current="page"
-                      href=""
-                    ></a>
-                  </li> */}
-                  Support
+                {/* Donate Button */}
+                <button className="btn donate-button" type="button"
+                  onClick={handleDonateClick}>
+                  Donate
                 </button>
               </ul>
             </div>

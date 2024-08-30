@@ -7,9 +7,6 @@ import FacebookIcon from "../../images/Footer-Images/facebook.png";
 import YoutubeIcon from "../../images/Footer-Images/youtube.png";
 import LinkedinIcon from "../../images/Footer-Images/linkedin.png";
 
-// import InstagramIcon from "../../images/Footer-Images/instagram.png";
-// import TwitterIcon from "../../images/Footer-Images/twitter.png";
-
 function Footer() {
   return (
     <div className="footer-grid-container">
@@ -29,10 +26,6 @@ function Footer() {
             <p className="footer-p">E: info@chad-foundation.org</p>
             <p className="footer-p">W: www.chad-foundation.org</p>
             <div className="footer-social-media-icons">
-              {/* Instagram */}
-              {/* <a href="google.com" target="_blank" rel="noopener noreferrer">
-                <img src={InstagramIcon} alt="alt" width={45} />
-              </a> */}
               {/* Facebook */}
               <a
                 href="https://www.facebook.com/profile.php?id=100063710691467"
@@ -41,14 +34,6 @@ function Footer() {
               >
                 <img src={FacebookIcon} alt="alt" width={45} />
               </a>
-              {/* Twitter */}
-              {/* <a
-                href="https://x.com/ChadFoundation?t=Le-sXZoK3bOqdYAxlnQq8A&s=35"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={TwitterIcon} alt="alt" width={45} />
-              </a> */}
               {/* Youtube */}
               <a
                 href="https://www.youtube.com/watch?v=zt6H5ZlXRd8"
@@ -175,7 +160,9 @@ function Footer() {
             >
               Survivors
             </ScrollToTopNavLink>
-            <h3 className="footer-h3">Donate</h3>
+            <ScrollToTopNavLink to="/donate-main" className="nav-link footer-h3">
+              Donate
+            </ScrollToTopNavLink>
           </Col>
         </Row>
         <h3 className="footer-copyright">

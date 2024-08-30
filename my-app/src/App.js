@@ -43,6 +43,10 @@ import Survivors from "./components/Pages/5-PeopleWeLove/2-Survivors/0-Survivors
 import ScaAndTrainingResources from "./components/Pages/6-Resources-Page/1-SCAAndTrainingResources/SCAAndTrainingResources";
 import HospitalScreeningResources from "./components/Pages/6-Resources-Page/2-HospitalScreeningResources/HospitalScreeningResources";
 
+// DonatePage Imports
+
+import DonateMain from "./components/Pages/7-DonatePage/0-DonateMain/DonateMain.js";
+
 function App() {
   return (
     <Router>
@@ -110,6 +114,13 @@ function App() {
             path="/resources/hospital-screening-resources"
             element={<HospitalScreeningResources />}
           />
+
+            {/* DONATE PAGE */}
+          <Route
+            path="/donate-main"
+            element={<DonateMain />}
+          />
+          
         </Routes>
         <Footer />
       </div>
