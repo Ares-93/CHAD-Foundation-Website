@@ -18,7 +18,6 @@ const Stats = () => {
 
   return (
     <section className="StatsSection">
-    
       <div className="main-container">
         <div className="stats-header-box">
           <img src={HeartIcon} alt="doc-heart" width={60} height={60} />
@@ -35,8 +34,8 @@ const Stats = () => {
                     <Card.Title className="stats-card-title">10,000</Card.Title>
                   </div>
                   <Card.Text className="stats-card-text">
-                    people chose to have CHAD Heart Screenings. See 22 years of
-                    Chad Preventive Heart Screenings!
+                    Heart screenings for atheletes and students were provided by
+                    CHAD. See 22 years of preventive heart screenings.
                     <br />
                   </Card.Text>
                 </Card.Body>
@@ -83,9 +82,7 @@ const Stats = () => {
           </Row>
         </div>
         <div className="stats-expert-text">
-          Experts now say that community awareness, implementation of
-          cardiovascular screening programs, knowledge of CPR and AED placement
-          can safeguard young hearts, and help to prevent Sudden Cardiac Death.
+          To see pictures of CHAD Heart Screenings at work, click below.
           <br />
         </div>
         <div className="stats-gallery-btns">
