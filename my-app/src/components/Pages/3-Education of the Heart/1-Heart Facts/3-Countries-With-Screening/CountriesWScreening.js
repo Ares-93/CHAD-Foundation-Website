@@ -2,7 +2,7 @@ import React from "react";
 import "./CountriesWScreenings.css";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import { Row, Col, Card } from "react-bootstrap";
-// import ItalyFlag from "../../../../../images/EduOfHeart-Images/Italy.png";
+import ItalyFlag from "../../../../../images/EduOfHeart-Images/Italy.png";
 import JapanFlag from "../../../../../images/EduOfHeart-Images/Japan.png";
 import USAFlag from "../../../../../images/EduOfHeart-Images/USA.png";
 import Instructor from "../../../../../images/EduOfHeart-Images/instructor.png";
@@ -25,7 +25,7 @@ const CountriesWScreening = () => {
           </div>
           <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">
             <Col>
-              {/* <Card className="Italy">
+              <Card className="Italy">
                 <Card.Header className=" d-flex-align-itenms">
                   <img
                     src={ItalyFlag}
@@ -40,7 +40,7 @@ const CountriesWScreening = () => {
                     to identify cardiovascular risk.
                   </Card.Text>
                 </Card.Body>
-              </Card> */}
+              </Card>
             </Col>
             <Col md={3}>
               <Card className="Japan">
