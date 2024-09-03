@@ -24,7 +24,7 @@
 }
 
 .StatsSection .stats-card {
-  background-color: #F5EFEA;
+  background-color: #f5efea;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
@@ -126,11 +126,16 @@
   text-align: center;
   justify-content: center;
   font-family: Source Sans Pro;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 600;
   line-height: 120%;
   letter-spacing: 0em;
   text-align: center;
+}
+.stats-gallery-link {
+  text-decoration: none;
+  color: #3dadc8;
+  justify-content: right;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -154,7 +159,9 @@
     margin-left: -36px;
   }
   .StatsSection .stats-expert-text {
-    max-width: 90%;
+    max-width: 1000%;
+    font-size: 24px;
+    font-weight: bold;
   }
   .StatsSection .stats-gallery-btns {
     flex-direction: column;
