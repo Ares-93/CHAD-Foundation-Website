@@ -27,6 +27,7 @@ import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Healt
 
 // GIFT OF ART PAGE Imports
 import Scholarship from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Scholarship/Scholarship";
+import Winners from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Winners/Winners.js"
 import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
@@ -87,6 +88,10 @@ function App() {
 
           {/* GIFT OF ART PAGE */}
           <Route path="/gift-of-art/scholarship" element={<Scholarship />} />
+          <Route
+            path="/gift-of-art/scholarship/winners"
+            element={<Winners />}
+          />
           <Route path="/gift-of-art/plays" element={<Plays />} />
           <Route path="/gift-of-art/films" element={<Films />} />
           <Route path="/gift-of-art/books" element={<Books />} />
@@ -115,12 +120,8 @@ function App() {
             element={<HospitalScreeningResources />}
           />
 
-            {/* DONATE PAGE */}
-          <Route
-            path="/donate-main"
-            element={<DonateMain />}
-          />
-          
+          {/* DONATE PAGE */}
+          <Route path="/donate-main" element={<DonateMain />} />
         </Routes>
         <Footer />
       </div>

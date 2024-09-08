@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import GiftOfArtNavigation from "../../GiftOfArtNavigation";
 import "./Scholarship.css";
 import StudentPhoto from "../../../../../images/GiftOfArt-Images/scholarship-image.jpg";
@@ -7,6 +8,16 @@ import FriendsLetters from "../FriendsLetters/FriendsLetters";
 import WishListTwo from "../WishListTwo/WishlistTwo";
 
 const Scholarship = () => {
+  const navigate = useNavigate();
+
+  const handleApplicationClick = () => {
+    window.open("https://www.google.com", "_blank");
+  };
+
+  const handleWinnersClick = () => {
+    navigate("/gift-of-art/scholarship/winners");
+  };
+
   return (
     <section className="Scholarship">
       <GiftOfArtNavigation currentPage="scholarship" />
@@ -42,8 +53,18 @@ const Scholarship = () => {
               Stay tuned for details and deadlines!
             </p>
             <div className="scholarship-btns">
-              <button className="scholarship-btn">Submit Application</button>
-              <button className="scholarship-btn-submit">Winners</button>
+              <button
+                className="scholarship-btn"
+                onClick={handleApplicationClick}
+              >
+                Submit Application
+              </button>
+              <button
+                className="scholarship-btn-submit"
+                onClick={handleWinnersClick}
+              >
+                Winners
+              </button>
             </div>
           </div>
           <div className="scholarship-image-box">
