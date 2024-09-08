@@ -6,7 +6,11 @@ const GiftOfArtNavigation = ({ currentPage }) => {
   const [activeNav, setActiveNav] = useState(currentPage);
 
   useEffect(() => {
-    setActiveNav(currentPage);
+    if (currentPage === "winners") {
+      setActiveNav("scholarship");
+    } else {
+      setActiveNav(currentPage);
+    }
   }, [currentPage]);
 
   const pageTitleMap = {
@@ -16,6 +20,7 @@ const GiftOfArtNavigation = ({ currentPage }) => {
     books: "Books",
     "upcoming-events": "Events",
     "heart-stories": "Stories of the Heart",
+    winners: "Scholarship Winners",
   };
 
   return (
