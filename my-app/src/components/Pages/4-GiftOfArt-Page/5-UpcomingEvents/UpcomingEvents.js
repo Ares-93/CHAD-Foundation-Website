@@ -94,12 +94,12 @@ const UpcomingEvents = () => {
               <img src={HeartIcon} alt="heart" width={60} height={60} />
               <h2 className="upcomingEvents-header">Chad Dance</h2>
             </div>
-            <div className="upcomingEvents-subtext-2-box">
+            {/* <div className="upcomingEvents-subtext-2-box">
               <h4 className="upcomingEvents-subtext-2">Date: TBD</h4>
             </div>
             <div className="upcomingEvents-subtext-2-box">
               <h4 className="upcomingEvents-subtext-2">Location: TBD</h4>
-            </div>
+            </div> */}
             <p className="upcomingEvents-p upcomingEvents-p-2">
               “The CHAD Dance Benefit for the Gifts of Heart and Art” took place
               at McGettigan’s Irish Pub in midtown Manhattan, NYC.” Chad loved
@@ -127,9 +127,9 @@ const UpcomingEvents = () => {
                     Chad Classic Concert
                   </h2>
                 </div>
-                <div className="upcomingEvents-subtext-2-box">
+                {/* <div className="upcomingEvents-subtext-2-box">
                   <h4 className="upcomingEvents-subtext-2">Date: TBD</h4>
-                </div>
+                </div> */}
                 <div className="upcomingEvents-subtext-2-box">
                   <h4 className="upcomingEvents-subtext-2">
                     Location: The National Opera Center Recital Hall in NYC
@@ -170,9 +170,9 @@ const UpcomingEvents = () => {
                     Chad Classic Concert
                   </h2>
                 </div>
-                <div className="upcomingEvents-subtext-2-box">
+                {/* <div className="upcomingEvents-subtext-2-box">
                   <h4 className="upcomingEvents-subtext-2">Date: TBD</h4>
-                </div>
+                </div> */}
                 <div className="upcomingEvents-subtext-2-box">
                   <h4 className="upcomingEvents-subtext-2">
                     Location: The National Opera Center Recital Hall in NYC
@@ -199,12 +199,12 @@ const UpcomingEvents = () => {
               <img src={HeartIcon} alt="heart" width={60} height={60} />
               <h2 className="upcomingEvents-header">“Who I Am”</h2>
             </div>
-            <div className="upcomingEvents-subtext-2-box">
+            {/* <div className="upcomingEvents-subtext-2-box">
               <h4 className="upcomingEvents-subtext-2">Date: TBD</h4>
             </div>
             <div className="upcomingEvents-subtext-2-box">
               <h4 className="upcomingEvents-subtext-2">Location: TBD</h4>
-            </div>
+            </div> */}
             <p className="upcomingEvents-p">
               “Who I Am” by Christopher Palmer – a musical play about the
               realities high school students face in today’s world, such as

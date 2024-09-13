@@ -11,7 +11,7 @@ const Scholarship = () => {
   const navigate = useNavigate();
 
   const handleApplicationClick = () => {
-    window.open("https://www.google.com", "_blank");
+    window.open("https://forms.gle/VmkcTnfdUuV8tppD8", "_blank");
   };
 
   const handleWinnersClick = () => {
