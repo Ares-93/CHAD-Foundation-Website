@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Testimonials.css";
 import AboutUsNavigation from "../AboutUsNavigation";
 import PhotoOne from "../../../../images/AboutUs-Images/testimonials-photo-1.png";
@@ -7,38 +7,58 @@ import PhotoThree from "../../../../images/AboutUs-Images/testimonials-photo-3.p
 import PhotoFour from "../../../../images/AboutUs-Images/testimonials-photo-4.png";
 import PhotoFive from "../../../../images/AboutUs-Images/testimonials-photo-5.png";
 import PhotoSix from "../../../../images/AboutUs-Images/testimonials-photo-6.png";
-
+import PhotoSeven from "../../../../images/AboutUs-Images/testimonials-photo-7.jpg";
 
 const TestimonialsCard = ({
   name,
   position,
   place,
-  text,
+  initialStoryText,
+  expandedStoryText,
   imageUrl,
-  more,
-  dot,
-}) => (
-  <div className="testimonials-card">
-    <img
-      src={imageUrl}
-      alt={`${name} testimonial`}
-      className="testimonials-image"
-    />
-    <div className="testimonials-content">
-      <div className="testimonials-content-name-and-position">
-        {" "}
-        <h4 className="testimonials-name">{name}</h4>
-        <p className="testimonials-position">{position}</p>
-      </div>
-      <p className="testimonials-place">{place}</p>
-      <div className="testimonials-text-and-spans">
-        <p className="testimonials-text">{text}</p>
-        <span className="readMore-span">{more}</span>
-        <span className="dot-span">{dot}</span>
+  isExpandable,
+}) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  return (
+    <div className="testimonials-card">
+      <img
+        src={imageUrl}
+        alt={`${name} testimonial`}
+        className="testimonials-image"
+      />
+      <div className="testimonials-content">
+        <div className="testimonials-content-name-and-position">
+          <h4 className="testimonials-name">{name}</h4>
+          {position && <p className="testimonials-position">{position}</p>}
+        </div>
+        {place && <p className="testimonials-place">{place}</p>}
+        <div className="testimonials-text-and-spans">
+          <p className="testimonials-text">
+            {initialStoryText}
+            {isExpandable && !isExpanded && (
+              <span className="readMore-span" onClick={toggleExpansion}>
+                {" Read more"}
+              </span>
+            )}
+            {isExpandable && isExpanded && (
+              <>
+                {expandedStoryText}
+                <span className="readMore-span" onClick={toggleExpansion}>
+                  {" Read less"}
+                </span>
+              </>
+            )}
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const Testimonials = () => {
   return (
@@ -52,55 +72,83 @@ const Testimonials = () => {
             name="Troy Wirth,"
             position="Vice President"
             place="Metropolitan Life, San Jose, CA"
-            text="I have been meaning to write and thank you for all the spectacular work The Chad Foundation has been doing across the country. I am especially appreciative because I am one of the lives you might have saved. Due to your echocardiogram screening at the Chad Foundation Malibu Benefit for Children’s Hospital, Doctors detected an arrhythmia and advised immediate follow-up which I did and ended up having..."
-            more="Read more"
-            dot="."
+            initialStoryText="I have been meaning to write and thank you for all the spectacular work The Chad Foundation has been doing across the country. I am especially appreciative because I am one of the lives you might have saved. Due to your echocardiogram screening at the Chad Foundation Malibu Benefit for Children’s Hospital, Doctors detected an arrhythmia and advised"
+            expandedStoryText=" immediate follow-up which I did and ended up having surgery a month later in October, with a diagnosis of Wolff-Parkinson-White Syndrome. All my life, I suffered from this undiagnosed physical challenge and played Class 1 volleyball at USC and never could play to my optimum. Now, I am playing sports better than ever, thanks to your fortuitous screening event. I would be honored to be a spokesperson for your cause, of which I am living proof!"
             imageUrl={PhotoOne}
+            isExpandable={true}
           />
           {/* TWO */}
           <TestimonialsCard
             name="L. Underwood,"
             position="Director of Special Events"
             place="Children’s Hospital Los Angeles Foundation"
-            text="The Chad Foundation for Athletes and Artists’ support and willingness to participate so generously in our mission is greatly valued, and your gifts will have a significant impact on the care we provide to seriously ill children."
+            initialStoryText="The Chad Foundation for Athletes and Artists’ support and willingness to participate so generously in our mission is greatly valued, and your gifts will have a significant impact on the care we provide to seriously ill children."
+            expandedStoryText=""
             imageUrl={PhotoTwo}
+            isExpandable={false}
           />
           {/* THREE */}
           <TestimonialsCard
             name="Jim Gosset,"
             position="Head Athletic Trainer"
             place="Columbia University in the City of New York"
-            text="Collective data from their screening resources may yield a further understanding of heart-related illnesses in the young and causes of sudden death. For these reasons I give my unreserved support."
+            initialStoryText="Collective data from their screening resources may yield a further understanding of heart-related illnesses in the young and causes of sudden death. For these reasons I give my unreserved support."
+            expandedStoryText=""
             imageUrl={PhotoThree}
+            isExpandable={false}
           />
           {/* FOUR */}
           <TestimonialsCard
             name="Bernhard Wolf,"
             position="Managing Director"
             place="Homeless Streetsoccer World Cup, Graz, Austria"
-            text="On behalf of the INSP, International Streetnewspapers, and the 26 teams of homeless athletes who participated in the 1st and 2nd Homeless Streetsoccer World Cup, we thank you and The Chad Foundation for Athletes and Artists for providing this lifesaving test for our impoverished athletes of the world. Your heart screening event has become a necessary part of the World Cup, and we look forward to The Chad’s participation in forthcoming events."
+            initialStoryText="On behalf of the INSP, International Streetnewspapers, and the 26 teams of homeless athletes who participated in the 1st and 2nd Homeless Streetsoccer World Cup, we thank you and The Chad Foundation for Athletes and Artists for providing this lifesaving test for our impoverished athletes of the world."
+            expandedStoryText=""
             imageUrl={PhotoFour}
+            isExpandable={false}
           />
           {/* FIVE */}
           <TestimonialsCard
             name="Arnold Schwarzenegger"
             place="Governor of California"
-            text="As Governor of California, I commend the efforts of The Chad Foundation to raise public awareness of health issues. Heart health is an important concern in California, and I will continue to support efforts that encourage early screening and detection to prevent Sudden Cardiac Deaths. As such, I am grateful for the support that your foundation has provided to young athletes, the homeless and the Children’s Hospital of Los Angeles."
+            initialStoryText="As Governor of California, I commend the efforts of The Chad Foundation to raise public awareness of health issues. Heart health is an important concern in California, and I will continue to support efforts that encourage early screening and detection to prevent Sudden Cardiac Deaths."
+            expandedStoryText=""
             imageUrl={PhotoFive}
+            isExpandable={false}
           />
           {/* SIX */}
           <TestimonialsCard
             name="Nancy Cena,"
             position="Athletic Director"
             place="Port Richmond High School, Staten Island, New York"
-            text="Dear Arista, On behalf of the Port Richmond High School Athletic Program and Principal Timothy Gannon, I would like to thank you for providing complimentary heart screenings for our Varisty and Junior Varsity Football Teams. We do hope to work with The Chad Foundation again to service our track, basketball, and other teams who would greatly benefit from this heart screening. We extend our sincere thanks to the doctors, nurses, technicians, and volunteers..."
-            more="Read more"
-            dot="."
+            initialStoryText="Dear Arista, On behalf of the Port Richmond High School Athletic Program and Principal Timothy Gannon, I would like to thank you for providing complimentary heart screenings for our Varisty and Junior Varsity Football Teams."
+            expandedStoryText=""
             imageUrl={PhotoSix}
+            isExpandable={false}
+          />
+          {/* SEVEN */}
+          <TestimonialsCard
+            name="Jared LaCorte,"
+            position="MD, FAAP, FACC"
+            place="Staten Island Pediatric Cardiology"
+            initialStoryText="As a physician, especially one who specializes in pediatric cardiology and also as a father, it has been my privilege to participate in cardiac screening events such as those sponsored by the Chad Foundation."
+            expandedStoryText=" I feel very strongly that every young athlete should receive cardiac clearance prior to participating in competitive sports. Testing is non-invasive, results can be obtained quickly, and taking these types of preventative measures can potentially save lives."
+            imageUrl={PhotoSeven}
+            isExpandable={false}
+          />
+          {/* EIGHT */}
+          <TestimonialsCard
+            name="Michael R. Bloomberg,"
+            position="Mayor"
+            initialStoryText="Dear Friends, It is a pleasure to welcome everyone to the Harlem YMCA, where the Chad Foundation for Artists and Athletes is offering preventative screenings for young athletes throughout the day."
+            expandedStoryText=" On behalf of the City of New York, I thank all those whose generosity and dedication has made these screenings possible. I wish all of the athletes participating in these screenings the very best for an informative day, and for a healthy, happy future. Sincerely, Michael R. Bloomberg, Mayor"
+            imageUrl={PhotoSeven}
+            isExpandable={true}
           />
         </div>
       </div>
     </section>
   );
 };
+
 export default Testimonials;

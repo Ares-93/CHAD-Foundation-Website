@@ -1,3 +1,155 @@
-.Winners h1{
-  color: black;
+.Winners {
+  margin-bottom: 100px;
+}
+
+.Winners .main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.winner-section {
+  width: 48%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.115);
+  border-radius: 10px;
+  padding: 28px;
+  background-color: #f5efea;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.winner-content {
+  display: block;
+}
+
+.Winners .winners-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+  margin-top: 18px;
+  margin-bottom: 42px;
+  width: 100%;
+}
+
+.winner-image {
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-right: 28px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.winner-text {
+  display: block;
+}
+
+.winner-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--main-black);
+  margin-bottom: 10px;
+}
+
+.winner-description {
+  font-size: 16px;
+  color: #666;
+}
+
+.Winners .exit-winners-button {
+  display: block;
+  margin: 40px auto 0;
+  padding: 12px 46px;
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 26px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  background-color: var(--orange);
+  color: var(--main-white);
+  width: auto;
+}
+
+.Winners .exit-winners-button:hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media (max-width: 860px) {
+  .main-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .winner-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .winner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Winners .winners-header {
+    text-align: center;
+  }
+  .winner-image {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 12px;
+    width: 250px;
+    height: auto;
+  }
+
+  .winner-name {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .winner-description {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .Winners .winners-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .winner-image {
+    width: 220px;
+  }
+
+  .winner-content {
+    text-align: center;
+  }
+
+  .winner-name {
+    text-align: center;
+  }
+
+  .winner-description {
+    text-align: center;
+  }
 }

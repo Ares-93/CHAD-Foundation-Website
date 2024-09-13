@@ -29,7 +29,7 @@
   border-radius: 8px;
   background-color: #f5efea;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-  gap: 60px; /* Added gap between image and content */
+  gap: 60px; 
 }
 
 .StoriesOfHeart-Two .storiesOfHeart-image {
