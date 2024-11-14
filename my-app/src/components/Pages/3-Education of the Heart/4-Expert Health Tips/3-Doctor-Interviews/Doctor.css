@@ -16,6 +16,20 @@
   text-decoration: underline #eac0a1 11px;
 }
 
+/* Doctor Card 
+  added to fit the images and text in the card in a better way
+*/
+.doctor-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; /* Ensures all cards are of equal height */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
 .title {
   margin-top: 40px;
   font-size: 30px;

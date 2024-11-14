@@ -2,62 +2,56 @@ import React from "react";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import "./Doctor.css";
 import { Card, Row, Col } from "react-bootstrap";
-import Doc1 from "../../../../../images/EduOfHeart-Images/Doc1.png";
-import Doc2 from "../../../../../images/EduOfHeart-Images/Doc2.png";
-import Doc3 from "../../../../../images/EduOfHeart-Images/Doc3.png";
+import Doc1 from "../../../../../images/EduOfHeart-Images/Nutritionist.jpg";
+import Doc2 from "../../../../../images/EduOfHeart-Images/Physician.jpg";
+import Doc3 from "../../../../../images/EduOfHeart-Images/exercise_physiologist.jpg";
 
 const Doctor = () => {
   return (
     <section className="doctors">
       <div className="main-container">
         <div className="doctor-header-box">
-          {<img src={HeartIcon} alt="heart" width={60} height={60} />}
+          <img src={HeartIcon} alt="heart" width={60} height={60} />
           <h2 className="doctor-header">Heart Healthy Professionals</h2>
         </div>
         <p className="card-text">
-          Healthy living starts with a healthy diet. Here are our favorite
-          recipes for the month.
+          Learn from our experts in nutrition, heart health, and exercise to
+          help you live a heart-healthy life.
         </p>
-        <Row xd={1} md={3} className="g-4 ">
+        <Row xs={1} md={3} className="g-4">
           <Col>
-            <Card className="doc1-text">
-              <Card.Img src={Doc1} alt="doc1" />
+            <Card className="doctor-card">
+              <Card.Img src={Doc1} alt="Nutritionist" />
               <Card.Body>
-                <Card.Title className="title">
-                  How to Improve your heart health!
-                  <Card.Text className="doc1-text">
-                    <p className="text1">Doctor’s name</p>
-                    <p className="text2">March 2023</p>
-                  </Card.Text>
-                </Card.Title>
+                <Card.Title className="title">Eat Healthy</Card.Title>
+                <Card.Text className="doctor-details">
+                  <p className="text1">Nutritionist</p>
+                  <p className="text2">Heart-Healthy Diet Tips</p>
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card className="doc2-text">
-              <Card.Img src={Doc2} alt="doc2" />
+            <Card className="doctor-card">
+              <Card.Img src={Doc2} alt="Physician" />
               <Card.Body>
-                <Card.Title className="title">
-                  How to Improve your heart health!
-                  <Card.Text className="doc2-text">
-                    <p className="text1">Doctor’s name</p>
-                    <p className="text2">April 2023</p>
-                  </Card.Text>
-                </Card.Title>
+                <Card.Title className="title">Live Healthy</Card.Title>
+                <Card.Text className="doctor-details">
+                  <p className="text1">Physician</p>
+                  <p className="text2">General Heart Health Advice</p>
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card className="doc3-text">
-              <Card.Img src={Doc3} alt="doc3" />
+            <Card className="doctor-card">
+              <Card.Img src={Doc3} alt="Exercise Physiologist" />
               <Card.Body>
-                <Card.Title className="title">
-                  How to Improve your heart health!
-                  <Card.Text className="doc3-text">
-                    <p className="text1">Doctor’s name</p>
-                    <p className="text2">May 2023</p>
-                  </Card.Text>
-                </Card.Title>
+                <Card.Title className="title">Move Healthy</Card.Title>
+                <Card.Text className="doctor-details">
+                  <p className="text1">Exercise Physiologist</p>
+                  <p className="text2">Heart-Healthy Exercises</p>
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
