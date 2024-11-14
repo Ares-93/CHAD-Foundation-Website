@@ -3,8 +3,8 @@ import "./Recipe.css";
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import VegImg from "../../../../../images/EduOfHeart-Images/Vegitarain Enchilada.png";
-import Burger from "../../../../../images/EduOfHeart-Images/oven-baked-salmon-recipe-5.png";
-import Allergen from "../../../../../images/EduOfHeart-Images/Yogurt.png";
+import Healthy from "../../../../../images/EduOfHeart-Images/oven-baked-salmon-recipe-5.png";
+import Snacks from "../../../../../images/EduOfHeart-Images/Yogurt.png";
 
 const Recipe = () => {
   return (
@@ -21,23 +21,29 @@ const Recipe = () => {
         <Row xd={1} md={3} className="g-4 ">
           <Col>
             <Card className="salad">
-              <Card.Img src={VegImg} alt="Veg Options" />
+              <a
+                href="https://www.foodnetwork.com/recipes/food-network-kitchen/vegetarian-enchiladas-3364279"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card.Img src={VegImg} alt="Veg Options" />
+              </a>
               <Card.Body>
                 <Card.Title className="title">Vegetarian</Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card className="burger">
-              <Card.Img src={Burger} alt="non-veg" />
+            <Card className="Healthy">
+              <Card.Img src={Healthy} alt="non-veg" />
               <Card.Body>
                 <Card.Title className="title">Heart Healthy Diet</Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card className="allergen">
-              <Card.Img src={Allergen} alt="Snacks" />
+            <Card className="Snacks">
+              <Card.Img src={Snacks} alt="Snacks" />
               <Card.Body>
                 <Card.Title className="title"> Heart Healthy Snacks</Card.Title>
               </Card.Body>
