@@ -20,7 +20,7 @@ const Recipe = () => {
         </p>
         <Row xd={1} md={3} className="g-4 ">
           <Col>
-            <Card className="salad">
+            <Card className="recipe-card">
               <a
                 href="https://www.foodnetwork.com/recipes/food-network-kitchen/vegetarian-enchiladas-3364279"
                 target="_blank"
@@ -34,16 +34,28 @@ const Recipe = () => {
             </Card>
           </Col>
           <Col>
-            <Card className="Healthy">
-              <Card.Img src={Healthy} alt="non-veg" />
+            <Card className="recipe-card">
+              <a
+                href="https://www.foodnetwork.com/recipes/oven-baked-salmon-recipe-1911951"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card.Img src={Healthy} alt="non-veg" />
+              </a>
               <Card.Body>
                 <Card.Title className="title">Heart Healthy Diet</Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card className="Snacks">
-              <Card.Img src={Snacks} alt="Snacks" />
+            <Card className="recipe-card">
+              <a
+                href="https://www.foodnetwork.com/recipes/rachael-ray/yogurt-and-fruit-parfaits-recipe-1940127"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card.Img src={Snacks} alt="Snacks" />
+              </a>
               <Card.Body>
                 <Card.Title className="title"> Heart Healthy Snacks</Card.Title>
               </Card.Body>
