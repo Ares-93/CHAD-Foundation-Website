@@ -2,9 +2,9 @@ import React from "react";
 import "./Recipe.css";
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
-import VegImg from "../../../../../images/EduOfHeart-Images/Vegg.png";
-import Burger from "../../../../../images/EduOfHeart-Images/Burger.png";
-import Allergen from "../../../../../images/EduOfHeart-Images/Allergen.png";
+import VegImg from "../../../../../images/EduOfHeart-Images/Vegitarain Enchilada.png";
+import Burger from "../../../../../images/EduOfHeart-Images/oven-baked-salmon-recipe-5.png";
+import Allergen from "../../../../../images/EduOfHeart-Images/Yogurt.png";
 
 const Recipe = () => {
   return (
@@ -31,15 +31,15 @@ const Recipe = () => {
             <Card className="burger">
               <Card.Img src={Burger} alt="non-veg" />
               <Card.Body>
-                <Card.Title className="title">Healthy</Card.Title>
+                <Card.Title className="title">Heart Healthy Diet</Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card className="allergen">
-              <Card.Img src={Allergen} alt="allergen" />
+              <Card.Img src={Allergen} alt="Snacks" />
               <Card.Body>
-                <Card.Title className="title">Healthy Snacks</Card.Title>
+                <Card.Title className="title"> Heart Healthy Snacks</Card.Title>
               </Card.Body>
             </Card>
           </Col>
