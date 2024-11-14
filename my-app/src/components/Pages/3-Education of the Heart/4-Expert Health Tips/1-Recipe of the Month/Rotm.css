@@ -40,11 +40,22 @@
   justify-content: center;
 }
 
-.recipe-btn {
+.recipe-btn-container {
   display: flex;
   justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.recipe-btn-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.recipe-btn {
+  display: inline-block;
+  justify-content: center;
   text-align: center;
-  display: block;
   margin: 0 auto;
   background-color: var(--orange);
   padding: 14px 165px;
@@ -58,4 +69,5 @@
   cursor: pointer;
   transition: all ease-in-out 300ms;
   margin-top: 40px;
+  text-decoration: none;
 }

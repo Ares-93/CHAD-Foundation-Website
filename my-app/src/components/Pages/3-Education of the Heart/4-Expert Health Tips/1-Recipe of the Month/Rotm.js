@@ -31,7 +31,15 @@ const RecipeOfTheMonth = () => {
             </Card>
           </Col>
         </Row>
-        <button className="recipe-btn">View Full Recipe</button>
+        <div className="recipe-btn-container">
+          <a
+            href="https://www.foodnetwork.com/recipes/rachael-ray/quinoa-and-vegetable-stuffed-peppers-recipe-2120671"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="recipe-btn">View Full Recipe</button>
+          </a>
+        </div>
       </div>
     </section>
   );
