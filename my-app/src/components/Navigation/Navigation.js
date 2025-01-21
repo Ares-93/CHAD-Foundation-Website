@@ -14,6 +14,9 @@ function Navigation() {
   const handleDonateClick = () => {
     window.location.href = "/donate-main";
   };
+  const handleDocClick = () => {
+    window.open("https://www.youtube.com/watch?v=ldwHd9MyKQc&t=2s");
+  };
 
 
   return (
@@ -137,6 +140,24 @@ function Navigation() {
                         <br />
                         <span className="dropdown-span">
                           Everyone who made this foundation happen.
+                        </span>
+                      </NavLink>
+                    </li>
+                    {/* Documentary */}
+                    <li>
+                      <NavLink
+                        to="/about/who-we-are"
+                        className={`dropdown-item ${
+                          activeNav === "who-we-are"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleDocClick()}
+                      >
+                        The Chad's Documentary
+                        <br />
+                        <span className="dropdown-span">
+                          Watch the documentary about our nonprofit charity's work.
                         </span>
                       </NavLink>
                     </li>
