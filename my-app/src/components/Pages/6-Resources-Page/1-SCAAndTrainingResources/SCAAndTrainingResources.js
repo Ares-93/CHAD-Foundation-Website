@@ -4,6 +4,7 @@ import ResourcesNavigation from "../ResourcesNavigation";
 
 // IMAGES
 import ResourcesImageAED from "../../../../images/Resources-Images/resources-image-aed.png";
+import ResourcesImageCPR from "../../../../images/Resources-Images/resources-image-cpr.png";
 import ResourcesImageOne from "../../../../images/Resources-Images/resources-image-one.png";
 import ResourcesImageTwo from "../../../../images/Resources-Images/resources-image-two.png";
 import ResourcesImageThree from "../../../../images/Resources-Images/resources-image-three.png";
@@ -71,7 +72,7 @@ const SCAAndTrainingResources = () => {
     <section className="SCAAndTraining">
       <ResourcesNavigation currentPage="sca-and-training-resources" />
       <div className="main-container">
-        {/* Card 0 */}
+        {/* Card AED */}
         <ResourceCard
           imageUrl={ResourcesImageAED}
           name="Automated external defibrillators: Do you need an AED?"
@@ -86,6 +87,14 @@ const SCAAndTrainingResources = () => {
               text: "More",
             },
           ]}
+        />
+        {/* Card CPR */}
+        <ResourceCard
+          imageUrl={ResourcesImageCPR}
+          name="What is CPR?"
+          text="Steps to perform it, and How to find a class to learn CPR."
+          link="https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
+          linkText="Check"
         />
         {/* Card 1 */}
         <ResourceCard
