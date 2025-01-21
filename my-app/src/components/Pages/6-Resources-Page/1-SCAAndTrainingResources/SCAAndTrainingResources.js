@@ -3,6 +3,7 @@ import "./SCAAndTrainingResources.css";
 import ResourcesNavigation from "../ResourcesNavigation";
 
 // IMAGES
+import ResourcesImageAED from "../../../../images/Resources-Images/resources-image-aed.png";
 import ResourcesImageOne from "../../../../images/Resources-Images/resources-image-one.png";
 import ResourcesImageTwo from "../../../../images/Resources-Images/resources-image-two.png";
 import ResourcesImageThree from "../../../../images/Resources-Images/resources-image-three.png";
@@ -28,7 +29,6 @@ import ResourcesImageTwentyTwo from "../../../../images/Resources-Images/resourc
 import ResourcesImageTwentyThree from "../../../../images/Resources-Images/resources-image-twenty-three.png";
 import ResourcesImageTwentyFour from "../../../../images/Resources-Images/resources-image-twenty-four.png";
 import ResourcesImageTwentyFive from "../../../../images/Resources-Images/resources-image-twenty-five.png";
-
 
 const ResourceCard = ({ imageUrl, name, text, link, linkText, links }) => {
   return (
@@ -71,6 +71,22 @@ const SCAAndTrainingResources = () => {
     <section className="SCAAndTraining">
       <ResourcesNavigation currentPage="sca-and-training-resources" />
       <div className="main-container">
+        {/* Card 0 */}
+        <ResourceCard
+          imageUrl={ResourcesImageAED}
+          name="Automated external defibrillators: Do you need an AED?"
+          text="An AED may save your life during cardiac arrest. Weigh the pros and cons to see if you should get one."
+          links={[
+            {
+              url: "https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/in-depth/automated-external-defibrillators/art-20043909",
+              text: "Check",
+            },
+            {
+              url: "https://cpr.heart.org/-/media/CPR-Files/Training-Programs/AED-Implementation/2023-updates/KJ1729_AED_FactSheet.pdf",
+              text: "More",
+            },
+          ]}
+        />
         {/* Card 1 */}
         <ResourceCard
           imageUrl={ResourcesImageOne}
