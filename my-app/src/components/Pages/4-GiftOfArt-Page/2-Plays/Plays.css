@@ -90,7 +90,25 @@
   margin-top: 6px;
   margin-bottom: 12px;
 }
-
+.Plays .plays-subtext-2-box {
+  display: inline-flex;
+  max-width: 166px;
+  margin-top: 24px;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 10px;
+  background: #f5efea;
+  margin-right: 10px;
+}
+.Plays .plays-subtext-2 {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 @media only screen and (max-width: 1160px) {
   .Plays {
     margin-bottom: 80px;
@@ -125,6 +143,10 @@
   .Plays .plays-quotes {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+  .Plays .plays-subtext-2-box {
+    margin: 24px auto 0 auto;
     text-align: center;
   }
 }
