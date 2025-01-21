@@ -4,7 +4,6 @@ import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
 import EventsOne from "../../../../images/GiftOfArt-Images/events-image-one.jpg";
 import EventsTwo from "../../../../images/GiftOfArt-Images/events-image-two.png";
-import EventsThree from "../../../../images/GiftOfArt-Images/events-image-three.png";
 import DriverCampaign from "../../../../images/GiftOfArt-Images/safe-driver-campaign.png";
 
 const UpcomingEvents = () => {
@@ -22,7 +21,7 @@ const UpcomingEvents = () => {
     };
   }, []);
 
-  return (
+  return ( 
     <section className="UpcomingEvents">
       <GiftOfArtNavigation currentPage="upcoming-events" />
       <div className="main-container">
@@ -191,34 +190,6 @@ const UpcomingEvents = () => {
               </div>
             </>
           )}
-        </div>
-        {/* FOUR */}
-        <div className="upcomingEvents-content">
-          <div className="upcomingEvents-content-left">
-            <div className="upcomingEvents-header-box">
-              <img src={HeartIcon} alt="heart" width={60} height={60} />
-              <h2 className="upcomingEvents-header">“Who I Am”</h2>
-            </div>
-            {/* <div className="upcomingEvents-subtext-2-box">
-              <h4 className="upcomingEvents-subtext-2">Date: TBD</h4>
-            </div>
-            <div className="upcomingEvents-subtext-2-box">
-              <h4 className="upcomingEvents-subtext-2">Location: TBD</h4>
-            </div> */}
-            <p className="upcomingEvents-p">
-              “Who I Am” by Christopher Palmer – a musical play about the
-              realities high school students face in today’s world, such as
-              losing your best friend to a terminal illness, sexual harassment,
-              and the challenge of dealing with mental illness at a fragile age.
-            </p>
-          </div>
-          <div className="upcomingEvents-image-box">
-            <img
-              src={EventsThree}
-              alt="Events"
-              className="upcomingEvents-image"
-            />
-          </div>
         </div>
       </div>
     </section>

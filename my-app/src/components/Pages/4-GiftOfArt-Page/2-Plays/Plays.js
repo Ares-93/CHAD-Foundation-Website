@@ -5,6 +5,8 @@ import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-ico
 import PlaysOne from "../../../../images/GiftOfArt-Images/plays-image-one.png";
 import PlaysTwo from "../../../../images/GiftOfArt-Images/plays-image-two.png";
 import PlaysThree from "../../../../images/GiftOfArt-Images/plays-image-three.png";
+import PlaysFour from "../../../../images/GiftOfArt-Images/plays-image-four.png";
+
 
 const Plays = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1160);
@@ -189,6 +191,48 @@ const Plays = () => {
             <img src={PlaysThree} alt="Plays" className="plays-image" />
           </div>
         </div>
+        {/* FOUR */}
+
+<div className="plays-content">
+  {isSmallScreen ? (
+    <>
+      <div className="plays-content-right">
+        <div className="plays-header-box">
+          <img src={HeartIcon} alt="heart" width={60} height={60} />
+          <h2 className="plays-header">Who I Am</h2>
+        </div>
+        <p className="plays-p">
+          “Who I Am” by Christopher Palmer – a musical play about the
+          realities high school students face in today’s world, such as
+          losing your best friend to a terminal illness, sexual harassment,
+          and the challenge of dealing with mental illness at a fragile age.
+        </p>
+      </div>
+      <div className="plays-image-box">
+        <img src={PlaysFour} alt="Plays" className="plays-image" />
+      </div>
+    </>
+  ) : (
+    <>
+      <div className="plays-image-box">
+        <img src={PlaysFour} alt="Plays" className="plays-image" />
+      </div>
+      <div className="plays-content-right">
+        <div className="plays-header-box">
+          <img src={HeartIcon} alt="heart" width={60} height={60} />
+          <h2 className="plays-header">Who I Am</h2>
+        </div>
+        <p className="plays-p">
+          “Who I Am” by Christopher Palmer – a musical play about the
+          realities high school students face in today’s world, such as
+          losing your best friend to a terminal illness, sexual harassment,
+          and the challenge of dealing with mental illness at a fragile age.
+        </p>
+      </div>
+    </>
+  )}
+</div>
+
       </div>
     </section>
   );
