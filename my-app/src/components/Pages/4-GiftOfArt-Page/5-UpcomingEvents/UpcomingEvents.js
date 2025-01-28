@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./UpcomingEvents.css";
+import { useNavigate } from "react-router-dom";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
 import EventsOne from "../../../../images/GiftOfArt-Images/events-image-one.jpg";
@@ -20,8 +21,12 @@ const UpcomingEvents = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  const navigate = useNavigate();
+  const handleSafeDrClick = () => {
+    navigate("/gift-of-art/upcoming-events/safe-driver-campaign");
+  };
 
-  return ( 
+  return (
     <section className="UpcomingEvents">
       <GiftOfArtNavigation currentPage="upcoming-events" />
       <div className="main-container">
@@ -46,6 +51,9 @@ const UpcomingEvents = () => {
                   and others by joining the{" "}
                   <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
                 </p>
+                <button className="safedr-btn" onClick={handleSafeDrClick}>
+                  Safe Driver Campaign
+                </button>
               </div>
               <div className="upcomingEvents-image-box">
                 <img
@@ -77,10 +85,13 @@ const UpcomingEvents = () => {
                   or did drugs his entire life. He always did the driving when
                   he and his friends went out to the clubs dancing and you
                   always had to wear a seatbelt when you drove with Chad in his
-                  car. - “Healthy body/mind/spirit.” Please safeguard your life
-                  and others by joining the{" "}
+                  car. - “Healthy body/mind/spirit.” <br />
+                  Please safeguard your life and others by joining the
                   <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
                 </p>
+                <button className="safedr-btn" onClick={handleSafeDrClick}>
+                  Safe Driver Campaign
+                </button>
               </div>
             </>
           )}
