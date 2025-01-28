@@ -1,0 +1,113 @@
+.SafeDr {
+  margin-bottom: 100px;
+}
+
+.SafeDr .safedr-header {
+  color: var(--main-black);
+  font-family: var(--accent-font);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline #eac0a1 9px;
+  margin-top: 18px;
+  margin-bottom: 42px;
+  width: 100%;
+}
+
+.SafeDr .safedr-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.SafeDr .safedr-text {
+  flex: 1;
+  font-size: 18px;
+  font-family: var(--main-font);
+  color: var(--main-black);
+  line-height: 1.8;
+}
+
+.SafeDr .safedr-image {
+  width: 460px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.SafeDr .safedr-campaign-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.SafeDr .safedr-button-orange  {
+  display: block;
+  margin: 40px auto 0;
+  padding: 12px 46px;
+  font-family: var(--accent-font);
+  line-height: 100%;
+  font-size: 26px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  background-color: var(--orange);
+  color: var(--main-white);
+  width: auto;
+}
+
+.SafeDr .safedr-button-orange :hover {
+  background-color: var(--main-white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media (max-width: 1160px) {
+  .SafeDr .safedr-content {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 24px;
+  }
+
+  .SafeDr .safedr-text {
+    width: 800px;
+    text-align: left;
+  }
+}
+@media (max-width: 860px) {
+  .SafeDr .safedr-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .SafeDr .safedr-text {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 580px) {
+  .SafeDr .safedr-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .SafeDr .safedr-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .SafeDr .safedr-image {
+    width: 100%;
+  }
+  .SafeDr .safedr-campaign-button{
+    width: 90%;
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
