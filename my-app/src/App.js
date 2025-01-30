@@ -32,7 +32,7 @@ import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
 import UpcomingEvents from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/UpcomingEvents";
-import SafeDr from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/SafeDr.js"
+import SafeDr from "./components/Pages/4-GiftOfArt-Page/5-UpcomingEvents/SafeDriver/SafeDr.js";
 import StoriesOfHeart from "./components/Pages/4-GiftOfArt-Page/6-StoriesOfHeart/StoriesOfHeart";
 
 import Support from "./components/Pages/1-Home-Page/7-Support/Support";
