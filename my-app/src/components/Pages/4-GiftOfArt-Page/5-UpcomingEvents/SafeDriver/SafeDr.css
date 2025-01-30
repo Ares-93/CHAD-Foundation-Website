@@ -1,5 +1,8 @@
+.SafeDr-super {
+  margin: 0;
+}
 .SafeDr {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .SafeDr .safedr-header {
