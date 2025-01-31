@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/Functions/ScrollToTop";
 import "./App.css";
@@ -6,6 +6,7 @@ import "./index.css";
 
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
+import FeedbackForm from "./components/Footer/FeedbackForm.js";
 
 // HOME PAGE Imports
 import HomePage from "./components/Pages/1-Home-Page/0-Home-Page-Main/HomePage";
@@ -27,7 +28,7 @@ import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Healt
 
 // GIFT OF ART PAGE Imports
 import Scholarship from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Scholarship/Scholarship";
-import Winners from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Winners/Winners.js"
+import Winners from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Winners/Winners.js";
 import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
@@ -46,16 +47,32 @@ import ScaAndTrainingResources from "./components/Pages/6-Resources-Page/1-SCAAn
 import HospitalScreeningResources from "./components/Pages/6-Resources-Page/2-HospitalScreeningResources/HospitalScreeningResources";
 
 // DonatePage Imports
-
 import DonateMain from "./components/Pages/7-DonatePage/0-DonateMain/DonateMain.js";
 
 function App() {
+  const [showFeedback, setShowFeedback] = useState(false);
+
+  // Automatically show feedback form after 5 minutes 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowFeedback(true);
+    }, 300000); // 5 minutes. To test: 10000 is 10 sec,  600000 is 10 min and  900000 is 15 min
+
+    return () => clearTimeout(timer); // Cleanup if user leaves
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />{" "}
       {/* This component ensures every navigation scrolls to the top */}
       <div className="App">
         <Navigation />
+
+        {/* Feedback form automatically appears after 5 minutes */}
+        {showFeedback && (
+          <FeedbackForm onClose={() => setShowFeedback(false)} />
+        )}
+
         <Routes>
           {/* HOME PAGE */}
           <Route path="/" element={<HomePage />} />
@@ -128,6 +145,7 @@ function App() {
           {/* DONATE PAGE */}
           <Route path="/donate-main" element={<DonateMain />} />
         </Routes>
+
         <Footer />
       </div>
     </Router>
