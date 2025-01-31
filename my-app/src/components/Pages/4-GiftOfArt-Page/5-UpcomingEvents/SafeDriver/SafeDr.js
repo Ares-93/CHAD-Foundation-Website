@@ -59,15 +59,9 @@ const SafeDr = () => {
             Order your CHAD “Life is a Gift” Pendant
           </button>
         </div>
-
-        {/* <button
-        onClick={() => navigate("/gift-of-art/upcoming-events")}
-        className="safedr-button-orange exit-safedr-button"
-      >
-        Back to Events
-      </button> */}
       </section>
       <RollOfDrivers />
+     
     </div>
   );
 };

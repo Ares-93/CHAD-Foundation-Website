@@ -1,13 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import "./RollOfDrivers.css";
 import ImgOne from "../../../../../images/GiftOfArt-Images/roll-one.png";
 import ImgTwo from "../../../../../images/GiftOfArt-Images/campaign-two.png";
 import ImgThree from "../../../../../images/GiftOfArt-Images/roll-two.png";
+import ImgPaper from "../../../../../images/GiftOfArt-Images/roll-paper-safedr.png";
 
 const RollOfDrivers = () => {
   const handleRollBtnClick = () => {
     window.open("https://youtu.be/ldwHd9MyKQc?si=q5Bw-AHAN0F19pLL&t=755");
   };
+  const navigate = useNavigate();
+
   return (
     <section className="RollOfDrivers">
       <div className="main-container">
@@ -15,7 +20,7 @@ const RollOfDrivers = () => {
         <div className="roll-box">
           <h2 className="roll-h2">Texting and Drinking and Driving</h2>
           <div className="roll-facts-content">
-            <ul>
+          <ul>
               <li>
                 <span className="roll-highlight">23%</span> of all car accidents
                 each year involve cell phone use – that’s{" "}
@@ -117,7 +122,97 @@ const RollOfDrivers = () => {
             <img src={ImgThree} alt="Roll Two" className="img-three" />
           </div>
         </div>
+
+        <div className="roll-paper-box">
+          <img src={ImgPaper} alt="roll" className="roll-paper" />
+          <div className="locations">
+            <div className="location-box">
+              <h2>USA</h2>
+
+              <h3>California</h3>
+              <p>Sharen and Carl Butrum, Sacramento, CA</p>
+              <p>Curt Butrum, Studio City, CA</p>
+              <p>N. Castillo, Lakeworth, CA</p>
+              <p>Jake and Nicole Downey, CA</p>
+              <p>Maria Ellis, Studio City, CA</p>
+              <p>M. Garrett, Pacific Palisades, CA</p>
+              <p>C. K., Los Angeles, CA</p>
+              <p>K. K., Van Nuys, CA</p>
+              <p>Alan Lewis, MD, Los Angeles, CA</p>
+              <p>Dennis McInnis, La Habra, CA</p>
+              <p>Shellie McMeekin-Pierson, Woodland Hills, CA</p>
+
+              <h3>Colorado</h3>
+              <p>L. Kaplan, Denver, CO</p>
+
+              <h3>Connecticut</h3>
+              <p>J. Carder, Stamford, CT</p>
+
+              <h3>Florida</h3>
+              <p>Curt Butrum, Fort Lauderdale, FL</p>
+              <p>Olena Butrum, Fort Lauderdale, FL</p>
+
+              <h3>Washington, D. C.</h3>
+              <p>A. Polla, Washington, D.C.</p>
+
+              <h3>Hawaii</h3>
+              <p>Nate Luzod, Honolulu, Hawaii</p>
+              <p>Mae Luzod, Honolulu, Hawaii</p>
+
+              <h3>Massachusetts</h3>
+              <p>Nick Farnsworth, Wilmington, MA</p>
+              <p>Cindy and Doug Gray, Holyoke, MA</p>
+              <p>Mackenzie Gray, Holyoke, MA</p>
+              <p>Susan and Jim Hale, Northampton, MA</p>
+
+              <h3>Michigan</h3>
+              <p>Jessica DeVol, MI</p>
+              <p>Liza Luzod-Chubb</p>
+              <p>Brian Chubb</p>
+              <p>Alonzo Luzod</p>
+
+              <h3>Nevada</h3>
+              <p>Collin Butrum, Las Vegas, NV</p>
+
+              <h3>New Jersey</h3>
+              <p>Angelina Kuhn, Weehawken, NJ</p>
+              <p>Michael Jay Perez, New Brunswick, NJ</p>
+              <p>Shine Shen, Franklin, NJ</p>
+              <p>Wendy Trinidad, Rahway, NJ</p>
+
+              <h3>New York</h3>
+              <p>Matt Derek</p>
+              <p>K. Alcarez, MD, New York, NY</p>
+              <p>Zoe Anton, Long Island, NY</p>
+              <p>M. A. Clarke, Bronx, NY</p>
+
+              <h3>Vermont</h3>
+              <p>G. and J. Carder</p>
+
+              <h3>Virginia</h3>
+              <p>Joe Connors, Arlington, VA</p>
+            </div>
+            <div className="location-box">
+              <h2>Other Countries</h2>
+
+              <h3>England</h3>
+              <p>Scott Cooper, Lancashire, England, UK</p>
+
+              <h3>Dominican Republic</h3>
+              <p>Carlos Raposo, Santo Domingo</p>
+
+              <h3>Switzerland</h3>
+              <p>B. Polla, MD</p>
+            </div>
+          </div>
+        </div>
       </div>
+      <button
+        onClick={() => navigate("/gift-of-art/upcoming-events")}
+        className="exit-safedr-button"
+      >
+        Back to Events
+      </button>
     </section>
   );
 };
