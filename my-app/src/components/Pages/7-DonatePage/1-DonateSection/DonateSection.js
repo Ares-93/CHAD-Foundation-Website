@@ -10,8 +10,9 @@ const DonateSection = () => {
           Together, we can make a difference and save lives.{" "}
         </p>
         <p className="donate-page-p">
-          Please donate today and help us raise awareness of this important
-          issue.
+        Please give a Gift today to help us raise awareness of Sudden Cardiac Arrest in Young 
+        People and save young hearts—‘inner and outer’—healthy Mind, Body, and Spirit. “The 
+        Gift of Heart and Art.”
         </p>
       </div>
     </section>

@@ -47,7 +47,8 @@ const ChadMissionSupport = () => {
               Basketball Association, CHAD celebrates life’s spectrum. From SCD
               victims to survivors — from heartbreak to heroism — learn about
               how The Chad Foundation has saved lives and shaped a better
-              tomorrow.
+              tomorrow.100% of the royalties from the CHAD Book are directly donated to 
+              The Chad Foundation for Athletes and Artists, a nonprofit, charitable organization.
             </p>
             <button
               className="chadMissionSupport-btn"
@@ -70,24 +71,29 @@ const ChadMissionSupport = () => {
 
           <div className="chadMissionSupport-box-right-side">
             <h3 className="chadMissionSupport-h3">
-              “Life is a Gift” Keychain Shield - Chad Safe Driver Campaign
+              “Life is a Gift” Keychain Pendant - Chad Safe Driver Campaign
             </h3>
             <p className="chadMissionSupport-p">
-              Laoreet nisl ut tempus vel hendrerit eu vitae. Vulputate malesuada
-              viverra ipsum pharetra. Massa diam quis amet pharetra egestas
-              libero tempus arcu feugiat. Integer nunc fermentum arcu egestas
-              arcu. Tortor et tortor viverra adipiscing urna egestas netus
-              aliquam. Laoreet nisl ut tempus vel hendrerit eu vitae. Vulputate
-              malesuada viverra ipsum pharetra. Massa diam quis amet pharetra
-              egestas libero tempus arcu feugiat. Integer nunc fermentum arcu
-              egestas arcu. Tortor et tortor viverra adipiscing urna egestas
-              netus aliquam.
+            Chad was a great guy who loved all people, cared about their dreams.
+            He never drank, smoked or did drugs. He always was the ‘designated
+            driver’ when he and his friends went out to the clubs dancing, and you
+            always had to wear a seatbelt in Chad’s car. Please safeguard your life
+            and others by joining the <strong>“Chad Safe Driver Campaign - Life is A
+            Gift.”</strong> Order your <strong> “Life is A Gift” Keychain Shield Pendant,” </strong>a
+            heavyweight, curved shield pendant with a pewter-like finish.  Join
+            the <strong>“Chad Honour Roll of Safe Drivers”</strong> by taking the <strong>“Life is a Gift
+            pledge: Save Lives, I will not text/drink and drive.”</strong> Join the “Honor
+            Roll of Safe Drivers” from all 50 states, and countries world-
+            wide. <strong>Hang it in your car</strong>, your keychain, use as a piece of jewelry or
+            give a gift as a reminder, <strong>“Life is a Gift!”</strong> The Keychain Pendant comes
+            in a navy velveteen embossed drawstring pouch; high-quality
+            embossed navy gift box is $5 additional.
             </p>
             <button
               className="chadMissionSupport-btn"
               onClick={handleSecondButtonClick}
             >
-              Donate with Purchase
+              Order “Life is a Gift” Keychain
             </button>
           </div>
         </div>
