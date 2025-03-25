@@ -21,14 +21,15 @@
 
 .Support .content {
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   justify-content: space-between;
-  gap: 32px;
+  gap: 48px;
 }
 
-.Support .book-display img {
-  width: 549px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.Support .book-chad {
+  width: 100%;
+  margin-top: 0;
+  border-radius: 10px;
 }
 
 .Support .text-content {
@@ -81,39 +82,43 @@
   border: 1px solid var(--orange);
 }
 
-@media only screen and (max-width: 1160px) {
+@media (max-width: 1100px) {
   .Support .content {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px; 
   }
-  .Support .book-display img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+
+  .Support .book-chad{
+    max-width: 600px;
+    margin: 0 auto; 
   }
-  .Support .text-content {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 32px;
-  }
-  .Support .text-content p {
-    text-align: left;
-    max-width: 100%;
-  }
-   .Support .text-content h3 {
-    line-height: 100%;
+
+  .Support h2, 
+  .Support .text-content h3 {
+    text-align: center;
   }
 }
-@media only screen and (max-width: 540px) {
-  .Support  {
-    max-width: 92%;
-    display: block;
-    margin: 0 auto;
+
+@media (max-width: 900px) {
+  .Support .book-display img {
+    width: 100%;
+    padding: 0 20px;
   }
-  .Support .text-content button{
-    max-width: 100%;
+
+  .Support .text-content {
+    padding: 0 20px;
+  }
+
+  .Support .text-content button {
+    width: 100%;
     padding: 14px 0;
   }
+
+  .Support h2, 
+  .Support .text-content h3 {
+    text-align: center;
+  }
 }
+
+
