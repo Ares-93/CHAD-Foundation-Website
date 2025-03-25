@@ -6,7 +6,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import LinkedinIcon from "../../../../images/Footer-Images/linkedin.png";
 
-
 const Board = () => {
   return (
     <section className="Board">
@@ -94,9 +93,9 @@ const Board = () => {
               </div>
             </Col>
           </Row>
-          {/* Advisory Board */}
+          {/* Advisory Board - Gift of Heart*/}
           <Row>
-            <h2 className="board-header">Advisory Board</h2>
+            <h2 className="board-header">Advisory Board – Gift of Heart</h2>
 
             {/* LEFT */}
             <Col>
@@ -168,12 +167,57 @@ const Board = () => {
                   Harvard Medical School, Boston, MA
                 </p>
               </div>
+              {/* FOUR */}
+              <h3 className="board-subheader">Jared C. Lacorte, MD</h3>
+              <div className="board-paragraph">
+                <p className="board-p">
+                  Pediatric Cardiologist - American Board of Pediatrics /
+                  Pediatric Cardiology
+                  <br />
+                  Northwell Health, Staten Island University Hospital, New York
+                </p>
+              </div>
+            </Col>
+          </Row>
+          {/* Advisory Board - Gift of Art*/}
+          <Row>
+            <h2 className="board-header">Advisory Board – Gift of Art</h2>
+
+            {/* LEFT */}
+            <Col>
+              {/* ONE */}
+              <h3 className="board-subheader">Joe Black</h3>
+              <div className="board-paragraph">
+                <p className="board-p">Producer</p>
+              </div>
+              {/* TWO */}
+              <h3 className="board-subheader">Tony Macy-Perez</h3>
+              <div className="board-paragraph">
+                <p className="board-p">Director/Playwright</p>
+              </div>
+              {/* THREE */}
+              <h3 className="board-subheader">Stephen Cosentino</h3>
+              <div className="board-paragraph">
+                <p className="board-p">Artist/Painter</p>
+              </div>
+            </Col>
+            {/* RIGHT */}
+            <Col>
+              {/* ONE */}
+              <h3 className="board-subheader">Nadeema Agard</h3>
+              <div className="board-paragraph">
+                <p className="board-p">Native American Artist</p>
+              </div>
+              {/* TWO */}
+              <h3 className="board-subheader">Charles Taylor</h3>
+              <div className="board-paragraph">
+                <p className="board-p">Educator/Development</p>
+              </div>
             </Col>
           </Row>
           {/* Development Team */}
           <Row>
             <h2 className="board-header">Development Team</h2>
-
             {/* LEFT */}
             <Col>
               {/* ONE */}
@@ -204,6 +248,21 @@ const Board = () => {
               </div>
               <div className="board-paragraph">
                 <p className="board-p">UX/UI Product Designer</p>
+              </div>
+              {/* THREE */}
+              <div className="board-dev-p">
+                <h3 className="board-subheader">Ralph Andre
+                </h3>
+                <a
+                  href="https://www.linkedin.com/in/ralphandre/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={LinkedinIcon} alt="alt" width={45} />
+                </a>
+              </div>
+              <div className="board-paragraph">
+                <p className="board-p">Lead, UFX Designer</p>
               </div>
             </Col>
             {/* RIGHT */}
@@ -236,6 +295,20 @@ const Board = () => {
               </div>
               <div className="board-paragraph">
                 <p className="board-p">Web Developer</p>
+              </div>
+              {/* THREE */}
+              <div className="board-dev-p">
+                <h3 className="board-subheader">Ajinkya Patil</h3>
+                <a
+                  href="https://www.linkedin.com/in/ajinkya-patil-828115178/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={LinkedinIcon} alt="alt" width={45} />
+                </a>
+              </div>
+              <div className="board-paragraph">
+                <p className="board-p">Back-end Developer</p>
               </div>
             </Col>
           </Row>
