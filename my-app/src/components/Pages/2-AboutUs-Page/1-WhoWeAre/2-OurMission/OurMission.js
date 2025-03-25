@@ -41,23 +41,23 @@ const OurMission = () => {
                 <div className="ourMission-main">
                   <p className="ourMission-main-text">
                     Providing <br />
-                    the opportunity to get{" "}
-                    <strong>information about sudden cardiac death</strong>
+                    important information about{" "}
+                    <strong>Sudden Cardiac Death and its prevention</strong>
                   </p>
                 </div>
                 <div className="ourMission-main">
                   <p className="ourMission-main-text">
-                    Helping people to find{" "}
-                    <br />
-                    <strong>
-                      heart screening’s benefits <br />and screening resources
-                    </strong>
+                    Finding benefits of <br />
+                    <strong>heart screenings and screening resources</strong>
                   </p>
                 </div>
                 <div className="ourMission-main">
                   <p className="ourMission-main-text">
                     Giving people access to{" "}
-                    <strong>good health tips <br />from experts</strong>
+                    <strong>
+                      good health tips <br />
+                      from experts
+                    </strong>
                   </p>
                 </div>
               </Slider>
@@ -72,8 +72,11 @@ const OurMission = () => {
               <Slider {...sliderSettings} className="ourMission-slider">
                 <div className="ourMission-main">
                   <p className="ourMission-main-text">
-                    <strong>Expanding <br />student access <br /> </strong>to books, films,<br />
-                    documentaries, and theatre experiences
+                    Creating, books, film, docu’s and theatre <br />{" "}
+                    <strong>
+                      experiences
+                      <br />
+                    </strong>
                   </p>
                 </div>
                 <div className="ourMission-main">
@@ -84,7 +87,10 @@ const OurMission = () => {
                 </div>
                 <div className="ourMission-main">
                   <p className="ourMission-main-text">
-                    <strong>Challenging <br />the mind and <br /> heal the spirit</strong>
+                    <strong>
+                      Challenging <br />
+                      the mind and <br /> healing the spirit
+                    </strong>
                   </p>
                 </div>
               </Slider>

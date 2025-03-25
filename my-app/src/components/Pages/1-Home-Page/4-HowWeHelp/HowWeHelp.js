@@ -3,12 +3,11 @@ import "./HowWeHelp.css";
 import { Row, Col, Container } from "react-bootstrap";
 import HeartImg1 from "../../../../images/HomePage-Images/heart-img-1.png";
 import HeartImg2 from "../../../../images/HomePage-Images/heart-img-2.png";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 
 function HowWeHelp() {
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
-  
   const handleNavigation = (path) => {
     navigate(path);
   };
@@ -68,7 +67,7 @@ function HowWeHelp() {
                           Screenings
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Learn the best way to detect heart complications.
+                          Early detection can identify unknown heart anomalies.
                         </p>
                       </div>
                     </Col>
@@ -86,7 +85,8 @@ function HowWeHelp() {
                           Emergencies
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          How to take action in the event of an emergency.
+                          Advice from professionals on living a heart-healthy
+                          lifestyle.
                         </p>
                       </div>
                       {/* Expert Health Tips */}
@@ -146,7 +146,7 @@ function HowWeHelp() {
                           Scholarships
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Great opportunity for students.
+                          Helping young people find and make dreams happen.
                         </p>
                       </div>
                       {/* Plays */}
@@ -158,7 +158,8 @@ function HowWeHelp() {
                           Plays
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Learning experiences through storytelling and theatre.
+                          Learning experiences through storytelling and live
+                          theatre.
                         </p>
                       </div>
                       {/* Films */}
@@ -184,7 +185,7 @@ function HowWeHelp() {
                           Books
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Stories that nourish the spirit.
+                          Stories that awaken, challenge and nourish the spirit.
                         </p>
                       </div>
                       {/* Events */}
@@ -198,7 +199,7 @@ function HowWeHelp() {
                           Events
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Check out our new coming events!
+                        Classic Concerts, the Chad Dance, “Life is a Gift” Safe Drivers’ Campaign.
                         </p>
                       </div>
                     </Col>

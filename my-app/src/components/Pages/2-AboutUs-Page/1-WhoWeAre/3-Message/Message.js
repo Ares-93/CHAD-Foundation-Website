@@ -17,7 +17,7 @@ const Message = () => {
         <h2 className="message-header">Message from the Founder</h2>
         <div className="message-content">
           <div className="message-text-box">
-            <p
+          <p
               className={`message-text ${
                 isExpanded ? "message-text-expanded" : ""
               }`}
@@ -55,77 +55,98 @@ const Message = () => {
                   <br />
                   <strong>What’s ahead for “The Gift of Heart?”</strong>
                   <br />
-                  Chad will advocate for hospitals across the US to institute
-                  Heart Screening Programs for Young Athletes and Students as
-                  they have state-of-the- art equipment and follow-up in place.
-                  Several hospitals across our nation have initiated successful
-                  heart screening programs to detect unknown anomalies. As Heart
-                  Healthy Living starts at home, Chad will showcase recipes
-                  created by Nutritionists and High School Culinary Arts
-                  Programs featuring a Heart Healthy Monthly Recipe. In a
-                  monthly forum, Doctors and Health professionals will speak
-                  about Heart Education and how awareness and prevention are
-                  vital in safeguarding your children’s and your own hearts.
-                  Many parents who have lost a child to SCD tirelessly advocate
-                  for lifesaving tools the AED and CPR so they are available in
-                  every school. Know the Warning Signs and The Chain of
-                  Survival. ‘There is no greater gift than helping to save a
-                  young person’s Life.’
+                  Firstly, to expand the number of heart screenings and maximize
+                  the number of young people screened, Chad will advocate for
+                  hospitals across the US to institute Heart Screening Programs
+                  for Young Athletes and Students. Hospitals already have
+                  state-of-the-art heart screening equipment, medical
+                  facilities, and follow-up medical staff in place. Today,
+                  several hospitals nationwide have initiated successful heart
+                  screening programs to detect unknown anomalies in athletes and
+                  students. Secondly, as Heart-Healthy Living is a holistic
+                  approach that starts at home, Chad will promote a
+                  Heart-Healthy Lifestyle Initiative through diet, nutrition,
+                  exercise, and monthly forum talks by doctors and health
+                  professionals who will speak about Heart Education, the
+                  integration of a healthy lifestyle, awareness of Sudden
+                  Cardiac Death and premature Risk Factors in Youth, and how
+                  preventive screenings are vital in safeguarding your
+                  children’s and your own hearts. To engage communities and high
+                  schools, monthly Heart-Healthy Recipes created by
+                  nutritionists and high school Culinary Arts programs will be
+                  featured, as well as exercise programs by certified trainers,
+                  yoga teachers, et al. Lastly, awareness and action plans for
+                  lifesaving tools, the AED and CPR, and the importance that
+                  they are available in every school, community center, and
+                  athletic facility. Knowing cardiac Warning Signs and “The
+                  Chain of Survival” is imperative to save lives. ‘There is no
+                  greater gift than helping to save a Life—young and old.’
                   <br />
                   <br />
                   <strong>The Gift of Art</strong>
                   <br />
-                  Chad truly cared about all people. His Friends would say,
+                  Chad truly cared about all people. His friends would say,
                   “Chad never saw color, only you, what you were about, what
-                  were your hopes and dreams,” and so
-                  <strong> The Gift of Art </strong>
-                  creates, produces, performs Art—film, theatre, and books that
-                  tell stories about all our heritages, our dreams, joys, angst
-                  and challenges, and promote diverse works and talent. The Chad
-                  Players have performed 9 Off Broadway multi-cultural
-                  performances; their production of the classic play, “Days of
-                  Wine and Roses,” was brought to Atlantic City, NJ, by the
-                  “Atlantic Commission on Abused and Missing Children” as the
-                  community event of the year to show the deleterious effects
-                  substance abuse can have on the family.
+                  your hopes and dreams were.” Thus,{" "}
+                  <strong>The Gift of Art</strong> creates, produces, and
+                  performs Art—film, theatre, and books that tell stories about
+                  all our heritages, dreams, joys, angst, and challenges, and
+                  promote diverse works and talent. The Chad Players have
+                  performed 9 Off-Broadway multicultural performances. Their
+                  production of the classic play, Days of Wine and Roses, was
+                  brought to Atlantic City, NJ, by the “Atlantic Commission on
+                  Abused and Missing Children” as the community event of the
+                  year to show the deleterious effects substance abuse can have
+                  on the family.
                   <br />
                   <br />
-                  <strong>Moving on</strong>, Chad will focus on children’s
-                  “inner hearts,” as they too are endangered. The 3 leading
-                  causes of death in children are 1) Firearms, 2) Motor
-                  Vehicles, 3) Suicides and Accidents. By providing a platform
-                  for high school students to express their fears, challenges,
-                  hopes and dreams through Art— stories, plays, and athletics
-                  they can share, express, and inform, and we as parents can
-                  listen and hear their inner heart speaking, effecting a better
-                  way for growth, understanding and solutions. Through the
-                  <strong> Annual Scholarship Program</strong>, CHAD awards an
-                  athlete whose peers honour as the best “Scholar, Athlete &amp;
-                  Leader,” and an Art Scholarship for the “Best Story of the
-                  Heart.” As Chad never drank alcohol or did drugs, we will
-                  launch the “Life is A Gift – Safe Driving Campaign” to high
-                  schools and colleges--“Don’t text/drink and drive.”
+                  <strong>Moving on,</strong> Chad will focus on children’s
+                  “inner hearts” as well, as they too are endangered as never
+                  before. The 3 leading causes of death in children are
+                  <br />
+                  1) Firearms,
+                  <br />
+                  2) Motor Vehicles, and
+                  <br />
+                  3) Suicides and Accidents.
+                  <br />
+                  By providing a platform for high school students to express
+                  their fears, challenges, hopes, and dreams through Art—
+                  stories, plays, and athletics—they can share, express, and
+                  inform, and we as parents can listen and hear their inner
+                  heart speaking, effecting a better way for growth,
+                  understanding, and solutions. Through the <strong> Annual Scholarship
+                  Program, </strong> CHAD awards an athlete whose teachers and peers
+                  honour as the best “Scholar, Athlete &amp; Leader” and an Art
+                  Scholarship for the “Best Story of the Heart.” Students who
+                  seek out careers in accredited vocational or trade schools are
+                  strongly 3 encouraged to apply. Our world needs all types of
+                  talent and skills. As Chad never drank alcohol or did drugs,
+                  we will launch the “Life is A Gift—Safe Driving Campaign” to
+                  high schools and colleges—“Don’t text/drink and drive.”
+                   (Details can be found in the GIFT OF ART tab on the
+                  homepage.)  
                   <br />
                   <br />
-                  If we can change- not the landscape of athletics but the value
+                  If we can change—not the landscape of athletics but the value
                   of each Athlete’s Life through heart screenings, if we can
                   inspire the mind and heart of just one youth with our Gift of
                   Art, then we know we have imparted the values of our namesake,
-                  Chad Alan Butrum, “Healthy Body Mind and Spirit.” Saving one
-                  Life to reach their full potential would be Chad’s greatest
-                  wish and joy.
+                  Chad Alan Butrum, “Healthy Body, Mind, and Spirit.” Saving one
+                  Life to reach its full potential would be Chad’s greatest wish
+                  and joy.  
                   <br />
                   <br />
-                  With your continued Love, Support and Gifts, in the next
+                  With your continued love, support, and gifts, in the next
                   decades we will continue to see that barren ground on which I
                   first stepped, filled with healthy young Lives fulfilling
-                  their own dreams in this great country. Our greatest Love and
+                  their dreams in this great country. Our greatest Love and
                   Appreciation, dear Friends and Supporters – we save Hearts and
                   nourish Minds and Spirits because of “each of you.”
                   <br />
                   <br />
                   <span className="message-signature">
-                    From the Heart,
+                  From the Heart,
                     <br />
                     Arista
                     <br />

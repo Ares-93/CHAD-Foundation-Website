@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./Testimonials.css";
 import QuotationLine from "../../../../../images/HomePage-Images/quotation-mark-line.png";
 import QuotationMark from "../../../../../images/HomePage-Images/quotation-mark.png";
+import { useNavigate } from "react-router-dom";
 
 function Testimonials() {
   const [isSmall, setIsSmall] = useState(window.innerWidth <= 1060);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -46,7 +48,11 @@ function Testimonials() {
               />
               <p className="Testimonials-p">Lindsay</p>
             </div>
-            <button className="Testimonials-button">
+
+            <button
+              onClick={() => navigate("/people-we-love/survivors")}
+              className="Testimonials-button"
+            >
               Read More Testimonials
             </button>
           </div>

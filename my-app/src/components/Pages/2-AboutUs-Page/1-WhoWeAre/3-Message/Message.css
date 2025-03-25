@@ -15,16 +15,16 @@
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  gap: 75px;
+  gap: 80px;
 }
 .Message .arista-photo {
-  max-width: 100%;
+  max-width: 340px;
   border-radius: 10px;
 }
 
 .Message .message-text-box {
   text-align: justify;
-  max-width: 640px;
+  max-width: 100%;
 }
 .Message .message-text {
   color: var(--main-black);
@@ -91,5 +91,9 @@
   }
   .Message .Message-text-box {
     font-size: 20px;
+  }
+  .Message .arista-photo {
+    display: block;
+    margin: 0 auto;
   }
 }
