@@ -1,25 +1,30 @@
 .Books {
   margin-bottom: 100px;
 }
+
 .Books .books-content {
   display: flex;
   justify-content: space-between;
   gap: 80px;
   margin-bottom: 110px;
 }
+
 .Books .books-image {
   width: 480px;
   height: auto;
   border-radius: 10px;
 }
+
 .Books .books-header-box {
   display: flex;
   gap: 10px;
 }
+
 .gemini-title-box {
   display: flex;
   gap: 8px;
 }
+
 .Books .books-header {
   color: var(--main-black);
   font-family: var(--accent-font);
@@ -29,6 +34,7 @@
   text-decoration: underline #eac0a1 9px;
   margin-bottom: 20px;
 }
+
 .Books .books-p {
   display: block;
   margin: 12px auto 12px auto;
@@ -40,10 +46,12 @@
   font-weight: 400;
   line-height: 135%;
 }
+
 .Books .books-p-second {
   margin-right: 0px;
   max-width: 640px;
 }
+
 .books-subtext-box {
   display: inline-flex;
   gap: 10px;
@@ -53,6 +61,7 @@
   border-radius: 10px;
   background: #f5efea;
 }
+
 .books-subtext {
   color: var(--main-black);
   font-family: var(--main-font);
@@ -62,6 +71,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .Books .books-audio-descr {
   margin-top: 12px;
   font-family: var(--accent-font);
@@ -69,21 +79,25 @@
   margin-bottom: 2px;
   color: var(--main-black);
 }
+
 .books-audio-player {
   max-width: 240px;
   max-height: 46px;
   margin: 0;
 }
+
 .gemini-details-box {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
+
 /* BUTTON */
 .buy-book-btn {
   display: block;
   margin-top: 40px;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
   width: 440px;
   background-color: var(--orange);
   padding-top: 14px;
@@ -98,16 +112,113 @@
   cursor: pointer;
   transition: all ease-in-out 300ms;
 }
+
 .buy-book-btn:hover {
   background-color: var(--main-white);
   color: var(--orange);
   border: 1px solid var(--orange);
 }
 
+/* CHAD SECTION CUSTOM */
+.books-chad-section {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.books-chad-top-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.books-chad-title-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-direction: row;
+  max-width: 600px;
+  text-align: left;
+}
+.excerpt-title-main {
+  font-size: 36px!important;
+  font-family: var(--accent-font);
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.chad-title-text {
+  text-align: left !important;
+}
+
+.chad-excerpt-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--main-black);
+}
+
+.chad-excerpt {
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 135%;
+  color: var(--main-black);
+  margin-top: 30px;
+}
+
+.chad-excerpt .excerpt-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 18px;
+  font-size: 22px;
+  color: var(--main-black);
+}
+
+.chad-excerpt p {
+  margin-bottom: 20px;
+}
+
+.italic-line {
+  font-style: italic;
+  font-size: 18px;
+  color: var(--main-black);
+}
+
+.italic-line.centered {
+  text-align: center;
+}
+
+.italic-line.spaced {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.chad-quote {
+  margin-top: 40px;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: left;
+  color: var(--main-black);
+}
+
+.chad-quote p {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+/* RESPONSIVE */
 @media only screen and (max-width: 1160px) {
   .Books {
     margin-bottom: 80px;
   }
+
   .Books .books-content {
     padding: 0 20px;
     flex-direction: column;
@@ -116,38 +227,66 @@
     gap: 20px;
     margin-bottom: 40px;
   }
+
   .Books .books-header-box {
     justify-content: center;
     max-width: 595px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .Books .books-p {
     text-align: center;
   }
+
   .Books .books-p-second {
     max-width: 595px;
   }
-  .Books .books-header-box {
-    flex-direction: column;
-    align-items: center;
-  }
+
   .gemini-details-box {
     flex-direction: column;
   }
+
   .audio-box,
   .books-subtext-box {
     margin-left: auto;
     margin-right: auto;
   }
+
   .audio-box {
     margin-top: 16px;
     margin-bottom: 16px;
   }
+
   .buy-book-btn {
     width: 80%;
     margin: 40px auto;
   }
+
+  .books-chad-top-row {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .books-chad-title-box {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .chad-title-text {
+    text-align: center !important;
+  }
+
+  .chad-excerpt-wrapper {
+    padding: 0 20px;
+  }
+
+  .chad-quote {
+    padding: 0 20px;
+    text-align: justify;
+  }
 }
+
 @media only screen and (max-width: 530px) {
   .Books .books-image {
     max-width: 92%;
