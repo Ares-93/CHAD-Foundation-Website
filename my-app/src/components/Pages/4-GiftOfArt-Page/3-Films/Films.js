@@ -165,14 +165,15 @@ const Films = () => {
                   </h2>
                 </div>
                 <p className="films-p">
-                  The story is based on the real-life event, the “1st Homeless
-                  Streetsoccer World Cup,” which took place in Graz, Austria
-                  with 16 countries of athletes participating. They donned their
-                  countries’ uniforms and regained their humanity and
-                  self-esteem through the universal leveler of sports. In NYC
-                  alone, there are 138,000 homeless individuals. In this event,
-                  the disenfranchised stood tall and were cheered on by the
-                  world for their courage, dignity, and spirit.
+                  This screenplay is based on the real-life event, the “1st
+                  Homeless Streetsoccer World Cup,” which took place in Graz,
+                  Austria with 16 countries of athletes participating. They
+                  donned their countries’ uniforms and regained their humanity
+                  and self-esteem through the universal leveler of sports. In
+                  NYC alone, there are 92,824 unhoused, dispossessed people,
+                  including 33,365 unsheltered children without homes. In this
+                  global event, the disenfranchised stood tall and were cheered
+                  on by the world for their courage, dignity, and spirit.
                 </p>
               </div>
               <div className="films-image-box">
@@ -195,14 +196,15 @@ const Films = () => {
                   </h2>
                 </div>
                 <p className="films-p">
-                  The story is based on the real-life event, the “1st Homeless
-                  Streetsoccer World Cup,” which took place in Graz, Austria
-                  with 16 countries of athletes participating. They donned their
-                  countries’ uniforms and regained their humanity and
-                  self-esteem through the universal leveler of sports. In NYC
-                  alone, there are 138,000 homeless individuals. In this event,
-                  the disenfranchised stood tall and were cheered on by the
-                  world for their courage, dignity, and spirit.
+                  This screenplay is based on the real-life event, the “1st
+                  Homeless Streetsoccer World Cup,” which took place in Graz,
+                  Austria with 16 countries of athletes participating. They
+                  donned their countries’ uniforms and regained their humanity
+                  and self-esteem through the universal leveler of sports. In
+                  NYC alone, there are 92,824 unhoused, dispossessed people,
+                  including 33,365 unsheltered children without homes. In this
+                  global event, the disenfranchised stood tall and were cheered
+                  on by the world for their courage, dignity, and spirit.
                 </p>
               </div>
             </>

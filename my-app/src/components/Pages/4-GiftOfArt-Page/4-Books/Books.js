@@ -1,40 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import "./Books.css";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
 import CopyRightIcon from "../../../../images/GiftOfArt-Images/copyright-vector.png";
-import BooksImageOne from "../../../../images/GiftOfArt-Images/books-image-one.png";
-import BooksImageTwo from "../../../../images/GiftOfArt-Images/books-image-two.png";
+import BooksImageOne from "../../../../images/GiftOfArt-Images/books-image-one.jpg";
+import BooksImageTwo from "../../../../images/GiftOfArt-Images/books-image-two-small.png";
 import BooksVector from "../../../../images/GiftOfArt-Images/books-vector.png";
 import AudioBook from "./The_Gemini_Kiid_Audio.mp3";
 
 const Books = () => {
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1160);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 1160);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <section className="Books">
       <GiftOfArtNavigation currentPage="books" />
       <div className="main-container">
-        {/* ONE */}
+        {/* GEMINI SECTION */}
         <div className="books-content">
           <div className="books-content-left">
             <div className="books-header-box">
               <img src={HeartIcon} alt="heart" width={60} height={60} />
               <div className="gemini-title-box">
                 <h2 className="books-header">The Gemini Kiid</h2>
-
                 <img
                   src={CopyRightIcon}
                   alt="copyright"
@@ -61,7 +46,6 @@ const Books = () => {
                 </audio>
               </div>
             </div>
-
             <p className="books-p">
               THE GEMINI KIID is a lovable little character who has many
               different parts, many different feelings, many different actions
@@ -78,83 +62,101 @@ const Books = () => {
             <img src={BooksImageOne} alt="Book one" className="books-image" />
           </div>
         </div>
-        {/* TWO */}
-        <div className="books-content">
-          {isSmallScreen ? (
-            <>
-              <div className="books-content-right">
-                <div className="books-header-box">
-                  <img src={HeartIcon} alt="heart" width={60} height={60} />
-                  <h2 className="books-header">
-                    CHAD, A Celebration of Life - Beyond a Mother’s Memories
-                  </h2>
-                </div>
-                <p className="books-p books-p-second">
-                  Celebrating the lives of young athletes lost to Sudden Cardiac
-                  Death, and the journey of its survivors, this uplifting memoir
-                  details the 26-year history of The Chad Foundation from SCD
-                  victims to survivors— from heartbreak to heroism— learn about
-                  how The Chad Foundation has saved lives and shaped a better
-                  tomorrow.
-                </p>
-                <button
-                  className="buy-book-btn"
-                  onClick={() =>
-                    window.open(
-                      "https://www.amazon.com/CHAD-Celebration-Beyond-Mothers-Memories/dp/1982250801/ref=sr_1_1?crid=3MQQ15ID0BNCP&amp&dib=eyJ2IjoiMSJ9.3NuGObxJ0-qKBnkb99QYHQ.R2pf5_Mp7zRRTEPsP7NGf26Pu9DdwzwklmrozAIVDmk&amp&dib_tag=se&amp&keywords=CHAD%2C+A+Celebration+of+Life+-+Beyond+A+Mother%27s+Memories+by+Arista&amp&qid=1713070639&amp&s=books&amp&sprefix=chad%2C+a+celebration+of+life+-+beyond+a+mother%27s+memories+by+arista%2Cstripbooks%2C111&amp&sr=1-1",
-                      "_blank"
-                    )
-                  }
-                >
-                  Donate with Purchase
-                </button>
-              </div>
-              <div className="books-image-box">
-                <img
-                  src={BooksImageTwo}
-                  alt="Book two"
-                  className="books-image"
-                />
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="books-image-box">
-                <img
-                  src={BooksImageTwo}
-                  alt="Book two"
-                  className="books-image"
-                />
-              </div>
-              <div className="books-content-right">
-                <div className="books-header-box">
-                  <img src={HeartIcon} alt="heart" width={60} height={60} />
-                  <h2 className="books-header">
-                    CHAD, A Celebration of Life - Beyond a Mother’s Memories
-                  </h2>
-                </div>
-                <p className="books-p books-p-second">
-                  Celebrating the lives of young athletes lost to Sudden Cardiac
-                  Death, and the journey of its survivors, this uplifting memoir
-                  details the 26-year history of The Chad Foundation from SCD
-                  victims to survivors— from heartbreak to heroism— learn about
-                  how The Chad Foundation has saved lives and shaped a better
-                  tomorrow.
-                </p>
-                <button
-                  className="buy-book-btn"
-                  onClick={() =>
-                    window.open(
-                      "https://www.amazon.com/CHAD-Celebration-Beyond-Mothers-Memories/dp/1982250801/ref=sr_1_1?crid=3MQQ15ID0BNCP&amp&dib=eyJ2IjoiMSJ9.3NuGObxJ0-qKBnkb99QYHQ.R2pf5_Mp7zRRTEPsP7NGf26Pu9DdwzwklmrozAIVDmk&amp&dib_tag=se&amp&keywords=CHAD%2C+A+Celebration+of+Life+-+Beyond+A+Mother%27s+Memories+by+Arista&amp&qid=1713070639&amp&s=books&amp&sprefix=chad%2C+a+celebration+of+life+-+beyond+a+mother%27s+memories+by+arista%2Cstripbooks%2C111&amp&sr=1-1",
-                      "_blank"
-                    )
-                  }
-                >
-                  Donate with Purchase
-                </button>
-              </div>
-            </>
-          )}
+
+        {/* CHAD SECTION */}
+        <div className="books-content books-chad-section">
+          <div className="books-chad-top-row">
+            <div className="books-image-box">
+              <img src={BooksImageTwo} alt="Book two" className="books-image" />
+            </div>
+            <div className="books-header-box books-chad-title-box">
+              <img src={HeartIcon} alt="heart" width={60} height={60} />
+              <h2 className="books-header chad-title-text">
+                CHAD, A Celebration of Life - Beyond a Mother’s Memories
+              </h2>
+            </div>
+          </div>
+
+          <div className="chad-excerpt-wrapper">
+            <div className="chad-excerpt">
+              <p className="excerpt-title excerpt-title-main">Excerpts from</p>
+              <p className="excerpt-title">
+                CHAD, A Celebration of Life Beyond A Mother’s Memories
+              </p>
+              <p className="italic-line spaced centered">
+                Janna Becker, shared by her mother, Rhonda Foster
+              </p>
+              <p>
+                <em>…That was it??? Here one moment… gone the next?</em> In an
+                instant my world, the entire world, changed. How on earth could
+                life go on without her? How do you live the rest of your life
+                with one foot on earth and one foot in heaven? I couldn’t
+                imagine... and I had NO idea what happened! No one did.
+              </p>
+              <p>
+                But now I know… Soon after Janna passed, I found out that what
+                she had was an electrical problem with her heart, called Long QT
+                Syndrome. It could have been detected with a simple, inexpensive
+                electrocardiogram (ECG) read by a cardiologist.
+              </p>
+              <p className="italic-line spaced centered">
+                To Screen…Or not To Screen
+              </p>
+              <p>
+                The single thread that seems to tie all these entities together
+                is the profound concern not only for the health of the athlete
+                but for his or her very Life. Countries, states, major sport and
+                health organizations all over the world have made their
+                decisions to prescreen their athletes, some such as Japan, even
+                screen their school-age children. Buttressed now by decades of
+                scientific research and bent on learning and creating best
+                practices in the field, they too go forward to find and
+                implement ways to safeguard hearts and save lives through
+                preventive screenings.
+              </p>
+              <p>
+                Statistics and science-based evidence are essential in
+                evaluating this decision, but when we wrap a body, a mind, and a
+                soul around each one of those numbers, it becomes something
+                entirely different. It becomes a Human Being… And that begs the
+                real question - What is the value of a Life? One Life. What will
+                we do to keep it living?
+              </p>
+            </div>
+
+            <div className="chad-quote">
+              <p>
+                “Player health is one of the most important issues to the NBA,
+                and Cardiac screening is a critical part of our player health
+                program. We’ve worked to create the best cardiac screening
+                program in professional sports, and we've used that program to
+                support research that will improve doctors' understanding of
+                cardiac conditions in athletes. The NBA is proud to be working
+                with NBA players, team physicians, and leading cardiology
+                researchers to reduce sudden death in athletes and welcome
+                efforts from others in the community on this important issue.
+                Best of luck to everyone at The Chad Foundation.”
+              </p>
+              <p>Sincerely,</p>
+              <p>
+                Adam (Silver)
+                <br />
+                Commissioner, National Basketball Association
+              </p>
+            </div>
+
+            <button
+              className="buy-book-btn"
+              onClick={() =>
+                window.open(
+                  "https://www.amazon.com/CHAD-Celebration-Beyond-Mothers-Memories/dp/1982250801",
+                  "_blank"
+                )
+              }
+            >
+              Donate with Purchase
+            </button>
+          </div>
         </div>
       </div>
     </section>

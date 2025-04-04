@@ -34,9 +34,10 @@ const GiftOfArtNavigation = ({ currentPage }) => {
       <div className="main-container">
         <p className="GiftOfArtNavigation-banner-p">
           You can't spell heart without ART. The Chad Foundation celebrates
-          stories from artists of all backgrounds. Expanded access to books,
-          films, documentaries, and theatre experiences highlighting heroism in
-          the face of substance abuse and societal injustice.
+          stories from artists of all backgrounds: creating, performing, and
+          producing books, films, documentaries, and theatre experiences
+          highlighting heroism in the face of life’s challenges, especially
+          substance abuse and societal injustice.
         </p>
         <div className="GiftOfArtNavigation-menu">
           <ul>

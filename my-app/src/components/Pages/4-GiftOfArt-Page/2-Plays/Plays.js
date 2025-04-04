@@ -40,11 +40,12 @@ const Plays = () => {
             </p>
 
             <h4 className="plays-subtext">
-              Featuring players: Belgrave Fitzgerald Henderson, Steven
-              Consentino, Arista, Matt Derek, Michael Durell, and Philip
-              Oberlander.
+              Cast: Belgrave Fitzgerald Henderson, Steven Consentino, Arista,
+              Matt Derek, Michael Durell, and Philip Oberlander.
             </h4>
-            <h4 className="plays-subtext">Directed by Tony Macy-Perez</h4>
+            <h4 className="plays-subtext">
+              Directed by Tony Macy-Perez ~~ Off-Broadway, NYC
+            </h4>
             <div className="plays-quotes-div">
               <h3 className="plays-quotes">
                 “I cried the whole play... You had such a long journey ..and you
@@ -82,7 +83,13 @@ const Plays = () => {
                   which now seems foreign to her.
                 </p>
                 <h4 className="plays-subtext">Written by Arista</h4>
-                <h4 className="plays-subtext">Directed by Victor Maog</h4>
+                <h4 className="plays-subtext">
+                  Directed by Victor Maog ~~ Off-Broadway, NYC
+                </h4>
+                <h4 className="plays-subtext">
+                  Cast: Lu Lu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
+                  Cheng, John Fukada, Murielle Borst
+                </h4>
                 <div className="plays-quotes-div">
                   <h3 className="plays-quotes">
                     “As a teacher for 20 years, this was an important play—to
@@ -124,7 +131,14 @@ const Plays = () => {
                   which now seems foreign to her.
                 </p>
                 <h4 className="plays-subtext">Written by Arista</h4>
-                <h4 className="plays-subtext">Directed by Victor Maog</h4>
+                <h4 className="plays-subtext">
+                  Directed by Victor Maog ~~ Off-Broadway, NYC
+                </h4>
+                <h4 className="plays-subtext">
+                  Cast: Lu Lu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
+                  Cheng, John Fukada, Murielle Borst
+                </h4>
+
                 <div className="plays-quotes-div">
                   <h3 className="plays-quotes">
                     “As a teacher for 20 years, this was an important play—to
@@ -162,10 +176,13 @@ const Plays = () => {
               forces that can challenge love to its core.
             </p>
             <h4 className="plays-subtext">
-              Featuring players: Arista Erik, Colin Smith, Jon Furey, Joan
-              Farda, Jackson Ming, Patrick Kleeman and Shannyn Kleeman.
+              Cast: Robert L. Haber, Joann Farda, Arista, Jon Furey, Erik, Colin
+              Smith, Shannyn Kleeman, Patrick Kleeman, and Jackson Ning.
             </h4>
-            <h4 className="plays-subtext">Directed by Tony Macy-Perez</h4>
+            <h4 className="plays-subtext">
+              Directed by Tony Macy-Perez ~~ Dante Hall, Atlantic City, New
+              Jersey
+            </h4>
             <div className="plays-quotes-div">
               <h3 className="plays-quotes">
                 “The Performances were stunning, powerful stuff.”
@@ -199,8 +216,8 @@ const Plays = () => {
                   <img src={HeartIcon} alt="heart" width={60} height={60} />
                   <h2 className="plays-header">Who I Am</h2>
                 </div>
-                 {/* Future Production */}
-                 <div className="plays-subtext-2-box">
+                {/* Future Production */}
+                <div className="plays-subtext-2-box">
                   <h4 className="plays-subtext-2">Future production</h4>
                 </div>
                 <p className="plays-p">
