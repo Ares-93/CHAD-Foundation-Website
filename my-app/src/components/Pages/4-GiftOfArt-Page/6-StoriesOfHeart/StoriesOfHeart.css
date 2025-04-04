@@ -3,7 +3,16 @@
   padding-top: 0;
   background-color: var(--main-white);
 }
+.StoriesOfHeart-Two .storiesOfHeart-p {
+  color: var(--main-black);
+  font-family: var(--main-font);
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 21px;
 
+}
 .StoriesOfHeart-Two .storiesOfHeart-header {
   color: var(--main-black);
   font-family: var(--accent-font);
