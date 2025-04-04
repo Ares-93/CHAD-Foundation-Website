@@ -31,24 +31,20 @@ const Scholarship = () => {
               </h2>
             </div>
             <p className="scholarship-p">
-              When Chad saw you, he only saw you. He never saw color, heritage,
-              or sexual orientation. He looked deep within and saw your unique
-              potential and encouraged it. He cared about your fondest dreams,
-              your talents, and unique potential. The Chad Foundation
-              Scholarship exists for Each of You – It’s Chad’s Gift to You!
-            </p>
-            <p className="scholarship-p">
-              <strong>How the Chad Scholarship Program works </strong>
-            </p>
-            <p className="scholarship-p">
               Every year, The Chad Foundation for Athletes and Artists will
-              offer two $1,000 scholarships for High School graduating Seniors,
-              nominated by our peers.
+              award six $500 scholarships for high school graduating seniors to
+              be used for continuing education in an accredited college,
+              university, vocational, or trade school. Qualifying factors will
+              be the student’s goals, an essay, and nominations from teachers,
+              peers, and community leaders.
             </p>
+
             <p className="scholarship-p">
-              One for “The Best Athlete, Scholar and Community Volunteer,” and
-              One for “The Best Story of the Heart”
+              Three scholarships will be awarded for “The Best Athlete, Scholar,
+              and Community Volunteer/Leader” and three for “The Best Story of
+              the Heart.”
             </p>
+
             <p className="scholarship-p">
               Stay tuned for details and deadlines!
             </p>
