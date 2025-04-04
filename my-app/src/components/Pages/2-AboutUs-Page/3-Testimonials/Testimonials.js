@@ -8,6 +8,8 @@ import PhotoFour from "../../../../images/AboutUs-Images/testimonials-photo-4.pn
 import PhotoFive from "../../../../images/AboutUs-Images/testimonials-photo-5.png";
 import PhotoSix from "../../../../images/AboutUs-Images/testimonials-photo-6.png";
 import PhotoSeven from "../../../../images/AboutUs-Images/testimonials-photo-7.jpg";
+import PhotoEight from "../../../../images/AboutUs-Images/testimonials-photo-8.jpg";
+
 
 const TestimonialsCard = ({
   name,
@@ -142,7 +144,7 @@ const Testimonials = () => {
             position="Mayor"
             initialStoryText="Dear Friends, It is a pleasure to welcome everyone to the Harlem YMCA, where the Chad Foundation for Artists and Athletes is offering preventative screenings for young athletes throughout the day."
             expandedStoryText=" On behalf of the City of New York, I thank all those whose generosity and dedication has made these screenings possible. I wish all of the athletes participating in these screenings the very best for an informative day, and for a healthy, happy future. Sincerely, Michael R. Bloomberg, Mayor"
-            imageUrl={PhotoSeven}
+            imageUrl={PhotoEight}
             isExpandable={true}
           />
         </div>
