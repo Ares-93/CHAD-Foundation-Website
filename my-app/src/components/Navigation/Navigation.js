@@ -341,7 +341,7 @@ function Navigation() {
                         Events
                         <br />
                         <span className="dropdown-span">
-                          Check out events to keep an eye for!
+                        Safe Drivers Campaign, Chad Dance, Classic Concert.
                         </span>
                       </NavLink>
                     </li>
