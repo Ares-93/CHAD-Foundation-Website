@@ -53,6 +53,15 @@ const StoriesOfHeart = () => {
     <section className="StoriesOfHeart-Two">
       <GiftOfArtNavigation currentPage="heart-stories" />
       <div className="main-container">
+        <p className="storiesOfHeart-p">
+          Chad’s friends would ask, “Why is he talking to that ‘stranger’ for
+          hours?” Chad had unquenchable curiosity. Whether you were 4 or 94, he
+          wanted to know everything about you—who you were, where you came from,
+          what you’re doing, and where you’re going. He truly cared about your
+          journey. So, STORIES OF THE HEART is just a continuation of Chad’s
+          legacy to know more about “you” and your unique Story of the Heart. We
+          hope you will enjoy the journey of those you meet!
+        </p>
         <h2 className="storiesOfHeart-header">Stories of the Heart</h2>
         <div className="storiesOfHeart-container">
           <StoriesOfHeartCard
@@ -86,4 +95,3 @@ const StoriesOfHeart = () => {
 };
 
 export default StoriesOfHeart;
-
