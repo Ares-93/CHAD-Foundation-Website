@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import "./FeedbackForm.css";
 
@@ -6,6 +6,14 @@ function FeedbackForm({ onClose }) {
   const [rating, setRating] = useState(null);
   const [comment, setComment] = useState("");
   const [submitted, setSubmitted] = useState(false);
+
+  // Check if the feedback form has been shown or submitted before
+  useEffect(() => {
+    const formShown = localStorage.getItem("feedbackFormShown");
+    if (formShown) {
+      setSubmitted(true); // If the form has already been shown or submitted, don't show it again
+    }
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,9 +30,11 @@ function FeedbackForm({ onClose }) {
         feedbackData,
         "Q-xjSLW-oYj7nvq7C"
       )
+
       .then(
         () => {
           setSubmitted(true);
+          localStorage.setItem("feedbackFormShown", "true"); // Save in local storage to prevent showing again
         },
         (error) => {
           console.error("EmailJS error:", error);
@@ -32,10 +42,16 @@ function FeedbackForm({ onClose }) {
       );
   };
 
+  const handleClose = () => {
+    setSubmitted(true);
+    localStorage.setItem("feedbackFormShown", "true"); // Save in local storage to prevent showing again
+    onClose(); // Close the modal
+  };
+
   return (
     <div className="feedback-modal">
       <div className="feedback-content">
-        <span className="close-button" onClick={onClose}>
+        <span className="close-button" onClick={handleClose}>
           &times;
         </span>
         {submitted ? (
@@ -67,8 +83,8 @@ function FeedbackForm({ onClose }) {
               </div>
               <div className="form-group" style={{ marginBottom: "20px" }}>
                 <label>
-                  If you have any suggestions, comments, or anything to say, please feel free to write it
-                  below:
+                  If you have any suggestions, comments, or anything to say,
+                  please feel free to write it below:
                 </label>
                 <div className="textarea-container" style={{ width: "100%" }}>
                   <textarea

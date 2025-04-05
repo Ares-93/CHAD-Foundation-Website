@@ -34,8 +34,8 @@ const Stats = () => {
                     <Card.Title className="stats-card-title">10,000</Card.Title>
                   </div>
                   <Card.Text className="stats-card-text">
-                    Heart screenings for atheletes and students were provided by
-                    CHAD. See 22 years of preventive heart screenings.
+                    Heart screenings for athletes and students were provided by
+                    CHAD. 
                     <br />
                   </Card.Text>
                 </Card.Body>

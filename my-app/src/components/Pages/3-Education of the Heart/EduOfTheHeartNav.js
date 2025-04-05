@@ -38,8 +38,13 @@ const EduOfTheHeartNav = ({ currentPage }) => {
           Young Athletes and Students, promotes 'heart-healthy living' through
           monthly healthy recipes and interviews from health professions, and
           provides life-saving information on Heart Screenings to High Schools
-          and Colleges, knowledge of CPR and AED placement to prevent SCD, and
-          identify early cardiovascular risk factors.
+          and Colleges, knowledge of CPR and AED p“Education of the Heart”
+          raises awareness of Sudden Cardiac Death in Young Athletes and
+          Students and Early Cardiovascular Risk Factors, promotes
+          'heart-healthy living' through monthly heart- healthy recipes,
+          exercise, and interviews with top health professions. It provides
+          life-saving information on Heart Screenings to High Schools, and
+          knowledge of CPR and AED placement to prevent SCD.
         </p>
         <div className="EduOfTheHeartNav-menu">
           <ul>

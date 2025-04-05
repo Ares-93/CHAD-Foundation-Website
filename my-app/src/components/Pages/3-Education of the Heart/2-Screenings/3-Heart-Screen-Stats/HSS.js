@@ -30,12 +30,13 @@ const Importance = () => {
             </Card>
             <Card className="High-Col">
               <Card.Header className="d-flex-align-items">
-                HIGH COLESTEROL
+                HIGH CHOLESTEROL
               </Card.Header>
               <Card.Body>
                 <Card.Text className="High-Col-card-text">
-                  Research shows<br></br> hypercholesterolemia to be<br></br>{" "}
-                  prevalent among teenagers due to<br></br> high-fat diets.
+                  an estimated 50% of children and adolescents ages 6 to 19 have
+                  cholesterol levels that are not ideal, while 25% are in the
+                  high range clinically, in a 2019 study.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -45,8 +46,8 @@ const Importance = () => {
               <Card.Header className="d-flex-align-items">OBESITY</Card.Header>
               <Card.Body>
                 <Card.Text className="obesity-card-text">
-                  14.7 million (19.7%) children are<br></br> obese costing $147
-                  billion in health<br></br> care.
+                  Over 390 million children and adolescents aged 5–19 years were
+                  overweight in 2022.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -55,8 +56,9 @@ const Importance = () => {
 
               <Card.Body>
                 <Card.Text className="Diabetes-card-text">
-                  1 in 3 born in 2000 will develop it;<br></br> 122,780 children
-                  and young adults<br></br> have type 2 diabetes.
+                  About 352,000 Americans under age 20 are estimated to have
+                  diagnosed diabetes; 122,780 children and young adults have
+                  type 2 diabetes.
                 </Card.Text>
               </Card.Body>
             </Card>

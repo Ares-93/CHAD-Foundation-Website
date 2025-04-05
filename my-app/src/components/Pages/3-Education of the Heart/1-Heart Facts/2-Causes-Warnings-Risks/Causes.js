@@ -4,6 +4,14 @@ import "./Causes.css";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 
 const CausesSection = () => {
+  const openMoreCauses = () => {
+    // Open the link in a new tab
+    window.open(
+      "https://www.jacc.org/doi/10.1016/j.jacc.2012.08.1032",
+      "_blank"
+    );
+  };
+
   return (
     <section className="causes-section">
       <div className="main-container">
@@ -68,9 +76,10 @@ const CausesSection = () => {
               weakened connective tissue leads to a life-threatening tear or
               rupture of the body's main artery.{" "}
             </p>
-            <a href="/more-causes" className="causes-link">
+
+            <button onClick={openMoreCauses} className="causes-see-more-btn">
               See more causes of sudden cardiac death
-            </a>
+            </button>
             <div className="Risk">
               <ul className="risks">
                 <div className="Risk">
@@ -85,8 +94,7 @@ const CausesSection = () => {
                   <ul className="risks">
                     <li>
                       <a
-                        href="https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/symptoms-causes/syc-20350800"
-                        target="_blank"
+                        href="https://www.childrens.com/health-wellness/high-cholesterol-in-children"
                         rel="noopener noreferrer"
                       >
                         High Cholesterol
@@ -94,7 +102,7 @@ const CausesSection = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.cdc.gov/bloodpressure/youth.htm"
+                        href="https://www.youtube.com/watch?v=La6RrOpAS38"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -103,7 +111,7 @@ const CausesSection = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.cdc.gov/obesity/childhood/index.html"
+                        href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -112,7 +120,7 @@ const CausesSection = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.cdc.gov/diabetes/basics/childhooddiabetes.html"
+                        href="https://www.mayoclinic.org/diseases-conditions/type-1-diabetes-in-children/symptoms-causes/syc-20355306"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
