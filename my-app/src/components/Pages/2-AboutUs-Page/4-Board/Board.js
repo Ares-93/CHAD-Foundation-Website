@@ -198,7 +198,7 @@ const Board = () => {
               {/* THREE */}
               <h3 className="board-subheader">Stephen Cosentino</h3>
               <div className="board-paragraph">
-                <p className="board-p">Artist/Painter</p>
+                <p className="board-p">Artist - Painter, Muralist</p>
               </div>
             </Col>
             {/* RIGHT */}
@@ -251,8 +251,7 @@ const Board = () => {
               </div>
               {/* THREE */}
               <div className="board-dev-p">
-                <h3 className="board-subheader">Ralph Andre
-                </h3>
+                <h3 className="board-subheader">Ralph Andre</h3>
                 <a
                   href="https://www.linkedin.com/in/ralphandre/"
                   target="_blank"
