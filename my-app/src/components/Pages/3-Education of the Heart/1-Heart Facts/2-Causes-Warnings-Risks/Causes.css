@@ -113,7 +113,11 @@
     max-width: 100%;
   }
 }
-
+.causes-see-more-btn{
+  border: none;
+  background-color: transparent;
+  color: #3dadc8;
+}
 .risks,
 .warnings {
   color: var(--main-black);
