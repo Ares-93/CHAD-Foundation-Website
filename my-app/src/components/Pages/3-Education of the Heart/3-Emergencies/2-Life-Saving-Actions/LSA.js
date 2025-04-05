@@ -6,6 +6,16 @@ import AED from "../../../../../images/EduOfHeart-Images/AED.png";
 import CPR from "../../../../../images/EduOfHeart-Images/CPR-IMG.png";
 
 const LSA = () => {
+  // Function to handle the button click for "Learn More About AEDs/CPR"
+  const handleLearnMoreClick = () => {
+    window.open("https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps", "_blank");
+  };
+
+  // Function to handle the button click for "Find CPR/AED Classes"
+  const handleFindClassesClick = () => {
+    window.open("https://www.redcross.org/take-a-class?scode=PSG00000E017&cid=generator&med=cpc&source=google&msclkid=9b2e2372f0f516ec3a2744e91b27ec44&utm_source=bing&utm_medium=cpc&utm_campaign=FACPR%20%7C%20NonBrand%7CSearch&utm_term=cpr%20certification%20online&utm_content=Online&gclid=9b2e2372f0f516ec3a2744e91b27ec44&gclsrc=3p.ds", "_blank");
+  };
+
   return (
     <section className="lsa-section">
       <div className="main-container">
@@ -43,8 +53,12 @@ const LSA = () => {
                   Let’s take a CPR Class to get certified so you can help save a
                   life!
                 </p>
-                <button className="btn-1">Learn More About AEDs/CPR</button>
-                <button className="btn-2">Find CPR/AED Classes</button>
+                <button className="btn-1" onClick={handleLearnMoreClick}>
+                  Learn More About AEDs/CPR
+                </button>
+                <button className="btn-2" onClick={handleFindClassesClick}>
+                  Find CPR/AED Classes
+                </button>
               </Col>
             </Row>
             <Row className="my-4">
