@@ -4,7 +4,7 @@ import "./Doctor.css";
 import { Card, Row, Col } from "react-bootstrap";
 import Doc1 from "../../../../../images/EduOfHeart-Images/Nutritionist.jpg";
 import Doc2 from "../../../../../images/EduOfHeart-Images/Physician.jpg";
-import Doc3 from "../../../../../images/EduOfHeart-Images/exercise_physiologist.jpg";
+import Doc3 from "../../../../../images/EduOfHeart-Images/moveHealthy.jpg";
 
 const Doctor = () => {
   return (
