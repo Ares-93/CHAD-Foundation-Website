@@ -87,7 +87,7 @@ const Plays = () => {
                   Directed by Victor Maog ~~ Off-Broadway, NYC
                 </h4>
                 <h4 className="plays-subtext">
-                  Cast: Lu Lu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
+                  Cast: Lu Yu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
                   Cheng, John Fukada, Murielle Borst
                 </h4>
                 <div className="plays-quotes-div">
@@ -135,7 +135,7 @@ const Plays = () => {
                   Directed by Victor Maog ~~ Off-Broadway, NYC
                 </h4>
                 <h4 className="plays-subtext">
-                  Cast: Lu Lu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
+                  Cast: Lu Yu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
                   Cheng, John Fukada, Murielle Borst
                 </h4>
 
