@@ -11,9 +11,10 @@ const Guide = () => {
       <GiftOfArtNavigation currentPage="scholarship" />
       <div className="main-container">
         <div className="guide-container">
-          <div className="guide-section">
+          {/* opening section */}
+          <div>
             <h2 className="guide-header">The Chad Scholarship Awards – 2026</h2>
-            <p className="guide-name">Chad Scholarship Guidelines</p>
+            <p className="guide-h2-header">Chad Scholarship Guidelines</p>
             <p className="guide-description">
               Chad Alan Butrum believed in nurturing a “Healthy Body, Mind, and
               Spirit.” He never drank alcohol, smoked cigarettes, or used drugs.
@@ -36,48 +37,65 @@ const Guide = () => {
               Dreams Come True!”
             </p>
           </div>
-
-          <p>
-            <strong>Official Rules</strong> <br />
-            <strong>Scholarship Awards:</strong> Two $500 Scholarships will be
-            awarded to eligible students at your high school—one for the “Best
-            Athlete/Scholar/Leader” and one for the “Best Story of the Heart.”
-          </p>
-
-          <div className="guide-section">
-            <p className="guide-name">Entry Period</p>
-            <p>
-              Begins: <strong>12:00:01 AM ET, Friday, January 16, 2026</strong>
-              <br />
-              Ends: <strong>11:59:59 PM ET, Monday, March 16, 2026</strong>
-              <br />
-              Winners announced: <strong>Thursday, April 16, 2026</strong>
-              <br />
-              Scholarship award checks dispersed:{" "}
-              <strong>Friday, May 15, 2026</strong>
+          <div className="guide-grid">
+            {/* Official rules */}
+            <div className="guide-section">
+              <p className="guide-h2-header">Official Rules</p>
+              <p>
+                <strong>Scholarship Awards:</strong> Two $500 Scholarships will
+                be awarded to eligible students at your high school—one for the
+                “Best Athlete/Scholar/Leader” and one for the “Best Story of the
+                Heart.”
+              </p>
+            </div>
+            {/* Entry period */}
+            <div className="guide-section">
+              <p className="guide-h2-header">Entry Period</p>
+              <p>
+                Begins:{" "}
+                <strong>12:00:01 AM ET, Friday, January 16, 2026</strong>
+                <br />
+                Ends: <strong>11:59:59 PM ET, Monday, March 16, 2026</strong>
+                <br />
+                Winners announced: <strong>Thursday, April 16, 2026</strong>
+                <br />
+                Scholarship award checks dispersed:{" "}
+                <strong>Friday, May 15, 2026</strong>
+              </p>
+            </div>
+          </div>
+          {/* Schools */}
+          <div className="guide-schools-div">
+            <p className="guide-schools-div-p">
+              For the “Inaugural Chad Scholarship Awards (2026),” The Chad
+              Foundation for Athletes and Artists has chosen three high schools
+              to participate:
+            </p>
+            <ul>
+              <li>
+                North Hollywood High School in North Hollywood, California (Chad
+                Butrum’s alma mater)
+              </li>
+              <li>Curtis High School, Staten Island, New York</li>
+              <li>Holyoke High School, Holyoke, Massachusetts</li>
+            </ul>
+            <p className="guide-schools-div-p">
+              CHAD was honored to provide preventive “Echocardiogram Screenings”
+              for athletes and students in these three high schools,
+              safeguarding students’ outer hearts from unknown heart anomalies.
+              CHAD is now focusing on the “inner hearts” to nourish the mental
+              and spiritual needs and care for the “whole heart.” Chad lived his
+              twenty-six years on earth promoting a “Healthy Body, Mind, and
+              Spirit.” His nonprofit charity, The Chad Foundation for Athletes
+              and Artists, instills the same values he lived by.
             </p>
           </div>
-
-          <p>
-            For the “Inaugural Chad Scholarship Awards (2026),” The Chad
-            Foundation for Athletes and Artists has chosen three high schools to
-            participate: North Hollywood High School in North Hollywood,
-            California (Chad Butrum’s alma mater); Curtis High School, Staten
-            Island, New York; and Holyoke High School, Holyoke, Massachusetts.
-            CHAD was honored to provide preventive “Echocardiogram Screenings”
-            for athletes and students in these 3 high schools, safeguarding
-            students’ ‘outer hearts’ from unknown heart anomalies. CHAD is now
-            focusing on the “inner hearts” to nourish the mental and spiritual
-            needs and care for the “whole heart.” Chad lived his twenty-six
-            years on earth promoting a—"Healthy Body, Mind, and Spirit.” His
-            nonprofit charity, The Chad Foundation for Athletes and Artists,
-            instills the same values he lived by.
-          </p>
-
+          {/* Eligibility */}
           <div className="guide-section">
-            <p className="guide-name">
-              ELIGIBILITY: The eligibility requirements for students of these
-              three high schools wishing to apply are:
+            <p className="guide-h2-header">ELIGIBILITY</p>
+            <p>
+              The eligibility requirements for students of these three high
+              schools wishing to apply are:
             </p>
             <ul>
               <li>
@@ -102,9 +120,9 @@ const Guide = () => {
               </li>
             </ul>
           </div>
-
-          <div className="guide-section">
-            <p className="guide-name">Application Materials</p>
+          {/* Materials */}
+          <div>
+            <p className="guide-h2-header">Application Materials</p>
             <p>
               <strong>Essay:</strong> The primary factor in determining the Chad
               Scholarship Awardees will be the Student’s Application Essay,
@@ -135,59 +153,65 @@ const Guide = () => {
               community project you have worked on.
             </p>
           </div>
-
-          <p>
-            Winner notification and disbursement of Scholarship Award The Award
-            Winner will be required to submit proof of their current enrollment
-            in an accredited college or university, trade or vocational school
-            located within the United States before the prize is awarded.
-            Noncompliance will result in disqualification, and an alternate
-            winner may be selected. The prize will be awarded within
-            approximately 45 days after the winner is verified. Disbursement of
-            Scholarship Award The winner of the Chad Scholarship Award will have
-            the full amount of their scholarship award placed in their personal
-            account designated by the administrator of scholarships at the
-            accredited college, university, vocational, or technical school the
-            awardee is enrolled in, whom The Chad Foundation will contact and
-            verify. If the winner hasn't enrolled in a school, CHAD will hold
-            the funds until their enrollment has been confirmed and then send
-            the funds directly to the school to be placed in the student’s
-            account.
-          </p>
-          <p>
-            Winners' names and photos will appear on The Chad Foundation for
-            Athletes and Artists’ website,{" "}
-            <a href="http://www.chad-foundation.org" className="guide-link">
-              www.chad-foundation.org
-            </a>
-            .
-          </p>
-          <p>
-            The applicant, with their signature, agrees to email or snail mail a
-            follow-up letter to The Chad Foundation for Athletes and Artists one
-            year after their scholarship award—by <strong>May 15, 2027</strong>{" "}
-            —stating how their Scholarship Award was used and what it meant to
-            the continuance of their educational and career goals. The follow-up
-            letter should be one page in length, double-spaced, and sent to The
-            Chad Foundation email or address below. (Awardees or their parents
-            agree to notify The Chad Foundation if a Change of Address occurs.)
-          </p>
-          <p>
-            <br />
-            Arista Butrum, Founder
-            <br />
-            The Chad Foundation for Athletes and Artists
-            <br />
-            PO Box 145, New York, NY 10101
-            <br />
-            or{" "}
-            <a href="mailto:Arista@Chad-Foundation.org">
-              Arista@Chad-Foundation.org
-            </a>
-          </p>
-
+          {/* Other text */}
           <div className="guide-section">
-            <p className="guide-name">
+            <p>
+              Winner notification and disbursement of Scholarship Award The
+              Award Winner will be required to submit proof of their current
+              enrollment in an accredited college or university, trade or
+              vocational school located within the United States before the
+              prize is awarded. Noncompliance will result in disqualification,
+              and an alternate winner may be selected. The prize will be awarded
+              within approximately 45 days after the winner is verified.
+              Disbursement of Scholarship Award The winner of the Chad
+              Scholarship Award will have the full amount of their scholarship
+              award placed in their personal account designated by the
+              administrator of scholarships at the accredited college,
+              university, vocational, or technical school the awardee is
+              enrolled in, whom The Chad Foundation will contact and verify. If
+              the winner hasn't enrolled in a school, CHAD will hold the funds
+              until their enrollment has been confirmed and then send the funds
+              directly to the school to be placed in the student’s account.
+            </p>
+          </div>
+          {/* Closing word */}
+          <div>
+            <p>
+              Winners' names and photos will appear on The Chad Foundation for
+              Athletes and Artists’ website,{" "}
+              <a href="http://www.chad-foundation.org" className="guide-link">
+                www.chad-foundation.org
+              </a>
+              .
+            </p>
+            <p>
+              The applicant, with their signature, agrees to email or snail mail
+              a follow-up letter to The Chad Foundation for Athletes and Artists
+              one year after their scholarship award—by{" "}
+              <strong>May 15, 2027</strong> —stating how their Scholarship Award
+              was used and what it meant to the continuance of their educational
+              and career goals. The follow-up letter should be one page in
+              length, double-spaced, and sent to The Chad Foundation email or
+              address below. (Awardees or their parents agree to notify The Chad
+              Foundation if a Change of Address occurs.)
+            </p>
+            <p className="guide-closing">
+              <br />
+              Arista Butrum, Founder
+              <br />
+              The Chad Foundation for Athletes and Artists
+              <br />
+              PO Box 145, New York, NY 10101
+              <br />
+              or{" "}
+              <a href="mailto:Arista@Chad-Foundation.org">
+                Arista@Chad-Foundation.org
+              </a>
+            </p>
+          </div>
+          {/* Guidelines 1 */}
+          <div className="guide-section">
+            <p className="guide-h2-header">
               Guidelines for the “Best Athlete/Scholar/Leader”—Chad $500
               Scholarship Award
             </p>
@@ -197,22 +221,26 @@ const Guide = () => {
               the couch and out to play a game. And “the game” was no joke; you
               played by the rules, and you played it seriously. You played your
               best, and you never gave up. Sports was a forever bond with Chad
-              and his friends. In your Application Essay, tell us what sports
-              and being an athlete mean to you and your life: team spirit,
-              striving for your individual best, what lessons you’ve learned
-              from sports, and how you plan to apply them to your future. Tell
-              us how you integrate being a good scholar and leader with
-              athletics. Are they all important? Why is this Scholarship Award
-              important to you?” For this award, “Best Athlete/Scholar/Leader,”
-              your Application Essay, 2 double-spaced pages are requested. This
-              award will be judged on: the Application Essay, Scholarship merit,
-              activities engaged in that show your Leadership qualities for your
-              peers and/or the community, and 2 letters of recommendation.
+              and his friends. <br />
+              <br />
+              In your Application Essay, tell us what sports and being an
+              athlete mean to you and your life: team spirit, striving for your
+              individual best, what lessons you’ve learned from sports, and how
+              you plan to apply them to your future. Tell us how you integrate
+              being a good scholar and leader with athletics. Are they all
+              important? Why is this Scholarship Award important to you?” For
+              this award, “Best Athlete/Scholar/Leader,” your Application Essay,
+              2 double-spaced pages are requested. <br />
+              <br />
+              This award will be judged on: the Application Essay, Scholarship
+              merit, activities engaged in that show your Leadership qualities
+              for your peers and/or the community, and 2 letters of
+              recommendation.
             </p>
           </div>
-
+          {/* Guidelines 2 */}
           <div className="guide-section">
-            <p className="guide-name">
+            <p className="guide-h2-header">
               Guidelines for the “Best Story of the” Heart”—Chad $500
               Scholarship Award
             </p>
@@ -223,44 +251,52 @@ const Guide = () => {
               listened to what you had to say, what was important to you, where
               you were having a tough time, and was always encouraging and
               supportive highlighting your potential and building your
-              confidence. In writing your “Story of the Heart,” make it truly
-              yours. The topic should be about anything transformative in your
-              life: an incident or an encounter with a friend, family member, or
-              stranger that made an impact on you—something you will remember
-              for the rest of your life. It might focus on something that you
-              did to improve/change a situation for the better, for yourself or
-              others. Anything that shows your personal views on life and how to
-              make the world a better place. Also, how did you implement that
-              change? Do your very best, check your spelling and grammar, and
-              most importantly, write genuinely “from the heart.” The guidelines
-              for this year’s Story of the Heart” are: It should be non-fiction,
+              confidence. <br />
+              <br />
+              In writing your “Story of the Heart,” make it truly yours. The
+              topic should be about anything transformative in your life: an
+              incident or an encounter with a friend, family member, or stranger
+              that made an impact on you—something you will remember for the
+              rest of your life. It might focus on something that you did to
+              improve/change a situation for the better, for yourself or others.
+              Anything that shows your personal views on life and how to make
+              the world a better place. Also, how did you implement that change?
+              Do your very best, check your spelling and grammar, and most
+              importantly, write genuinely “from the heart.” The guidelines for
+              this year’s Story of the Heart” are: It should be non-fiction,
               that is, a true story—for example, one passed down from generation
               to generation through your family that has deeply inspired your
               life or a small or major event that was traumatic or challenging
               and how you transformed/are transforming the circumstances. It
               should be written in a short story format, 10 to 20 pages in
-              length, and double-spaced. For this Gift of Art award, the
-              applicant will be judged on the genuineness of the story content,
-              how well and how creatively it is written, and how it impacts the
-              reader, as well as your Application Essay (1-2 pages), and two
-              letters of recommendation. (Note: The “Story from the Heart” is
-              the required entry for this “Chad Gift of Art Award.” It is not
-              the same as your Application Essay which can range from 1 to 2
-              pages, double-spaced, and which focuses on your education,
-              financial needs, and your career goals in life.
+              length, and double-spaced. <br />
+              <br />
+              For this Gift of Art award, the applicant will be judged on the
+              genuineness of the story content, how well and how creatively it
+              is written, and how it impacts the reader, as well as your
+              Application Essay (1-2 pages), and two letters of recommendation.
+              <br />
+              <br />
+              Note: The “Story from the Heart” is the required entry for this
+              “Chad Gift of Art Award.” It is not the same as your Application
+              Essay which can range from 1 to 2 pages, double-spaced, and which
+              focuses on your education, financial needs, and your career goals
+              in life.
             </p>
           </div>
-
-          <p>
-            Invalid outside the U.S. and its territories. Participation subject
-            to applicable laws.
-          </p>
-          <p>
-            <strong>
-              Thank you for participating. CHAD wishes you the very best of
-              success!
-            </strong>
-          </p>
+          {/* Final remarks */}
+          <div className="guide-final-remarks">
+            <p>
+              Invalid outside the U.S. and its territories. Participation
+              subject to applicable laws.
+            </p>
+            <p>
+              <strong>
+                Thank you for participating. CHAD wishes you the very best of
+                success!
+              </strong>
+            </p>
+          </div>
         </div>
       </div>
 
