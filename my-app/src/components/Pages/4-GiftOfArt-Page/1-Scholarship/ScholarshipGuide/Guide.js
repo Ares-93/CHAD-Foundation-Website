@@ -209,10 +209,31 @@ const Guide = () => {
               </a>
             </p>
           </div>
+          {/* Download */}
+          <div className="guide-download-div">
+            <p className="guide-download-p">Download the application form</p>
+            <div className="download-buttons">
+              <a
+                href="/CHAD SCHOLARSHIP APPLICATION FORM.docx"
+                download
+                className="download-button"
+              >
+                DOWNLOAD DOCX
+              </a>
+              <a
+                href="/CHAD SCHOLARSHIP APPLICATION FORM.pdf"
+                download
+                className="download-button"
+              >
+                DOWNLOAD PDF
+              </a>
+            </div>
+          </div>
+
           {/* Guidelines 1 */}
           <div className="guide-section">
             <p className="guide-h2-header">
-              Guidelines for the “Best Athlete/Scholar/Leader”—Chad $500
+              Guidelines for the “Best Athlete/Scholar/Leader” — Chad $500
               Scholarship Award
             </p>
             <p>
@@ -241,7 +262,7 @@ const Guide = () => {
           {/* Guidelines 2 */}
           <div className="guide-section">
             <p className="guide-h2-header">
-              Guidelines for the “Best Story of the” Heart”—Chad $500
+              Guidelines for the “Best Story of the” Heart” — Chad $500
               Scholarship Award
             </p>
             <p>
