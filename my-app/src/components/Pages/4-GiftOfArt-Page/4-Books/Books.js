@@ -3,7 +3,7 @@ import GiftOfArtNavigation from "../GiftOfArtNavigation";
 import "./Books.css";
 import HeartIcon from "../../../../images/GiftOfArt-Images/gift-of-art-heart-icon.png";
 import CopyRightIcon from "../../../../images/GiftOfArt-Images/copyright-vector.png";
-import BooksImageOne from "../../../../images/GiftOfArt-Images/books-image-one.jpg";
+import BooksImageOne from "../../../../images/GiftOfArt-Images/gemini-img.png";
 import BooksImageTwo from "../../../../images/GiftOfArt-Images/books-image-two-small.png";
 import BooksVector from "../../../../images/GiftOfArt-Images/books-vector.png";
 import AudioBook from "./The_Gemini_Kiid_Audio.mp3";
