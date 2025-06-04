@@ -20,7 +20,11 @@
   text-align: center;
   color: black;
 }
+.ourMissionHearts-div {
+  margin-top: 100px;
+}
 .ourMissionHearts {
+  width: 200px;
   max-width: 100%;
 }
 .ourMission-subheader-text {
@@ -183,6 +187,9 @@
   .ourMission-row {
     gap: 40px;
   }
+  .ourMissionHearts-div {
+  margin-top: 40px;
+}
 }
 @media only screen and (max-width: 340px) {
   .ourMissionHearts {
