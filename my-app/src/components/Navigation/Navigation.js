@@ -10,14 +10,12 @@ function Navigation() {
     setActiveNav(navItem);
   };
 
-
   const handleDonateClick = () => {
     window.location.href = "/donate-main";
   };
   const handleDocClick = () => {
     window.open("https://www.youtube.com/watch?v=ldwHd9MyKQc&t=2s");
   };
-
 
   return (
     <section className="main-container">
@@ -157,7 +155,8 @@ function Navigation() {
                         The Chad's Documentary
                         <br />
                         <span className="dropdown-span">
-                          Watch the documentary about our nonprofit charity's work.
+                          Watch the documentary about our nonprofit charity's
+                          work.
                         </span>
                       </NavLink>
                     </li>
@@ -190,6 +189,24 @@ function Navigation() {
                         <br />
                         <span className="dropdown-span">
                           Sudden Cardiac Death statistics and warning signs.
+                        </span>
+                      </NavLink>
+                    </li>
+                    {/*Heart News*/}
+                    <li>
+                      <NavLink
+                        to="/education-of-the-heart/screening-home"
+                        className={`dropdown-item ${
+                          activeNav === "screening-home"
+                            ? "dropdown-item-active"
+                            : ""
+                        }`}
+                        onClick={() => handleNavClick("screening-home")}
+                      >
+                        Latest Heart News
+                        <br />
+                        <span className="dropdown-span">
+                          Articles, Research for the Young.
                         </span>
                       </NavLink>
                     </li>
@@ -275,7 +292,7 @@ function Navigation() {
                         Scholarship
                         <br />
                         <span className="dropdown-span">
-                          Great opportunity for students.
+                          Supporting Students’ Dreams.
                         </span>
                       </NavLink>
                     </li>
@@ -341,7 +358,7 @@ function Navigation() {
                         Events
                         <br />
                         <span className="dropdown-span">
-                        Safe Drivers Campaign, Chad Dance, Classic Concert.
+                          Safe Drivers Campaign, Chad Dance, Classic Concert.
                         </span>
                       </NavLink>
                     </li>
@@ -358,7 +375,9 @@ function Navigation() {
                       >
                         Stories of the Heart
                         <br />
-                        <span className="dropdown-span">lorem ipsum</span>
+                        <span className="dropdown-span">
+                          Inspiring, real-life stories.
+                        </span>
                       </NavLink>
                     </li>
                   </ul>
@@ -474,8 +493,11 @@ function Navigation() {
                 </li>
 
                 {/* Donate Button */}
-                <button className="btn donate-button" type="button"
-                  onClick={handleDonateClick}>
+                <button
+                  className="btn donate-button"
+                  type="button"
+                  onClick={handleDonateClick}
+                >
                   Donate
                 </button>
               </ul>
