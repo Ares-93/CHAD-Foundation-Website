@@ -17,7 +17,7 @@ const Message = () => {
         <h2 className="message-header">Message from the Founder</h2>
         <div className="message-content">
           <div className="message-text-box">
-          <p
+            <p
               className={`message-text ${
                 isExpanded ? "message-text-expanded" : ""
               }`}
@@ -53,33 +53,38 @@ const Message = () => {
                   Echocardiograms for their athletes.
                   <br />
                   <br />
-                  <strong>What’s ahead for “The Gift of Heart?”</strong>
+                  <strong className="underline-strong">
+                    What’s ahead for “The Gift of Heart?”
+                  </strong>
                   <br />
-                  Firstly, to expand the number of heart screenings and maximize
-                  the number of young people screened, Chad will advocate for
+                  <br />
+                  After providing heart screenings for the past 25 years, moving
+                  forward, CHAD will focus its efforts on advocating for
                   hospitals across the US to institute Heart Screening Programs
-                  for Young Athletes and Students. Hospitals already have
+                  for Young Athletes and Students. As hospitals already have
                   state-of-the-art heart screening equipment, medical
-                  facilities, and follow-up medical staff in place. Today,
-                  several hospitals nationwide have initiated successful heart
+                  facilities, and follow-up medical staff in place, this will
+                  expand the number of heart screening events nationally and
+                  increase the capacity of young people screened. Today, several
+                  hospitals nationwide have already initiated successful heart
                   screening programs to detect unknown anomalies in athletes and
-                  students. Secondly, as Heart-Healthy Living is a holistic
-                  approach that starts at home, Chad will promote a
-                  Heart-Healthy Lifestyle Initiative through diet, nutrition,
-                  exercise, and monthly forum talks by doctors and health
-                  professionals who will speak about Heart Education, the
-                  integration of a healthy lifestyle, awareness of Sudden
-                  Cardiac Death and premature Risk Factors in Youth, and how
-                  preventive screenings are vital in safeguarding your
-                  children’s and your own hearts. To engage communities and high
-                  schools, monthly Heart-Healthy Recipes created by
-                  nutritionists and high school Culinary Arts programs will be
-                  featured, as well as exercise programs by certified trainers,
-                  yoga teachers, et al. Lastly, awareness and action plans for
-                  lifesaving tools, the AED and CPR, and the importance that
-                  they are available in every school, community center, and
-                  athletic facility. Knowing cardiac Warning Signs and “The
-                  Chain of Survival” is imperative to save lives. ‘There is no
+                  students (see{" "}
+                  <a
+                    href="/resources/sca-and-training-resources"
+                    target="_blank"
+                  >
+                    Resources
+                  </a>
+                  ). Secondly, as Heart-Healthy Living is a holistic approach
+                  that begins at home, CHAD will promote a “Heart-Healthy
+                  Lifestyle Program” through diet, nutrition, exercise, and
+                  monthly talks by doctors and health professionals who will
+                  speak about Heart Education, how-to integrate a heart-healthy
+                  lifestyle, increase awareness of Sudden Cardiac Death and
+                  premature Cardio Risk Factors in Youth, and how preventive
+                  screenings are vital in safeguarding your children’s and your
+                  own hearts.  Knowing Cardiac Warning Signs and “The Chain of
+                  Survival” are also imperative in saving lives. ‘There is no
                   greater gift than helping to save a Life—young and old.’
                   <br />
                   <br />
@@ -100,9 +105,9 @@ const Message = () => {
                   on the family.
                   <br />
                   <br />
-                  <strong>Moving on,</strong> Chad will focus on children’s
-                  “inner hearts” as well, as they too are endangered as never
-                  before. The 3 leading causes of death in children are
+                  As we move forward, CHAD will focus on children’s “inner
+                  hearts” as well, as they are endangered as never before. The 3
+                  leading causes of death in children are:
                   <br />
                   1) Firearms,
                   <br />
@@ -112,20 +117,26 @@ const Message = () => {
                   <br />
                   By providing a platform for high school students to express
                   their fears, challenges, hopes, and dreams through Art—
-                  stories, plays, and athletics—they can share, express, and
-                  inform, and we as parents can listen and hear their inner
-                  heart speaking, effecting a better way for growth,
-                  understanding, and solutions. Through the <strong> Annual Scholarship
-                  Program, </strong> CHAD awards an athlete whose teachers and peers
-                  honour as the best “Scholar, Athlete &amp; Leader” and an Art
-                  Scholarship for the “Best Story of the Heart.” Students who
-                  seek out careers in accredited vocational or trade schools are
-                  strongly 3 encouraged to apply. Our world needs all types of
-                  talent and skills. As Chad never drank alcohol or did drugs,
-                  we will launch the “Life is A Gift—Safe Driving Campaign” to
-                  high schools and colleges—“Don’t text/drink and drive.”
-                   (Details can be found in the GIFT OF ART tab on the
-                  homepage.)  
+                  stories, plays, creative writing and athletics—they can share,
+                  express, and inform, and we as parents can listen and hear
+                  their inner hearts speaking, effecting a better way for
+                  growth, understanding, and solutions. Through the{" "}
+                  <strong> Annual Scholarship Program, </strong> Program, CHAD
+                  awards an athlete whose teachers and peers honour as the best
+                  “Scholar, Athlete &amp; Leader” and an Art Scholarship for the
+                  “Best Story of the Heart.” Students who seek out careers in
+                  accredited vocational or trade schools are strongly 3
+                  encouraged to apply. Our world needs all types of talent and
+                  skills. As Chad never drank alcohol or did drugs, we will
+                  launch the “Life is A Gift—Safe Driving Campaign” to engage
+                  high schools and colleges—“Don’t text/drink and drive” (see{" "}
+                  <a
+                    href="/gift-of-art/upcoming-events/safe-driver-campaign"
+                    target="_blank"
+                  >
+                    "Safe Driving Campaign"
+                  </a>
+                  ).
                   <br />
                   <br />
                   If we can change—not the landscape of athletics but the value
@@ -146,7 +157,7 @@ const Message = () => {
                   <br />
                   <br />
                   <span className="message-signature">
-                  From the Heart,
+                    From the Heart,
                     <br />
                     Arista
                     <br />
