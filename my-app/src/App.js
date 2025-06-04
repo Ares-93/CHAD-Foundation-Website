@@ -54,13 +54,19 @@ function App() {
   const [showFeedback, setShowFeedback] = useState(false);
 
   // Automatically show feedback form after 5 minutes 
-  useEffect(() => {
+ useEffect(() => {
+  const hasShownFeedback = sessionStorage.getItem("feedbackShown");
+
+  if (!hasShownFeedback) {
     const timer = setTimeout(() => {
       setShowFeedback(true);
-    }, 300000); // 5 minutes. To test: 10000 is 10 sec,  600000 is 10 min and  900000 is 15 min
+      sessionStorage.setItem("feedbackShown", "true"); 
+    }, 300000); // 5 minutes
 
-    return () => clearTimeout(timer); // Cleanup if user leaves
-  }, []);
+    return () => clearTimeout(timer);
+  }
+}, []);
+
 
   return (
     <Router>
