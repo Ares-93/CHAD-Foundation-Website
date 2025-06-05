@@ -18,21 +18,25 @@ const StoryMission = () => {
         <div className="storyMission-content">
           <div className="storyMission-content-left">
             <p className="storyMission-p">
-              CHAD’s mission is dual: The Gift of Heart raises awareness of
+              CHAD’s mission is dual: “The Gift of Heart” raises awareness of
               Sudden Cardiac Death and Heart Anomalies in Young Athletes and
               Students, promotes preventive heart screenings, CPR, and AEDS, and
-              advocates a “Heart-Healthy” Lifestyle through monthly diet tips
-              and Health Professional interviews.
+              advocates a “Heart-Healthy Lifestyle” through delicious Monthly
+              Recipes and top Health Professionals’ Interviews, on Nutrition,
+              Exercise and Heart-health geared toward the young.
               <br /> <br />
-              The Gift Art, creates, produces, and sponsors art - film, theatre,
-              and books that celebrate stories of all heritages, addresses
-              societal issues like anti-substance abuse and bullying, and
-              provides “CHAD Annual Scholarships for the “Best
-              Scholar-Leader-Athlete,” and “Best Story of the Heart.”
+              “The Gift Art” expresses the needs of the “inner heart” by
+              creating, producing, and sponsoring art—film, theatre, creative
+              writing and  books that celebrate stories of all heritages,
+              address societal issues like anti- substance abuse and bullying,
+              and help to make dreams come true through the “CHAD Annual
+              Scholarships” for the “Best Scholar/Leader/Athlete,” and the “Best
+              Story of the Heart.”
               <br />
               <br />
               <strong>
-                “Healthy Body, Mind and Spirit” – How Chad Lived his Life
+                Our dual mission focuses on “Healthy Body, Mind, and Spirit” –
+                The way Chad Lived his Life.
               </strong>
             </p>
             <button className="storyMission-btn" onClick={handleLearnMoreClick}>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurMission.css";
+import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,6 +18,13 @@ const OurMission = () => {
     slidesToScroll: 1,
     adaptiveHeight: true,
     arrows: false,
+  };
+  const navigate = useNavigate();
+  const handleClickOne = () => {
+    navigate("/education-of-the-heart/heart-fact-page");
+  };
+  const handleClickTwo = () => {
+    navigate("/gift-of-art/scholarship");
   };
 
   return (
@@ -61,7 +69,9 @@ const OurMission = () => {
                   </p>
                 </div>
               </Slider>
-              <button className="ourMission-btn">Learn more</button>
+              <button className="ourMission-btn" onClick={handleClickOne}>
+                Learn more
+              </button>
             </Col>
 
             {/* Second Column + Slider */}
@@ -94,12 +104,14 @@ const OurMission = () => {
                   </p>
                 </div>
               </Slider>
-              <button className="ourMission-btn">Learn more</button>
+              <button className="ourMission-btn" onClick={handleClickTwo}>
+                Learn more
+              </button>
             </Col>
 
             {/* Third Column */}
             <Col className="ourMission-col">
-              <div>
+              <div className="ourMissionHearts-div">
                 <img
                   src={MissionHearts}
                   alt="hearts"

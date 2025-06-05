@@ -47,11 +47,10 @@ const OurStory = () => {
             <em>The Chad Foundation for Athletes and Artists</em>, which raises
             awareness of Heart Anomalies, promotes heart screenings to prevent
             Sudden Cardiac Death in Athletes, and through the Gift of Art- film,
-            theatre, and books expresses the needs of the ‘inner heart’ through
-            Art. Chad truly cared about everyone’s most precious dreams,
-            regardless of age, heritage, or orientation. His foundation
-            continues his legacy. – “Healthy Body, Mind, and Spirit.” – The Gift
-            of Heart and Art.
+            theatre, and books expresses the needs of the ‘inner heart.’ Chad
+            truly cared about everyone’s most precious dreams, regardless of
+            age, heritage, or orientation. His foundation continues his legacy.
+            – “Healthy Body, Mind, and Spirit.” – The Gift of Heart and Art.
           </div>
           <div className="ourStory-photo">
             <img src={imageSource} alt="Chad" className="chad-photo" />

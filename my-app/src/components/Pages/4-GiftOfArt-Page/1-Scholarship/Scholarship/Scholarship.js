@@ -10,8 +10,12 @@ import WishListTwo from "../WishListTwo/WishlistTwo";
 const Scholarship = () => {
   const navigate = useNavigate();
 
+  // const handleApplicationClick = () => {
+  //   window.open("https://forms.gle/VmkcTnfdUuV8tppD8", "_blank");
+  // };
+
   const handleApplicationClick = () => {
-    window.open("https://forms.gle/VmkcTnfdUuV8tppD8", "_blank");
+     navigate("/gift-of-art/scholarship/guidelines");
   };
 
   const handleWinnersClick = () => {

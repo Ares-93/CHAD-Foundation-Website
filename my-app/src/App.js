@@ -29,6 +29,7 @@ import TipsHome from "./components/Pages/3-Education of the Heart/4-Expert Healt
 // GIFT OF ART PAGE Imports
 import Scholarship from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Scholarship/Scholarship";
 import Winners from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/Winners/Winners.js";
+import Guide from "./components/Pages/4-GiftOfArt-Page/1-Scholarship/ScholarshipGuide/Guide.js";
 import Plays from "./components/Pages/4-GiftOfArt-Page/2-Plays/Plays";
 import Films from "./components/Pages/4-GiftOfArt-Page/3-Films/Films";
 import Books from "./components/Pages/4-GiftOfArt-Page/4-Books/Books";
@@ -53,13 +54,19 @@ function App() {
   const [showFeedback, setShowFeedback] = useState(false);
 
   // Automatically show feedback form after 5 minutes 
-  useEffect(() => {
+ useEffect(() => {
+  const hasShownFeedback = sessionStorage.getItem("feedbackShown");
+
+  if (!hasShownFeedback) {
     const timer = setTimeout(() => {
       setShowFeedback(true);
-    }, 300000); // 5 minutes. To test: 10000 is 10 sec,  600000 is 10 min and  900000 is 15 min
+      sessionStorage.setItem("feedbackShown", "true"); 
+    }, 300000); // 5 minutes
 
-    return () => clearTimeout(timer); // Cleanup if user leaves
-  }, []);
+    return () => clearTimeout(timer);
+  }
+}, []);
+
 
   return (
     <Router>
@@ -109,6 +116,10 @@ function App() {
           <Route
             path="/gift-of-art/scholarship/winners"
             element={<Winners />}
+          />
+          <Route
+            path="/gift-of-art/scholarship/guidelines"
+            element={<Guide />}
           />
           <Route path="/gift-of-art/plays" element={<Plays />} />
           <Route path="/gift-of-art/films" element={<Films />} />
