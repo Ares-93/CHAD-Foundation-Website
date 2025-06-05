@@ -85,8 +85,8 @@ function HowWeHelp() {
                           Emergencies
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Advice from professionals on living a heart-healthy
-                          lifestyle.
+                          What to do in an emergency, lifesaving tools—CPR and
+                          AEDs.
                         </p>
                       </div>
                       {/* Expert Health Tips */}
@@ -123,7 +123,7 @@ function HowWeHelp() {
             <Row className="howWeHelp-row">
               <Col md={4} className="howWeHelp-card  howWeHelp-card-second">
                 <p className="howWeHelp-card-text">
-                  Nourishing the heart through art and stories
+                  Nourishing the heart through art and storytelling
                 </p>
                 <img
                   src={HeartImg2}
@@ -146,7 +146,7 @@ function HowWeHelp() {
                           Scholarships
                         </button>
                         <p className="howWeHelp-wrap-p">
-                          Helping young people find and make dreams happen.
+                          Helping young people make their dreams happen.
                         </p>
                       </div>
                       {/* Plays */}
@@ -199,7 +199,8 @@ function HowWeHelp() {
                           Events
                         </button>
                         <p className="howWeHelp-wrap-p">
-                        Classic Concerts, the Chad Dance, “Life is a Gift” Safe Drivers’ Campaign.
+                          Classic Concerts, the Chad Dance, “Life is a Gift”
+                          Safe Drivers’ Campaign.
                         </p>
                       </div>
                     </Col>
