@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./SurvivorsStories.css";
+import { useNavigate } from "react-router-dom";
 import QuotationLine from "../../../../images/HomePage-Images/quotation-mark-line.png";
 import QuotationMark from "../../../../images/HomePage-Images/quotation-mark.png";
 
@@ -14,6 +15,11 @@ function SurvivorsStories() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+  const navigate = useNavigate();
+
+  const handleStoriesClick = () => {
+    navigate("people-we-love/survivors");
+  };
 
   return (
     <section className="survivorsStories">
@@ -44,7 +50,10 @@ function SurvivorsStories() {
             />
             <p className="survivorsStories-p">Lindsay</p>
           </div>
-          <button className="survivorsStories-button">
+          <button
+            className="survivorsStories-button"
+            onClick={handleStoriesClick}
+          >
             Read More Survivor’s Stories
           </button>
         </div>
