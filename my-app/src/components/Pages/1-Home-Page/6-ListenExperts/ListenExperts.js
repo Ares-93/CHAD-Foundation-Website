@@ -2,8 +2,8 @@ import React from "react";
 import "./ListenExperts.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import ExpertsVector from "../../../../images/HomePage-Images/experts-vector.png";
-import ExpertsVideoOne from "../../../../images/HomePage-Images/experts-soup-video.png";
-import ExpertsVideoTwo from "../../../../images/HomePage-Images/experts-doctors-video.png";
+import ExpertsRecipeImg from "../../../../images/HomePage-Images/experts_recipe.png";
+import ExpertsDoctorsImg from "../../../../images/HomePage-Images/experts_doctors.png";
 
 
 
@@ -28,20 +28,20 @@ function ListenExperts() {
             {/* Section Two */}
             <Col xs={12} md={4} className="experts-second-col">
               <h3 className="experts-h3">Recipe of the Month</h3>
-              <Image src={ExpertsVideoOne} className="experts-video my-3" />
-              <h4 className="experts-h4">Tomato Soup for your heart!</h4>
-              <p className="experts-p">Vegetarian Option</p>
+              <Image src={ExpertsRecipeImg} className="experts-img my-3" />
+              <h4 className="experts-h4">A Heart-Healthy dish that tastes great!</h4>
+              {/* <p className="experts-p">Vegetarian Option</p> */}
             </Col>
 
             {/* Section Three */}
             <Col xs={12} md={4}>
               <h3 className="experts-h3">Doctor’s interview</h3>
-              <Image src={ExpertsVideoTwo} className="experts-video my-3" />
+              <Image src={ExpertsDoctorsImg} className="experts-img my-3" />
               <h4 className="experts-h4">How to improve your heart health!</h4>
-              <p className="experts-p">
+              {/* <p className="experts-p">
                 Doctor's name <span className="experts-span">---</span> March,
                 2023
-              </p>
+              </p> */}
             </Col>
           </Row>
         </Container>
