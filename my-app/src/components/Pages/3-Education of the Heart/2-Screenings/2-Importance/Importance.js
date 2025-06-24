@@ -1,13 +1,20 @@
 import React from "react";
 import "./Importance.css";
+
 import { Card, Row, Col } from "react-bootstrap";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import CoachEcho from "../../../../../images/EduOfHeart-Images/CoachScreen.png";
 
 const Importance = () => {
+  const handleVideoOne = () => {
+    window.open("https://www.youtube.com/watch?v=TbWN3Uo3_cg", "_blank");
+  };
+  const handleVideoTwo = () => {
+    window.open("https://www.youtube.com/watch?v=skRS6T50Q5I", "_blank");
+  };
+
   return (
     <section className="imp-section">
-     
       <div className="main-container">
         <div className="imp-header-box">
           {<img src={HeartIcon} alt="heart" width={60} height={60} />}{" "}
@@ -41,9 +48,16 @@ const Importance = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text className="echo-card-text">
-                  the gold standard for detecting<br></br> structural anomalies
-                  such as HCM,<br></br> hypertrophic cardiomyopathy.
+                  the gold standard for detecting<br></br>
+                  structural anomalies such as HCM,<br></br>
+                  hypertrophic cardiomyopathy{" "}
                 </Card.Text>
+                <button
+                  onClick={handleVideoOne}
+                  className="importance-video-btn"
+                >
+                  See an Echocardiogram in Action
+                </button>
               </Card.Body>
             </Card>
           </Col>
@@ -66,8 +80,14 @@ const Importance = () => {
               <Card.Body>
                 <Card.Text className="ekg-card-text">
                   can detect electrical problems<br></br> such as
-                  Wolff-Parkinson-White-<br></br>Syndrome and Long QT Syndrome.
+                  Wolff-Parkinson-White-<br></br>Syndrome and Long QT Syndrome.{" "}
                 </Card.Text>
+                <button
+                  onClick={handleVideoTwo}
+                  className="importance-video-btn"
+                >
+                  Why EKGs and Echos?
+                </button>
               </Card.Body>
             </Card>
           </Col>
