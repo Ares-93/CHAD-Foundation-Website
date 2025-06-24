@@ -156,20 +156,23 @@ const Guide = () => {
           {/* Other text */}
           <div className="guide-section">
             <p>
-              Winner notification and disbursement of Scholarship Award The
-              Award Winner will be required to submit proof of their current
-              enrollment in an accredited college or university, trade or
-              vocational school located within the United States before the
-              prize is awarded. Noncompliance will result in disqualification,
-              and an alternate winner may be selected. The prize will be awarded
-              within approximately 45 days after the winner is verified.
-              Disbursement of Scholarship Award The winner of the Chad
-              Scholarship Award will have the full amount of their scholarship
-              award placed in their personal account designated by the
-              administrator of scholarships at the accredited college,
-              university, vocational, or technical school the awardee is
-              enrolled in, whom The Chad Foundation will contact and verify. If
-              the winner hasn't enrolled in a school, CHAD will hold the funds
+              <strong>
+                Winner notification and disbursement of Scholarship Award
+              </strong>{" "}
+              <br /> The Scholarship Award Winner will be required to submit
+              proof of their current enrollment in an accredited college or
+              university , trade or vocational school located within the United
+              States before the prize is awarded. Noncompliance will result in
+              disqualification, and an alternate winner may be selected. The
+              prize will be awarded within approximately 45 days after the
+              winner is verified. <br /><br />
+              <strong>Disbursement of Scholarship Award</strong> <br /> The
+              winner of the Chad Scholarship Award will have the full amount of
+              their Scholarship Award placed in their personal student account
+              by the administrator of scholarships at the accredited college,
+              university, vocational or technical school the awardee is enrolled
+              in, whom The Chad Foundation will contact and verify. If the
+              winner hasn't enrolled in a school yet, CHAD will hold the funds
               until their enrollment has been confirmed and then send the funds
               directly to the school to be placed in the student’s account.
             </p>
@@ -228,6 +231,10 @@ const Guide = () => {
                 DOWNLOAD PDF
               </a>
             </div>
+            <p className="download-p">
+              Please email your application along with all the files to
+              Arista@Chad-Foundation.org.
+            </p>
           </div>
 
           {/* Guidelines 1 */}
