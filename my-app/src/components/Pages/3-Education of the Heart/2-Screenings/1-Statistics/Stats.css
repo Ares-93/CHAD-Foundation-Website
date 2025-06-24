@@ -83,8 +83,8 @@
 }
 
 .StatsSection .stats-gallery-btn {
-  width: 370px;
-  padding: 16px 24px;
+  width: auto;
+  padding: 16px 32px;
   font-family: var(--accent-font);
   line-height: 100%;
   font-size: 24px;
