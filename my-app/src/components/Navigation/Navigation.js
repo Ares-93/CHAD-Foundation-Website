@@ -210,7 +210,7 @@ function Navigation() {
                         </span>
                       </NavLink>
                     </li>
-                    {/*Screening*/}
+                    {/*Screenings*/}
                     <li>
                       <NavLink
                         to="/education-of-the-heart/screening-home"
@@ -221,7 +221,7 @@ function Navigation() {
                         }`}
                         onClick={() => handleNavClick("screening-home")}
                       >
-                        Screening
+                        Screenings
                         <br />
                         <span className="dropdown-span">
                           Learn the best way to detect heart complications.
