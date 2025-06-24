@@ -126,7 +126,12 @@
   color: var(--orange);
   border: 1px solid var(--orange);
 }
-
+.download-p{
+  text-align: center;
+  margin-top: 24px;
+  color: var(--main-black);
+  font-size: 24px;
+}
 .exit-guide-button {
   display: block;
   margin: 40px auto 0;

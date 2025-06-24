@@ -9,7 +9,9 @@ const Stats = () => {
   const navigate = useNavigate();
 
   const handleGalleryClick = () => {
-    navigate("/screenings-gallery");
+    navigate("/screenings-gallery", {
+      state: { from: "/education-of-the-heart/screening-home" },
+    });
   };
 
   const handleExploreClick = () => {
@@ -35,7 +37,7 @@ const Stats = () => {
                   </div>
                   <Card.Text className="stats-card-text">
                     Heart screenings for athletes and students were provided by
-                    CHAD. 
+                    CHAD.
                     <br />
                   </Card.Text>
                 </Card.Body>
@@ -96,7 +98,7 @@ const Stats = () => {
             className="stats-gallery-btn explore-btn"
             onClick={handleExploreClick}
           >
-            Find Heart Screenings Near You
+            Resources for SCA Preventive Screenings
           </button>
         </div>
       </div>

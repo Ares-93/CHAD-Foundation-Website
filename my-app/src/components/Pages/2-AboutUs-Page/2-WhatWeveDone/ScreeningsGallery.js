@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import AboutUsNavigation from "../../2-AboutUs-Page/AboutUsNavigation";
 import "./ScreeningsGallery.css";
 import styled from "styled-components";
@@ -116,6 +116,9 @@ const imageData = [
 
 const ScreeningsGallery = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const fromPage = location.state?.from || "/about/what-weve-done";
+
   const [currentImageData, setCurrentImageData] = useState(imageData);
 
   useEffect(() => {
@@ -147,7 +150,7 @@ const ScreeningsGallery = () => {
           ))}
         </Wrapper>
         <button
-          onClick={() => navigate("/about/what-weve-done")}
+          onClick={() => navigate(fromPage)}
           className="exit-gallery-button"
         >
           Exit Gallery

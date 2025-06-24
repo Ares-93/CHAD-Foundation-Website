@@ -62,8 +62,16 @@ const CountriesWScreening = () => {
                 </Card.Header>
                 <Card.Body>
                   <Card.Text className="card-text">
-                    Mandated heart screenings for schoolchildren in Japan show
-                    progress in reducing sudden deaths.
+                    In 2015, Japan established a nation-wide school-based heart
+                    screening system including ECG screening which aids in
+                    Prevention of Sudden Cardiac Death in the Young. SCD has
+                    decreased since the school-based heart screening started.
+                    CHD, HCM, Kawasaki disease, WPW syndrome, Long QT syndrome,
+                    and Brugada like ECG pattern have been detected. The
+                    mandated heart screenings have been shown to be useful for
+                    identifying high-risk subjects among both athletes and
+                    non-athletes and the program’s cost-effectiveness is
+                    considered.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -87,8 +95,12 @@ const CountriesWScreening = () => {
                 <Card.Body>
                   <Card.Text className="card-text">
                     Currently, heart screenings (ECGs) are not mandated for high
-                    schools or college athletes and students but are required
-                    for many professional athletic organizations.
+                    school or college athletes and students but are required for
+                    many professional athletic organizations. The NBA
+                    established standardized heart screenings, which also
+                    includes the Echocardiogram, and the NFL now also requires
+                    EKGs for their players and is also considering the addition
+                    of the Echocardiogram to detect heart problems.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -98,7 +110,7 @@ const CountriesWScreening = () => {
                 <Card.Body>
                   <Card.Text className="dyk-card-text">
                     Japan and Italy have reported that mandated heart screenings
-                    can reduce sudden cardiac death by up to 60% and 89%.
+                    can reduce sudden cardiac death by up to 60% and 89%
                     respectively.
                   </Card.Text>
                 </Card.Body>
@@ -107,9 +119,7 @@ const CountriesWScreening = () => {
                 <img
                   className="Instructor"
                   src={Instructor}
-                  alt="heart"
-                  width={60}
-                  height={60}
+                  alt="NB!"
                 />
               }{" "}
             </Col>
@@ -119,7 +129,12 @@ const CountriesWScreening = () => {
           Want to take care of your heart and <br />
           have a heart healthy lifestyle?
           <div className="country-link">
-            <button onClick={handleClickOnHeartFacts} className="countries-bottom-btn">Click here </button>
+            <button
+              onClick={handleClickOnHeartFacts}
+              className="countries-bottom-btn"
+            >
+              Click here{" "}
+            </button>
             to listen to our professionals!
           </div>
         </p>

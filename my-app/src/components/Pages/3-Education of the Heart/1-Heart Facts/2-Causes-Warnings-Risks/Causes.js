@@ -94,7 +94,10 @@ const CausesSection = () => {
                   <ul className="risks">
                     <li>
                       <a
-                        href="https://www.childrens.com/health-wellness/high-cholesterol-in-children"
+                        href="https://www.hrh.ca/patient-
+education/001174_Healthy%20eating%20for%20child%20and%20teen%20w
+ith%20cholesterol.pdf"
+                        target="_blank"
                         rel="noopener noreferrer"
                       >
                         High Cholesterol

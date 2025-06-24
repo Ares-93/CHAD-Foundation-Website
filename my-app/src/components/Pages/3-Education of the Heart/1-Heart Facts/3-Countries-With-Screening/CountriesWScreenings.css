@@ -89,7 +89,7 @@
 .Instructor {
   float: right;
   width: 150px;
-  height: 150px;
+  height: auto;
 }
 
 .country-bottom-text {

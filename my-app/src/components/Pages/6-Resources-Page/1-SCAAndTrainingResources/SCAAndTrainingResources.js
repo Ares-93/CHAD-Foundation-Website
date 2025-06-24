@@ -297,7 +297,11 @@ const SCAAndTrainingResources = () => {
         <ResourceCard
           imageUrl={ResourcesImageTwentyFive}
           name="The Chad Foundation for Athletes and Artists"
-          text="Heart screenings, premature cardiovascular risk factors, AED placement; The Gift of Art (books, film, theatre -stories of the heart; scholarships"
+          text="Caring for the whole Heart: advocating heart screenings,
+AEDs, CPR, awareness of premature cardio risk factors in the
+young. The Gift of Art expresses the needs of the ‘inner heart’
+through books, film, theatre -stories of the heart, and youth
+scholarships."
           link="https://www.chad-foundation.org"
           linkText="Check"
         />

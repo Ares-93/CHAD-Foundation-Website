@@ -42,7 +42,7 @@ const WhatWeveDone = () => {
               Screening,” was held in Hermosa Beach, CA benefiting the renowned
               Children’s Hospital Los Angeles Heart Institute and the Chad
               Foundation Heart Screening Program. CHLA cardiologists and Staff
-              generously donated their services to perform 1.000 heart
+              generously donated their services to perform 1,000 heart
               screenings. Philips provided state-of-the-art Echocardiogram and
               EKG equipment.
             </div>
@@ -123,8 +123,8 @@ const WhatWeveDone = () => {
               Holyoke Medical Center has teamed up with the Chad Foundation to
               provide several preventative cardiac screenings for 500
               high-school athletes in an effort to help detect lethal
-              abnormalities such as hypertrophic cardiomyopathy, WPW and Long QT
-              Syndrome. <br />
+              abnormalities such as hypertrophic cardiomyopathy, WPW, and Long
+              QT Syndrome. <br />
               <br />
               The screenings, which include an echocardiogram,
               electrocardiogram, or EKG, blood pressure, cholesterol and glucose
@@ -143,10 +143,15 @@ const WhatWeveDone = () => {
         <div className="whatWeveDone-gallery-btns">
           <button
             className="whatWeveDone-gallery-btn-screnings whatWeveDone-gallery-btn"
-            onClick={() => navigate("/screenings-gallery")}
+            onClick={() =>
+              navigate("/screenings-gallery", {
+                state: { from: "/about/what-weve-done" },
+              })
+            }
           >
             Gallery - CHAD Heart Screenings
           </button>
+
           <button
             className="whatWeveDone-gallery-btn-volleyball whatWeveDone-gallery-btn"
             onClick={() => navigate("/volleyball-gallery")}

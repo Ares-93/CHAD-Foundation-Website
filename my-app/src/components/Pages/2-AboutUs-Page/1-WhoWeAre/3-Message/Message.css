@@ -40,7 +40,7 @@
   font-weight: 400;
   line-height: 125%;
 }
-.Message .message-signature{
+.Message .message-signature {
   color: var(--main-black);
   font-family: "Allura", cursive;
   font-size: 30px;
@@ -68,7 +68,7 @@
   color: var(--main-white);
   border: 1px solid transparent;
 }
-.Message .underline-strong{
+.Message .underline-strong {
   text-decoration: underline;
 }
 
@@ -87,6 +87,10 @@
     margin: 0 auto 28px auto;
     text-align: center;
   }
+  .Message .arista-photo {
+    display: block;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 960px) {
   .Message .message-content {
@@ -94,9 +98,5 @@
   }
   .Message .Message-text-box {
     font-size: 20px;
-  }
-  .Message .arista-photo {
-    display: block;
-    margin: 0 auto;
   }
 }
