@@ -10,7 +10,6 @@ import PhotoSix from "../../../../images/AboutUs-Images/testimonials-photo-6.png
 import PhotoSeven from "../../../../images/AboutUs-Images/testimonials-photo-7.jpg";
 import PhotoEight from "../../../../images/AboutUs-Images/testimonials-photo-8.jpg";
 
-
 const TestimonialsCard = ({
   name,
   position,
@@ -72,8 +71,8 @@ const Testimonials = () => {
           {/* ONE */}
           <TestimonialsCard
             name="Troy Wirth,"
-            position="Vice President"
-            place="Metropolitan Life, San Jose, CA"
+            position="Owner"
+            place="Orange Coast Insurance Solutions, Irvine, CA"
             initialStoryText="I have been meaning to write and thank you for all the spectacular work The Chad Foundation has been doing across the country. I am especially appreciative because I am one of the lives you might have saved. Due to your echocardiogram screening at the Chad Foundation Malibu Benefit for Children’s Hospital, Doctors detected an arrhythmia and advised"
             expandedStoryText=" immediate follow-up which I did and ended up having surgery a month later in October, with a diagnosis of Wolff-Parkinson-White Syndrome. All my life, I suffered from this undiagnosed physical challenge and played Class 1 volleyball at USC and never could play to my optimum. Now, I am playing sports better than ever, thanks to your fortuitous screening event. I would be honored to be a spokesperson for your cause, of which I am living proof!"
             imageUrl={PhotoOne}
