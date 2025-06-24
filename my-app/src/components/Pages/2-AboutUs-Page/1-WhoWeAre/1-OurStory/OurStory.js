@@ -38,7 +38,7 @@ const OurStory = () => {
             23, 1994, and drafted him to the Highest Team for a Higher Purpose.
             This was to be his last game, his last day on Earth. Coming out of a
             huddle, he collapsed and died suddenly of an undiagnosed heart
-            abnormality, Dilated Hypertrophic Cardiomyopathy. Chad was just 26
+            abnormality, Dilated Cardiomyopathy. Chad was just 26
             years old. He had no history of heart disease nor did his family.
             <br />
             <br />
