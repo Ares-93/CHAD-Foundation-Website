@@ -57,3 +57,9 @@
   transition: all ease-in-out 300ms;
   margin-top: 40px;
 }
+
+
+/* Redo all above, leave this: */
+.recipe-card{
+  cursor: pointer;
+}
