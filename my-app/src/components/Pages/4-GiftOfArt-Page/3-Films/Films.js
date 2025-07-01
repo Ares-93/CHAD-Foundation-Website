@@ -31,16 +31,16 @@ const Films = () => {
             <div className="films-header-box">
               <img src={HeartIcon} alt="heart" width={60} height={60} />
               <h2 className="films-header">
-                The CHAD FOUNDATION – GIFT OF HEART AND ART DOCUMENTARY
+                THE CHAD FOUNDATION – GIFT OF HEART AND ART DOCUMENTARY
               </h2>
             </div>
             <p className="films-p">
-              The short-docu highlights the 27-year history of the "The Chad
+              The short-docu highlights the 26-year history of the "The Chad
               Foundation Heart Screening Program," which provided 10,000
               echocardiograms and EKGs to athletes and students in 5 states and
               abroad in Austria and Sweden to prevent Sudden Death in Young
               Athletes and detect unknown heart abnormalities, and the Gift of
-              Art which produce/performed plays which deal with hope, love, and
+              Art which produced/performed plays which deal with hope, love, and
               the challenges we face today.
             </p>
           </div>
@@ -65,7 +65,8 @@ const Films = () => {
                 <div className="films-header-box">
                   <img src={HeartIcon} alt="heart" width={60} height={60} />
                   <h2 className="films-header">
-                    WHAT WOULD THE FOUNDING FATHERS TELL US TODAY?
+                    WHAT WOULD THE FOUNDING FATHERS TELL US TODAY? Political
+                    Dialogs 1789 - 2040{" "}
                   </h2>
                 </div>
                 <div>
@@ -101,7 +102,8 @@ const Films = () => {
                 <div className="films-header-box">
                   <img src={HeartIcon} alt="heart" width={60} height={60} />
                   <h2 className="films-header">
-                    WHAT WOULD THE FOUNDING FATHERS TELL US TODAY?
+                    WHAT WOULD THE FOUNDING FATHERS TELL US TODAY? Political
+                    Dialogs 1789 - 2040
                   </h2>
                 </div>
                 <div>
@@ -170,10 +172,12 @@ const Films = () => {
                   Austria with 16 countries of athletes participating. They
                   donned their countries’ uniforms and regained their humanity
                   and self-esteem through the universal leveler of sports. In
-                  NYC alone, there are 92,824 unhoused, dispossessed people,
-                  including 33,365 unsheltered children without homes. In this
-                  global event, the disenfranchised stood tall and were cheered
-                  on by the world for their courage, dignity, and spirit.
+                  this global event, the disenfranchised stood tall and were
+                  cheered on by the world for their courage, dignity, and
+                  spirit. They were so renewed with confidence and self-respect
+                  that following the tourney, one-third of the unhoused players
+                  got jobs, one-third found homes, and one-third went back to
+                  school.
                 </p>
               </div>
               <div className="films-image-box">
@@ -201,10 +205,12 @@ const Films = () => {
                   Austria with 16 countries of athletes participating. They
                   donned their countries’ uniforms and regained their humanity
                   and self-esteem through the universal leveler of sports. In
-                  NYC alone, there are 92,824 unhoused, dispossessed people,
-                  including 33,365 unsheltered children without homes. In this
-                  global event, the disenfranchised stood tall and were cheered
-                  on by the world for their courage, dignity, and spirit.
+                  this global event, the disenfranchised stood tall and were
+                  cheered on by the world for their courage, dignity, and
+                  spirit. They were so renewed with confidence and self-respect
+                  that following the tourney, one-third of the unhoused players
+                  got jobs, one-third found homes, and one-third went back to
+                  school.
                 </p>
               </div>
             </>
