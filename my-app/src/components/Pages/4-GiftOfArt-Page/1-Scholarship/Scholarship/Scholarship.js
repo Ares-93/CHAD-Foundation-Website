@@ -15,7 +15,7 @@ const Scholarship = () => {
   // };
 
   const handleApplicationClick = () => {
-     navigate("/gift-of-art/scholarship/guidelines");
+    navigate("/gift-of-art/scholarship/guidelines");
   };
 
   const handleWinnersClick = () => {
@@ -39,18 +39,18 @@ const Scholarship = () => {
               award six $500 scholarships for high school graduating seniors to
               be used for continuing education in an accredited college,
               university, vocational, or trade school. Qualifying factors will
-              be the student’s goals, an essay, and nominations from teachers,
-              peers, and community leaders.
+              be the student’s goals and progress, financial need, a personal
+              essay, and nominations from teachers, peers, and community
+              leaders.
             </p>
 
             <p className="scholarship-p">
-              Three scholarships will be awarded for “The Best Athlete, Scholar,
-              and Community Volunteer/Leader” and three for “The Best Story of
-              the Heart.”
+              Scholarships will be awarded for “The Best Athlete, Scholar, and
+              Community Volunteer/Leader” and for “The Best Story of the Heart.”
             </p>
 
             <p className="scholarship-p">
-              Stay tuned for details and deadlines!
+              Stay tuned for details and deadlines!{" "}
             </p>
             <div className="scholarship-btns">
               <button
