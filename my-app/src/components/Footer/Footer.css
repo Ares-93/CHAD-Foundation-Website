@@ -39,6 +39,9 @@
   color: var(--main-white);
   margin-bottom: 12px;
 }
+.foolter-cont {
+  font-size: 16px;
+}
 .footer-social-media-icons {
   display: flex;
   justify-content: flex-start;
@@ -60,12 +63,12 @@
 }
 
 .footer-p.nav-link {
-  color: inherit; /* Ensure the default color is inherited */
-  text-decoration: none; /* Remove underline */
+  color: inherit; 
+  text-decoration: none; 
 }
 
 .footer-p.nav-link:hover {
-  color: var(--orange); /* Change color to orange on hover */
+  color: var(--orange); 
 }
 
 .feedback-link-btn {
