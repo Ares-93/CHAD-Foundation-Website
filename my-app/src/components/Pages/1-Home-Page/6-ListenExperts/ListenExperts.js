@@ -29,7 +29,7 @@ function ListenExperts() {
             <Col xs={12} md={4} className="experts-second-col">
               <h3 className="experts-h3">Recipe of the Month</h3>
               <Image src={ExpertsRecipeImg} className="experts-img my-3" />
-              <h4 className="experts-h4">A Heart-Healthy dish that tastes great!</h4>
+              <h4 className="experts-h4">Healthy Diet – Healthy Heart!</h4>
               {/* <p className="experts-p">Vegetarian Option</p> */}
             </Col>
 
