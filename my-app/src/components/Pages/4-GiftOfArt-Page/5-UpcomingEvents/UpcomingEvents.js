@@ -38,17 +38,17 @@ const UpcomingEvents = () => {
                 <div className="upcomingEvents-header-box">
                   <img src={HeartIcon} alt="heart" width={60} height={60} />
                   <h2 className="upcomingEvents-header">
-                    “Life is a Gift”: Chad Safe Driver Campaign
+                    Chad Safe Driver Campaign: “Life is a Gift”
                   </h2>
                 </div>
                 <p className="upcomingEvents-p">
-                  Chad was a great guy who loved all people cared about their
-                  dreams. He never drank an alcohol beverage, smoked a cigarette
-                  or did drugs his entire life. He always did the driving when
-                  he and his friends went out to the clubs dancing and you
-                  always had to wear a seatbelt when you drove with Chad in his
-                  car. - “Healthy body/mind/spirit.” Please safeguard your life
-                  and others by joining the{" "}
+                  Chad was a great guy who loved all people and cared about
+                  their dreams. He never drank an alcohol beverage, smoked a
+                  cigarette or did drugs his entire life. He always did the
+                  driving when he and his friends went out to the clubs dancing
+                  and you always had to wear a seatbelt when you drove with Chad
+                  in his car. - “Healthy body/mind/spirit.” Please safeguard
+                  your life and others by joining the{" "}
                   <strong>“Chad Safe Driver Campaign - Life is A Gift.”</strong>
                 </p>
                 <button className="safedr-btn" onClick={handleSafeDrClick}>
@@ -146,15 +146,16 @@ const UpcomingEvents = () => {
                   </h4>
                 </div>
                 <p className="upcomingEvents-p">
-                  Mezzo-soprano, Caterina Secchi, classical pianist, Javor
-                  Bracic and solo harpist, Eric Sabatino collaborated in an
-                  exciting program of Opera and Classical favorites, generously
-                  gifting their talents to support Chad’s work!
+                  Solo harpist, Eric Sabatino, classical pianist, Javor Bracic,
+                  and Mezzo-soprano, Caterina Secchi collaborated in an exciting
+                  program of Opera and Classical favorites, generously gifting
+                  their talents to support Chad’s “Gift of Heart and Gift of
+                  Art!”
                 </p>
-                <h4 className="upcomingEvents-subtext">
-                  Caterina Secchi (Mezzo-Soprano), Javor Bracic (Classical
-                  Pianist) and Eric Sabatino (Harpist)
-                </h4>
+                {/* <h4 className="upcomingEvents-subtext">
+                  Eric Sabatino (Harpist), Javor Bracic (Classical Pianist), and
+                  Caterina Secchi (Mezzo-Soprano)
+                </h4> */}
               </div>
               <div className="upcomingEvents-image-box">
                 <img
@@ -189,15 +190,16 @@ const UpcomingEvents = () => {
                   </h4>
                 </div>
                 <p className="upcomingEvents-p">
-                  Mezzo-soprano, Caterina Secchi, classical pianist, Javor
-                  Bracic and solo harpist, Eric Sabatino collaborated in an
-                  exciting program of Opera and Classical favorites, generously
-                  gifting their talents to support Chad’s work!
+                  Solo harpist, Eric Sabatino, classical pianist, Javor Bracic,
+                  and Mezzo-soprano, Caterina Secchi collaborated in an exciting
+                  program of Opera and Classical favorites, generously gifting
+                  their talents to support Chad’s “Gift of Heart and Gift of
+                  Art!”
                 </p>
-                <h4 className="upcomingEvents-subtext">
-                  Caterina Secchi (Mezzo-Soprano), Javor Bracic (Classical
-                  Pianist) and Eric Sabatino (Harpist)
-                </h4>
+                {/* <h4 className="upcomingEvents-subtext">
+                  Eric Sabatino (Harpist), Javor Bracic (Classical Pianist), and
+                  Caterina Secchi (Mezzo-Soprano)
+                </h4> */}
               </div>
             </>
           )}
