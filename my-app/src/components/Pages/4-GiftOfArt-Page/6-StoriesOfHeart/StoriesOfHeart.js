@@ -89,6 +89,11 @@ const StoriesOfHeart = () => {
             expandedStoryText=" That is bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish."
           />
         </div>
+        <h3 className="stories-bottom-text">
+          {" "}
+          If you would like to submit a “Real-Life Story of the Heart,” please
+          contact, arista@chad-foundation.org.
+        </h3>
       </div>
     </section>
   );

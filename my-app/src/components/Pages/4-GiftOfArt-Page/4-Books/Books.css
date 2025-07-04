@@ -28,7 +28,7 @@
 .Books .books-header {
   color: var(--main-black);
   font-family: var(--accent-font);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 125%;
   text-decoration: underline #eac0a1 9px;
@@ -148,7 +148,8 @@
   font-family: var(--accent-font);
   letter-spacing: 1px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 40px!important;
+  text-align: center;
 }
 .chad-title-text {
   text-align: left !important;
@@ -166,7 +167,7 @@
 .chad-excerpt {
   text-align: justify;
   font-family: var(--main-font);
-  font-size: 18px;
+  font-size: 22px;
   line-height: 135%;
   color: var(--main-black);
   margin-top: 30px;
@@ -175,8 +176,8 @@
 .chad-excerpt .excerpt-title {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 18px;
-  font-size: 22px;
+  margin-bottom: 60px;
+  font-size: 28px;
   color: var(--main-black);
 }
 
@@ -211,6 +212,14 @@
 .chad-quote p {
   margin-bottom: 12px;
   text-align: left;
+}
+.books-chad-after-donate {
+  max-width: 540px;
+  font-style: italic;
+  display: block;
+  margin: 40px auto;
+  color: rgb(80, 78, 78);
+  font-size: 16px;
 }
 
 /* RESPONSIVE */

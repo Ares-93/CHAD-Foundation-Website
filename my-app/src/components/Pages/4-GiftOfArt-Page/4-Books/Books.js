@@ -69,17 +69,26 @@ const Books = () => {
             <div className="books-image-box">
               <img src={BooksImageTwo} alt="Book two" className="books-image" />
             </div>
-            <div className="books-header-box books-chad-title-box">
-              <img src={HeartIcon} alt="heart" width={60} height={60} />
-              <h2 className="books-header chad-title-text">
-                CHAD, A Celebration of Life - Beyond a Mother’s Memories
-              </h2>
+            <div>
+              <div className="books-header-box books-chad-title-box">
+                <img src={HeartIcon} alt="heart" width={60} height={60} />
+                <h2 className="books-header chad-title-text">
+                  CHAD, A Celebration of Life - Beyond a Mother’s Memories
+                </h2>
+              </div>
+              <p className="books-p">
+                Celebrating the lives of young athletes lost to Sudden Cardiac
+                Death, and the journey of its survivors, this uplifting memoir
+                details the 26-year history of The Chad Foundation from SCD
+                victims to survivors— from heartbreak to heroism— learn about
+                how The Chad Foundation has saved lives and shaped a better
+                tomorrow.
+              </p>
             </div>
           </div>
-
           <div className="chad-excerpt-wrapper">
             <div className="chad-excerpt">
-              <p className="excerpt-title excerpt-title-main">Excerpts from</p>
+              <p className="excerpt-title-main">Excerpts from</p>
               <p className="excerpt-title">
                 CHAD, A Celebration of Life Beyond A Mother’s Memories
               </p>
@@ -156,6 +165,11 @@ const Books = () => {
             >
               Donate with Purchase
             </button>
+            <p className="books-chad-after-donate">
+              All royalties from the book purchase go directly to The Chad
+              Foundation for Athletes and Artists, a nonprofit, charitable
+              organization with a 501 ( c) (3) tax-exempt status.
+            </p>
           </div>
         </div>
       </div>

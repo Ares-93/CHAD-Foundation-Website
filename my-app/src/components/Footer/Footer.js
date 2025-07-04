@@ -5,7 +5,7 @@ import ScrollToTopNavLink from "./ScrollToTopNavLink";
 import FeedbackForm from "./FeedbackForm";
 
 import FacebookIcon from "../../images/Footer-Images/facebook.png";
-import YoutubeIcon from "../../images/Footer-Images/youtube.png";
+import VideoIcon from "../../images/Footer-Images/video.png";
 import LinkedinIcon from "../../images/Footer-Images/linkedin.png";
 
 function Footer() {
@@ -26,9 +26,16 @@ function Footer() {
               New York, New York 10101
             </p>
             <p className="footer-p">P: 917-334-1194</p>
-            <p className="footer-p">E: info@chad-foundation.org</p>
-            <p className="footer-p">W: www.chad-foundation.org</p>
+            <p className="footer-p foolter-cont">E: info@chad-foundation.org</p>
+            <p className="footer-p foolter-cont">W: www.chad-foundation.org</p>
             <div className="footer-social-media-icons">
+              <a
+                href="https://www.linkedin.com/company/thechadfoundationforathletesandartists/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={LinkedinIcon} alt="LinkedIn" width={45} />
+              </a>{" "}
               <a
                 href="https://www.facebook.com/profile.php?id=100063710691467"
                 target="_blank"
@@ -41,14 +48,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={YoutubeIcon} alt="YouTube" width={45} />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/thechadfoundationforathletesandartists/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={LinkedinIcon} alt="LinkedIn" width={45} />
+                <img src={VideoIcon} alt="YouTube" width={45} />
               </a>
             </div>
           </Col>

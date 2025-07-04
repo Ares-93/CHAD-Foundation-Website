@@ -17,16 +17,16 @@ const SafeDr = () => {
           <div className="safedr-content">
             <div className="safedr-text">
               <p>
-                Chad was a great guy who loved all people, cared about their
-                dreams. He never drank, smoked, or did drugs. He always was the
-                ‘designated driver’ when he and his friends went out to the
-                clubs dancing, and you always had to wear a seatbelt in Chad’s
-                car. Please safeguard your life and others by joining the “Chad
-                Safe Driver Campaign – Life is A Gift.” CHAD is inviting high
-                schools and colleges to show their support for safe driving. Our
-                goal is to have the{" "}
-                <strong>“Chad Honour Roll of Safe Drivers”</strong> from all 50
-                states and countries throughout the world. <br /> <br />
+                Chad was a great guy who loved all people and cared about their
+                dreams. He never drank, smoked, or did drugs. He was always the
+                ‘designated driver’ when he and his friends went out to clubs
+                dancing, and you always had to wear a seatbelt in Chad’s car.
+                Please safeguard your life and others by joining the “Chad Safe
+                Driver Campaign – Life is A Gift.” CHAD is inviting high schools
+                and colleges to show their support for safe driving. Our goal is
+                to have the <strong>“Chad Honour Roll of Safe Drivers”</strong>{" "}
+                from all 50 states and countries throughout the world. <br />{" "}
+                <br />
                 Order your  <strong>
                   “Life is A Gift” Keychain Pendant,”
                 </strong>{" "}
@@ -61,7 +61,6 @@ const SafeDr = () => {
         </div>
       </section>
       <RollOfDrivers />
-     
     </div>
   );
 };

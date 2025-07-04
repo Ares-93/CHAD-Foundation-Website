@@ -376,7 +376,7 @@ function Navigation() {
                         Stories of the Heart
                         <br />
                         <span className="dropdown-span">
-                          Inspiring, real-life stories.
+                          Real-life stories that inspire.
                         </span>
                       </NavLink>
                     </li>

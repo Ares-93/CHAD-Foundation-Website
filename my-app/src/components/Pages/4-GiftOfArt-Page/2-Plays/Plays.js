@@ -61,6 +61,13 @@ const Plays = () => {
             <h4 className="plays-quotes-subtext">
               - D. Friedman, Castillo Theatre
             </h4>
+            <div className="plays-quotes-div-two">
+              <p>
+                To perform the play, "All About Sneakers," at your high school
+                or college, please inquire at: <br />
+                GiftofArt@Chad-Foundation.org.
+              </p>
+            </div>
           </div>
           <div className="plays-image-box">
             <img src={PlaysOne} alt="Plays" className="plays-image" />
@@ -80,15 +87,17 @@ const Plays = () => {
                   After 20 years, a daughter returns home to NYC’s Chinatown a
                   successful attorney but is faced with the challenges of
                   re-finding father, family and the American dream in a home
-                  which now seems foreign to her.
+                  which now seems foreign to her. It reminds us we are here
+                  because of the hope and courage of our ancestors. We are the
+                  beneficiaries of their long voyage toward freedom…
                 </p>
                 <h4 className="plays-subtext">Written by Arista</h4>
                 <h4 className="plays-subtext">
                   Directed by Victor Maog ~~ Off-Broadway, NYC
                 </h4>
                 <h4 className="plays-subtext">
-                  Cast: Lu Yu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
-                  Cheng, John Fukada, Murielle Borst
+                  Cast: Murielle Borst, Evan Lai, Nick Bosco, Kenji, Jeff Knapp,
+                  Tony Cheng, Arista, Lu Yu, Louis Changchien
                 </h4>
                 <div className="plays-quotes-div">
                   <h3 className="plays-quotes">
@@ -109,7 +118,15 @@ const Plays = () => {
                 <h4 className="plays-subtext">
                   - J. Hall, Producer, Playwright, NYC
                 </h4>
+                <div className="plays-quotes-div-two">
+                  <p>
+                    To perform the play, "Welcome Home Kelly!”, at your high
+                    school or college, please inquire at: <br />
+                    GiftofArt@Chad-Foundation.org.
+                  </p>
+                </div>
               </div>
+
               <div className="plays-image-box">
                 <img src={PlaysTwo} alt="Plays" className="plays-image" />
               </div>
@@ -135,8 +152,8 @@ const Plays = () => {
                   Directed by Victor Maog ~~ Off-Broadway, NYC
                 </h4>
                 <h4 className="plays-subtext">
-                  Cast: Lu Yu, Arista, Kenji, Evan Lai, Louis Changchien, Tony
-                  Cheng, John Fukada, Murielle Borst
+                  Cast: Murielle Borst, Evan Lai, Nick Bosco, Kenji, Jeff Knapp,
+                  Tony Cheng, Arista, Lu Yu, Louis Changchien
                 </h4>
 
                 <div className="plays-quotes-div">
@@ -158,6 +175,13 @@ const Plays = () => {
                 <h4 className="plays-subtext">
                   - J. Hall, Producer, Playwright, NYC
                 </h4>
+                <div className="plays-quotes-div-two">
+                  <p>
+                    To perform the play, "Welcome Home Kelly!”, at your high
+                    school or college, please inquire at: <br />
+                    GiftofArt@Chad-Foundation.org.
+                  </p>
+                </div>
               </div>
             </>
           )}
@@ -176,8 +200,9 @@ const Plays = () => {
               forces that can challenge love to its core.
             </p>
             <h4 className="plays-subtext">
-              Cast: Robert L. Haber, Joann Farda, Arista, Jon Furey, Erik, Colin
-              Smith, Shannyn Kleeman, Patrick Kleeman, and Jackson Ning.
+              Cast: Robert L. Haber, Tony Macy-Perez, Joann Farda, Arista, Jon
+              Furey, Shannyn Kleeman, Patrick Kleeman, Sam Chan, and Betty
+              Sherman.
             </h4>
             <h4 className="plays-subtext">
               Directed by Tony Macy-Perez ~~ Dante Hall, Atlantic City, New

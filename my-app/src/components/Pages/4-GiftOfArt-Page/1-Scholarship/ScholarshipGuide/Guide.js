@@ -80,14 +80,15 @@ const Guide = () => {
               <li>Holyoke High School, Holyoke, Massachusetts</li>
             </ul>
             <p className="guide-schools-div-p">
-              CHAD was honored to provide preventive “Echocardiogram Screenings”
-              for athletes and students in these three high schools,
-              safeguarding students’ outer hearts from unknown heart anomalies.
-              CHAD is now focusing on the “inner hearts” to nourish the mental
-              and spiritual needs and care for the “whole heart.” Chad lived his
-              twenty-six years on earth promoting a “Healthy Body, Mind, and
-              Spirit.” His nonprofit charity, The Chad Foundation for Athletes
-              and Artists, instills the same values he lived by.
+              CHAD was honored to provide preventive “Echocardiogram and EKG
+              Screenings” for athletes and students in these 3 high schools,
+              safeguarding students’ “outer hearts” from unknown heart
+              anomalies. Today, CHAD is also focusing on the “inner hearts” of
+              students to nourish their mental and spiritual needs and care for
+              the “whole heart.” Chad lived his twenty-six years on earth
+              promoting a - "Healthy Body, Mind, and Spirit.” His nonprofit
+              charity, The Chad Foundation for Athletes and Artists, instills
+              the same values he lived by.
             </p>
           </div>
           {/* Eligibility */}
@@ -165,7 +166,8 @@ const Guide = () => {
               States before the prize is awarded. Noncompliance will result in
               disqualification, and an alternate winner may be selected. The
               prize will be awarded within approximately 45 days after the
-              winner is verified. <br /><br />
+              winner is verified. <br />
+              <br />
               <strong>Disbursement of Scholarship Award</strong> <br /> The
               winner of the Chad Scholarship Award will have the full amount of
               their Scholarship Award placed in their personal student account
