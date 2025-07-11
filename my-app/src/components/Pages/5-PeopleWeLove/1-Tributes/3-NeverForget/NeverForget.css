@@ -2,6 +2,8 @@
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nf-text {
@@ -9,21 +11,38 @@
   font-family: var(--accent-font);
   font-size: 48px;
   font-weight: 400;
-  line-height: 125%;
+  line-height: 100%;
 }
 
-.arrow-down{
+.Arrow {
+  max-width: 160px;
+  margin-bottom: 0;
+}
+
+.arrow-down {
   text-align: center;
 }
+
 .memorial img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .memorial {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nf-text {
+    font-size: 32px;
+  }
+
+  .memorial img {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
 }
