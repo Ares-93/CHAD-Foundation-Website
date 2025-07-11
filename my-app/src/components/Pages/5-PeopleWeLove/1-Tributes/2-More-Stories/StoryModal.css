@@ -12,47 +12,57 @@
 }
 
 .modal-content {
-  background: white;
-  padding: 20px;
+  background: var(--main-white);
+  padding: 40px !important;
   border-radius: 8px;
   max-width: 800px;
   width: 100%;
   text-align: start;
   position: relative;
-  overflow-y: scroll;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .modal-image {
-  width: 100%;
-  max-width: 300px;
+  width: 200px;
+  height: auto;
   border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.modal-info {
+  flex: 1;
+  min-width: 180px;
 }
 
 .modal-title {
-  color: red;
-  font-size: 24px;
-  margin-top: 20px;
+  font-family: var(--accent-font);
+  font-size: 40px !important;
+  color: var(--orange) !important;
+  margin: 0;
 }
 
 .modal-dates {
   font-size: 18px;
-  color: var(--accent-font);
   margin-top: 10px;
+  color: var(--main-black);
 }
 
 .modal-text {
-  margin-top: 15px;
   font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: var(--main-black); /* Ensure this contrasts with the background */
-  overflow-y: auto;
-}
-
-.modal-text.expanded {
+  line-height: 1.6;
   color: var(--main-black);
-  max-height: 500px; /* Expand to a larger size when "Read More" is clicked */
-  overflow-y: auto; /* Allow scrolling */
+  overflow: visible;
 }
 
 .close-btn {
@@ -88,4 +98,41 @@
 
 .read-more-btn:hover {
   color: #a84d0d;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 16px;
+    max-height: 85vh;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .modal-header-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .modal-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .modal-info {
+    text-align: center;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .modal-dates {
+    font-size: 16px;
+  }
+
+  .modal-text {
+    font-size: 15px;
+  }
 }
