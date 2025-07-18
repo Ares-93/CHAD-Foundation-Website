@@ -4,7 +4,7 @@
   margin-bottom: 200px;
 }
 
-.survivor-header {
+.SurvivorStoriesGrid .survivor-header {
   margin-top: 100px;
   color: var(--main-black);
   font-family: var(--accent-font);
@@ -14,14 +14,14 @@
   text-decoration: underline #eac0a1 9px;
 }
 
-.survivor-grid-container {
+.SurvivorStoriesGrid .survivor-grid-container {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
-.survivor-card {
+.SurvivorStoriesGrid .survivor-card {
   width: 250px;
   height: 300px;
   cursor: pointer;
@@ -33,28 +33,26 @@
   border-radius: 8px;
 }
 
-.survivor-image {
+.SurvivorStoriesGrid .survivor-image {
   width: 250px;
   height: 400px;
-  object-fit: cover;        
-  object-position: center; 
+  object-fit: cover;
+  object-position: center;
   border-radius: 8px;
 }
 
-
-
 @media (max-width: 1024px) {
-  .survivor-grid-container {
+  .SurvivorStoriesGrid .survivor-grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media (max-width: 600px) {
-  .survivor-grid-container {
-    grid-template-columns: 1fr;
-  }
-
-  .survivor-header {
+@media (max-width: 960px) {
+  .SurvivorStoriesGrid .survivor-header {
     text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .SurvivorStoriesGrid .survivor-grid-container {
+    grid-template-columns: 1fr;
   }
 }
