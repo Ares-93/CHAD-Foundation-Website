@@ -3,7 +3,7 @@
   justify-content: flex-start;
 }
 
-.stories-header {
+.StoriesGrid .stories-header {
   margin-top: 100px;
   color: var(--main-black);
   font-family: var(--accent-font);
@@ -13,14 +13,14 @@
   text-decoration: underline #eac0a1 9px;
 }
 
-.stories-grid-container {
+.StoriesGrid .stories-grid-container {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
-.story-card {
+.StoriesGrid .story-card {
   width: 250px;
   height: 300px;
   cursor: pointer;
@@ -32,7 +32,7 @@
   border-radius: 8px;
 }
 
-.story-image {
+.StoriesGrid .story-image {
   width: 250px;
   height: 400px;
   object-fit: cover;        
@@ -41,17 +41,21 @@
 }
 
 @media (max-width: 1024px) {
-  .stories-grid-container {
+  .StoriesGrid .stories-grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
+@media (max-width: 960px) {
+  .StoriesGrid .stories-header {
+    text-align: center;
+  }
+}
 @media (max-width: 600px) {
-  .stories-grid-container {
+  .StoriesGrid .stories-grid-container {
     grid-template-columns: 1fr;
     gap: 24px
   }
-  .stories-header {
+  .StoriesGrid .stories-header {
     text-align: center;
   }
 }
