@@ -1,0 +1,147 @@
+.ss-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.ss-modal-content {
+  background: var(--main-white);
+  padding: 40px !important;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+  text-align: start;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ss-modal-header-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.ss-modal-image {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.ss-modal-info {
+  flex: 1;
+  min-width: 180px;
+}
+
+.ss-modal-title {
+  font-family: var(--accent-font);
+  font-size: 40px !important;
+  color: var(--orange) !important;
+  margin: 0;
+}
+
+.ss-modal-job {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--main-black);
+  margin-top: 10px;
+}
+
+.ss-modal-dates {
+  font-size: 18px;
+  margin-top: 10px;
+  color: var(--main-black);
+}
+
+.ss-modal-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--main-black);
+  overflow: visible;
+}
+
+.ss-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.ss-read-more-link {
+  color: #ef761f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ss-read-more-link:hover {
+  text-decoration: underline;
+}
+
+.ss-read-more-btn {
+  background-color: transparent;
+  border: none;
+  color: #ef761f;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+  outline: none;
+}
+
+.ss-read-more-btn:hover {
+  color: #a84d0d;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .ss-modal-content {
+    padding: 16px;
+    max-height: 85vh;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .ss-modal-header-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ss-modal-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .ss-modal-info {
+    text-align: center;
+  }
+
+  .ss-modal-title {
+    font-size: 20px;
+  }
+
+  .ss-modal-dates {
+    font-size: 16px;
+  }
+
+  .ss-modal-text {
+    font-size: 15px;
+  }
+}
