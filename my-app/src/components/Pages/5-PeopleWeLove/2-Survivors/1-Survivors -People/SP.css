@@ -14,8 +14,10 @@
 .survivorsPeople-content {
   margin-top: 40px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   gap: 75px;
+  flex-wrap: wrap;
 }
 
 .survivorsPeople-text {
@@ -26,20 +28,51 @@
   line-height: 125%;
   text-align: justify;
   max-width: 640px;
+  flex: 1;
 }
 
-.para1 {
-  margin-bottom: 100px;
-}
-
-.sign {
-  margin-top: 50px;
-}
 .survivorsPeople-photo {
   flex: 0 1 auto;
 }
 
-.Lindsay-photo {
+.lindsay-photo {
   max-width: 100%;
   border-radius: 10px;
+}
+
+.readMore-btn {
+  background-color: transparent;
+  border: none;
+  color: #ef761f;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: -5px;
+  outline: none;
+  font-weight: 600;
+}
+
+.readMore-btn:hover {
+  color: #a84d0d;
+}
+@media (max-width: 1200px) {
+  .SurvivorsPeople {
+    margin: 24px;
+  }
+}
+@media (max-width: 960px) {
+  .survivorsPeople-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .survivorsPeople-text {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .survivors-people-header {
+    text-align: center;
+  }
 }
