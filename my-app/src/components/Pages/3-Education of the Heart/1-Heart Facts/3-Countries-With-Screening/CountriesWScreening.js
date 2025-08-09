@@ -1,3 +1,4 @@
+// CountriesWScreening.js
 import React from "react";
 import "./CountriesWScreenings.css";
 import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
@@ -13,130 +14,124 @@ const CountriesWScreening = () => {
   const handleClickOnHeartFacts = () => {
     navigate("/education-of-the-heart/tips-main");
   };
+
   return (
     <section className="Countries">
       <div className="main-container">
-        <Col className="country-col">
+        <div className="country-col">
           <div className="country-header-box">
-            {<img src={HeartIcon} alt="heart" width={60} height={60} />}{" "}
+            <img src={HeartIcon} alt="heart" width={60} height={60} />
             <h2 className="country-header">
               Countries that require Heart Screenings
             </h2>
           </div>
+
           <div className="country-subheader">
-            <p className="country-subheader-text">
+            <span className="country-subheader-text">
               Countries that require heart screenings
-            </p>
+            </span>
           </div>
-          <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">
+
+          <Row xs={1} md={2} className="g-4 justify-content-center">
             <Col>
               <Card className="Italy">
-                <Card.Header className=" d-flex-align-itenms">
+                <Card.Header className="country-card-header">
                   <img
                     src={ItalyFlag}
                     alt="Italy Flag"
-                    style={{ width: "50px", marginRight: "10px" }}
+                    className="flag-icon"
                   />
-                  Italy
+                  <span>Italy</span>
                 </Card.Header>
                 <Card.Body>
-                  <Card.Text className="card-text">
+                  <Card.Text className="country-card-text">
                     Italian law mandates that every competitive athlete must
-                    undergo annual preparticipation evaluation (PPE) identify
-                    cardiovascular (CV) diseases that pose a risk of sudden
-                    death (SD) during sport and other conditions that may
-                    threaten the athlete’s health.
+                    undergo annual preparticipation evaluation to identify
+                    cardiovascular diseases that pose a risk of sudden death
+                    during sport and other conditions that may threaten the
+                    athlete’s health.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={3}>
+
+            <Col>
               <Card className="Japan">
-                <Card.Header className="d-flex-align-itenms">
+                <Card.Header className="country-card-header">
                   <img
                     src={JapanFlag}
                     alt="Japan Flag"
-                    style={{ width: "50px", marginRight: "10px" }}
+                    className="flag-icon"
                   />
-                  Japan
+                  <span>Japan</span>
                 </Card.Header>
                 <Card.Body>
-                  <Card.Text className="card-text">
+                  <Card.Text className="country-card-text">
                     In 2015, Japan established a nation-wide school-based heart
-                    screening system including ECG screening which aids in
-                    Prevention of Sudden Cardiac Death in the Young. SCD has
-                    decreased since the school-based heart screening started.
-                    CHD, HCM, Kawasaki disease, WPW syndrome, Long QT syndrome,
-                    and Brugada like ECG pattern have been detected. The
-                    mandated heart screenings have been shown to be useful for
-                    identifying high-risk subjects among both athletes and
-                    non-athletes and the program’s cost-effectiveness is
-                    considered.
+                    screening system including ECG screening to aid in prevention
+                    of sudden cardiac death in the young. SCD has decreased
+                    since the program started. CHD, HCM, Kawasaki disease, WPW,
+                    Long QT syndrome, and Brugada-like ECG patterns have been
+                    detected. Mandated screenings help identify high-risk youth
+                    and are considered for cost-effectiveness.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
 
-          <div className="country-subheader2">
-            <p className="country-subheader-text2">What about the USA?</p>
+          <div className="country-subheader country-subheader2">
+            <span className="country-subheader-text2">What about the USA?</span>
           </div>
-          <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">
+
+          <Row xs={1} md={2} className="g-4 justify-content-center">
             <Col>
-              <Card className="Italy">
-                <Card.Header className=" d-flex-align-itenms">
-                  <img
-                    src={USAFlag}
-                    alt="USA FLAG"
-                    style={{ width: "50px", marginRight: "10px" }}
-                  />
-                  USA
+              <Card className="USA">
+                <Card.Header className="country-card-header">
+                  <img src={USAFlag} alt="USA Flag" className="flag-icon" />
+                  <span>USA</span>
                 </Card.Header>
                 <Card.Body>
-                  <Card.Text className="card-text">
-                    Currently, heart screenings (ECGs) are not mandated for high
-                    school or college athletes and students but are required for
-                    many professional athletic organizations. The NBA
-                    established standardized heart screenings, which also
-                    includes the Echocardiogram, and the NFL now also requires
-                    EKGs for their players and is also considering the addition
-                    of the Echocardiogram to detect heart problems.
+                  <Card.Text className="country-card-text">
+                    Currently, heart screenings are not mandated for high school
+                    or college athletes and students, but are required by many
+                    professional organizations. The NBA has standardized heart
+                    screenings including echocardiogram, and the NFL requires
+                    ECGs and has considered adding echocardiograms to detect
+                    heart problems.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={3}>
+
+            <Col>
               <Card className="DYK">
                 <Card.Body>
                   <Card.Text className="dyk-card-text">
                     Japan and Italy have reported that mandated heart screenings
-                    can reduce sudden cardiac death by up to 60% and 89%
-                    respectively.
+                    can reduce sudden cardiac death by up to 60 percent and
+                    89 percent respectively.
                   </Card.Text>
                 </Card.Body>
               </Card>
-              {
-                <img
-                  className="Instructor"
-                  src={Instructor}
-                  alt="NB!"
-                />
-              }{" "}
+
+              <img className="Instructor" src={Instructor} alt="NB!" />
             </Col>
           </Row>
-        </Col>
+        </div>
+
         <p className="country-bottom-text">
           Want to take care of your heart and <br />
           have a heart healthy lifestyle?
-          <div className="country-link">
+          <span className="country-link">
             <button
               onClick={handleClickOnHeartFacts}
               className="countries-bottom-btn"
             >
-              Click here{" "}
-            </button>
+              Click here
+            </button>{" "}
             to listen to our professionals!
-          </div>
+          </span>
         </p>
       </div>
     </section>
