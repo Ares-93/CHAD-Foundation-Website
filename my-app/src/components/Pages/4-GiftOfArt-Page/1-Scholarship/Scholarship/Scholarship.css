@@ -148,4 +148,9 @@
     gap: 8px;
     margin-bottom: 24px;
   }
+  .scholarship-content{
+    max-width: 90% ;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
