@@ -1,52 +1,55 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "./StoriesOfHeart.css";
 import GiftOfArtNavigation from "../GiftOfArtNavigation";
-import PhotoOne from "../../../../images/GiftOfArt-Images/stories-image.jpg";
+// uncomment:
+// import PhotoOne from "../../../../images/GiftOfArt-Images/stories-image.jpg";
 
-const StoriesOfHeartCard = ({
-  personsName,
-  personsSchool,
-  initialStoryText,
-  expandedStoryText,
-}) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+// uncomment:
 
-  const toggleExpansion = () => {
-    setIsExpanded(!isExpanded);
-  };
+// const StoriesOfHeartCard = ({
+//   personsName,
+//   personsSchool,
+//   initialStoryText,
+//   expandedStoryText,
+// }) => {
+//   const [isExpanded, setIsExpanded] = useState(false);
 
-  return (
-    <div className="storiesOfHeart-card">
-      <img src={PhotoOne} alt={"story"} className="storiesOfHeart-image" />
-      <div className="storiesOfHeart-content">
-        <h4 className="storiesOfHeart-name">{personsName}</h4>
-        <p className="storiesOfHeart-school">{personsSchool}</p>
-        <p className="storiesOfHeart-text">
-          {initialStoryText}
-          {!isExpanded && (
-            <span
-              className="storiesOfHeart-readMore-button"
-              onClick={toggleExpansion}
-            >
-              {" Read more"}
-            </span>
-          )}
-          {isExpanded && (
-            <span>
-              {expandedStoryText}
-              <span
-                className="storiesOfHeart-readMore-button"
-                onClick={toggleExpansion}
-              >
-                {" Read less"}
-              </span>
-            </span>
-          )}
-        </p>
-      </div>
-    </div>
-  );
-};
+//   const toggleExpansion = () => {
+//     setIsExpanded(!isExpanded);
+//   };
+
+//   return (
+//     <div className="storiesOfHeart-card">
+//       <img src={PhotoOne} alt={"story"} className="storiesOfHeart-image" />
+//       <div className="storiesOfHeart-content">
+//         <h4 className="storiesOfHeart-name">{personsName}</h4>
+//         <p className="storiesOfHeart-school">{personsSchool}</p>
+//         <p className="storiesOfHeart-text">
+//           {initialStoryText}
+//           {!isExpanded && (
+//             <span
+//               className="storiesOfHeart-readMore-button"
+//               onClick={toggleExpansion}
+//             >
+//               {" Read more"}
+//             </span>
+//           )}
+//           {isExpanded && (
+//             <span>
+//               {expandedStoryText}
+//               <span
+//                 className="storiesOfHeart-readMore-button"
+//                 onClick={toggleExpansion}
+//               >
+//                 {" Read less"}
+//               </span>
+//             </span>
+//           )}
+//         </p>
+//       </div>
+//     </div>
+//   );
+// };
 
 const StoriesOfHeart = () => {
   return (
@@ -63,7 +66,10 @@ const StoriesOfHeart = () => {
           hope you will enjoy the journey of those you meet!
         </p>
         <h2 className="storiesOfHeart-header">Stories of the Heart</h2>
-        <div className="storiesOfHeart-container">
+        <p style={{ color: "black" }}>Coming soon...</p>
+
+        {/* Uncomment and populate when the content is ready: */}
+        {/* <div className="storiesOfHeart-container">
           <StoriesOfHeartCard
             personsName="Person 1"
             personsSchool="School"
@@ -88,7 +94,7 @@ const StoriesOfHeart = () => {
             initialStoryText="On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
             expandedStoryText=" That is bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish."
           />
-        </div>
+        </div> */}
         <h3 className="stories-bottom-text">
           {" "}
           If you would like to submit a “Real-Life Story of the Heart,” please
