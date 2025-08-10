@@ -1,13 +1,22 @@
 import React from "react";
 import "./ListenExperts.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import ExpertsVector from "../../../../images/HomePage-Images/experts-vector.png";
 import ExpertsRecipeImg from "../../../../images/HomePage-Images/experts_recipe.png";
 import ExpertsDoctorsImg from "../../../../images/HomePage-Images/experts_doctors.png";
 
-
-
 function ListenExperts() {
+  const navigate = useNavigate();
+
+  const handleRecipeClick = () => {
+    navigate("/education-of-the-heart/tips-main");
+  };
+
+  const handleDoctorsClick = () => {
+    navigate("/education-of-the-heart/tips-main");
+  };
+
   return (
     <section className="listenExperts">
       <div className="main-container">
@@ -28,20 +37,25 @@ function ListenExperts() {
             {/* Section Two */}
             <Col xs={12} md={4} className="experts-second-col">
               <h3 className="experts-h3">Recipe of the Month</h3>
-              <Image src={ExpertsRecipeImg} className="experts-img my-3" />
+              <Image
+                src={ExpertsRecipeImg}
+                className="experts-img my-3"
+                onClick={handleRecipeClick}
+                style={{ cursor: "pointer" }}
+              />
               <h4 className="experts-h4">Healthy Diet – Healthy Heart!</h4>
-              {/* <p className="experts-p">Vegetarian Option</p> */}
             </Col>
 
             {/* Section Three */}
             <Col xs={12} md={4}>
               <h3 className="experts-h3">Doctor’s interview</h3>
-              <Image src={ExpertsDoctorsImg} className="experts-img my-3" />
+              <Image
+                src={ExpertsDoctorsImg}
+                className="experts-img my-3"
+                onClick={handleDoctorsClick}
+                style={{ cursor: "pointer" }}
+              />
               <h4 className="experts-h4">How to improve your heart health!</h4>
-              {/* <p className="experts-p">
-                Doctor's name <span className="experts-span">---</span> March,
-                2023
-              </p> */}
             </Col>
           </Row>
         </Container>
