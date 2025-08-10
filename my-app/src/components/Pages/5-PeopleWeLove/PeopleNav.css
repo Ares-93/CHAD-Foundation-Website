@@ -48,17 +48,22 @@
   padding: 0;
   margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: start;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 8px;
   margin-bottom: 55px;
+}
+.PeopleNav-menu {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .people-menu-item {
   display: block;
   text-decoration: none;
   color: var(--main-black);
-  padding: 10px 20px;
+  padding: 10px 60px;
   border: 1px solid var(--main-black);
   border-radius: 10px;
   background-color: var(--main-white);
@@ -93,11 +98,17 @@
     justify-content: flex-start;
     gap: 8px;
     text-align: center;
+    margin-left: 12px;
+     margin-right: 12px;
   }
   .people-menu-item {
     width: 100%;
     padding: 10px 26px;
     font-size: 40px;
+  }
+  .PeopleNav-banner-p{
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 @media (max-width: 430px) {

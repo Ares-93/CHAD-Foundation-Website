@@ -1,20 +1,26 @@
-/* AboutCardiacDeath.css */
 .HeartFacts {
   margin-bottom: 55px;
 }
 
+.HeartFacts .main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 .HeartFacts .heart-fact-header-box {
   display: flex;
+  align-items: center;
   gap: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .HeartFacts .heart-fact-header {
   color: var(--main-black);
   font-family: var(--accent-font);
-  font-size: 48px;
+  font-size: clamp(28px, 4vw, 48px);
   font-weight: 400;
-  line-height: 125%;
+  line-height: 1.25;
   text-decoration: underline #eac0a1 9px;
 }
 
@@ -23,51 +29,64 @@
   color: var(--main-black);
   text-align: justify;
   font-family: var(--main-font);
-  font-size: 24px;
+  font-size: clamp(16px, 2.2vw, 24px);
   font-weight: 400;
-  line-height: 125%;
-  margin-top: 32px;
+  line-height: 1.25;
+  margin-top: 24px;
 }
 
-/* CARDS */
+/* Cards */
 .HeartFacts .heart-fact-card {
-  background-color: #F5EFEA;
+  background-color: #f5efea;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
-  margin: 1rem;
-  margin-top: 60px;
-  margin-left: 52px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.HeartFacts .heart-fact-card .card-body {
+  position: relative;
+  padding: 24px 20px 28px;
+}
+
+.HeartFacts .heart-fact-icon {
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  object-fit: contain;
 }
 
 .HeartFacts .heart-fact-card-title-box {
   margin: 0 auto;
-  max-width: 186px;
+  margin-top: 68px;
+  max-width: 220px;
   background-color: var(--blue);
-  padding: 10px;
+  padding: 10px 14px;
   border-radius: 30px;
-  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .HeartFacts .heart-fact-card-title {
-  display: block;
   margin: 0;
   color: var(--main-white);
   font-weight: 400;
-  font-size: 32px;
+  font-size: clamp(22px, 3vw, 32px);
   text-align: center;
   font-family: var(--accent-font);
-  line-height: 100%;
+  line-height: 1;
 }
 
 .HeartFacts .heart-fact-card-text {
-  color: var(--main-black) !important;
-  font-family: var(--main-font) !important;
-  text-align: center !important;
-  font-size: 24px  !important;
+  color: var(--main-black);
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: clamp(16px, 2.2vw, 24px);
   font-weight: 400;
-  line-height: 125%;
-  margin-top: 20px !important;
+  line-height: 1.35;
+  margin-top: 16px;
 }
 
 .HeartFacts .card-text-transparent {
@@ -75,45 +94,41 @@
   user-select: none;
 }
 
-.HeartFacts .heart-fact-icon {
-  width: 100px;
-  height: 100px;
-  margin-top: -56px;
-  margin-left: -66px;
-}
-
-
-@media only screen and (max-width: 1130px) {
-  .HeartFacts .main-container {
-    padding-left: 12px;
-    padding-right: 12px;
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .HeartFacts .heart-fact-card .card-body {
+    padding: 22px 18px 26px;
   }
-}
 
-@media only screen and (max-width: 860px) {
   .HeartFacts .heart-fact-icon {
-    width: 80px;
-    height: 80px;
-    margin-top: -36px;
-    margin-left: -36px;
+    width: 76px;
+    height: 76px;
+  }
+
+  .HeartFacts .heart-fact-card-title-box {
+    margin-top: 64px;
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media (max-width: 576px) {
+  .HeartFacts .heart-fact-header-box img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .HeartFacts .heart-fact-card .card-body {
+    padding: 18px;
+  }
+
   .HeartFacts .heart-fact-icon {
-    width: 60px;
-    height: 60px;
-    margin-top: -36px;
-    margin-left: -36px;
+    width: 64px;
+    height: 64px;
+    top: 10px;
+    left: 10px;
   }
-  .HeartFacts .heart-fact-card {
-    margin-top: 32px;
-    margin-left: 24px;
-  }
-}
 
-@media only screen and (max-width: 430px) {
-  .HeartFacts .heart-fact-card {
-    width: 100%;
+  .HeartFacts .heart-fact-card-title-box {
+    margin-top: 56px;
+    max-width: 200px;
   }
 }

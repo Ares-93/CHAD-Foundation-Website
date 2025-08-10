@@ -51,7 +51,7 @@ const stories = [
 
   {
     id: 5,
-    name: "Desiree,Holly,Eric,Kyle,Mitchell",
+    name: "Desiree, Holly, Eric, Kyle, Mitchell",
     image: require("../../../../../images/PeopleWeLove-Images/Tributes/TheMorrellFamily.jpg"),
     initialText:
       "The Morrell Family was headed by the handsome rogue, Chuck Morrell, former footballer (Washington Redskins) and actor (Banacek). Ironically, just like Chad, who was coming out of a huddle when he collapsed face down, Chuck was running for a touchdown as a WSU Cougar, when he, too, collapsed face-down with no apparent reason – there was no one anywhere near him. But unlike Chad, Chuck got up, having just made the longest run in the Cougar books, 87 yards—fortuitous? Yes, for that moment, a grand record never to be broken only tied and many years later.",

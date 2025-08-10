@@ -296,7 +296,7 @@ const Board = () => {
                 <p className="board-p">Web Developer</p>
               </div>
               {/* THREE */}
-              <div className="board-dev-p">
+              {/* <div className="board-dev-p">
                 <h3 className="board-subheader">Ajinkya Patil</h3>
                 <a
                   href="https://www.linkedin.com/in/ajinkya-patil-828115178/"
@@ -308,7 +308,7 @@ const Board = () => {
               </div>
               <div className="board-paragraph">
                 <p className="board-p">Back-end Developer</p>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>

@@ -482,7 +482,7 @@ function Navigation() {
                           handleNavClick("hospital-screening-resources")
                         }
                       >
-                        Hospital Screening
+                        Hospitals Who Heart-Screen Athletes / Students
                         <br />
                         <span className="dropdown-span">
                           Hospital Screening Resources

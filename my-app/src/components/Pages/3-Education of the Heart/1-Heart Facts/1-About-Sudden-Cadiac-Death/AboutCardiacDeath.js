@@ -13,9 +13,8 @@ const AboutCardiacDeath = () => {
             <img src={HeartIcon} alt="heart" width={60} height={60} />
             <h2 className="heart-fact-header">About Sudden Cardiac Death</h2>
           </div>
-          {/* CARDS */}
-          <Row xs={1} md={1} lg={3} className="g-4 justify-content-center">
-            {/* Card-1 */}
+
+          <Row xs={1} sm={2} lg={3} className="g-4 justify-content-center">
             <Col>
               <Card className="heart-fact-card">
                 <Card.Body>
@@ -32,7 +31,7 @@ const AboutCardiacDeath = () => {
                 </Card.Body>
               </Card>
             </Col>
-            {/* Card-2 */}
+
             <Col>
               <Card className="heart-fact-card">
                 <Card.Body>
@@ -44,12 +43,12 @@ const AboutCardiacDeath = () => {
                   </div>
                   <Card.Text className="heart-fact-card-text">
                     people have the Hypertrophic Cardiomyopathy (HCM) abnormal
-                    gene <br />
+                    gene
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            {/* Card-3 */}
+
             <Col>
               <Card className="heart-fact-card">
                 <Card.Body>

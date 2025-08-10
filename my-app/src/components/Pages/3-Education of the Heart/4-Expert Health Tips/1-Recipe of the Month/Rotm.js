@@ -1,37 +1,46 @@
 import React from "react";
-import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import "./Rotm.css";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import HeartIcon from "../../../../../images/EduOfHeart-Images/edu-of-heart-icon.png";
 import FeaturedRecipeImg from "../../../../../images/EduOfHeart-Images/Featured.jpg";
 
 const RecipeOfTheMonth = () => {
+  const handleViewRecipe = () => {
+    // change when we have a recipe link
+    console.log("View Full Recipe clicked!");
+    // Example: window.open("/path-to-full-recipe", "_blank");
+  };
+
   return (
-    <section className="tips">
+    <section className="rotm-section">
       <div className="main-container">
-        <div className="tips-header-box">
-          {<img src={HeartIcon} alt="heart" width={60} height={60} />}
-          <h2 className="tips-header">Recipe of the Month</h2>
+        <div className="rotm-header-box">
+          <img src={HeartIcon} alt="Heart icon" width={60} height={60} />
+          <h2 className="rotm-header">Recipe of the Month</h2>
         </div>
-        <p className="card-text">
+        <p className="rotm-intro-text">
           This month's featured recipe is a delicious and heart-healthy gourmet
           dish perfect for any occasion.
         </p>
-        <Row xd={1} md={3} className="g-4 ">
-          <Col>
-            <Card className="featured-recipe">
-              <Card.Img
-                src={FeaturedRecipeImg}
-                alt="Quinoa and Vegetable Stuffed Peppers"
-              />
-              <Card.Body>
-                <Card.Title className="title">
-                  Quinoa and Vegetable Stuffed Peppers
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <button className="recipe-btn">View Full Recipe</button>
+
+        <div className="rotm-card-container">
+          <Card className="rotm-card">
+            <Card.Img
+              variant="top"
+              src={FeaturedRecipeImg}
+              alt="A bowl of quinoa and vegetable stuffed peppers"
+            />
+            <Card.Body>
+              <Card.Title className="rotm-card-title">
+                Quinoa and Vegetable Stuffed Peppers
+              </Card.Title>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <button className="rotm-btn" onClick={handleViewRecipe}>
+          View Full Recipe
+        </button>
       </div>
     </section>
   );

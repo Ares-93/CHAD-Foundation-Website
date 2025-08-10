@@ -1,49 +1,93 @@
 .hss-section {
   margin-bottom: 100px;
+  overflow-x: clip;
+}
+
+.hss-section .main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .hss-header-box {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 40px;
 }
 
 .hss-header {
   color: var(--main-black);
   font-family: var(--accent-font);
-  font-size: 48px;
+  font-size: clamp(28px, 4vw, 48px);
   font-weight: 400;
-  line-height: 125%;
-  text-align: left;
-  text-decoration: underline #eac0a1 11px;
+  line-height: 1.25;
+  text-decoration: underline #eac0a1 12px;
 }
 
-.EarlyScreen,
-.High-Col,
-.Obesity,
-.Diabetes {
+.hss-two-col {
+  align-items: stretch;
+}
+
+.hss-card {
   background-color: #f5efea;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
+  height: 100%;
+  overflow: hidden;
 }
 
-.High-Col {
-  margin-top: 10px;
+.hss-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: clamp(16px, 2vw, 20px);
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 12px 16px;
 }
 
-.Diabetes {
-  margin-top: 20px;
-  padding-bottom: 20px;
+.hss-card .card-body {
+  padding: 20px 16px 22px;
 }
 
-.d-flex-align-items {
-  font-weight: bold;
-  float: left;
+.hss-card-text {
+  font-family: var(--main-font);
+  font-size: clamp(16px, 2.1vw, 20px);
+  line-height: 1.5;
+  color: var(--main-black);
+  margin: 0;
 }
 
-.EarlyScreen-card-text {
-  font-family: Source Sans Pro;
+.img-box {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
-.padding-0 {
-  padding-right: 0;
-  padding-left: 0;
+.img-box img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.hss-section .row {
+  --bs-gutter-x: 1rem;
+}
+
+@media (min-width: 992px) {
+  .hss-section .hss-left {
+    flex: 0 0 66.666%;
+    max-width: 66.666%;
+  }
+  .hss-section .hss-right {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
 }

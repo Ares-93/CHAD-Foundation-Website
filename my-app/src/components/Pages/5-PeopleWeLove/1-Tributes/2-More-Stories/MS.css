@@ -1,11 +1,10 @@
 .StoriesGrid {
-  margin-top: 40px;
   display: flex;
   justify-content: flex-start;
 }
 
-.stories-header {
-  margin-right: 800px;
+.StoriesGrid .stories-header {
+  margin-top: 100px;
   color: var(--main-black);
   font-family: var(--accent-font);
   font-size: 48px;
@@ -14,22 +13,49 @@
   text-decoration: underline #eac0a1 9px;
 }
 
-.stories-grid-container {
+.StoriesGrid .stories-grid-container {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Four images per row */
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
-.story-card {
+.StoriesGrid .story-card {
   width: 250px;
-  height: 400px; /* Set a fixed height for the card */
+  height: 300px;
   cursor: pointer;
-  justify-content: space-between;
-  overflow-y: scroll; /* Enable vertical scrolling */
+  overflow: hidden;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
 }
 
-.story-image {
-  width: 100%;
+.StoriesGrid .story-image {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;        
+  object-position: center; 
   border-radius: 8px;
+}
+
+@media (max-width: 1024px) {
+  .StoriesGrid .stories-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 960px) {
+  .StoriesGrid .stories-header {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .StoriesGrid .stories-grid-container {
+    grid-template-columns: 1fr;
+    gap: 24px
+  }
+  .StoriesGrid .stories-header {
+    text-align: center;
+  }
 }

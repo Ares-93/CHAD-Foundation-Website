@@ -75,6 +75,11 @@
   border: 1px solid var(--orange);
 }
 
+@media only screen and (max-width: 1200px) {
+  .homeScreen-container {
+    padding-left: 24px;
+  }
+}
 @media only screen and (max-width: 1160px) {
   .homeScreen {
     background-image: linear-gradient(

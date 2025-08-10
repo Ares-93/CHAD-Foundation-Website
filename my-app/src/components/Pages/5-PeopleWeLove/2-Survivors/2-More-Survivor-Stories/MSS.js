@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./MSS.css";
 import survivorStories from "./SurvivorStoriesData";
-import SurvivorStoryModal from "./Survivor-Stories-Modal";
+import SurvivorStoryModal from "./SurvivorStoriesModal";
 
 const SurvivorStoriesGrid = () => {
   const [selectedStory, setSelectedStory] = useState(null);
@@ -15,25 +15,22 @@ const SurvivorStoriesGrid = () => {
   };
 
   return (
-    <section className="Survivor_stories_grid">
+    <section className="SurvivorStoriesGrid">
       <div className="main-container">
-        <h2 className="survivor-stories-header">Read More Stories</h2>
-        <div className="survivor-stories-grid-container">
+        <h2 className="survivor-header">Survivor Stories</h2>
+        <div className="survivor-grid-container">
           {survivorStories.map((story) => (
             <div
               key={story.id}
-              className="story-card"
+              className="survivor-card"
               onClick={() => handleStoryClick(story)}
             >
-              <img src={story.image} alt={story.name} className="story-image" />
+              <img src={story.image} alt={story.name} className="survivor-image" />
             </div>
           ))}
         </div>
         {selectedStory && (
-          <SurvivorStoryModal
-            story={selectedStory}
-            onClose={handleCloseModal}
-          />
+          <SurvivorStoryModal story={selectedStory} onClose={handleCloseModal} />
         )}
       </div>
     </section>

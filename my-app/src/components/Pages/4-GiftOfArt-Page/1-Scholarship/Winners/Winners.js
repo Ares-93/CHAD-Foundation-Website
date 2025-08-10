@@ -2,7 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Winners.css";
 import GiftOfArtNavigation from "../../GiftOfArtNavigation";
-import WinnersImg from "../../../../../images/GiftOfArt-Images/winners-image.jpg";
+// uncomment:
+// import WinnersImg from "../../../../../images/GiftOfArt-Images/winners-image.jpg";
 
 const Winners = () => {
   const navigate = useNavigate();
@@ -13,7 +14,9 @@ const Winners = () => {
       <div className="main-container">
         <div className="winner-section">
           <h2 className="winners-header">Best Student Story</h2>
-          <div className="winner-content">
+          <p style={{ color: "black" }}>Coming soon...</p>
+          {/* Uncomment and populate when the content is ready: */}
+          {/* <div className="winner-content">
             <img
               src={WinnersImg}
               alt="Best Student Story"
@@ -35,12 +38,14 @@ const Winners = () => {
                 turpis egestas
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="winner-section">
           <h2 className="winners-header">Best Athlete</h2>
-          <div className="winner-content">
+          <p style={{ color: "black" }}>Coming soon...</p>
+          {/* Uncomment and populate when the content is ready: */}
+          {/* <div className="winner-content">
             <img src={WinnersImg} alt="Best Athlete" className="winner-image" />
             <div className="winner-text">
               <p className="winner-name">Title</p>
@@ -58,7 +63,7 @@ const Winners = () => {
                 turpis egestas.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

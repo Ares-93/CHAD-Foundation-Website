@@ -11,7 +11,7 @@ function HomeScreen() {
 
   return (
     <section className="homeScreen">
-      <div className="main-container">
+      <div className="main-container homeScreen-container">
         <h2 className="homeScreen-subheader">
           THE CHAD FOUNDATION FOR ATHLETES AND ARTISTS
         </h2>

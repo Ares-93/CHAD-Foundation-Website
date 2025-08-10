@@ -78,18 +78,19 @@ const HospitalScreeningResources = () => {
         />
         {/* Card 6 */}
         <ResourceCard
-          imageUrl={HsResourcesImageSix}
-          name="Young Hearts for Life®"
-          text="Offers free ECGs to all students, not just athletes (Oakbrook Terrace, Illinois)"
-          link="https://www.yh4l.org/"
-          linkText="Check"
-        />
-        {/* Card 7 */}
-        <ResourceCard
           imageUrl={HsResourcesImageSeven}
           name="Via Heart Project"
           text="Providing heart screenings (San Francisco, CA)"
           link="https://viaheartproject.org/screenings/"
+          linkText="Check"
+        />
+
+        {/* Card 7 */}
+        <ResourceCard
+          imageUrl={HsResourcesImageSix}
+          name="Heart Hospital of Austin"
+          text="Young Athlete Heart Screening. Heart Hospital of Austin provides free heart screenings to the children of Central Texas in February and August each year. Children ages 14-18 receive an electrocardiogram (EKG) and an echocardiogram to screen for the deadly disorder hypertrophic cardiomyopathy (HCM). Learn more:"
+          link="http://www.hearthospitalofaustin.com/"
           linkText="Check"
         />
       </div>

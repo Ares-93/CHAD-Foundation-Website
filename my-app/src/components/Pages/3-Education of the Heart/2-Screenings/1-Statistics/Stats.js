@@ -25,9 +25,9 @@ const Stats = () => {
           <img src={HeartIcon} alt="doc-heart" width={60} height={60} />
           <h2 className="stats-header">Statistics Of Our Heart Screenings</h2>
         </div>
+
         <div className="stats-content">
-          <Row xs={1} md={1} lg={3} className="g-4 justify-content-center">
-            {/* Card-1 */}
+          <Row xs={1} sm={2} lg={3} className="g-4 justify-content-center">
             <Col>
               <Card className="stats-card">
                 <Card.Body>
@@ -36,14 +36,12 @@ const Stats = () => {
                     <Card.Title className="stats-card-title">10,000</Card.Title>
                   </div>
                   <Card.Text className="stats-card-text">
-                    Heart screenings for athletes and students were provided by
-                    CHAD.
-                    <br />
+                    Heart screenings for athletes and students were provided by CHAD.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            {/* Card-2 */}
+
             <Col>
               <Card className="stats-card">
                 <Card.Body>
@@ -53,16 +51,12 @@ const Stats = () => {
                   </div>
                   <Card.Text className="stats-card-text">
                     of athletes screened had heart anomalies detected
-                    <br />
-                    <span className="stats-card-text-transparent">
-                      lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-                      ipsum
-                    </span>
+                    <span className="stats-card-text-transparent"> lorem ipsum</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            {/* Card-3 */}
+
             <Col>
               <Card className="stats-card">
                 <Card.Body>
@@ -73,20 +67,18 @@ const Stats = () => {
                   <Card.Text className="stats-card-text">
                     students were at risk for hypertension, obesity, diabetes,
                     high cholesterol, and/or heart abnormalities
-                    <br />
-                    <span className="stats-card-text-transparent">
-                      lorem ipsum
-                    </span>
+                    <span className="stats-card-text-transparent"> lorem ipsum</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
         </div>
+
         <div className="stats-expert-text">
           To see pictures of CHAD Heart Screenings at work, click below.
-          <br />
         </div>
+
         <div className="stats-gallery-btns">
           <button
             className="stats-gallery-btn screenings-btn"
