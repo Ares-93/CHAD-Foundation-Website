@@ -4,7 +4,6 @@
   background-color: #f5efea;
 }
 
-
 .LearnMore .LearnMore-header {
   color: var(--main-black);
   font-family: var(--accent-font);
@@ -15,20 +14,20 @@
   text-decoration: underline #eac0a1 9px;
 }
 
-
 .LearnMore-video {
   display: block;
   margin: 0 auto;
   margin-top: 40px;
 }
 
-
 @media only screen and (max-width: 1160px) {
   .LearnMore-video {
     max-width: 92%;
   }
   .LearnMore .LearnMore-header {
-    max-width: 98%;
+    max-width: 90%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
